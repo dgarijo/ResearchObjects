@@ -1,0 +1,267 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ro: <http://purl.org/wf4ever/ro#> .
+@prefix wfprov: <http://purl.org/wf4ever/wfprov#> .
+@prefix wfdesc: <http://purl.org/wf4ever/wfdesc#> .
+@prefix opt: <http://purl.org/net/RO-optimization#> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix : <http://purl.org/net/svm-opt-research-object#> .
+@base <http://purl.org/net/svm-opt-research-object#>.
+
+<> dc:creator <http://delicias.dia.fi.upm.es/members/DGarijo/#me>;
+	prov:wasAttributedTo <http://delicias.dia.fi.upm.es/members/DGarijo/#me> .
+
+<http://purl.org/net/svm-opt-research-object> a opt:OptimizationResearchObject, ro:ResearchObject, ore:Aggregation;
+	dc:contributor <http://delicias.dia.fi.upm.es/members/DGarijo/#me>,<http://semanticweb.org/wiki/Khalid_Belhajjame>;
+    dc:creator <http://www.fz-juelich.de/SharedDocs/Personen/IAS/JSC/EN/staff/holl_s.html?nn=361682>;
+    dc:title "ENM Workflow parameter optimization using SVM"@en;
+    ore:aggregates <http://www.myexperiment.org/workflows/3680.html>,:select_algorithm,:run1, :run2, :run3, :run4, :run5, :run6, :run7, :run8, :run9, :run10, :searchSpace, :algorithm, :fitness, :condition;
+    ore:isDescribedBy <>;
+    xhv:license <http://creativecommons.org/licenses/by-nc-sa/2.0/>;
+	opt:hasWorkflow <http://www.myexperiment.org/workflows/3680.html>;
+	opt:hasSubWorkflow :select_algorithm;
+	opt:hasOptimizationRun :run1, :run2, :run3, :run4, :run5, :run6, :run7, :run8, :run9, :run10;
+	opt:hasSearchSpace :searchSpace;
+	opt:hasAlgorithm :algorithm;
+	opt:hasFitness :fitness;
+	opt:hasTerminationCondition :condition;
+    prov:wasAttributedTo <http://delicias.dia.fi.upm.es/members/DGarijo/#me>, <http://www.fz-juelich.de/SharedDocs/Personen/IAS/JSC/EN/staff/holl_s.html?nn=361682>.
+	
+<http://www.myexperiment.org/workflows/3680.html> a wfdesc:Workflow;
+	dc:title "ENM SVM workflow used for optimization";
+	dc:description "This workflow was used for the optimization of the SVM algorithm from the openModeller toolbox (http://openmodeller.sourceforge.net). The workflow creates a model with 90% of the data and tests this model with the remaining 10%. Finally, it calculates the area under the curve, which was used as fitness function during the optimization process.";
+	wfdesc:hasSubWorkflow :select_algorithm, :parse_input_points, :select_layers, :allocate_points, :create_and_test_model, :extract_aucs, :calculate_mean. 
+
+:select_algorithm a wfdesc:Workflow.
+
+<http://www.myexperiment.org/workflows/3680.html> a wfdesc:Workflow;
+	wfdesc:hasInput :gamma, :cost, :pseudo, :nu, :coef0,:degree, :kernel, :svm, :prob, :mask;
+	wfdesc:hasOutput :auc.
+
+:searchSpace a opt:SearchSpace;
+	opt:hasProcessor :select_algorithm;
+	opt:hasInputParameter :gamma, :cost, :pseudo.
+							 
+:gamma a opt:DoubleInputParameter;
+	opt:hasName "gamma";
+    opt:hasMinValue "0";
+	opt:hasMaxValue "10";
+	opt:hasRoundValue "true".
+
+:cost a opt:IntegerInputParameter;
+	opt:hasName "cost";
+	opt:hasMinValue "0";
+	opt:hasMaxValue "8";
+	opt:hasNumericFunction [a opt:ExponentialFunction;
+		opt:hasFunctionValue 2.].
+
+:pseudo a opt:IntegerInputParameter;
+	opt:hasName "numberOfPseudoAbsences";
+	opt:hasMinValue "200";
+	opt:hasMaxValue "600".
+	
+:nu a wfdesc:Parameter;
+	opt:hasName "Nu";
+	opt:hasValue "0.5".
+	
+:coef0 a wfdesc:Parameter;
+	opt:hasName "Coef0";
+	opt:hasValue "0".
+	
+:degree a wfdesc:Parameter;
+	opt:hasName "Degree";
+	opt:hasValue "3".
+	
+:kernel a wfdesc:Parameter;
+	opt:hasName "Kernel_Type";
+	opt:hasValue "2".
+	
+:svm  a wfdesc:Parameter;
+	opt:hasName "SVM_Type";
+	opt:hasValue "0".
+	
+:prob a wfdesc:Parameter;
+	opt:hasName "ProbabilisticOutput";
+	opt:hasValue "1".
+	
+:mask a wfdesc:Parameter;
+	opt:hasName "Mask";
+	opt:hasValue "wcs>http://biovel.iais.fraunhofer.de/geoserver/ows?>biovel_temp:SJB_Baltic_NorthEastAtlantic_20130522_112604_531".
+							 
+:condition a opt:TerminationCondition;
+		   opt:hadMaxTime "1440min".
+		   
+:algorithm a opt:GeneticAlgorithm;
+		   opt:hasAlgortihmParameter [a opt:AlgorithmParameter;
+			    opt:hasParameterValue "CO=0.75";
+			    opt:hasParameterValue "MR=0.2".
+			].
+							
+:fitness a opt:SingleObjectiveFitness;
+		 opt:hasFitnessFunction [a opt:FitnessFunction;
+			opt:hasFunctionOutputParameter :auc.
+		 ].
+							
+:auc a opt:DoubleInputParameter, wfdesc:Parameter.
+
+:run1 a opt:OptimizationRun;
+	  opt:hasFlag [a opt:Original.];
+	  opt:hasFitnessValue "0.9207";
+	  wfprov:usedInput [a opt:Artifact;
+			opt:hasValue "2.36";
+			wfprov:describedByParameter :gamma.
+		],
+		[a opt:Artifact;
+			opt:hasValue "8";
+			wfprov:describedByParameter :cost.
+		],
+		[a opt:Artifact;
+			opt:hasValue "363";
+			wfprov:describedByParameter :pseudo.
+		].
+		
+:run2 a opt:OptimizationRun;
+	  opt:hasFlag [a opt:Original.];
+	  opt:hasFitnessValue "0.9014";
+	  wfprov:usedInput [a opt:Artifact;
+			opt:hasValue "5.87";
+			wfprov:describedByParameter :gamma.
+		],
+		[a opt:Artifact;
+			opt:hasValue "64";
+			wfprov:describedByParameter :cost.
+		],
+		[a opt:Artifact;
+			opt:hasValue "458";
+			wfprov:describedByParameter :pseudo.
+		].
+
+:run3 a opt:OptimizationRun;
+	  opt:hasFlag [a opt:Original.];
+	  opt:hasFitnessValue "0.8974";
+	  wfprov:usedInput [a opt:Artifact;
+			opt:hasValue "6.84";
+			wfprov:describedByParameter :gamma.
+		],
+		[a opt:Artifact;
+			opt:hasValue "8";
+			wfprov:describedByParameter :cost.
+		],
+		[a opt:Artifact;
+			opt:hasValue "319";
+			wfprov:describedByParameter :pseudo.
+		].
+
+:run4 a opt:OptimizationRun;
+	  opt:hasFlag [a opt:Original.];
+	  opt:hasFitnessValue "0.9019";
+	  wfprov:usedInput [a opt:Artifact;
+			opt:hasValue "3.79";
+			wfprov:describedByParameter :gamma.
+		],
+		[a opt:Artifact;
+			opt:hasValue "32";
+			wfprov:describedByParameter :cost.
+		],
+		[a opt:Artifact;
+			opt:hasValue "486";
+			wfprov:describedByParameter :pseudo.
+		].
+		
+:run5 a opt:OptimizationRun;
+	  opt:hasFlag [a opt:Original.];
+	  opt:hasFitnessValue "0.9032";
+	  wfprov:usedInput [a opt:Artifact;
+			opt:hasValue "8.94";
+			wfprov:describedByParameter :gamma.
+		],
+		[a opt:Artifact;
+			opt:hasValue "256";
+			wfprov:describedByParameter :cost.
+		],
+		[a opt:Artifact;
+			opt:hasValue "568";
+			wfprov:describedByParameter :pseudo.
+		].
+		
+:run6 a opt:OptimizationRun;
+	  opt:hasFlag [a opt:Original.];
+	  opt:hasFitnessValue "0.9084";
+	  wfprov:usedInput [a opt:Artifact;
+			opt:hasValue "0.06";
+			wfprov:describedByParameter :gamma.
+		],
+		[a opt:Artifact;
+			opt:hasValue "32";
+			wfprov:describedByParameter :cost.
+		],
+		[a opt:Artifact;
+			opt:hasValue "215";
+			wfprov:describedByParameter :pseudo.
+		].
+		
+:run7 a opt:OptimizationRun;
+	  opt:hasFlag [a opt:Original.];
+	  opt:hasFitnessValue "0.8867";
+	  wfprov:usedInput [a opt:Artifact;
+			opt:hasValue "4.78";
+			wfprov:describedByParameter :gamma.
+		],
+		[a opt:Artifact;
+			opt:hasValue "8";
+			wfprov:describedByParameter :cost.
+		],
+		[a opt:Artifact;
+			opt:hasValue "491";
+			wfprov:describedByParameter :pseudo.
+		].
+		
+:run8 a opt:OptimizationRun;
+	  opt:hasFlag [a opt:Original.];
+	  opt:hasFitnessValue "0.9102";
+	  wfprov:usedInput [a opt:Artifact;
+			opt:hasValue "1.25";
+			wfprov:describedByParameter :gamma.
+		],
+		[a opt:Artifact;
+			opt:hasValue "8";
+			wfprov:describedByParameter :cost.
+		],
+		[a opt:Artifact;
+			opt:hasValue "562";
+			wfprov:describedByParameter :pseudo.
+		].
+		
+:run9 a opt:OptimizationRun;
+	  opt:hasFlag [a opt:Original.];
+	  opt:hasFitnessValue "0.8929";
+	  wfprov:usedInput [a opt:Artifact;
+			opt:hasValue "6.09";
+			wfprov:describedByParameter :gamma.
+		],
+		[a opt:Artifact;
+			opt:hasValue "64";
+			wfprov:describedByParameter :cost.
+		],
+		[a opt:Artifact;
+			opt:hasValue "514";
+			wfprov:describedByParameter :pseudo.
+		].
+		
+:run10 a opt:OptimizationRun;
+	  opt:hasFlag [a opt:Original.];
+	  opt:hasFitnessValue "0.9101";
+	  wfprov:usedInput [a opt:Artifact;
+			opt:hasValue "2.24";
+			wfprov:describedByParameter :gamma.
+		],
+		[a opt:Artifact;
+			opt:hasValue "4";
+			wfprov:describedByParameter :cost.
+		],
+		[a opt:Artifact;
+			opt:hasValue "453";
+			wfprov:describedByParameter :pseudo.
+		].
+							
