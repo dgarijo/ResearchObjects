@@ -1,0 +1,61 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ro: <http://purl.org/wf4ever/ro#> .
+@prefix schema: <http://schema.org/> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+@base <http://rohub.linkeddata.es/drugome_bundle_page-PLOS/index.html#>
+
+<> dc:creator <http://delicias.dia.fi.upm.es/members/DGarijo/#me>;
+    prov:wasAttributedTo <http://delicias.dia.fi.upm.es/members/DGarijo/#me> .
+
+<http://purl.org/net/ro-TBDrugomeReproducibilityPaper> a ro:ResearchObject,
+        ore:Aggregation;
+    dc:creator <http://delicias.dia.fi.upm.es/members/DGarijo/#me>;
+    dc:title "Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome"@en;
+    schema:name "Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome"@en;
+    ore:aggregates <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/MtbStructures_tar_gz>,
+        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_binding_sites_list_txt>,
+        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_key>,
+        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/homology_models_list_txt>,
+        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/model_info_updated>,
+        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/smap_properties>,
+        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/solved_tb_structures_list_txt>,
+        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/tb_protein_info>,
+        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/template_pdbs>,
+        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/ontology/WINGS/AbstractGlobalWorkflow2.owl.png>,
+        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/runs/run_126.html>,
+        <http://www.wings-workflows.org/drugome/>,
+        <http://www.wings-workflows.org/drugome/index.php/Detailed_Timeline>,
+        <http://www.wings-workflows.org/drugome/index.php/Visualization_of_the_experiment_results>;
+    ore:isDescribedBy <http://rohub.linkeddata.es/drugome_bundle_page-PLOS/index.html>;
+    xhv:license <http://creativecommons.org/licenses/by-nc-sa/2.0/>;
+    prov:wasAttributedTo <http://delicias.dia.fi.upm.es/members/DGarijo/#me> .
+
+<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/MtbStructures_tar_gz> a ro:Resource .
+
+<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_binding_sites_list_txt> a ro:Resource .
+
+<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_key> a ro:Resource .
+
+<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/homology_models_list_txt> a ro:Resource .
+
+<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/model_info_updated> a ro:Resource .
+
+<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/smap_properties> a ro:Resource .
+
+<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/solved_tb_structures_list_txt> a ro:Resource .
+
+<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/tb_protein_info> a ro:Resource .
+
+<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/template_pdbs> a ro:Resource .
+
+<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/ontology/WINGS/AbstractGlobalWorkflow2.owl.png> a ro:Resource .
+
+<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/runs/run_126.html> a ro:Resource .
+
+<http://www.wings-workflows.org/drugome/> a ro:Resource .
+
+<http://www.wings-workflows.org/drugome/index.php/Detailed_Timeline> a ro:Resource .
+
+<http://www.wings-workflows.org/drugome/index.php/Visualization_of_the_experiment_results> a ro:Resource .
