@@ -1,0 +1,45 @@
+##Repository available at: http://www.opmw.org/sparql
+
+##Retrieve P-Plan (basic dependency graph) from OPMW assertions in the repository.
+CONSTRUCT{
+?activity2 <http://purl.org/net/p-plan#isPrecededBy> ?activity.
+}
+WHERE{
+?activity a <http://www.opmw.org/ontology/WorkflowTemplateProcess>.
+?activity2 a <http://www.opmw.org/ontology/WorkflowTemplateProcess>.
+?activity <http://www.opmw.org/ontology/isStepOfTemplate> <http://www.opmw.org/export/resource/WorkflowTemplate/AQUAFLOW_NTM>.
+?activity2 <http://www.opmw.org/ontology/isStepOfTemplate> <http://www.opmw.org/export/resource/WorkflowTemplate/AQUAFLOW_NTM>.
+?activity2 <http://www.opmw.org/ontology/uses> ?u1.
+?u1 <http://www.opmw.org/ontology/isGeneratedBy> ?activity
+}
+
+##Expected response:
+@prefix ns0:	<http://purl.org/net/p-plan#> .
+@prefix ns1:	<http://www.opmw.org/export/resource/WorkflowTemplateProcess/> .
+ns1:AQUAFLOW_NTM_METABOLISMCALCULATION	ns0:isPrecededBy	ns1:AQUAFLOW_NTM_NIGHTTIMEMODEL ,
+		ns1:AQUAFLOW_NTM_CREATEPARAMETERSFILE .
+ns1:AQUAFLOW_NTM_FILTERTIMESTAMPSANDDATA	ns0:isPrecededBy	ns1:AQUAFLOW_NTM_CONVERTTOSTANDARDFORMAT .
+ns1:AQUAFLOW_NTM_NIGHTTIMEMODEL	ns0:isPrecededBy	ns1:AQUAFLOW_NTM_CALCULATEHOURLYAVERAGES .
+ns1:AQUAFLOW_NTM_CREATEPARAMETERSFILE	ns0:isPrecededBy	ns1:AQUAFLOW_NTM_CALCULATEHOURLYAVERAGES .
+ns1:AQUAFLOW_NTM_CALCULATEHOURLYAVERAGES	ns0:isPrecededBy	ns1:AQUAFLOW_NTM_FILTERTIMESTAMPSANDDATA .
+ns1:AQUAFLOW_NTM_CREATEPLOTS	ns0:isPrecededBy	ns1:AQUAFLOW_NTM_METABOLISMCALCULATION .
+
+##Retrieve all the PROV activities from the execution ACCOUNT1383027155436 (from Aquaflow NTM):
+
+SELECT DISTINCT ?activity 
+FROM <http://www.opmw.org/export/resource/WorkflowExecutionAccount/ACCOUNT1383027155436> #Named graph for the Bundle
+WHERE {
+   ?activity a <http://www.w3.org/ns/prov#Activity>
+}
+
+##Expected response can be seen at: http://www.opmw.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Factivity+%0D%0AFROM+%3Chttp%3A%2F%2Fwww.opmw.org%2Fexport%2Fresource%2FWorkflowExecutionAccount%2FACCOUNT1383027155436%3E+%23Named+graph+for+the+Bundle%0D%0AWHERE+{%0D%0A+++%3Factivity+a+%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fprov%23Activity%3E%0D%0A}&format=text%2Fhtml&timeout=0&debug=on
+
+##Similarly, we can retrieve all OPM Processes of that very Execution:
+
+SELECT DISTINCT ?activity WHERE {
+  ?activity a <http://purl.org/net/opmv/ns#Process>.
+  ?activity <http://openprovenance.org/model/opmo#account> <http://www.opmw.org/export/resource/WorkflowExecutionAccount/ACCOUNT1383027155436>. 
+}
+
+##Expected response: 
+##See http://www.opmw.org/sparql?default-graph-uri=&query=SELECT+DISTINCT+%3Factivity+WHERE+{%0D%0A++%3Factivity+a+%3Chttp%3A%2F%2Fpurl.org%2Fnet%2Fopmv%2Fns%23Process%3E.%0D%0A++%3Factivity+%3Chttp%3A%2F%2Fopenprovenance.org%2Fmodel%2Fopmo%23account%3E+%3Chttp%3A%2F%2Fwww.opmw.org%2Fexport%2Fresource%2FWorkflowExecutionAccount%2FACCOUNT1383027155436%3E.+%0D%0A}&format=text%2Fhtml&timeout=0&debug=on
