@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ schema: http://schema.org/ prov: http://www.w3.org/ns/prov# ore: http://www.openarchives.org/ore/terms/ 
+ro: http://purl.org/wf4ever/ro# opt: http://purl.org/net/RO-optimization# wfprov: http://purl.org/wf4ever/wfprov# wfdesc: http://purl.org/wf4ever/wfdesc#
+rdfs: http://www.w3.org/2000/01/rdf-schema#">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta property="dc:creator prov:wasAttributedTo schema:creator" content="http://delicias.dia.fi.upm.es/members/DGarijo/#me" />
+<title>Ecological Niche modeling Workflow parameter optimization using Support Vector Machines</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+<link rel="stylesheet" href="styles/style.css" media="screen" />
+<link rel="stylesheet" href="styles/media-queries.css" />
+<link rel="stylesheet" href="./flex-slider/flexslider.css" type="text/css" media="screen" />
+<link href="styles/prettyPhoto.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="styles/tipsy.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script type="text/javascript" src="./scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="./flex-slider/jquery.flexslider-min.js"></script>
+<script src="scripts/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="scripts/jquery.tipsy.js" type="text/javascript"></script>
+<script src="scripts/jquery.knob.js" type="text/javascript"></script>
+<script type="text/javascript" src="./scripts/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="./scripts/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="./scripts/waypoints.min.js"></script>
+<script type="text/javascript" src="./scripts/setup.js"></script>
+
+
+<!--<link rel="canonical" href="http://www.oeg-upm.net/files/dgarijo/motifAnalysisSite/index.html" />-->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+</head>
+<body resource="http://purl.org/net/svm-opt-research-object" typeOf="foaf:Document schema:WebPage ore:Aggregation ro:ResearchObject">
+	<span property="ore:isDescribedBy" resource=""></span>
+	<span property="dc:creator prov:wasAttributedTo schema:creator" resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"></span>
+	<span property="dc:creator prov:wasAttributedTo schema:creator" resource="http://www.fz-juelich.de/SharedDocs/Personen/IAS/JSC/EN/staff/holl_s.html?nn=361682"></span>
+	<span property="dc:rights" resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"></span>
+	<span property="dc:contributor prov:wasAttributedTo schema:contributor" resource="http://semanticweb.org/wiki/Khalid_Belhajjame"></span>
+
+	
+<div id="wrap"> 
+  <!-- wrapper -->
+  <div id="sidebar"> 
+    <!-- the  sidebar --> 
+    <!-- logo -->     
+    <!-- navigation menu -->
+    <ul id="navigation">
+      <li><a href="#home" class="active">ENM Workflow parameter Optimization</a></li>
+      <li class="peque"><a href="#abstract">Description</a></li>
+	  <li class="peque"><a href="#inputs">Aggregated Resources</a></li>
+      <li><a href="#refs">References</a></li>
+      <li><a href="#auth">About the authors</a></li>
+    </ul>
+		<div style="bottom:0; position : absolute">
+                 <div style="float: left; padding-left: 25px; width:80px;">
+                 <a href="http://www.researchobject.org/"><img src="images/rologo.png" alt="This page is RO enabled" title="This page is described according to the RO Model" width="60"/></a>
+                 </div>
+                 <div style="float: left; padding-left: 25px; width:80px;">
+                 <img src="images/rdf.gif" alt="This page is described in rdf-a" title="This page is described in rdf-a" width="60"/>
+                 </div>
+         </div>		
+  </div>
+  <div id="container"> 
+    <!-- page container -->
+	
+    <div class="page" id="home"> 
+      <!-- page home -->
+      <div class="page_content">
+       <h3  class="page_title" style="text-align:center" property="dc:title schema:name">Parameter Optimization of an Ecological Niche Modeling Workflow</h3>
+		<div class="space"> </div>
+		<div class="clear"> </div>	
+      				
+      </div>        
+      
+    </div>
+	<div class="page" id="abstract">	
+		<div class="page_content">
+		<h4 class="blue"> Optimization Research Object Summary and Description</h4>
+			<div class="space"> </div>
+			<div class="clear"> </div>
+			<p>The <a href="http://www.myexperiment.org/workflows/3680.html">Ecological Niche Modeling (ENM)</a> workflow has been designed to perform the
+				analysis of species distributions and to predict changes in biodiversity patterns 
+				[<a href="#kulh">Kulhanek et al 2011</a>, <a href="#wiley">Wiley et al 2003</a>, <a href="#guinan">Guinan et al 2009</a>]. The idea of niche modeling is
+				based on G.E. Hutchinson's definition of the realized niche,
+				where a set of environmental factors or a multidimensional
+				space of resources (e.g. light and structure), can be used
+				to predict the persistence of a species [<a href="#hutch">Hutchinson 1957</a>]. Thus, potential
+				distribution models can be generated with relatively few variables
+				characterizing the abiotic environment of the species
+				in the form of geo-referenced raster layers.
+			</p>			
+			<p>
+				In order to obtain valid models for species niches, in many
+				cases it is important to specify the appropriate set of parameter
+				values for a given input data set (occurrences, mask, and
+				layers). The best parameter values can vary between different
+				input data sets and hence are difficult to know beforehand.
+			</p>
+			<p>
+				The workflow uses web services to remotely execute a specific modeling algorithm, 
+				provided by the <a href="http://openmodeller.sf.net/">openModeller</a> tool. The result model represents the suitable conditions of
+			abiotic for a given species. After creating the model, a test
+			model operation is called. This operation tests the model,
+			by using the 10% points left out of model creation. The
+			test operation calculates the receiver operating characteristic
+			(ROC) curve, area under the curve (AUC). An abstract representation of the workflow can be seen below:
+			</p>
+			<div class="center">				
+				<img src="images/abstract_workflow.png" alt="The abstract ENM workflow" height="300" width="400" />
+				<div><b>Fig 1</b>: The abstract ENM workflow uses occurrence and environmental data to model ecological niches based on a variety of 
+				algorithms, including Maxent, Support Vector Machines and others.</div>
+			</div>
+				<p property="dc:abstract">
+	  This page represents a <a href="http://www.researchobject.org/"><b>Research Object</b></a> representing the 
+	  optimizations made on the AUC output parameter of the <a href="http://www.myexperiment.org/workflows/3680.html">ENM workflow using Support Vector Machines (SVM)</a>. 
+	  The optimizations are performed using genetic algorithms and have been represented with the 
+	  <a href="http://purl.org/net/RO-optimization">Research Object Optimization Ontology</a>. 
+	  <b>An RDF representation of the Research Object can be downloaded from 
+	  <a href="enmWorkflowRO.ttl">this link</a></b>. An alternative representation in RDF-a can be found in this document.
+      </p> 	
+        <div class="clear"> </div>
+      </div>
+    </div>
+    <div class="page" id="inputs"> 
+      <div class="page_content">
+      <h4  class="blue"> Optimization Research Object: Aggregated Resources</h4>      
+			<p>					
+			The "Parameter Optimization of an Ecological Niche Modeling Workflow" Research Object aggregates several resources used to create the optimizations of the workflow. 
+			This section introduces each of the resources step by step and explains them in detail.
+			</p>
+			<ul class="sublist2">
+				<li><a href="http://www.myexperiment.org/workflows/3680.html" property="opt:hasWorkflow" resource="http://www.myexperiment.org/workflows/3680.html" typeOf="wfdesc:Workflow"><b>The ENM workflow</b></a> being optimized. It has been encoded and executed in 
+				<a href="http://taverna.org.uk/">Taverna</a>, and it is currently uploaded in <a href="http://www.myexperiment.org/">myExperiment</a>.
+				<span resource="http://www.myexperiment.org/workflows/3680.html">
+				The workflow has several <b>input parameters</b>, and some of them have fixed values in all the optimization execution runs. These parameters
+				are: 
+				<span id="nu" property="wfdesc:hasInput" resource="#nu" typeOf="wfdesc:Parameter">
+					<span property="opt:hasName">Nu</span> (value=<span property="opt:hasValue">0.5</span>)
+				</span>, 
+				<span id="coef0" property="wfdesc:hasInput" resource="#coef0" typeOf="wfdesc:Parameter">
+					<span property="opt:hasName">Coef0 </span> (value=<span property="opt:hasValue">0.5</span>)
+				</span>, 
+				<span id="degree" property="wfdesc:hasInput" resource="#degree" typeOf="wfdesc:Parameter">
+					<span property="opt:hasName">Degree</span> (value=<span property="opt:hasValue">3</span>)
+				</span>,
+				<span id="kernel" property="wfdesc:hasInput" resource="#kernel" typeOf="wfdesc:Parameter">
+					<span property="opt:hasName">Kernel_Type</span> (value=<span property="opt:hasValue">2</span>)
+				</span>,
+				<span id="svm" property="wfdesc:hasInput" resource="#svm" typeOf="wfdesc:Parameter">
+					<span property="opt:hasName">SVM_Type</span> (value=<span property="opt:hasValue">0</span>)
+				</span>,
+				<span id="probabilisticoutput" property="wfdesc:hasInput" resource="#probabilisticoutput" typeOf="wfdesc:Parameter">
+					<span property="opt:hasName">ProbabilisticOutput</span> (value=<span property="opt:hasValue">1</span>)
+				</span> and 
+				<span id="mask" property="wfdesc:hasInput" resource="#mask" typeOf="wfdesc:Parameter">
+					<span property="opt:hasName">Mask</span> (value=<span property="opt:hasValue">wcs>http://biovel.iais.fraunhofer.de/geoserver/ows?>biovel_temp:SJB_Baltic_NorthEastAtlantic _20130522_112604_531</span>)
+				</span>.
+				The parameters being optimized are 
+				<span id="numberOfPseudoAbstences" property="wfdesc:hasInput" resource="#numberOfPseudoAbstences" typeOf="wfdesc:Parameter">
+					<b property="opt:hasName">numberOfPseudoAbstences</b>, 
+				</span>
+				<span id="gamma" property="wfdesc:hasInput" resource="#gamma" typeOf="wfdesc:Parameter">
+					<b property="opt:hasName">Gamma</b> and 
+				</span>
+				<span id="cost" property="wfdesc:hasInput" resource="#cost" typeOf="wfdesc:Parameter">
+					<b property="opt:hasName">Cost</b>.
+				</span>
+				</span>
+				</li>
+				<li id="searchSpace">The <b property="opt:hasSearchSpace" resource="#searchSpace" typeOf="opt:SearchSpace">Search Space Configuration</b>, 
+				with the subworkflow on top of which the search is being performed: the "Select algorithm" subworkflow.
+				The search space configuration for the parameters being optimized is as follows: 
+				<span resource="#searchSpace">
+					<span property="opt:hasInputParameter" resource="#gamma" typeOf="opt:DoubleInputParameter">
+				Gamma has a minimum value <span property="opt:hasMinValue">0</span>, 
+				a maximum value <span property="opt:hasMaxValue">10</span> and 
+				round value <span property="opt:hasRoundValue">true</span>.
+					</span>
+					<span property="opt:hasInputParameter" resource="#cost" typeOf="opt:IntegerInputParameter">
+				Cost has a minimum value <span property="opt:hasMinValue">0</span>, 
+				a maximum value <span property="opt:hasMaxValue">8</span>
+						<span id="function" property="opt:hasNumericFunction" resource="#function" typeOf="opt:ExponentialFunction">
+				and and exponential function with value (base) <span property="opt:hasFunctionValue">2</span>.
+						</span>
+					</span>
+					<span property="opt:hasInputParameter " resource="#numberOfPseudoAbstences" typeOf="opt:IntegerInputParameter">
+				Finally, numberOfPseudoAbstences has minimum value <span property="opt:hasMinValue">200</span>, and 
+				maximum value <span property="opt:hasMaxValue">600</span>.
+					</span>
+				</span>
+				
+				</li>
+				<li>A <b id="condition" property="opt:hasTerminationCondition" resource="#condition" typeOf="opt:TerminationCondition">termination condition</b> with 
+				maximum time 
+				<span resource="#condition"><span property="opt:hadMaxTime">1440</span> minutes.</span>
+				</li>
+				<li>The <b id="algorithm" property="opt:hasAlgorithm" resource="#algorithm" typeOf="opt:GeneticAlgorithm">Genetic Algorithm</b> 
+				used has two output parameters: 
+				<span resource="#algortihm">
+					<span property="opt:hasAlgortihmParameter" typeOf="opt:AlgorithmParameter">
+						<span property="opt:hasParameterValue">Cross Over=0.75</span>
+				and 					
+						<span property="opt:hasParameterValue">Mutation Rate=0.2</span>
+					</span>
+				.
+				</span>
+				</li>
+				<li>The <b id="fitness" property="opt:hasFitness" resource="#fitness" typeOf="opt:SingleObjectiveFitness">Fitness function</b>
+				<span resource="#fitness">
+					<span property="opt:hasFitnessFunction" typeOf="opt:FitnessFunction">
+						<span property="opt:hasFunctionOutputParameter" typeOf="opt:DoubleInputParameter wfdesc:Parameter">
+				used (single objective), which is performed on the <span property="opt:hasName">"AUC"</span> parameter.
+						</span>
+					</span>
+				</span>
+				</li>
+				<li>A selection of the optimization runs was performed on the Workflow, from more than 100 optimization runs. These runs are specified on the table below (note that they are not in chronological order of execution):
+				<table class="gridtable">
+				<tr><th>Optimization Run Number</th><th>Cost Value</th><th>Gamma Value</th><th>NumberOfPseudoAbstences Value</th><th>Fitness Value</th></tr>
+				<tr id="run1" property="opt:hasOptimizationRun" typeOf="opt:OptimizationRun" resource="#run1">
+					
+						<td property="rdfs:label">Run 1</td>						
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">8</span>
+							<span property="wfprov:describedByParameter" resource="#cost"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">2.36</span>
+							<span property="wfprov:describedByParameter" resource="#gamma"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">363</span>
+							<span property="wfprov:describedByParameter" resource="#numberOfPseudoAbstences"></span>
+						</td>						
+						<td property="opt:hasFitnessValue">0.9207</td>
+					
+				</tr>
+				<tr id="run2" property="opt:hasOptimizationRun" typeOf="opt:OptimizationRun" resource="#run2">
+					
+						<td property="rdfs:label">Run 2</td>						
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">64</span>
+							<span property="wfprov:describedByParameter" resource="#cost"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">5.87</span>
+							<span property="wfprov:describedByParameter" resource="#gamma"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">458</span>
+							<span property="wfprov:describedByParameter" resource="#numberOfPseudoAbstences"></span>
+						</td>						
+						<td property="opt:hasFitnessValue">0.9014</td>
+					
+				</tr>
+				<tr id="run3" property="opt:hasOptimizationRun" typeOf="opt:OptimizationRun" resource="#run3">
+					
+						<td property="rdfs:label">Run 3</td>						
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">8</span>
+							<span property="wfprov:describedByParameter" resource="#cost"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">6.84</span>
+							<span property="wfprov:describedByParameter" resource="#gamma"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">319</span>
+							<span property="wfprov:describedByParameter" resource="#numberOfPseudoAbstences"></span>
+						</td>						
+						<td property="opt:hasFitnessValue">0.8974</td>
+					
+				</tr>
+				<tr id="run4" property="opt:hasOptimizationRun" typeOf="opt:OptimizationRun" resource="#run4">
+					
+						<td property="rdfs:label">Run 4</td>						
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">32</span>
+							<span property="wfprov:describedByParameter" resource="#cost"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">3.79</span>
+							<span property="wfprov:describedByParameter" resource="#gamma"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">486</span>
+							<span property="wfprov:describedByParameter" resource="#numberOfPseudoAbstences"></span>
+						</td>						
+						<td property="opt:hasFitnessValue">0.9019</td>
+					
+				</tr>
+				<tr id="run5" property="opt:hasOptimizationRun" typeOf="opt:OptimizationRun" resource="#run5">
+					
+						<td property="rdfs:label">Run 5</td>						
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">256</span>
+							<span property="wfprov:describedByParameter" resource="#cost"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">8.94</span>
+							<span property="wfprov:describedByParameter" resource="#gamma"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">568</span>
+							<span property="wfprov:describedByParameter" resource="#numberOfPseudoAbstences"></span>
+						</td>						
+						<td property="opt:hasFitnessValue">0.9032</td>
+					
+				</tr>
+				<tr id="run6" property="opt:hasOptimizationRun" typeOf="opt:OptimizationRun" resource="#run6">
+					
+						<td property="rdfs:label">Run 6</td>						
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">32</span>
+							<span property="wfprov:describedByParameter" resource="#cost"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">0.06</span>
+							<span property="wfprov:describedByParameter" resource="#gamma"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">215</span>
+							<span property="wfprov:describedByParameter" resource="#numberOfPseudoAbstences"></span>
+						</td>						
+						<td property="opt:hasFitnessValue">0.9084</td>
+					
+				</tr>
+				<tr id="run7" property="opt:hasOptimizationRun" typeOf="opt:OptimizationRun" resource="#run7">
+					
+						<td property="rdfs:label">Run 7</td>						
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">8</span>
+							<span property="wfprov:describedByParameter" resource="#cost"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">4.78</span>
+							<span property="wfprov:describedByParameter" resource="#gamma"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">491</span>
+							<span property="wfprov:describedByParameter" resource="#numberOfPseudoAbstences"></span>
+						</td>						
+						<td property="opt:hasFitnessValue">0.8867</td>
+					
+				</tr>
+				<tr id="run8" property="opt:hasOptimizationRun" typeOf="opt:OptimizationRun" resource="#run8">
+					
+						<td property="rdfs:label">Run 8</td>						
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">8</span>
+							<span property="wfprov:describedByParameter" resource="#cost"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">1.25</span>
+							<span property="wfprov:describedByParameter" resource="#gamma"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">562</span>
+							<span property="wfprov:describedByParameter" resource="#numberOfPseudoAbstences"></span>
+						</td>						
+						<td property="opt:hasFitnessValue">0.9102</td>
+					
+				</tr>
+				<tr id="run9" property="opt:hasOptimizationRun" typeOf="opt:OptimizationRun" resource="#run9">
+					
+						<td property="rdfs:label">Run 9</td>						
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">64</span>
+							<span property="wfprov:describedByParameter" resource="#cost"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">6.09</span>
+							<span property="wfprov:describedByParameter" resource="#gamma"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">514</span>
+							<span property="wfprov:describedByParameter" resource="#numberOfPseudoAbstences"></span>
+						</td>						
+						<td property="opt:hasFitnessValue">0.8929</td>
+					
+				</tr>
+				<tr id="run10" property="opt:hasOptimizationRun" typeOf="opt:OptimizationRun" resource="#run10">
+					
+						<td property="rdfs:label">Run 10</td>						
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">4</span>
+							<span property="wfprov:describedByParameter" resource="#cost"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">2.24</span>
+							<span property="wfprov:describedByParameter" resource="#gamma"></span>
+						</td>
+						<td property="wfprov:usedInput" typeOf="opt:Artifact wfprov:Artifact">
+							<span property="opt:hasValue">453</span>
+							<span property="wfprov:describedByParameter" resource="#numberOfPseudoAbstences"></span>
+						</td>						
+						<td property="opt:hasFitnessValue">0.9101</td>
+					
+				</tr>
+				</table>
+				</li>
+			</ul>			
+      </div>
+    </div>
+	
+	<!--<ul class="sublist2">
+					<li><a property="ore:aggregates" href="http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/t2_workflow_set_eSci2012.v.0.9_FGCS.xls" typeOf="ro:Resource">Analytics for Taverna workflows</a></li>				
+				</li>-->
+	
+	<div class="page" id="refs">	
+		<div class="page_content">
+		<h4 class="blue"> References</h4>
+			<div class="space"> </div>
+			<div class="clear"> </div>				
+				<ul class="sublist2">				
+				<li id="guinan" property="dc:references"><b>[Guinan et al 2009]</b>: J. Guinan, C. Brown, M. F. Dolan, and A. J. Grehan.
+					Ecological niche modelling of the distribution of
+					cold-water coral habitat using underwater remote
+					sensing data. Ecological Informatics, 4(2):83-92, 2009.</li>
+				<li id="hutch"><b>[Hutchinson 1957]</b>: G. E. Hutchinson. Cold Spring Harbor Symposium on
+				Quantitative Biology. Concluding remarks, 22:415-427,
+				1957.</li>
+				<li id="kulh" property="dc:references"><b>[Kulhanek et al 2011]</b>: S. A. Kulhanek, B. Leung, and A. Ricciardi. Using
+					ecological niche models to predict the abundance and
+					impact of invasive species: application to the common
+					carp. Ecological Applications, 21(1):203-213, 2011.</li>
+				<li id="wiley" property="dc:references"><b>[Wiley et al 2003]</b>: E. O. Wiley, K. M. McNyset, A. T. Peterson, C. R.
+					Robins, and A. M. Stewart. Niche modeling and
+					geographic range predictions in the marine environment
+					using a machine-learning algorithm. Oceanography,
+					16(3):120-127, 2003.</li>
+				</ul>
+				
+        <div class="clear"> </div>
+      </div>
+    </div>
+	
+
+    <div class="page" id="auth"> 
+      <!-- page industries -->
+      <h3 class="page_title"> Authors of the Research Object</h3>
+      <div class="page_content">		
+		<table>
+			<tr>
+				<td><img src="images/sonja.jpg" alt="Sonja Holl" width="100" /></td>
+				<td style="text-align:justify"><b><a href="http://delicias.dia.fi.upm.es/members/dgarijo/">Sonja Holl</a></b> is a PhD student at the 
+				Juelich Supercomputing Centre (JSC) Forschungszentrum Juelich. She is the creator of the contents of the Research Object, and performed 
+				the optimizations on the parameters of the workflow.</td>
+			</tr>		
+			<tr>
+				<td><img src="images/dani.png" alt="Daniel Garijo" width="100" /></td>
+				<td style="text-align:justify"><b><a href="http://delicias.dia.fi.upm.es/members/dgarijo/">Daniel Garijo</a></b> is a PhD student in the Ontology Engineering Group 
+				at the Artificial Intelligence Department of the Computer Science Faculty of Universidad Polit&eacute;cnica de Madrid. He has contributed to 
+				the OWL encoding of the <a href="http://purl.org/net/RO-optimization">RO-Opt Ontology</a>, extending the original Research Object Model and 
+				translating the conceptual Research Object Optimization to the model. He has also encoded this Research Object in html and RDF.
+				</td>
+			</tr>
+			
+			<tr>
+				<td><img src="images/khalid.jpeg" alt="Khalid Belhajjame" width="100" height="100"/></td>
+				<td style="text-align:justify"><b><a href="http://semanticweb.org/wiki/Khalid_Belhajjame">Khalid Belhajjame</a></b> is a researcher at the University of Manchester. 
+				He has contributed to the OWL encoding of the <a href="http://purl.org/net/RO-optimization">RO-Opt Ontology</a>, extending the original Research 
+				Object Model and the reviewing of this Research Object.</td>
+			</tr>
+			
+		</table>
+        <div class="clear"> </div>
+      </div>
+    </div>
+    
+      <div class="page"> 
+      <!-- page industries -->	
+	  <div class="page_content">
+      <h4 class="blue">Acknowledgements</h4>
+	  <p>
+	  The authors would like to give special thanks to Olav Zimmermann, Renato De Giovanni, Matthias Obst and Carole Goble for their help 
+	  with the Research Object.
+	  The authors would also like to thank Alan Williams from the BioVEL project for his support on the DR work ow (BioVEL:
+		EU FP7 283359 BioVel BioDiversity eLaboratory). This work was partly supported by the myGrid Platform Grant (EPSRC
+		EP/G026238/1, "myGrid: A platform for e-Biology Renewal"), by the Wf4Ever European project (FP7-270192),
+		and an FPU grant (Formacion de Profesorado Universitario) from the Spanish Science and Innovation Ministry(MICINN).
+	  </p>
+	<div class="clear"> </div>
+      
+    </div>
+    
+	
+   
+   <div class="page">
+		<div class="page_content">
+		<div class="center">
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/2.0/88x31.png" /></a><br />This page is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License</a>.
+		</div>
+		</div>
+    </div>
+  </div>
+  
+
+<a class="gotop hidden" href="#top">Top</a>
+</div>
+</div>
+
+</body></html>

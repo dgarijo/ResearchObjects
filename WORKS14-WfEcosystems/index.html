@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Towards Workflow Ecosystems Through Standard Representations</title>
+<link rel="stylesheet" href="styles/style.css" media="screen" />
+<link rel="stylesheet" href="styles/media-queries.css" />
+<link rel="stylesheet" href="./flex-slider/flexslider.css" type="text/css" media="screen" />
+<link href="styles/prettyPhoto.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="styles/tipsy.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="./scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="./flex-slider/jquery.flexslider-min.js"></script>
+<script src="scripts/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="scripts/jquery.tipsy.js" type="text/javascript"></script>
+<script src="scripts/jquery.knob.js" type="text/javascript"></script>
+<script type="text/javascript" src="./scripts/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="./scripts/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="./scripts/waypoints.min.js"></script>
+<script type="text/javascript" src="./scripts/setup.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</head>
+<body prefix="dc: http://purl.org/dc/terms/ schema: http://schema.org/ prov: http://www.w3.org/ns/prov# ore: http://www.openarchives.org/ore/terms/ ro: http://purl.org/wf4ever/ro# rdfs: http://www.w3.org/2000/01/rdf-schema#" resource="http://purl.org/net/works2014materials" typeOf="ore:Aggregation ro:ResearchObject">
+  <span property="ore:isDescribedBy" resource=""></span>
+  <div id="wrap">
+   <div id="sidebar"> 
+     <ul id="navigation">
+       <li><a href="#home" class="active">Summary</a></li>
+       <li class="peque"><a href="#abstract">Abstract</a></li>
+           <li class="peque"><a href="#inputs">Description</a></li>
+           <li class="peque"><a href="#outputs">Abstraction heterogeneity in WEST</a></li>
+       <li><a href="#auth">About the authors</a></li>
+     </ul>
+         <div style="bottom:0; position : absolute">
+                 <div style="float: left; padding-left: 25px; width:80px;">
+                 <a href="http://www.researchobject.org/"><img src="images/rologo.png" alt="This page is RO enabled" title="This page is described according to the RO Model" width="60"/></a>
+                 </div>
+                 <div style="float: left; padding-left: 25px; width:80px;">
+                 <img src="images/rdf.gif" alt="This page is described in rdf-a" title="This page is described in rdf-a" width="60"/>
+                 </div>
+         </div>	
+   </div>
+   <div id="container"> 
+     <!-- page container -->
+     <div class="page" id="home"> 
+       <!-- page home -->
+       <div class="page_content">
+        <h3  class="page_title" property="dc:title schema:name">Towards Workflow Ecosystems Through Standard Representations</h3>
+<div class="space"> </div>
+<div class="clear"> </div>
+<p>
+  This page represents a Research Object containing different additional materials for a paper under revision in the <a href="http://works.cs.cardiff.ac.uk/">WORKS14 workshop</a>. The purpose of this web page is to provide a summary of the paper, support links and short descriptions of the contents used as input and generated as output of the described work. A copy of the paper will be made available here once the workshop notifies the authors.
+</p>
+</div> 
+</div>
+<div class="page" id="abstract">	
+<div class="page_content">
+<h4 class="blue"> Abstract</h4>
+<div class="space"> </div>
+<div class="clear"> </div>
+<p property="dc:abstract">
+Workflows are increasingly used to manage and share scientific computations and methods. Workflow tools can be used to design, validate, execute and visualize scientific workflows and their execution results. Other tools manage workflow libraries or mine their contents. There has been a lot of recent work on workflow system integration as well as common workflow interlinguas, but the interoperability among workflow systems remains a challenge. Ideally, these tools would form a workflow ecosystem such that it should be possible to create a workflow with a tool, execute it with another, visualize it with another, and use yet another tool to mine a repository of such workflows or their executions. In this paper, we describe our approach to create a workflow ecosystem through the use of standard models for provenance (<a href="http://openprovenance.org/model/opmo">OPM</a> and <a href="http://www.w3.org/TR/prov-o/">W3C PROV</a>) and extensions (<a href="http://purl.org/net/p-plan">P-PLAN</a> and <a href="http://www.opmw.org/ontology/">OPMW</a>) to represent workflows. We introduce WEST (Workflow Ecosystems through STandards), a workflow ecosystem that integrates different workflow tools with diverse functions (workflow generation, execution, browsing, mining, and visualization) created by a variety of research groups. This is, to our knowledge, the first time that such a variety of functions and systems are integrated.</p>
+<div class="clear"> </div>
+</div>
+</div>
+<div class="page" id="inputs"> 
+<div class="page_content">
+<h4  class="blue"> Description of the tools in the ecosystem</h4>
+<p>
+The following figure shows an overview of the WEST ecosystem:
+</p>
+<div class="center">
+	<img src="images/ecosystemv4.png" alt="WEST Ecosystem" title="WEST ecosystem" style="width:720px"/>
+</div>
+<p>The different tools that WEST integrates are represented in ellipses, while the workflow repositories are represented with rounded boxes with thick border. The small rectangular boxes depict the converters of the internal vocabularies used within the individual tools into the standard representations used by WEST. Converters planned but not yet implemented are indicated with dashed lines. Lightweight converters adapting a vocabulary to other extensions of the standards are shown in small rounded boxes (their respective tools are represented as dotted ellipses). The directionality of the arrows between the different tools indicates what tools produce and consume the workflows exchanged across tools in the ecosystem.
+</p>
+<p>The figure also indicates all the workflow tools that we have integrated in the WEST ecosystem to date.  They represent a wide variety of functions:
+</p>
+<ul class="sublist2">
+<li><strong>Workflow Generation</strong>: WEST integrates the <a href="http://wings-workflows.org/">WINGS workflow generation tool</a>. Users create workflow templates, which WINGS can specialize to generate workflow instances.  WINGS can submit the workflow instances for execution by different workflow mapping and execution engines.</li>
+<li><strong>Workflow Mapping and Execution</strong>: WEST includes three workflow execution engines: <a href="http://pegasus.isi.edu/">Pegasus</a>, <a href="http://oodt.apache.org/">Apache OODT</a>, and <a href="http://pipeline.loni.usc.edu/">LONI Pipeline</a>. These systems map the workflow tasks to available execution resources, and then manage their execution.  It would be easy to include other workflow execution engines, since many of them use OPM and are beginning to use PROV.</li>
+<li><strong>Workflow Mining</strong>: WEST includes the <a href="https://github.com/dgarijo/FragFlow/">FragFlow system</a> for workflow mining, which includes several algorithms for extracting common workflow fragments from repositories of workflow templates and workflow executions. </li>
+<li><strong>Workflow Visualization</strong>:  WEST includes the <a href="http://provoviz.org/">Prov-o-viz tool</a> for visualizing provenance structures expressed in the W3C PROV standard.</li>
+<li><strong>Workflow Browsing</strong>: WEST uses a Workflow Explorer tool, <a href="http://purl.org/net/wexp">WExp</a>, which allows for exploring different workflow templates, their metadata and their workflow execution results.  </li>
+<li><strong>Workflow Documentation</strong>: WEST includes the <a href="http://www.organicdatascience.org/index.php/Main_Page">Organic Data Science Wiki</a>, an extension of semantic wikis designed to develop meta-workflows that result in many workflow explorations and runs. </li>
+<li><strong>Workflow Storage and Sharing</strong>: WEST has a <a href="http://www.opmw.org/sparql">workflow repository</a> that includes workflow templates, workflow instances, and workflow executions.  This is a public repository , implemented using Virtuoso, and is populated by WINGS. All workflows are Web objects that are openly accessible to any application that queries the repository. </li>
+</div>
+</div>
+<div class="page" id="outputs">
+<div class="page_content">
+<h4 class="blue"> Abstraction heterogeneity in WEST</h4>
+<p>Different applications of the workflow environment have different needs. For example, mining and presentation applications typically care for workflow templates or workflow executions and their provenance, while execution engines need the workflow instances for their execution. Here we provide the link to the queries that have been used to illustrate abstraction heterogeneity in WEST (available <a href="Sparql queries.txt" property="ore:aggregates" typeOf="ro:Resource">here</a> and also as a <a href="TO Copy">FigShare resource</a>). A step by step example explaining all the queries can be seen on the Section 4.4 of the paper.</p></div>
+</div>
+<div class="page" id="auth">
+<!-- page industries -->
+<div class="page_content">
+<h4 class="blue"> About the authors</h4>
+<table>	
+<tr property="schema:creator dc:creator prov:wasAttributedTo" resource="http://purl.org/net/dgarijo">
+	<td><img src="images/dani.png" alt="Daniel Garijo" width="100" height="130" /></td>
+	<td style="padding-left:10px"><strong><a href="http://delicias.dia.fi.upm.es/members/dgarijo/">Daniel Garijo</a></strong> is a PhD student in the Ontology Engineering Group at the Artificial Intelligence Department of the Computer Science Faculty of Universidad Polit&eacute;cnica de Madrid. His research activities focus on e-Science and the Semantic web, specifically on how to increase the understandability of scientific workflows using provenance, metadata, intermediate results and Linked Data. </td>
+</tr>
+<tr property="schema:creator dc:creator prov:wasAttributedTo" resource="http://www.isi.edu/~gil/">
+	<td><img src="images/gil.jpg" alt="Yolanda Gil" width="100" height="110" /></td>
+	<td style="padding-left:10px"><b><a href="http://www.isi.edu/~gil/">Yolanda Gil</a></b> Yolanda Gil is Director of Knowledge Technologies and at the Information Sciences Institute of the University of Southern California, and Research Professor in the Computer Science Department. Her research interests include intelligent user interfaces, social knowledge collection, provenance and assessment of trust, and knowledge management in science. Her most recent work focuses on intelligent workflow systems to support collaborative data analytics at scale.</td>
+</tr>
+<tr property="schema:creator dc:creator prov:wasAttributedTo" resource="https://github.com/ocorcho">
+	<td><img src="images/oscar.jpg" alt="Oscar Corcho" width="100" height="120"></td>
+	<td style="padding-left:10px"><b><a href="http://www.oeg-upm.net/index.php/teachers/11-ocorcho">Oscar Corcho</a></b> is an Associate Professor at Departamento de Inteligencia Artificial (Facultad de Informática , Universidad Polit&eacute;cnica de Madrid) , and he belongs to the Ontology Engineering Group. His research activities are focused on Semantic e-Science and Real World Internet. In these areas, he has participated in a number of EU projects (Wf4Ever, PlanetData, SemsorGrid4Env, ADMIRE, OntoGrid, Esperonto, Knowledge Web and OntoWeb), Spanish Research and Development projects (CENITS mIO!, España Virtual  and Buscamedia, myBigData, GeoBuddies), and has also participated in privately-funded projects like ICPS (International Classification of Patient Safety), funded by the World Health Organisation, and HALO, funded by Vulcan Inc.</td>
+</tr>
+</table>
+<div class="clear"> </div>
+</div>
+</div>
+<div class="page"> 
+
+<div class="page_bottom"><div class="center"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/2.0/88x31.png" /></a><br/>This page is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License</a>.
+</div>
+</div>
+</div>
+<a class="gotop hidden" href="#top">Top</a>
+</div>
+</div>
+</body>
+</html>

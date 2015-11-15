@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ schema: http://schema.org/ prov: http://www.w3.org/ns/prov# ore: http://www.openarchives.org/ore/terms/ 
+ro: http://purl.org/wf4ever/ro# opt: http://purl.org/net/RO-optimization# wfprov: http://purl.org/wf4ever/wfprov# wfdesc: http://purl.org/wf4ever/wfdesc#
+rdfs: http://www.w3.org/2000/01/rdf-schema#">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta property="dc:creator prov:wasAttributedTo schema:creator" content="http://delicias.dia.fi.upm.es/members/DGarijo/#me" />
+<title>Quantifying reproducibility. The case of the TB-Drugome</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+<link rel="stylesheet" href="styles/style.css" media="screen" />
+<link rel="stylesheet" href="styles/media-queries.css" />
+<link rel="stylesheet" href="./flex-slider/flexslider.css" type="text/css" media="screen" />
+<link href="styles/prettyPhoto.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="styles/tipsy.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script type="text/javascript" src="./scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="./flex-slider/jquery.flexslider-min.js"></script>
+<script src="scripts/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="scripts/jquery.tipsy.js" type="text/javascript"></script>
+<script src="scripts/jquery.knob.js" type="text/javascript"></script>
+<script type="text/javascript" src="./scripts/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="./scripts/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="./scripts/waypoints.min.js"></script>
+<script type="text/javascript" src="./scripts/setup.js"></script>
+
+
+<!--<link rel="canonical" href="http://www.oeg-upm.net/files/dgarijo/motifAnalysisSite/index.html" />-->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+</head>
+<body resource="http://purl.org/net/ro-TBDrugomeReproducibilityPaper" typeOf="ore:Aggregation ro:ResearchObject">
+	<span property="ore:isDescribedBy" resource=""></span>
+	<span property="dc:creator prov:wasAttributedTo schema:creator" resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"></span>
+	
+<div id="wrap"> 
+  <!-- wrapper -->
+  <div id="sidebar"> 
+    <!-- the  sidebar --> 
+    <!-- logo -->     
+    <!-- navigation menu -->
+    <ul id="navigation">
+      <li><a href="#home" class="active">Quantifying reproducibility</a></li>
+      <li class="peque"><a href="#abstract">Abstract</a></li>
+	  <li class="peque"><a href="#inputs">Inputs and Examples</a></li>
+	  <li class="peque"><a href="#outputs">Results</a></li>
+	  <li class="peque"><a href="#refs">References</a></li>
+      <!--<li><a href="#ontology">The Workflow Motif Ontology</a></li>-->
+      <li><a href="#auth">About the authors</a></li>
+    </ul>
+		<div style="bottom:0; position : absolute">
+                 <div style="float: left; padding-left: 25px; width:80px;">
+                 <a href="http://www.researchobject.org/"><img src="images/rologo.png" alt="This page is RO enabled" title="This page is described according to the RO Model" width="60"/></a>
+                 </div>
+                 <div style="float: left; padding-left: 25px; width:80px;">
+                 <img src="images/rdf.gif" alt="This page is described in rdf-a" title="This page is described in rdf-a" width="60"/>
+                 </div>
+         </div>	
+  </div>
+  <div id="container"> 
+    <!-- page container -->
+	
+    <div class="page" id="home"> 
+      <!-- page home -->
+      <div class="page_content">
+       <h3  class="page_title" property="dc:title schema:name">Quantifying Reproducibility in<br /> Computational Biology: <br />The Case of the Tuberculosis Drugome</h3>
+		<div class="space"> </div>
+		<div class="clear"> </div>
+	
+      <p>
+	  This web page represents a bundle for the contents and additional material of the paper accepted at the 
+	  <a href="http://www.plosone.org">PLOS One Journal</a>. The purpose of this web page is to provide a summary of the paper, support links and short descriptions 
+	  of the contents used as input and generated as output of the described work. The full paper is available online <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0080278">here</a>.
+      </p> 					
+      </div>        
+      
+    </div>
+	<div class="page" id="abstract">	
+		<div class="page_content">
+		<h4 class="blue"> Abstract</h4>
+			<div class="space"> </div>
+			<div class="clear"> </div>
+				<p property="dc:abstract">
+					How easy is it to reproduce the results found in a typical computational biology paper? Either through experience or intuition the reader will 
+					already know that the answer is with difficulty or not at all. Here we attempt to quantify this difficulty using a previously published paper 
+					<a href="#kinnings">[Kinnings et al. 2010]</a> for different classes of user and suggest ways in which the situation might be improved. 
+					Quantification is achieved by 
+					estimating what is required to take the procedures described in the paper and include them in a formalized workflow that can reproduce the 
+					original results. We conclude with a brief discussion of the complexities of requiring reproducibility in terms of cost versus benefit. This 
+					has implications not only in reproducing the work of others from published papers, but reproducing work from your own laboratory.					
+				</p>
+				
+        <div class="clear"> </div>
+      </div>
+    </div>
+    <div class="page" id="inputs"> 
+      <div class="page_content">
+      <h4  class="blue"> Inputs used for reproducing the TB-Drugome workflow</h4>      
+			<p>
+			Initially, some of the inputs defined in the Drugome's web page (accessible <a href="http://funsite.sdsc.edu/drugome/TB/">here</a>) were considered.
+			However those materials were mostly curated results to highlight the outputs of the experiment, so instead we took the inputs files and scripts from the original 
+			team of scientists. In particular, these inputs were:
+			</p>
+			<ul class="sublist2">
+				<li><a property="ore:aggregates" href="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/smap_properties" typeOf="ro:Resource">The configuration file</a> for the SMAP tool (used for ligand binding sites comparison).</li>
+				<li><a property="ore:aggregates" href="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_key" typeOf="ro:Resource">A drug key file</a> with the ids for the drugs used in the workflow.</li>
+				<li><a property="ore:aggregates" href="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_binding_sites_list_txt" typeOf="ro:Resource">The drug binding sites file</a>.</li>
+				<li><a property="ore:aggregates" href="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/MtbStructures_tar_gz" typeOf="ro:Resource">The solved structures file</a>, containing the solved structures for the proteins and homology models being compared against the drug binding sites.</li>
+				<li><a property="ore:aggregates" href="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/homology_models_list_txt" typeOf="ro:Resource">The homology list file</a> with the ids of the homology 
+				models associated to the proteins to be compared to the drug binding sites.</li>
+				<li><a property="ore:aggregates" href="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/tb_protein_info" typeOf="ro:Resource">File with additional information</a> about the 
+				proteins of the TB-Drugome.</li>
+				<li><a property="ore:aggregates" href="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/template_pdbs" typeOf="ro:Resource">Template file</a> from the Protein Data Bank with the ids of the homology models.</li>
+				<li><a property="ore:aggregates" href="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/solved_tb_structures_list_txt" typeOf="ro:Resource">List of solved structures</a> with the ids of the proteins being compared in the experiment.</li>
+				<li><a property="ore:aggregates" href="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/model_info_updated" typeOf="ro:Resource">Homology model information file</a> to filter up homology models.</li>
+			</ul>
+			
+			<p>			
+			Additionally, several tools were used to compute some of the steps of the experiment:
+			</p>
+				<ul class="sublist2">
+					<li><a href="http://funsite.sdsc.edu/scb/smap/smap.html">SMAP tool</a>: to compare the ligand binding sites with the solved structures and the homology models.</li>
+					<li><a href="http://source.rcsb.org/jfatcatserver/allvsall.jsp">FATCAT tool</a>: to filter the results of the SMAP step by making a comparison between dissimilar protein structures.</li>
+					<li><a href="http://vina.scripps.edu/">Autodock Vina Tool</a>: to dock and filter the results obtained in the previous steps.</li>			
+					<li><a href="http://www.yworks.com/en/products_yed_about.html">yEd</a>: to visualize the resultant drug-protein network.</li>
+				</ul>				
+			
+      </div>
+    </div>
+	
+	<div class="page" id="outputs">	
+		<div class="page_content">
+		<h4 class="blue"> Outcome of the reproducibility effort</h4>
+			<div class="space"> </div>
+			<div class="clear"> </div>
+				Some of the results of the work are directly described in the paper, like the guidelines and best practice for making your work reproducible.
+				Additional results of the paper (from which the guidelines were derived from) are described below:
+				<ul class="sublist2">
+				<li><a property="ore:aggregates" href="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/ontology/WINGS/AbstractGlobalWorkflow2.owl.png" typeOf="ro:Resource">The scientific workflow</a> reproducing the TB-Drugome experiment defined in the Wings workflow System.</li>
+				<li><a property="ore:aggregates" href="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/runs/run_126.html" typeOf="ro:Resource">Web page </a>summarizing the inputs, parameters and outputs of a sample run of the workflow</li>
+				<li>Publication of the workflow as Linked Data (including inputs, outputs, intermediate results and scripts). The endpoint to explore these contents is publicly available <a href="http://www.opmw.org/sparql">here</a>.</li>
+				<li><a property="ore:aggregates" href="http://www.wings-workflows.org/drugome/" typeOf="ro:Resource">Wiki</a> with the summary of all the related contents of the workflow.</li>
+				<li><a property="ore:aggregates" href="http://www.wings-workflows.org/drugome/index.php/Detailed_Timeline" typeOf="ro:Resource">Detailed timeline</a> of the construction of the workflow, in order to quantify the effort.</li>
+				<li><a property="ore:aggregates" href="http://www.wings-workflows.org/drugome/index.php/Visualization_of_the_experiment_results" typeOf="ro:Resource">Web page</a> containing new visualizations obtained by the reproduced results.</li>				
+				</ul>			
+        
+      </div>
+    </div>
+	
+	<div class="page" id="refs">	
+		<div class="page_content">
+		<h4 class="blue"> References</h4>
+			<div class="space"> </div>
+			<div class="clear"> </div>
+				<ul class="sublist2">
+				<li id="kinnings"><strong>[Kinnings et al. 2010]</strong>: Kinnings, S. L.; Xie, L.; Fung, K. H.; Jackson, R. M.; Xie, L.; and Bourne, P. E. “The Mycobacterium tuberculosis Drugome and Its Polypharmacological Implications.” To appear in PLoS Computational Biology, 2011. Preprint available from <a href="http://sites.google.com/site/beyondthepdf/file-cabinet/FinalPaper.pdf">http://sites.google.com/site/beyondthepdf/file-cabinet/FinalPaper.pdf</a></li>
+				</ul>
+								
+        <div class="clear"> </div>
+      </div>
+    </div>	
+
+    <div class="page" id="auth"> 
+      <!-- page industries -->
+      <h3 class="page_title"> About the authors</h3>
+      <div class="page_content">		
+		<table>			
+			<tr>
+				<td><img src="images/dani.png" alt="Daniel Garijo" width="100" height="130" /></td>
+				<td style="padding-left:10px"><strong><a href="http://delicias.dia.fi.upm.es/members/dgarijo/">Daniel Garijo</a></strong> is a PhD student in the Ontology Engineering Group at the Artificial Intelligence Department of the Computer Science Faculty of Universidad Polit&eacute;cnica de Madrid. His research activities focus on e-Science and the Semantic web, specifically on how to increase the understandability of scientific workflows using provenance, metadata, intermediate results and Linked Data. </td>
+			</tr>
+			<tr>
+				<td><img src="images/sarah.jpg" alt="Sarah Kinnings" width="100" height="110" /></td>
+				<td style="padding-left:10px"><strong><a href="http://www.linkedin.com/pub/sarah-kinnings/45/944/4b9">Sarah Kinnings</a></strong> 
+				is a Bioinformatics Scientist at <a href="http://www.linkedin.com/company/sequenom-center-for-molecular-medicine?trk=prof-following-company-logo">Sequenom</a>.
+				She is a PhD in Bioinformatics by the University of Leeds and worked as a post doctoral researcher at the Skaggs School of Pharmacy and Parmaceutical Sciences, UCSD.
+				</td>
+			</tr>
+			<tr>
+				<td>(Photo not available)</td>
+				<td style="padding-left:10px"><strong><a href="http://www.sdsc.edu/pb/People.html">Li Xie</a></strong> is a Senior scientist at the Skaggs School of Pharmacy and Parmaceutical Sciences, UCSD.</td>
+			</tr>
+			<tr>
+				<td><img src="images/lei.jpg" alt="Lei Xiew" width="100" height="120" /></td>
+				<td style="padding-left:10px"><strong><a href="http://compsci.hunter.cuny.edu/~leixie/">Lei Xie</a></strong> PhD is an 
+				Associate Professor at the Hunter College, CUNY. Previously he worked as a Research scientist at the 
+				Skaggs School of Pharmacy and Parmaceutical Sciences, UCSD. His current research focus is to develop and apply computational 
+				techniques to study the structure, function, dynamic, and evolution of molecular interactions on multiple scales, 
+				from atomic details to biological networks.</td>
+			</tr>
+			<tr>
+				<td><img src="images/yinliang.jpg" alt="Yinliang Zhang" width="100" height="100" /></td>
+				<td style="padding-left:10px"><strong><a href="http://www.linkedin.com/pub/yinliang-zhang/3a/447/570">Yinliang Zhang</a></strong> is a 
+				PhD student at University of Science and Technology of China, and a Visiting Grad student at the UC San Diego.</td>
+			</tr>
+			<tr>
+				<td><img src="images/phil.jpg" alt="Phil Bourne" width="100" height="140" /></td>
+				<td style="padding-left:10px"><strong><a href="http://www.sdsc.edu/~bourne/">Philip E. Bourne</a></strong>  PhD is Associate 
+				Vice Chancellor for Innovation and Industrial Alliances, a Professor in the Department of Pharmacology and Skaggs School of Pharmacy and 
+				Pharmaceutical Sciences at the University of California San Diego,  Associate Director of the RCSB Protein Data Bank and an Adjunct 
+				Professor at the Sanford Burnham Institute. Bourne's professional interests focus on relevant biological and educational outcomes derived 
+				from computation and scholarly communication. This implies algorithms, text mining, machine learning, metalanguages, biological databases, 
+				and visualization applied to problems in systems pharmacology, evolution, cell signaling, apoptosis, immunology and scientific dissemination. 
+				He has published over 300 papers and 5 books, one of which sold over 150,000 copies. </td>
+			</tr>
+			<tr>
+				<td><img src="images/gil.jpg" alt="Yolanda Gil" width="100" height="120" /></td>
+				<td style="padding-left:10px"><strong><a href="http://www.isi.edu/~gil/">Yolanda Gil</a></strong> Yolanda Gil is Director of Knowledge Technologies and 
+				at the Information Sciences Institute of the University of Southern California, and Research Professor in the Computer Science Department. Her 
+				research interests include intelligent user interfaces, social knowledge collection, provenance and assessment of trust, and knowledge 
+				management in science. Her most recent work focuses on intelligent workflow systems to support collaborative data analytics at scale.</td>
+			</tr>
+			
+		</table>
+        <div class="clear"> </div>
+      </div>
+    </div>
+    
+      <div class="page"> 
+      <!-- page industries -->	
+	  <div class="page_content">
+      <h4 class="blue">Acknowledgements</h4>
+		This research is sponsored by Elsevier Labs, the National Science Foundation with award number CCF-0725332, the Air Force Office of Scientific Research with award number FA9550-11-1-0104, internal funds from the University of Southern California's Information Sciences Institute and from the University of California, San Diego, and by an FPU grant (Formación de Profesorado Universitario) from the Spanish Ministry of Science and Innovation (MCINN).
+      <div class="clear"> </div>
+      
+    </div>
+    
+	
+   
+   <div class="page">
+		<div class="page_content">
+		<div class="center">
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/2.0/88x31.png" /></a><br />This page is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License</a>.
+		</div>
+		</div>
+    </div>
+  </div>
+  
+
+<a class="gotop hidden" href="#top">Top</a>
+</div>
+</div>
+
+</body></html>

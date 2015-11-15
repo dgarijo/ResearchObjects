@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>FragmentFinder</title>
+<link rel="stylesheet" href="styles/style.css" media="screen" />
+<link rel="stylesheet" href="styles/media-queries.css" />
+<link rel="stylesheet" href="./flex-slider/flexslider.css" type="text/css" media="screen" />
+<link href="styles/prettyPhoto.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="styles/tipsy.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="./scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="./flex-slider/jquery.flexslider-min.js"></script>
+<script src="scripts/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="scripts/jquery.tipsy.js" type="text/javascript"></script>
+<script src="scripts/jquery.knob.js" type="text/javascript"></script>
+<script type="text/javascript" src="./scripts/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="./scripts/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="./scripts/waypoints.min.js"></script>
+<script type="text/javascript" src="./scripts/setup.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</head>
+<body prefix="dc: http://purl.org/dc/terms/ schema: http://schema.org/ prov: http://www.w3.org/ns/prov# ore: http://www.openarchives.org/ore/terms/ ro: http://purl.org/wf4ever/ro# wfdesc: http://purl.org/wf4ever/wfdesc# rdfs: http://www.w3.org/2000/01/rdf-schema#" resource="http://purl.org/net/kcap2013RO" typeOf="ore:Aggregation ro:ResearchObject">
+  <span property="ore:isDescribedBy" resource=""></span>
+  <div id="wrap">
+   <div id="sidebar"> 
+     <ul id="navigation">
+       <li><a href="#home" class="active">Summary</a></li>
+       <li class="peque"><a href="#abstract">Abstract</a></li>
+           <li class="peque"><a href="#inputs">Inputs and Examples</a></li>
+           <li class="peque"><a href="#outputs">Results</a></li>
+       <li><a href="#auth">About the authors</a></li>
+     </ul>
+         <div style="bottom:0; position : absolute">
+                 <div style="float: left; padding-left: 25px; width:80px;">
+                 <a href="http://www.researchobject.org/"><img src="images/rologo.png" alt="This page is RO enabled" title="This page is described according to the RO Model" width="60"/></a>
+                 </div>
+                 <div style="float: left; padding-left: 25px; width:80px;">
+                 <img src="images/rdf.gif" alt="This page is described in rdf-a" title="This page is described in rdf-a" width="60"/>
+                 </div>
+         </div>	
+   </div>
+   <div id="container"> 
+     <!-- page container -->
+     <div class="page" id="home"> 
+       <!-- page home -->
+       <div class="page_content">
+        <h3  class="page_title" property="dc:title schema:name">
+Detecting common scientific workflow fragments using templates and execution provenance</h3>
+<div class="space"> </div>
+<div class="clear"> </div>
+<p>
+This page represents a Research Object containing different additional materials for a paper accepted in the K-CAP 2013 conference. The purpose of this web page is to provide a summary of the paper, support links and short descriptions of the contents used as input and generated as output of the described work. A copy of the paper is available <a href="paper.pdf">here</a>. The software described in the paper is under development and avialable at <a href="https://github.com/dgarijo/FragFlow">Github</a>
+</p>
+</div> 
+</div>
+<div class="page" id="abstract">	
+<div class="page_content">
+<h4 class="blue"> Abstract</h4>
+<div class="space"> </div>
+<div class="clear"> </div>
+<p property="dc:abstract">
+Provenance plays a major role when understanding and reusing the methods applied in a scientific experiment, as it provides a record of inputs, the processes carried out and the use and generation of intermediate and final results. In the specific case of in-silico scientific experiments, a large variety of scientific workflow systems (e.g., Wings, Taverna, Galaxy, Vistrails) have been created to support scientists. All of these systems produce some sort of provenance about the executions of the workflows that encode scientific experiments. However, provenance is normally recorded at a very low level of detail, which complicates the understanding of what happened during execution. In this paper we propose an approach to automatically obtain abstractions from
+low-level provenance data by finding common workflow fragments on workflow execution provenance and relating them to templates. We have tested our approach with a dataset of workflows published by the Wings workflow system. Our results show that by using these kinds of abstractions we can highlight the most common abstract methods used in the executions of a repository, relating different runs and workflow templates with each other.</p>
+<div class="clear"> </div>
+</div>
+</div>
+<div class="page" id="inputs"> 
+<div class="page_content">
+<h4  class="blue"> Inputs and examples of the analysis</h4>
+
+<p>
+We have selected a dataset that contains 22 workflow templates specified using the <a href="http://www.wings-workflows.org/">Wings workflow system</a>. We also use a dataset of 30 workflow execution provenance traces obtained from the executions of the 22 workflow templates and annotated according to the <a href="http://www.opmw.org/ontology/">Open Provenance Model for Workflows (OPMW)</a>. Both datasets are in the domain of text analytics (retrieving all templates from that domain from <a href="http://opmw.org/sparql">http://opmw.org/sparql</a>).
+</p> 
+<p>The processed template dataset is available <a href="http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_No_Inference_Templates" property="ore:aggregates" typeOf="ro:Resource">here</a> (without inference) and <a href="http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_Inference_Templates" property="ore:aggregates" typeOf="ro:Resource">here</a> (with inference).</p>
+<p>The trace dataset is available <a href="http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_No_Inference" property="ore:aggregates" typeOf="ro:Resource">here</a> (without inference) and <a href="resources/Text_Analytics_Graph_Inference" property="ore:aggregates" typeOf="ro:Resource">here</a> (with inference).</p>
+</div>
+</div>
+<div class="page" id="outputs">
+<div class="page_content">
+<h4 class="blue"> Results of the analysis</h4>
+<p>The following excel files summarize the obtained results (which are available <a href="http://rohub.linkeddata.es/Fragment_Finder_page/resources/resultsSun_Apr_21_19_36_05_CEST_2013" property="ore:aggregates" typeOf="ro:Resource">here</a>).</p>
+<ol>
+	<li><a href="http://rohub.linkeddata.es/Fragment_Finder_page/resources/Evaluation-externalMacro-summary-manual.xlsx" property="ore:aggregates" typeOf="ro:Resource">File</a> summarizing the performance of the SUBDUE algorithm on the dataset when finding external macros.</li>
+	<li><a href="http://rohub.linkeddata.es/Fragment_Finder_page/resources/Evaluation-InternalMacro-summaryRevisited.xlsx" property="ore:aggregates" typeOf="ro:Resource">File</a> summarizing the performance of the SUBDUE algorithm on the dataset when finding internal macros.</li>
+</ol>
+</div>
+</div>
+<div class="page" id="auth">
+<!-- page industries -->
+<div class="page_content">
+<h4 class="blue"> About the authors</h4>
+<table>	
+<tr property="schema:creator dc:creator prov:wasAttributedTo" resource="http://purl.org/net/dgarijo">
+	<td><img src="images/dani.png" alt="Daniel Garijo" width="100" height="130" /></td>
+	<td style="padding-left:10px"><strong><a href="http://delicias.dia.fi.upm.es/members/dgarijo/">Daniel Garijo</a></strong> is a PhD student in the Ontology Engineering Group at the Artificial Intelligence Department of the Computer Science Faculty of Universidad Polit&eacute;cnica de Madrid. His research activities focus on e-Science and the Semantic web, specifically on how to increase the understandability of scientific workflows using provenance, metadata, intermediate results and Linked Data. </td>
+</tr>
+<tr property="schema:creator dc:creator prov:wasAttributedTo" resource="https://github.com/ocorcho">
+	<td><img src="images/oscar.jpg" alt="Oscar Corcho" width="100" height="120"></td>
+	<td style="padding-left:10px"><b><a href="http://www.oeg-upm.net/index.php/teachers/11-ocorcho">Oscar Corcho</a></b> is an Associate Professor at Departamento de Inteligencia Artificial (Facultad de Informática , Universidad Polit&eacute;cnica de Madrid) , and he belongs to the Ontology Engineering Group. His research activities are focused on Semantic e-Science and Real World Internet. In these areas, he has participated in a number of EU projects (Wf4Ever, PlanetData, SemsorGrid4Env, ADMIRE, OntoGrid, Esperonto, Knowledge Web and OntoWeb), Spanish Research and Development projects (CENITS mIO!, España Virtual  and Buscamedia, myBigData, GeoBuddies), and has also participated in privately-funded projects like ICPS (International Classification of Patient Safety), funded by the World Health Organisation, and HALO, funded by Vulcan Inc.</td>
+</tr>
+<tr property="schema:creator dc:creator prov:wasAttributedTo" resource="http://www.isi.edu/~gil/">
+	<td><img src="images/gil.jpg" alt="Yolanda Gil" width="100" height="110" /></td>
+	<td style="padding-left:10px"><b><a href="http://www.isi.edu/~gil/">Yolanda Gil</a></b> Yolanda Gil is Director of Knowledge Technologies and at the Information Sciences Institute of the University of Southern California, and Research Professor in the Computer Science Department. Her research interests include intelligent user interfaces, social knowledge collection, provenance and assessment of trust, and knowledge management in science. Her most recent work focuses on intelligent workflow systems to support collaborative data analytics at scale.</td>
+</tr>
+</table>
+<div class="clear"> </div>
+</div>
+</div>
+<div class="page"> 
+<!-- page industries -->	
+
+<div class="page_bottom"><div class="center"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/2.0/88x31.png" /></a><br/>This page is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License</a>.
+</div>
+</div>
+</div>
+<a class="gotop hidden" href="#top">Top</a>
+</div>
+</div>
+</body>
+</html>
