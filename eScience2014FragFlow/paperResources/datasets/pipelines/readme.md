@@ -1,0 +1,1 @@
+Corpora WC3 is available in FigShare due to its large size. See: http://dx.doi.org/10.6084/m9.figshare.1603174

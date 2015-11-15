@@ -1,0 +1,4272 @@
+S
+v 1 http://vocab.linkeddata.es/resource/KLMIregister
+v 2 http://vocab.linkeddata.es/resource/KLMIdeformfield
+v 3 http://vocab.linkeddata.es/resource/InterpAveragepairsof3
+d 2 1 informBy
+d 3 1 informBy
+d 3 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 2 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+v 3 http://vocab.linkeddata.es/resource/eraseattributes
+d 1 3 informBy
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/equalizeshapevolume
+v 2 http://vocab.linkeddata.es/resource/transform
+v 3 http://vocab.linkeddata.es/resource/RigidQuaternionTransform
+v 4 http://vocab.linkeddata.es/resource/ShapeTranslator
+d 2 1 informBy
+d 2 3 informBy
+d 3 4 informBy
+d 4 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 2 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 3 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 4 http://vocab.linkeddata.es/resource/Convert2MincObj
+v 5 http://vocab.linkeddata.es/resource/obj2mesh
+v 6 http://vocab.linkeddata.es/resource/fixnormals
+d 1 3 informBy
+d 2 1 informBy
+d 2 3 informBy
+d 4 2 informBy
+d 5 4 informBy
+d 6 5 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/HardMean
+v 2 http://vocab.linkeddata.es/resource/KLMIinvert
+v 3 http://vocab.linkeddata.es/resource/KLMIdeform
+v 4 http://vocab.linkeddata.es/resource/InterpAveragepairsof3
+v 5 http://vocab.linkeddata.es/resource/KLMIdeformfield
+d 1 3 informBy
+d 3 4 informBy
+d 4 2 informBy
+d 4 5 informBy
+d 5 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 2 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 3 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 4 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 5 http://vocab.linkeddata.es/resource/Convert2MincObj
+v 6 http://vocab.linkeddata.es/resource/obj2mesh
+v 7 http://vocab.linkeddata.es/resource/fixnormals
+v 8 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 9 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 10 http://vocab.linkeddata.es/resource/average
+v 11 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+v 12 http://vocab.linkeddata.es/resource/eraseattributes
+v 13 http://vocab.linkeddata.es/resource/eraseattributes
+v 14 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 15 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 16 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 17 http://vocab.linkeddata.es/resource/taosphericalreg
+v 18 http://vocab.linkeddata.es/resource/taosphericalmap
+v 19 http://vocab.linkeddata.es/resource/closesphericalshape
+v 20 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 21 http://vocab.linkeddata.es/resource/GenerateRegularSphere
+v 22 http://vocab.linkeddata.es/resource/closesphericalshape
+v 23 http://vocab.linkeddata.es/resource/sphericalfieldinterp
+v 24 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 25 http://vocab.linkeddata.es/resource/closesphericalshape
+v 26 http://vocab.linkeddata.es/resource/GenerateRegularSphere
+v 27 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 28 http://vocab.linkeddata.es/resource/closesphericalshape
+v 29 http://vocab.linkeddata.es/resource/GaussianSmoothattribute
+v 30 http://vocab.linkeddata.es/resource/radialmask
+d 3 8 informBy
+d 3 9 informBy
+d 4 3 informBy
+d 5 4 informBy
+d 6 5 informBy
+d 7 6 informBy
+d 8 12 informBy
+d 9 13 informBy
+d 10 7 informBy
+d 11 15 informBy
+d 13 20 informBy
+d 14 2 informBy
+d 15 1 informBy
+d 16 10 informBy
+d 17 29 informBy
+d 17 30 informBy
+d 18 19 informBy
+d 18 22 informBy
+d 19 11 informBy
+d 20 18 informBy
+d 20 19 informBy
+d 22 21 informBy
+d 23 17 informBy
+d 23 25 informBy
+d 25 26 informBy
+d 27 23 informBy
+d 27 28 informBy
+d 28 24 informBy
+d 29 18 informBy
+d 30 2 informBy
+
+S
+v 1 SUB_2
+v 2 SUB_2
+v 3 http://vocab.linkeddata.es/resource/average
+v 4 http://vocab.linkeddata.es/resource/taosphericalmap
+v 5 http://vocab.linkeddata.es/resource/findvertexcorrespondence
+v 6 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+v 7 http://vocab.linkeddata.es/resource/colorpvals
+v 8 http://vocab.linkeddata.es/resource/colorattribute
+v 9 http://vocab.linkeddata.es/resource/CreateList
+v 10 http://vocab.linkeddata.es/resource/CreateList
+v 11 http://vocab.linkeddata.es/resource/colorattribute
+v 12 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 13 http://vocab.linkeddata.es/resource/taosphericalmap
+v 14 http://vocab.linkeddata.es/resource/findvertexcorrespondence
+v 15 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 16 http://vocab.linkeddata.es/resource/closesphericalshape
+v 17 http://vocab.linkeddata.es/resource/closesphericalshape
+v 18 http://vocab.linkeddata.es/resource/radialdistance
+v 19 http://vocab.linkeddata.es/resource/radialdistance
+v 20 http://vocab.linkeddata.es/resource/CreateList
+v 21 http://vocab.linkeddata.es/resource/CreateList
+v 22 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+v 23 http://vocab.linkeddata.es/resource/colorpvals
+v 24 http://vocab.linkeddata.es/resource/displacementfeature
+v 25 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 26 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 27 http://vocab.linkeddata.es/resource/colorattribute
+d 1 4 informBy
+d 4 1 informBy
+d 5 1 informBy
+d 6 9 informBy
+d 6 10 informBy
+d 7 3 informBy
+d 7 6 informBy
+d 8 5 informBy
+d 8 12 informBy
+d 9 15 informBy
+d 10 12 informBy
+d 11 14 informBy
+d 11 15 informBy
+d 12 19 informBy
+d 2 13 informBy
+d 13 2 informBy
+d 14 2 informBy
+d 15 18 informBy
+d 16 5 informBy
+d 17 14 informBy
+d 18 17 informBy
+d 19 16 informBy
+d 20 26 informBy
+d 21 25 informBy
+d 22 20 informBy
+d 22 21 informBy
+d 23 3 informBy
+d 23 22 informBy
+d 24 3 informBy
+d 26 24 informBy
+d 27 25 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/curvature
+v 2 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/medialcurve3
+v 2 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 3 http://vocab.linkeddata.es/resource/medialcurve3
+v 4 http://vocab.linkeddata.es/resource/taosphericalmap
+v 5 http://vocab.linkeddata.es/resource/rotate
+v 6 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 7 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 8 http://vocab.linkeddata.es/resource/curvebasedaverageshapethickness
+d 2 1 informBy
+d 2 6 informBy
+d 3 2 informBy
+d 5 4 informBy
+d 6 5 informBy
+d 7 3 informBy
+d 8 3 informBy
+
+S
+v 1 SUB_4
+v 2 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 3 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 4 http://vocab.linkeddata.es/resource/eraseattributes
+v 5 http://vocab.linkeddata.es/resource/Convert2MincObj
+v 6 http://vocab.linkeddata.es/resource/obj2mesh
+v 7 http://vocab.linkeddata.es/resource/fixnormals
+v 8 http://vocab.linkeddata.es/resource/displacementfeature
+v 9 http://vocab.linkeddata.es/resource/Convert2MincObj
+v 10 http://vocab.linkeddata.es/resource/obj2mesh
+v 11 http://vocab.linkeddata.es/resource/fixnormals
+v 12 http://vocab.linkeddata.es/resource/colorattribute
+v 13 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 14 http://vocab.linkeddata.es/resource/colorattribute
+v 15 http://vocab.linkeddata.es/resource/ShapeTranslator
+d 2 1 informBy
+d 3 15 informBy
+d 5 2 informBy
+d 6 5 informBy
+d 7 6 informBy
+d 8 1 informBy
+d 9 13 informBy
+d 10 9 informBy
+d 11 10 informBy
+d 12 8 informBy
+d 12 1 informBy
+d 13 1 informBy
+d 13 3 informBy
+d 14 7 informBy
+d 15 4 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/closeboundaries
+v 2 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 3 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 4 http://vocab.linkeddata.es/resource/radialmask
+v 5 http://vocab.linkeddata.es/resource/sculptoutfiller
+v 6 http://vocab.linkeddata.es/resource/setfillerverts
+v 7 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 8 http://vocab.linkeddata.es/resource/segmentregularbycurve
+v 9 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 10 http://vocab.linkeddata.es/resource/setfillerverts
+v 11 http://vocab.linkeddata.es/resource/combinecurves
+v 12 http://vocab.linkeddata.es/resource/average
+v 13 http://vocab.linkeddata.es/resource/eraseattributes
+v 14 http://vocab.linkeddata.es/resource/closeboundaries
+v 15 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 16 http://vocab.linkeddata.es/resource/closeboundaries
+v 17 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 18 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 19 http://vocab.linkeddata.es/resource/SaveCommonAIRfiles
+v 20 http://vocab.linkeddata.es/resource/AIRreconcile
+v 21 http://vocab.linkeddata.es/resource/9p
+v 22 http://vocab.linkeddata.es/resource/transform
+v 23 http://vocab.linkeddata.es/resource/averageucf
+v 24 http://vocab.linkeddata.es/resource/transformucf
+v 25 http://vocab.linkeddata.es/resource/air2matrix
+d 2 3 informBy
+d 3 1 informBy
+d 4 6 informBy
+d 5 4 informBy
+d 5 9 informBy
+d 6 7 informBy
+d 6 17 informBy
+d 7 8 informBy
+d 8 17 informBy
+d 9 10 informBy
+d 10 8 informBy
+d 10 15 informBy
+d 12 22 informBy
+d 13 5 informBy
+d 14 2 informBy
+d 15 14 informBy
+d 17 18 informBy
+d 18 16 informBy
+d 19 11 informBy
+d 19 20 informBy
+d 20 11 informBy
+d 20 21 informBy
+d 21 11 informBy
+d 22 13 informBy
+d 22 25 informBy
+d 23 24 informBy
+d 24 11 informBy
+d 24 25 informBy
+d 25 19 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/DFC2curves
+v 2 http://vocab.linkeddata.es/resource/splitucfs
+v 3 http://vocab.linkeddata.es/resource/resamplecurves
+v 4 http://vocab.linkeddata.es/resource/resamplecurves
+v 5 http://vocab.linkeddata.es/resource/resamplecurves
+v 6 http://vocab.linkeddata.es/resource/smoothcurve
+v 7 http://vocab.linkeddata.es/resource/resamplecurves
+d 2 1 informBy
+d 3 2 informBy
+d 4 2 informBy
+d 5 2 informBy
+d 6 7 informBy
+d 7 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 2 http://vocab.linkeddata.es/resource/curvedisplacement
+v 3 http://vocab.linkeddata.es/resource/setcurveatt
+v 4 http://vocab.linkeddata.es/resource/Rawoperations
+d 2 1 informBy
+d 3 1 informBy
+d 3 4 informBy
+d 4 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 2 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 3 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+v 4 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 5 http://vocab.linkeddata.es/resource/closeboundaries
+v 6 http://vocab.linkeddata.es/resource/closeboundaries
+v 7 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 8 http://vocab.linkeddata.es/resource/closesphericalshape
+v 9 http://vocab.linkeddata.es/resource/closesphericalshape
+v 10 http://vocab.linkeddata.es/resource/curvature
+v 11 http://vocab.linkeddata.es/resource/curvature
+v 12 http://vocab.linkeddata.es/resource/WarpbyPatchMatching
+v 13 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 14 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 15 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 16 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 17 http://vocab.linkeddata.es/resource/GenerateRegularSphere
+v 18 http://vocab.linkeddata.es/resource/closesphericalshape
+v 19 http://vocab.linkeddata.es/resource/closesphericalshape
+v 20 http://vocab.linkeddata.es/resource/sphericalfieldinterp
+v 21 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 22 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+v 23 http://vocab.linkeddata.es/resource/closesphericalshape
+d 1 6 informBy
+d 2 5 informBy
+d 3 7 informBy
+d 4 2 informBy
+d 7 1 informBy
+d 9 3 informBy
+d 10 9 informBy
+d 11 8 informBy
+d 12 10 informBy
+d 12 11 informBy
+d 13 6 informBy
+d 14 5 informBy
+d 15 14 informBy
+d 16 13 informBy
+d 18 17 informBy
+d 19 12 informBy
+d 20 18 informBy
+d 20 19 informBy
+d 21 20 informBy
+d 21 23 informBy
+d 22 16 informBy
+d 23 15 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 2 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 3 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 4 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 5 http://vocab.linkeddata.es/resource/Convert2MincObj
+v 6 http://vocab.linkeddata.es/resource/obj2mesh
+v 7 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 8 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 9 http://vocab.linkeddata.es/resource/average
+v 10 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+v 11 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+v 12 http://vocab.linkeddata.es/resource/eraseattributes
+v 13 http://vocab.linkeddata.es/resource/eraseattributes
+v 14 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 15 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 16 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 17 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 18 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 19 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 20 http://vocab.linkeddata.es/resource/Convert2MincObj
+v 21 http://vocab.linkeddata.es/resource/obj2mesh
+v 22 http://vocab.linkeddata.es/resource/Convert2MincObj
+v 23 http://vocab.linkeddata.es/resource/obj2mesh
+v 24 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 25 http://vocab.linkeddata.es/resource/colorattribute
+v 26 http://vocab.linkeddata.es/resource/displacementfeature
+v 27 http://vocab.linkeddata.es/resource/colorattribute
+v 28 http://vocab.linkeddata.es/resource/displacementfeature
+v 29 http://vocab.linkeddata.es/resource/taosphericalreg
+v 30 http://vocab.linkeddata.es/resource/radialmask
+v 31 http://vocab.linkeddata.es/resource/taosphericalmap
+v 32 http://vocab.linkeddata.es/resource/closesphericalshape
+v 33 http://vocab.linkeddata.es/resource/GaussianSmoothattribute
+v 34 http://vocab.linkeddata.es/resource/closesphericalshape
+v 35 http://vocab.linkeddata.es/resource/taosphericalmap
+v 36 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 37 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 38 http://vocab.linkeddata.es/resource/GenerateRegularSphere
+v 39 http://vocab.linkeddata.es/resource/closesphericalshape
+d 3 7 informBy
+d 3 8 informBy
+d 4 3 informBy
+d 4 7 informBy
+d 5 4 informBy
+d 6 5 informBy
+d 7 12 informBy
+d 8 13 informBy
+d 9 6 informBy
+d 10 15 informBy
+d 11 14 informBy
+d 12 36 informBy
+d 13 37 informBy
+d 14 2 informBy
+d 15 1 informBy
+d 16 7 informBy
+d 16 18 informBy
+d 17 7 informBy
+d 17 18 informBy
+d 18 9 informBy
+d 19 7 informBy
+d 19 17 informBy
+d 20 19 informBy
+d 21 20 informBy
+d 22 24 informBy
+d 23 22 informBy
+d 24 7 informBy
+d 24 16 informBy
+d 25 21 informBy
+d 25 26 informBy
+d 26 9 informBy
+d 26 21 informBy
+d 27 23 informBy
+d 27 28 informBy
+d 28 9 informBy
+d 28 23 informBy
+d 29 33 informBy
+d 29 34 informBy
+d 29 35 informBy
+d 30 1 informBy
+d 31 32 informBy
+d 31 39 informBy
+d 32 10 informBy
+d 33 30 informBy
+d 33 31 informBy
+d 34 11 informBy
+d 35 34 informBy
+d 35 39 informBy
+d 36 29 informBy
+d 36 34 informBy
+d 37 31 informBy
+d 37 32 informBy
+d 39 38 informBy
+
+S
+v 1 SUB_8
+v 2 SUB_8
+v 3 SUB_2
+v 4 http://vocab.linkeddata.es/resource/medialcurve3
+v 5 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+v 6 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 7 http://vocab.linkeddata.es/resource/taosphericalmap
+v 8 http://vocab.linkeddata.es/resource/closeboundaries
+v 9 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 10 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 11 http://vocab.linkeddata.es/resource/Laplacianmeshsmoothing
+v 12 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 13 http://vocab.linkeddata.es/resource/resetfirstNverts
+v 14 http://vocab.linkeddata.es/resource/Analyze2mesh
+v 15 http://vocab.linkeddata.es/resource/MRIConvert
+v 16 http://vocab.linkeddata.es/resource/curvebasedfeatures
+d 4 9 informBy
+d 1 8 informBy
+d 5 1 informBy
+d 5 2 informBy
+d 5 6 informBy
+d 5 10 informBy
+d 6 4 informBy
+d 6 8 informBy
+d 3 7 informBy
+d 7 3 informBy
+d 3 13 informBy
+d 9 13 informBy
+d 10 6 informBy
+d 11 12 informBy
+d 12 14 informBy
+d 13 11 informBy
+d 13 12 informBy
+d 14 15 informBy
+d 16 4 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/transformucf
+v 2 http://vocab.linkeddata.es/resource/air2matrix
+v 3 http://vocab.linkeddata.es/resource/averageucf
+d 1 2 informBy
+d 3 1 informBy
+
+S
+v 1 SUB_3
+v 2 http://vocab.linkeddata.es/resource/CreateList
+v 3 http://vocab.linkeddata.es/resource/average
+v 4 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 5 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 6 http://vocab.linkeddata.es/resource/taosphericalreg
+v 7 http://vocab.linkeddata.es/resource/eraseattributes
+d 2 5 informBy
+d 1 4 informBy
+d 3 1 informBy
+d 4 6 informBy
+d 4 7 informBy
+d 5 4 informBy
+d 6 7 informBy
+
+S
+v 1 SUB_12
+v 2 SUB_12
+v 3 http://vocab.linkeddata.es/resource/closeboundaries
+v 4 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 5 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 6 http://vocab.linkeddata.es/resource/radialmask
+v 7 http://vocab.linkeddata.es/resource/sculptoutfiller
+v 8 http://vocab.linkeddata.es/resource/setfillerverts
+v 9 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 10 http://vocab.linkeddata.es/resource/segmentregularbycurve
+v 11 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 12 http://vocab.linkeddata.es/resource/setfillerverts
+v 13 http://vocab.linkeddata.es/resource/sphericallandmarkwarp
+v 14 http://vocab.linkeddata.es/resource/combinecurves
+v 15 http://vocab.linkeddata.es/resource/average
+v 16 http://vocab.linkeddata.es/resource/eraseattributes
+v 17 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 18 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 19 http://vocab.linkeddata.es/resource/Convert2MincObj
+v 20 http://vocab.linkeddata.es/resource/obj2mesh
+v 21 http://vocab.linkeddata.es/resource/fixnormals
+v 22 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 23 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 24 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 25 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 26 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 27 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 28 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 29 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 30 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 31 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 32 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 33 http://vocab.linkeddata.es/resource/averageucf
+v 34 http://vocab.linkeddata.es/resource/closeboundaries
+v 35 http://vocab.linkeddata.es/resource/closeboundaries
+v 36 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 37 http://vocab.linkeddata.es/resource/closeboundaries
+v 38 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 39 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 40 http://vocab.linkeddata.es/resource/combinecurves
+v 41 http://vocab.linkeddata.es/resource/skullcurve2loops
+v 42 http://vocab.linkeddata.es/resource/skullcurve2loops
+v 43 http://vocab.linkeddata.es/resource/smoothcurve
+v 44 http://vocab.linkeddata.es/resource/smoothcurve
+v 45 http://vocab.linkeddata.es/resource/smoothcurve
+v 46 http://vocab.linkeddata.es/resource/smoothcurve
+v 47 http://vocab.linkeddata.es/resource/smoothcurve
+v 48 http://vocab.linkeddata.es/resource/smoothcurve
+v 49 http://vocab.linkeddata.es/resource/combinecurves
+v 50 http://vocab.linkeddata.es/resource/combinecurves
+v 51 http://vocab.linkeddata.es/resource/averageucf
+v 52 http://vocab.linkeddata.es/resource/averageucf
+v 53 http://vocab.linkeddata.es/resource/averageucf
+v 54 http://vocab.linkeddata.es/resource/averageucf
+d 4 5 informBy
+d 5 3 informBy
+d 6 8 informBy
+d 7 6 informBy
+d 7 11 informBy
+d 8 9 informBy
+d 8 38 informBy
+d 9 10 informBy
+d 10 38 informBy
+d 10 46 informBy
+d 10 47 informBy
+d 10 48 informBy
+d 11 12 informBy
+d 12 10 informBy
+d 12 36 informBy
+d 13 34 informBy
+d 13 35 informBy
+d 13 41 informBy
+d 13 42 informBy
+d 13 43 informBy
+d 13 44 informBy
+d 13 45 informBy
+d 13 1 informBy
+d 13 46 informBy
+d 13 47 informBy
+d 13 48 informBy
+d 13 2 informBy
+d 14 41 informBy
+d 14 43 informBy
+d 14 44 informBy
+d 14 45 informBy
+d 14 1 informBy
+d 15 21 informBy
+d 16 7 informBy
+d 17 16 informBy
+d 18 17 informBy
+d 18 22 informBy
+d 19 18 informBy
+d 20 19 informBy
+d 21 20 informBy
+d 22 14 informBy
+d 22 40 informBy
+d 23 43 informBy
+d 23 46 informBy
+d 24 44 informBy
+d 24 47 informBy
+d 25 45 informBy
+d 25 48 informBy
+d 26 1 informBy
+d 26 2 informBy
+d 27 49 informBy
+d 27 50 informBy
+d 28 23 informBy
+d 28 43 informBy
+d 29 24 informBy
+d 29 44 informBy
+d 30 25 informBy
+d 30 45 informBy
+d 31 26 informBy
+d 31 1 informBy
+d 32 27 informBy
+d 32 49 informBy
+d 33 28 informBy
+d 34 4 informBy
+d 35 38 informBy
+d 36 13 informBy
+d 36 34 informBy
+d 38 39 informBy
+d 39 37 informBy
+d 40 42 informBy
+d 40 46 informBy
+d 40 47 informBy
+d 40 48 informBy
+d 40 2 informBy
+d 43 1 informBy
+d 44 1 informBy
+d 45 1 informBy
+d 46 2 informBy
+d 47 2 informBy
+d 48 2 informBy
+d 49 41 informBy
+d 50 42 informBy
+d 51 29 informBy
+d 52 30 informBy
+d 53 32 informBy
+d 54 31 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Rawstats
+v 2 http://vocab.linkeddata.es/resource/setcurveatt
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 2 http://vocab.linkeddata.es/resource/Analyze2mesh
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/average
+v 2 http://vocab.linkeddata.es/resource/colorpvals
+v 3 http://vocab.linkeddata.es/resource/CreateList
+v 4 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+d 2 1 informBy
+d 2 4 informBy
+d 4 3 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Convert2MincObj
+v 2 http://vocab.linkeddata.es/resource/obj2mesh
+d 2 1 informBy
+
+S
+v 1 SUB_1
+v 2 SUB_1
+v 3 http://vocab.linkeddata.es/resource/KLMIdeform
+v 4 http://vocab.linkeddata.es/resource/KLMIdeform
+d 3 1 informBy
+d 2 3 informBy
+d 2 1 informBy
+d 4 2 informBy
+
+S
+v 1 SUB_3
+v 2 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 3 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 4 http://vocab.linkeddata.es/resource/taosphericalreg
+v 5 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 6 http://vocab.linkeddata.es/resource/eraseattributes
+v 7 http://vocab.linkeddata.es/resource/groupwisecurveregistrationlist
+v 8 http://vocab.linkeddata.es/resource/remapGOF
+v 9 http://vocab.linkeddata.es/resource/remapGOF
+d 1 5 informBy
+d 1 2 informBy
+d 3 6 informBy
+d 4 3 informBy
+d 4 6 informBy
+d 4 8 informBy
+d 4 9 informBy
+d 5 4 informBy
+d 5 6 informBy
+d 8 3 informBy
+d 8 7 informBy
+d 9 7 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/KLMIregister
+v 2 http://vocab.linkeddata.es/resource/KLMIdeform
+d 2 1 informBy
+
+S
+v 1 SUB_3
+v 2 SUB_3
+v 3 SUB_2
+v 4 SUB_2
+v 5 http://vocab.linkeddata.es/resource/colorattribute
+v 6 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 7 http://vocab.linkeddata.es/resource/taosphericalmap
+v 8 http://vocab.linkeddata.es/resource/spheremap
+v 9 http://vocab.linkeddata.es/resource/taosphericalmap
+v 10 http://vocab.linkeddata.es/resource/spheremap
+v 11 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 12 http://vocab.linkeddata.es/resource/findvertexcorrespondence
+d 5 12 informBy
+d 1 2 informBy
+d 1 6 informBy
+d 3 7 informBy
+d 7 8 informBy
+d 7 3 informBy
+d 8 3 informBy
+d 4 9 informBy
+d 9 10 informBy
+d 9 4 informBy
+d 10 4 informBy
+d 2 3 informBy
+d 2 12 informBy
+d 2 11 informBy
+d 11 3 informBy
+d 12 3 informBy
+d 12 4 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Deformmesh
+v 2 http://vocab.linkeddata.es/resource/transform
+d 1 2 informBy
+
+S
+v 1 SUB_8
+v 2 http://vocab.linkeddata.es/resource/closeboundaries
+v 3 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+d 1 2 informBy
+d 3 1 informBy
+
+S
+v 1 SUB_20
+v 2 SUB_20
+v 3 SUB_20
+v 4 SUB_20
+v 5 SUB_17
+v 6 http://vocab.linkeddata.es/resource/skullcurve
+v 7 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 8 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 9 http://vocab.linkeddata.es/resource/curvedisplacement
+v 10 http://vocab.linkeddata.es/resource/curvevectordisp
+v 11 http://vocab.linkeddata.es/resource/curvedisplacement
+v 12 http://vocab.linkeddata.es/resource/SaveCommonAIRfiles
+v 13 http://vocab.linkeddata.es/resource/AIRreconcile
+v 14 http://vocab.linkeddata.es/resource/9p
+d 7 6 informBy
+d 7 8 informBy
+d 8 6 informBy
+d 8 5 informBy
+d 9 7 informBy
+d 9 5 informBy
+d 1 9 informBy
+d 1 5 informBy
+d 2 10 informBy
+d 3 10 informBy
+d 4 10 informBy
+d 10 7 informBy
+d 10 5 informBy
+d 2 11 informBy
+d 3 11 informBy
+d 4 11 informBy
+d 11 7 informBy
+d 11 5 informBy
+d 5 6 informBy
+d 12 6 informBy
+d 12 13 informBy
+d 13 6 informBy
+d 13 14 informBy
+d 14 6 informBy
+d 5 12 informBy
+
+S
+v 1 SUB_2
+v 2 http://vocab.linkeddata.es/resource/taosphericalmap
+d 1 2 informBy
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/AIRreconcile
+v 2 http://vocab.linkeddata.es/resource/SaveCommonAIRfiles
+d 2 1 informBy
+
+S
+v 1 SUB_32
+v 2 SUB_24
+v 3 http://vocab.linkeddata.es/resource/SoftMean
+v 4 http://vocab.linkeddata.es/resource/KLMIinvert
+v 5 http://vocab.linkeddata.es/resource/KLMIdeform
+v 6 http://vocab.linkeddata.es/resource/HardMean
+v 7 http://vocab.linkeddata.es/resource/InterpAveragepairsof3
+v 8 http://vocab.linkeddata.es/resource/KLMIdeformfield
+v 9 http://vocab.linkeddata.es/resource/InterpAveragepairsof3
+v 10 http://vocab.linkeddata.es/resource/KLMIdeformfield
+v 11 http://vocab.linkeddata.es/resource/9p
+v 12 http://vocab.linkeddata.es/resource/KLMIdeform
+v 13 http://vocab.linkeddata.es/resource/AIRtoField
+v 14 http://vocab.linkeddata.es/resource/smartlineRawDataBitConverter
+v 15 http://vocab.linkeddata.es/resource/BitConverter
+v 16 http://vocab.linkeddata.es/resource/MatchHistograms
+v 17 http://vocab.linkeddata.es/resource/BitConverter
+v 18 http://vocab.linkeddata.es/resource/smartlinefirstsubjectBitConverter
+d 2 12 informBy
+d 2 12 informBy
+d 2 3 informBy
+d 3 2 informBy
+d 4 6 informBy
+d 5 9 informBy
+d 5 16 informBy
+d 6 2 informBy
+d 7 4 informBy
+d 7 8 informBy
+d 8 2 informBy
+d 8 4 informBy
+d 9 7 informBy
+d 9 10 informBy
+d 10 7 informBy
+d 10 13 informBy
+d 11 16 informBy
+d 1 11 informBy
+d 1 16 informBy
+d 1 16 informBy
+d 12 13 informBy
+d 12 16 informBy
+d 13 1 informBy
+d 15 14 informBy
+d 16 15 informBy
+d 16 17 informBy
+d 17 18 informBy
+
+S
+v 1 SUB_20
+v 2 SUB_20
+v 3 SUB_20
+v 4 SUB_20
+v 5 http://vocab.linkeddata.es/resource/skullcurve
+v 6 http://vocab.linkeddata.es/resource/skullcurve
+v 7 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 8 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 9 http://vocab.linkeddata.es/resource/curvedisplacement
+v 10 http://vocab.linkeddata.es/resource/curvevectordisp
+v 11 http://vocab.linkeddata.es/resource/curvedisplacement
+v 12 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 13 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 14 http://vocab.linkeddata.es/resource/averageucf
+v 15 http://vocab.linkeddata.es/resource/transformucf
+v 16 http://vocab.linkeddata.es/resource/LMWaveragescale
+d 7 5 informBy
+d 7 8 informBy
+d 8 5 informBy
+d 8 15 informBy
+d 9 7 informBy
+d 9 15 informBy
+d 1 9 informBy
+d 1 15 informBy
+d 2 10 informBy
+d 3 10 informBy
+d 4 10 informBy
+d 10 7 informBy
+d 10 15 informBy
+d 2 11 informBy
+d 3 11 informBy
+d 4 11 informBy
+d 11 7 informBy
+d 11 15 informBy
+d 12 5 informBy
+d 12 6 informBy
+d 13 5 informBy
+d 13 12 informBy
+d 14 13 informBy
+d 15 14 informBy
+d 15 16 informBy
+d 16 12 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 2 http://vocab.linkeddata.es/resource/medialcurve3
+d 1 2 informBy
+
+S
+v 1 SUB_3
+v 2 http://vocab.linkeddata.es/resource/ShapeTranslator
+d 1 2 informBy
+
+S
+v 1 SUB_29
+v 2 SUB_8
+v 3 SUB_4
+v 4 http://vocab.linkeddata.es/resource/closeboundaries
+v 5 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+v 6 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+v 7 http://vocab.linkeddata.es/resource/generalcorrelate
+v 8 http://vocab.linkeddata.es/resource/rotate
+v 9 http://vocab.linkeddata.es/resource/eraseattributes
+v 10 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 11 http://vocab.linkeddata.es/resource/eraseattributes
+v 12 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 13 http://vocab.linkeddata.es/resource/applyregularwarp
+d 2 4 informBy
+d 5 1 informBy
+d 6 1 informBy
+d 7 2 informBy
+d 7 4 informBy
+d 8 7 informBy
+d 3 10 informBy
+d 10 9 informBy
+d 11 12 informBy
+d 3 11 informBy
+d 12 13 informBy
+d 13 6 informBy
+d 13 8 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/InterpAveragepairsof3
+v 2 http://vocab.linkeddata.es/resource/KLMIdeformfield
+v 3 http://vocab.linkeddata.es/resource/KLMIdeform
+d 1 2 informBy
+d 3 1 informBy
+
+S
+v 1 SUB_16
+v 2 http://vocab.linkeddata.es/resource/applyregularwarp
+v 3 http://vocab.linkeddata.es/resource/rotate
+v 4 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 5 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 6 http://vocab.linkeddata.es/resource/Rawstats
+v 7 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 8 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 9 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 10 http://vocab.linkeddata.es/resource/average
+v 11 http://vocab.linkeddata.es/resource/affinescaleaverage
+v 12 http://vocab.linkeddata.es/resource/transform
+v 13 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 14 http://vocab.linkeddata.es/resource/Rawstats
+d 2 1 informBy
+d 2 3 informBy
+d 1 5 informBy
+d 3 1 informBy
+d 4 2 informBy
+d 4 1 informBy
+d 6 1 informBy
+d 1 4 informBy
+d 7 4 informBy
+d 8 7 informBy
+d 9 7 informBy
+d 9 8 informBy
+d 10 13 informBy
+d 11 8 informBy
+d 12 10 informBy
+d 12 11 informBy
+d 13 9 informBy
+d 14 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/AIRtoField
+v 2 http://vocab.linkeddata.es/resource/KLMIdeform
+d 2 1 informBy
+
+S
+v 1 SUB_5
+v 2 http://vocab.linkeddata.es/resource/HardMean
+d 1 2 informBy
+
+S
+v 1 SUB_8
+v 2 SUB_8
+v 3 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 4 http://vocab.linkeddata.es/resource/applyregularwarp
+v 5 http://vocab.linkeddata.es/resource/closeboundaries
+v 6 http://vocab.linkeddata.es/resource/closeboundaries
+v 7 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+d 3 4 informBy
+d 4 7 informBy
+d 2 6 informBy
+d 1 5 informBy
+d 7 1 informBy
+d 7 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 2 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/concatenate
+v 2 http://vocab.linkeddata.es/resource/IntegrateROI
+v 3 http://vocab.linkeddata.es/resource/CCFind
+v 4 http://vocab.linkeddata.es/resource/FSLSwapDim(nii.gz)
+v 5 http://vocab.linkeddata.es/resource/smartlineCombinedbetas4FSLSwapDim(nii.gz)
+v 6 http://vocab.linkeddata.es/resource/smartlineFSLSwapDim(nii.gz)CCFind
+v 7 http://vocab.linkeddata.es/resource/FSLSwapDim(nii.gz)
+v 8 http://vocab.linkeddata.es/resource/smartlineCombinedbetas3FSLSwapDim(nii.gz)
+v 9 http://vocab.linkeddata.es/resource/IntegrateROI
+v 10 http://vocab.linkeddata.es/resource/CCFind
+v 11 http://vocab.linkeddata.es/resource/smartlineFSLSwapDim(nii.gz)CCFind
+v 12 http://vocab.linkeddata.es/resource/FSLSwapDim(nii.gz)
+v 13 http://vocab.linkeddata.es/resource/FSLSwapDim(nii.gz)
+v 14 http://vocab.linkeddata.es/resource/smartlineFSLSwapDim(nii.gz)IntegrateROI
+v 15 http://vocab.linkeddata.es/resource/smartlineFSLSwapDim(nii.gz)IntegrateROI
+v 16 http://vocab.linkeddata.es/resource/IntegrateROI
+v 17 http://vocab.linkeddata.es/resource/IntegrateROI
+v 18 http://vocab.linkeddata.es/resource/FSLSwapDim(nii.gz)
+v 19 http://vocab.linkeddata.es/resource/FSLSwapDim(nii.gz)
+v 20 http://vocab.linkeddata.es/resource/smartlineFSLSwapDim(nii.gz)IntegrateROI
+v 21 http://vocab.linkeddata.es/resource/smartlineFSLSwapDim(nii.gz)IntegrateROI
+v 22 http://vocab.linkeddata.es/resource/concatenateinline
+v 23 http://vocab.linkeddata.es/resource/IntegrateROI
+v 24 http://vocab.linkeddata.es/resource/IntegrateROI
+v 25 http://vocab.linkeddata.es/resource/concatenateinline
+v 26 http://vocab.linkeddata.es/resource/smartlineFSLSwapDim(nii.gz)IntegrateROI
+v 27 http://vocab.linkeddata.es/resource/smartlineFSLSwapDim(nii.gz)IntegrateROI
+v 28 http://vocab.linkeddata.es/resource/concatenateinline
+v 29 http://vocab.linkeddata.es/resource/IntegrateROI
+v 30 http://vocab.linkeddata.es/resource/smartlineFSLSwapDim(nii.gz)IntegrateROI
+v 31 http://vocab.linkeddata.es/resource/concatenate
+v 32 http://vocab.linkeddata.es/resource/IntegrateROI
+v 33 http://vocab.linkeddata.es/resource/smartlineFSLSwapDim(nii.gz)IntegrateROI
+v 34 http://vocab.linkeddata.es/resource/concatenateinline
+d 1 25 informBy
+d 1 28 informBy
+d 2 3 informBy
+d 2 15 informBy
+d 3 6 informBy
+d 4 5 informBy
+d 6 4 informBy
+d 7 8 informBy
+d 9 10 informBy
+d 9 14 informBy
+d 10 11 informBy
+d 11 7 informBy
+d 14 12 informBy
+d 15 13 informBy
+d 16 3 informBy
+d 16 20 informBy
+d 17 10 informBy
+d 17 21 informBy
+d 20 18 informBy
+d 21 19 informBy
+d 22 17 informBy
+d 22 29 informBy
+d 23 10 informBy
+d 23 27 informBy
+d 24 3 informBy
+d 24 26 informBy
+d 25 9 informBy
+d 25 24 informBy
+d 26 12 informBy
+d 27 13 informBy
+d 28 2 informBy
+d 28 23 informBy
+d 29 3 informBy
+d 29 30 informBy
+d 30 19 informBy
+d 31 22 informBy
+d 31 34 informBy
+d 32 10 informBy
+d 32 33 informBy
+d 33 18 informBy
+d 34 16 informBy
+d 34 32 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Analyze2mesh
+v 2 http://vocab.linkeddata.es/resource/Laplacianmeshsmoothing
+v 3 http://vocab.linkeddata.es/resource/curvebasedshapereslice
+v 4 http://vocab.linkeddata.es/resource/medialcurve2
+d 2 1 informBy
+d 3 4 informBy
+d 4 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 2 http://vocab.linkeddata.es/resource/eraseattributes
+d 1 2 informBy
+
+S
+v 1 SUB_13
+v 2 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/curvebasedaverageshapethickness
+v 2 http://vocab.linkeddata.es/resource/groupwisecurveregistrationlist
+v 3 http://vocab.linkeddata.es/resource/remapGOF
+v 4 http://vocab.linkeddata.es/resource/curvebasedaverageshapethickness
+v 5 http://vocab.linkeddata.es/resource/remapGOF
+v 6 http://vocab.linkeddata.es/resource/curvebasedaverageshapethickness
+v 7 http://vocab.linkeddata.es/resource/remapGOF
+v 8 http://vocab.linkeddata.es/resource/CreateList
+d 2 8 informBy
+d 3 2 informBy
+d 5 2 informBy
+d 7 2 informBy
+d 8 1 informBy
+d 8 4 informBy
+d 8 6 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/findvertexcorrespondence
+v 2 http://vocab.linkeddata.es/resource/rotate
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 2 http://vocab.linkeddata.es/resource/taosphericalmap
+v 3 http://vocab.linkeddata.es/resource/eraseattributes
+v 4 http://vocab.linkeddata.es/resource/spheremap
+d 1 2 informBy
+d 1 3 informBy
+d 2 3 informBy
+d 2 4 informBy
+d 4 3 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 2 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 3 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+d 2 1 informBy
+d 3 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/CreateList
+v 2 http://vocab.linkeddata.es/resource/CreateList
+v 3 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+v 4 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+v 5 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+d 3 1 informBy
+d 3 2 informBy
+d 4 1 informBy
+d 4 2 informBy
+d 5 1 informBy
+d 5 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+v 2 http://vocab.linkeddata.es/resource/curvature
+v 3 http://vocab.linkeddata.es/resource/GaussianSmoothattribute
+v 4 http://vocab.linkeddata.es/resource/curvature
+v 5 http://vocab.linkeddata.es/resource/GaussianSmoothattribute
+v 6 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 7 http://vocab.linkeddata.es/resource/applyregularwarp
+v 8 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 9 http://vocab.linkeddata.es/resource/regularsphere
+v 10 http://vocab.linkeddata.es/resource/closeboundaries
+v 11 http://vocab.linkeddata.es/resource/applyregularwarp
+v 12 http://vocab.linkeddata.es/resource/closeboundaries
+v 13 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 14 http://vocab.linkeddata.es/resource/lslist
+v 15 http://vocab.linkeddata.es/resource/resetpoleslist
+v 16 http://vocab.linkeddata.es/resource/rawoperations1
+d 1 3 informBy
+d 1 5 informBy
+d 1 16 informBy
+d 3 2 informBy
+d 5 4 informBy
+d 6 7 informBy
+d 7 1 informBy
+d 8 10 informBy
+d 8 11 informBy
+d 8 12 informBy
+d 8 15 informBy
+d 10 9 informBy
+d 11 1 informBy
+d 11 10 informBy
+d 13 7 informBy
+d 13 10 informBy
+d 15 14 informBy
+
+S
+v 1 SUB_49
+v 2 SUB_29
+v 3 SUB_16
+v 4 SUB_8
+v 5 http://vocab.linkeddata.es/resource/applyregularwarp
+v 6 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 7 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 8 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 9 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 10 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+v 11 http://vocab.linkeddata.es/resource/applyregularwarp
+v 12 http://vocab.linkeddata.es/resource/atlascurve
+v 13 http://vocab.linkeddata.es/resource/atlasshape
+v 14 http://vocab.linkeddata.es/resource/atlassphere
+v 15 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 16 http://vocab.linkeddata.es/resource/atlasGOF
+d 5 3 informBy
+d 5 1 informBy
+d 6 2 informBy
+d 6 12 informBy
+d 3 16 informBy
+d 3 2 informBy
+d 3 6 informBy
+d 3 8 informBy
+d 3 10 informBy
+d 1 3 informBy
+d 1 15 informBy
+d 1 3 informBy
+d 2 15 informBy
+d 3 1 informBy
+d 7 5 informBy
+d 7 3 informBy
+d 7 14 informBy
+d 3 7 informBy
+d 3 11 informBy
+d 3 14 informBy
+d 8 6 informBy
+d 4 3 informBy
+d 9 4 informBy
+d 10 9 informBy
+d 10 2 informBy
+d 10 2 informBy
+d 10 4 informBy
+d 11 1 informBy
+d 11 10 informBy
+d 15 13 informBy
+d 15 14 informBy
+
+S
+v 1 SUB_47
+v 2 SUB_47
+v 3 SUB_47
+v 4 SUB_47
+v 5 http://vocab.linkeddata.es/resource/skullcurve
+v 6 http://vocab.linkeddata.es/resource/skullcurve
+v 7 http://vocab.linkeddata.es/resource/skullcurve
+v 8 http://vocab.linkeddata.es/resource/combinecurves
+v 9 http://vocab.linkeddata.es/resource/combinecurves
+v 10 http://vocab.linkeddata.es/resource/ucf2raw
+v 11 http://vocab.linkeddata.es/resource/ucf2raw
+v 12 http://vocab.linkeddata.es/resource/ucf2raw
+v 13 http://vocab.linkeddata.es/resource/Concatenateraw
+v 14 http://vocab.linkeddata.es/resource/ucf2raw
+v 15 http://vocab.linkeddata.es/resource/ucf2raw
+v 16 http://vocab.linkeddata.es/resource/curvevectordisp
+v 17 http://vocab.linkeddata.es/resource/Rawoperations
+v 18 http://vocab.linkeddata.es/resource/setcurveatt
+v 19 http://vocab.linkeddata.es/resource/setcurveatt
+v 20 http://vocab.linkeddata.es/resource/setcurveatt
+v 21 http://vocab.linkeddata.es/resource/Rawoperations
+v 22 http://vocab.linkeddata.es/resource/Rawoperations
+v 23 http://vocab.linkeddata.es/resource/curvedisplacement
+v 24 http://vocab.linkeddata.es/resource/ucf2raw
+v 25 http://vocab.linkeddata.es/resource/curvevectordisp
+v 26 http://vocab.linkeddata.es/resource/Rawoperations
+v 27 http://vocab.linkeddata.es/resource/setcurveatt
+v 28 http://vocab.linkeddata.es/resource/setcurveatt
+v 29 http://vocab.linkeddata.es/resource/setcurveatt
+v 30 http://vocab.linkeddata.es/resource/Rawoperations
+v 31 http://vocab.linkeddata.es/resource/Rawoperations
+v 32 http://vocab.linkeddata.es/resource/curvedisplacement
+v 33 http://vocab.linkeddata.es/resource/Concatenateraw
+v 34 http://vocab.linkeddata.es/resource/Concatenateraw
+v 35 http://vocab.linkeddata.es/resource/Concatenateraw
+v 36 http://vocab.linkeddata.es/resource/ucf2raw
+v 37 http://vocab.linkeddata.es/resource/ucf2raw
+v 38 http://vocab.linkeddata.es/resource/curvevectordisp
+v 39 http://vocab.linkeddata.es/resource/Rawoperations
+v 40 http://vocab.linkeddata.es/resource/setcurveatt
+v 41 http://vocab.linkeddata.es/resource/setcurveatt
+v 42 http://vocab.linkeddata.es/resource/setcurveatt
+v 43 http://vocab.linkeddata.es/resource/Rawoperations
+v 44 http://vocab.linkeddata.es/resource/Rawoperations
+v 45 http://vocab.linkeddata.es/resource/curvedisplacement
+v 46 http://vocab.linkeddata.es/resource/ucf2raw
+v 47 http://vocab.linkeddata.es/resource/ucf2raw
+v 48 http://vocab.linkeddata.es/resource/ucf2raw
+v 49 http://vocab.linkeddata.es/resource/curvevectordisp
+v 50 http://vocab.linkeddata.es/resource/Rawoperations
+v 51 http://vocab.linkeddata.es/resource/setcurveatt
+v 52 http://vocab.linkeddata.es/resource/setcurveatt
+v 53 http://vocab.linkeddata.es/resource/setcurveatt
+v 54 http://vocab.linkeddata.es/resource/Rawoperations
+v 55 http://vocab.linkeddata.es/resource/Rawoperations
+v 56 http://vocab.linkeddata.es/resource/curvedisplacement
+v 57 http://vocab.linkeddata.es/resource/ucf2raw
+d 1 5 informBy
+d 1 5 informBy
+d 2 6 informBy
+d 2 6 informBy
+d 3 7 informBy
+d 3 7 informBy
+d 1 10 informBy
+d 2 11 informBy
+d 3 12 informBy
+d 9 5 informBy
+d 9 6 informBy
+d 9 7 informBy
+d 4 13 informBy
+d 4 8 informBy
+d 4 9 informBy
+d 4 8 informBy
+d 4 9 informBy
+d 13 10 informBy
+d 13 11 informBy
+d 13 12 informBy
+d 16 3 informBy
+d 17 15 informBy
+d 17 16 informBy
+d 18 22 informBy
+d 18 23 informBy
+d 19 21 informBy
+d 19 23 informBy
+d 20 17 informBy
+d 20 23 informBy
+d 21 16 informBy
+d 21 24 informBy
+d 22 14 informBy
+d 22 16 informBy
+d 23 3 informBy
+d 25 8 informBy
+d 25 4 informBy
+d 26 25 informBy
+d 26 33 informBy
+d 27 31 informBy
+d 27 32 informBy
+d 28 30 informBy
+d 28 32 informBy
+d 29 26 informBy
+d 29 32 informBy
+d 30 25 informBy
+d 30 34 informBy
+d 31 25 informBy
+d 31 35 informBy
+d 32 8 informBy
+d 32 4 informBy
+d 33 15 informBy
+d 33 37 informBy
+d 33 48 informBy
+d 34 24 informBy
+d 34 46 informBy
+d 34 57 informBy
+d 35 14 informBy
+d 35 36 informBy
+d 35 47 informBy
+d 38 2 informBy
+d 39 37 informBy
+d 39 38 informBy
+d 40 44 informBy
+d 40 45 informBy
+d 41 43 informBy
+d 41 45 informBy
+d 42 39 informBy
+d 42 45 informBy
+d 43 38 informBy
+d 43 46 informBy
+d 44 36 informBy
+d 44 38 informBy
+d 45 2 informBy
+d 49 1 informBy
+d 50 48 informBy
+d 50 49 informBy
+d 51 55 informBy
+d 51 56 informBy
+d 52 54 informBy
+d 52 56 informBy
+d 53 50 informBy
+d 53 56 informBy
+d 54 49 informBy
+d 54 57 informBy
+d 55 47 informBy
+d 55 49 informBy
+d 56 1 informBy
+
+S
+v 1 SUB_23
+v 2 SUB_6
+v 3 http://vocab.linkeddata.es/resource/colorattribute
+v 4 http://vocab.linkeddata.es/resource/displacementfeature
+v 5 http://vocab.linkeddata.es/resource/displacementfeature
+v 6 http://vocab.linkeddata.es/resource/closesphericalshape
+v 7 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 8 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 9 http://vocab.linkeddata.es/resource/fixnormals
+v 10 http://vocab.linkeddata.es/resource/radialmask
+d 2 7 informBy
+d 3 4 informBy
+d 3 9 informBy
+d 4 2 informBy
+d 4 9 informBy
+d 5 2 informBy
+d 2 6 informBy
+d 7 2 informBy
+d 7 6 informBy
+d 2 8 informBy
+d 9 1 informBy
+d 10 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/KLMIregister
+v 2 http://vocab.linkeddata.es/resource/KLMIregister
+v 3 http://vocab.linkeddata.es/resource/KLMIregister
+v 4 http://vocab.linkeddata.es/resource/KLMIregister
+d 2 1 informBy
+d 3 2 informBy
+d 4 3 informBy
+
+S
+v 1 SUB_29
+v 2 SUB_29
+v 3 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 4 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 5 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+v 6 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+v 7 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+v 8 http://vocab.linkeddata.es/resource/colorattribute
+v 9 http://vocab.linkeddata.es/resource/colorattribute
+v 10 http://vocab.linkeddata.es/resource/GenerateRegularSphere
+v 11 http://vocab.linkeddata.es/resource/closeboundaries
+v 12 http://vocab.linkeddata.es/resource/colorattribute
+v 13 http://vocab.linkeddata.es/resource/colorattribute
+v 14 http://vocab.linkeddata.es/resource/colorattribute
+v 15 http://vocab.linkeddata.es/resource/colorattribute
+v 16 http://vocab.linkeddata.es/resource/colorattribute
+v 17 http://vocab.linkeddata.es/resource/colorattribute
+v 18 http://vocab.linkeddata.es/resource/colorattribute
+v 19 http://vocab.linkeddata.es/resource/colorattribute
+v 20 http://vocab.linkeddata.es/resource/colorattribute
+v 21 http://vocab.linkeddata.es/resource/regularsphericalsampling
+d 3 2 informBy
+d 4 1 informBy
+d 1 21 informBy
+d 5 4 informBy
+d 5 2 informBy
+d 6 1 informBy
+d 6 2 informBy
+d 6 5 informBy
+d 7 3 informBy
+d 7 1 informBy
+d 7 6 informBy
+d 8 2 informBy
+d 8 11 informBy
+d 9 1 informBy
+d 9 11 informBy
+d 11 10 informBy
+d 12 4 informBy
+d 12 11 informBy
+d 13 2 informBy
+d 13 11 informBy
+d 14 4 informBy
+d 14 5 informBy
+d 15 2 informBy
+d 15 11 informBy
+d 16 1 informBy
+d 16 5 informBy
+d 17 1 informBy
+d 17 6 informBy
+d 18 3 informBy
+d 18 11 informBy
+d 19 1 informBy
+d 19 7 informBy
+d 20 1 informBy
+d 20 6 informBy
+
+S
+v 1 SUB_29
+v 2 SUB_29
+v 3 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 4 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 5 http://vocab.linkeddata.es/resource/SphericalDemons
+v 6 http://vocab.linkeddata.es/resource/SphericalDemons
+v 7 http://vocab.linkeddata.es/resource/SphericalDemons
+v 8 http://vocab.linkeddata.es/resource/colorattribute
+v 9 http://vocab.linkeddata.es/resource/colorattribute
+v 10 http://vocab.linkeddata.es/resource/GenerateRegularSphere
+v 11 http://vocab.linkeddata.es/resource/closeboundaries
+v 12 http://vocab.linkeddata.es/resource/colorattribute
+v 13 http://vocab.linkeddata.es/resource/colorattribute
+v 14 http://vocab.linkeddata.es/resource/colorattribute
+v 15 http://vocab.linkeddata.es/resource/colorattribute
+v 16 http://vocab.linkeddata.es/resource/colorattribute
+v 17 http://vocab.linkeddata.es/resource/colorattribute
+v 18 http://vocab.linkeddata.es/resource/colorattribute
+v 19 http://vocab.linkeddata.es/resource/colorattribute
+v 20 http://vocab.linkeddata.es/resource/colorattribute
+d 3 2 informBy
+d 4 1 informBy
+d 5 4 informBy
+d 5 2 informBy
+d 6 1 informBy
+d 6 2 informBy
+d 6 5 informBy
+d 7 3 informBy
+d 7 1 informBy
+d 7 6 informBy
+d 8 2 informBy
+d 8 11 informBy
+d 9 1 informBy
+d 9 11 informBy
+d 11 10 informBy
+d 12 4 informBy
+d 12 11 informBy
+d 13 2 informBy
+d 13 11 informBy
+d 14 4 informBy
+d 14 5 informBy
+d 15 2 informBy
+d 15 11 informBy
+d 16 1 informBy
+d 16 5 informBy
+d 17 1 informBy
+d 17 6 informBy
+d 18 3 informBy
+d 18 11 informBy
+d 19 1 informBy
+d 19 7 informBy
+d 20 1 informBy
+d 20 6 informBy
+
+S
+v 1 SUB_31
+v 2 http://vocab.linkeddata.es/resource/curvebasedaverageshapethickness
+v 3 http://vocab.linkeddata.es/resource/CreateList
+v 4 http://vocab.linkeddata.es/resource/closesphericalshape
+d 2 4 informBy
+d 3 2 informBy
+d 4 1 informBy
+
+S
+v 1 SUB_40
+v 2 http://vocab.linkeddata.es/resource/AlignLinear
+v 3 http://vocab.linkeddata.es/resource/KLMIJacobian
+d 1 2 informBy
+d 3 1 informBy
+
+S
+v 1 SUB_2
+v 2 http://vocab.linkeddata.es/resource/findvertexcorrespondence
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 2 http://vocab.linkeddata.es/resource/taosphericalreg
+v 3 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 4 http://vocab.linkeddata.es/resource/eraseattributes
+v 5 http://vocab.linkeddata.es/resource/remapGOF
+d 1 4 informBy
+d 2 1 informBy
+d 2 4 informBy
+d 2 5 informBy
+d 3 2 informBy
+d 3 4 informBy
+d 5 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/MatchHistograms
+v 2 http://vocab.linkeddata.es/resource/smartlineFSLMaths(nii.gz)BitConverter
+v 3 http://vocab.linkeddata.es/resource/signed2unsigned
+v 4 http://vocab.linkeddata.es/resource/BitConverter
+v 5 http://vocab.linkeddata.es/resource/signed2unsigned
+v 6 http://vocab.linkeddata.es/resource/BitConverter
+v 7 http://vocab.linkeddata.es/resource/smartlineFSLMaths(nii.gz)BitConverter
+v 8 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 9 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 10 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 11 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 12 http://vocab.linkeddata.es/resource/smartlinebaselineimageFSLMaths(nii.gz)
+v 13 http://vocab.linkeddata.es/resource/smartlinerepeatimageFSLMaths(nii.gz)
+d 1 3 informBy
+d 1 5 informBy
+d 2 9 informBy
+d 3 4 informBy
+d 4 2 informBy
+d 5 6 informBy
+d 6 7 informBy
+d 7 10 informBy
+d 9 8 informBy
+d 9 12 informBy
+d 10 11 informBy
+d 10 13 informBy
+
+S
+v 1 SUB_40
+v 2 SUB_32
+v 3 http://vocab.linkeddata.es/resource/BitConverter
+v 4 http://vocab.linkeddata.es/resource/BitConverter
+d 2 3 informBy
+d 2 4 informBy
+d 2 3 informBy
+d 2 4 informBy
+d 1 4 informBy
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/InterpAveragepairsof3
+v 2 http://vocab.linkeddata.es/resource/KLMIdeformfield
+d 1 2 informBy
+
+S
+v 1 SUB_43
+v 2 SUB_35
+v 3 SUB_35
+v 4 http://vocab.linkeddata.es/resource/applyregularwarp
+v 5 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 6 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+v 7 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 8 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 9 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 10 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 11 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 12 http://vocab.linkeddata.es/resource/average
+v 13 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 14 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 15 http://vocab.linkeddata.es/resource/Rawoperations
+d 4 6 informBy
+d 5 3 informBy
+d 2 3 informBy
+d 6 5 informBy
+d 6 7 informBy
+d 6 9 informBy
+d 6 10 informBy
+d 7 2 informBy
+d 8 4 informBy
+d 2 8 informBy
+d 9 7 informBy
+d 10 5 informBy
+d 11 8 informBy
+d 1 11 informBy
+d 1 11 informBy
+d 12 13 informBy
+d 13 1 informBy
+d 3 14 informBy
+d 15 2 informBy
+d 15 3 informBy
+
+S
+v 1 SUB_29
+v 2 SUB_29
+v 3 SUB_4
+v 4 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 5 http://vocab.linkeddata.es/resource/applyregularwarp
+v 6 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+v 7 http://vocab.linkeddata.es/resource/GenerateRegularSphere
+v 8 http://vocab.linkeddata.es/resource/closeboundaries
+v 9 http://vocab.linkeddata.es/resource/colorattribute
+v 10 http://vocab.linkeddata.es/resource/colorattribute
+v 11 http://vocab.linkeddata.es/resource/colorattribute
+v 12 http://vocab.linkeddata.es/resource/colorattribute
+v 13 http://vocab.linkeddata.es/resource/colorattribute
+v 14 http://vocab.linkeddata.es/resource/medialcurve3
+v 15 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 16 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 17 http://vocab.linkeddata.es/resource/average
+v 18 http://vocab.linkeddata.es/resource/eraseattributes
+v 19 http://vocab.linkeddata.es/resource/affinescaleaverage
+v 20 http://vocab.linkeddata.es/resource/transform
+v 21 http://vocab.linkeddata.es/resource/transformucf
+v 22 http://vocab.linkeddata.es/resource/Rawoperations
+v 23 http://vocab.linkeddata.es/resource/Laplaciansmoothattribute
+v 24 http://vocab.linkeddata.es/resource/vertexarea
+v 25 http://vocab.linkeddata.es/resource/vertexarea
+v 26 http://vocab.linkeddata.es/resource/Rawoperations
+d 4 5 informBy
+d 5 6 informBy
+d 6 1 informBy
+d 6 2 informBy
+d 6 1 informBy
+d 6 2 informBy
+d 8 7 informBy
+d 9 1 informBy
+d 9 8 informBy
+d 10 1 informBy
+d 10 6 informBy
+d 11 2 informBy
+d 11 8 informBy
+d 12 2 informBy
+d 12 8 informBy
+d 13 1 informBy
+d 13 8 informBy
+d 14 4 informBy
+d 3 4 informBy
+d 15 14 informBy
+d 15 3 informBy
+d 16 20 informBy
+d 16 21 informBy
+d 17 20 informBy
+d 18 3 informBy
+d 19 3 informBy
+d 20 18 informBy
+d 20 19 informBy
+d 21 15 informBy
+d 21 19 informBy
+d 22 26 informBy
+d 23 17 informBy
+d 23 22 informBy
+d 24 4 informBy
+d 25 17 informBy
+d 26 24 informBy
+d 26 25 informBy
+
+S
+v 1 SUB_21
+v 2 http://vocab.linkeddata.es/resource/AVWMaths
+v 3 http://vocab.linkeddata.es/resource/AnalyzeAdd
+v 4 http://vocab.linkeddata.es/resource/BinaryMask
+v 5 http://vocab.linkeddata.es/resource/BinaryMask
+v 6 http://vocab.linkeddata.es/resource/Binarize
+v 7 http://vocab.linkeddata.es/resource/Binarize
+d 2 3 informBy
+d 3 4 informBy
+d 3 5 informBy
+d 4 6 informBy
+d 5 7 informBy
+d 1 2 informBy
+
+S
+v 1 SUB_47
+v 2 SUB_43
+v 3 http://vocab.linkeddata.es/resource/combinecurves
+v 4 http://vocab.linkeddata.es/resource/combinecurves
+v 5 http://vocab.linkeddata.es/resource/averageucf
+v 6 http://vocab.linkeddata.es/resource/LMWaveragescale
+d 1 4 informBy
+d 1 4 informBy
+d 2 3 informBy
+d 2 4 informBy
+d 2 4 informBy
+d 5 2 informBy
+d 6 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/storevolume
+v 2 http://vocab.linkeddata.es/resource/concatenate
+d 2 1 informBy
+
+S
+v 1 SUB_49
+v 2 SUB_31
+v 3 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 4 http://vocab.linkeddata.es/resource/closesphericalshape
+v 5 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 6 http://vocab.linkeddata.es/resource/Laplacianmeshsmoothing
+d 2 6 informBy
+d 1 2 informBy
+d 3 2 informBy
+d 3 2 informBy
+d 3 1 informBy
+d 5 4 informBy
+d 6 5 informBy
+
+S
+v 1 SUB_23
+v 2 http://vocab.linkeddata.es/resource/ShapeTranslator
+d 1 2 informBy
+
+S
+v 1 SUB_35
+v 2 http://vocab.linkeddata.es/resource/curvebasedfeatures
+d 1 2 informBy
+
+S
+v 1 SUB_40
+v 2 SUB_32
+v 3 http://vocab.linkeddata.es/resource/9p
+v 4 http://vocab.linkeddata.es/resource/BitConverter
+v 5 http://vocab.linkeddata.es/resource/MatchHistograms
+v 6 http://vocab.linkeddata.es/resource/BitConverter
+v 7 http://vocab.linkeddata.es/resource/FixHeader
+d 3 7 informBy
+d 2 3 informBy
+d 2 7 informBy
+d 2 7 informBy
+d 1 7 informBy
+d 1 2 informBy
+d 5 4 informBy
+d 5 6 informBy
+d 7 5 informBy
+
+S
+v 1 SUB_27
+v 2 SUB_27
+v 3 SUB_22
+v 4 http://vocab.linkeddata.es/resource/CreateList
+v 5 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 6 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 7 http://vocab.linkeddata.es/resource/closesphericalshape
+v 8 http://vocab.linkeddata.es/resource/closesphericalshape
+d 3 1 informBy
+d 3 2 informBy
+d 3 4 informBy
+d 1 5 informBy
+d 4 6 informBy
+d 3 5 informBy
+d 2 6 informBy
+d 1 3 informBy
+d 1 3 informBy
+d 2 3 informBy
+d 2 3 informBy
+d 7 1 informBy
+d 8 2 informBy
+
+S
+v 1 SUB_43
+v 2 SUB_39
+v 3 SUB_35
+v 4 SUB_35
+v 5 SUB_31
+v 6 SUB_29
+v 7 SUB_21
+v 8 SUB_8
+v 9 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 10 http://vocab.linkeddata.es/resource/findvertexcorrespondence
+v 11 http://vocab.linkeddata.es/resource/MRIConvert
+v 12 http://vocab.linkeddata.es/resource/Laplacianmeshsmoothing
+v 13 http://vocab.linkeddata.es/resource/resetfirstNverts
+v 14 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 15 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+v 16 http://vocab.linkeddata.es/resource/applyregularwarp
+v 17 http://vocab.linkeddata.es/resource/taosphericalmap
+v 18 http://vocab.linkeddata.es/resource/renamewithint
+v 19 http://vocab.linkeddata.es/resource/renamewithint
+v 20 http://vocab.linkeddata.es/resource/renamewithint
+v 21 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 22 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 23 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 24 http://vocab.linkeddata.es/resource/renamewithint
+d 9 3 informBy
+d 9 6 informBy
+d 2 3 informBy
+d 2 6 informBy
+d 2 9 informBy
+d 2 15 informBy
+d 3 13 informBy
+d 5 13 informBy
+d 10 5 informBy
+d 10 2 informBy
+d 2 10 informBy
+d 6 5 informBy
+d 2 10 informBy
+d 2 5 informBy
+d 2 5 informBy
+d 2 16 informBy
+d 2 9 informBy
+d 3 13 informBy
+d 12 7 informBy
+d 13 12 informBy
+d 13 7 informBy
+d 7 11 informBy
+d 8 2 informBy
+d 14 8 informBy
+d 15 14 informBy
+d 15 6 informBy
+d 15 6 informBy
+d 15 8 informBy
+d 16 2 informBy
+d 16 15 informBy
+d 4 23 informBy
+d 17 23 informBy
+d 18 4 informBy
+d 19 4 informBy
+d 20 17 informBy
+d 2 13 informBy
+d 1 21 informBy
+d 1 22 informBy
+d 21 2 informBy
+d 22 2 informBy
+d 1 22 informBy
+d 23 1 informBy
+d 4 2 informBy
+d 4 23 informBy
+d 24 23 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Rawoperations
+v 2 http://vocab.linkeddata.es/resource/Laplaciansmoothattribute
+v 3 http://vocab.linkeddata.es/resource/vertexarea
+v 4 http://vocab.linkeddata.es/resource/vertexarea
+v 5 http://vocab.linkeddata.es/resource/Rawoperations
+d 1 5 informBy
+d 2 1 informBy
+d 5 3 informBy
+d 5 4 informBy
+
+S
+v 1 SUB_18
+v 2 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 3 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+v 4 http://vocab.linkeddata.es/resource/colorpvals
+d 1 2 informBy
+d 3 1 informBy
+d 4 1 informBy
+d 4 3 informBy
+
+S
+v 1 SUB_46
+v 2 SUB_29
+v 3 SUB_29
+v 4 SUB_8
+v 5 SUB_4
+v 6 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 7 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 8 http://vocab.linkeddata.es/resource/closeboundaries
+v 9 http://vocab.linkeddata.es/resource/SphericalDemons
+v 10 http://vocab.linkeddata.es/resource/SphericalDemons
+v 11 http://vocab.linkeddata.es/resource/SphericalDemons
+v 12 http://vocab.linkeddata.es/resource/generalcorrelate
+v 13 http://vocab.linkeddata.es/resource/rotate
+v 14 http://vocab.linkeddata.es/resource/applyregularwarp
+v 15 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 16 http://vocab.linkeddata.es/resource/averagepairs
+v 17 http://vocab.linkeddata.es/resource/eraseattributes
+d 4 8 informBy
+d 6 2 informBy
+d 7 3 informBy
+d 9 2 informBy
+d 9 3 informBy
+d 10 7 informBy
+d 10 2 informBy
+d 10 9 informBy
+d 11 6 informBy
+d 11 3 informBy
+d 11 10 informBy
+d 12 4 informBy
+d 12 8 informBy
+d 12 2 informBy
+d 3 12 informBy
+d 13 12 informBy
+d 14 11 informBy
+d 15 13 informBy
+d 15 14 informBy
+d 16 5 informBy
+d 5 1 informBy
+d 17 15 informBy
+d 5 17 informBy
+
+S
+v 1 SUB_24
+v 2 SUB_1
+v 3 http://vocab.linkeddata.es/resource/HardMean
+v 4 http://vocab.linkeddata.es/resource/HardMean
+d 1 3 informBy
+d 1 2 informBy
+d 1 4 informBy
+d 4 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/KLMIJacAttributes
+v 2 http://vocab.linkeddata.es/resource/SubSampleAnalyze
+v 3 http://vocab.linkeddata.es/resource/SampleAnalyze
+v 4 http://vocab.linkeddata.es/resource/KLMIJacAttributes
+v 5 http://vocab.linkeddata.es/resource/KLMIMagnitude
+v 6 http://vocab.linkeddata.es/resource/KLMIJacobian2
+v 7 http://vocab.linkeddata.es/resource/KLMIJacobian2
+d 1 7 informBy
+d 2 1 informBy
+d 3 1 informBy
+d 3 2 informBy
+d 3 4 informBy
+d 3 5 informBy
+d 3 6 informBy
+d 3 7 informBy
+d 4 6 informBy
+
+S
+v 1 SUB_42
+v 2 SUB_35
+v 3 SUB_35
+v 4 SUB_4
+v 5 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 6 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 7 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 8 http://vocab.linkeddata.es/resource/closeboundaries
+v 9 http://vocab.linkeddata.es/resource/closeboundaries
+v 10 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 11 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 12 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 13 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 14 http://vocab.linkeddata.es/resource/average
+v 15 http://vocab.linkeddata.es/resource/RigidQuaternionTransform
+v 16 http://vocab.linkeddata.es/resource/transform
+v 17 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 18 http://vocab.linkeddata.es/resource/average
+v 19 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 20 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 21 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 22 http://vocab.linkeddata.es/resource/closeboundaries
+v 23 http://vocab.linkeddata.es/resource/closeboundaries
+v 24 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 25 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 26 http://vocab.linkeddata.es/resource/Rawstats
+v 27 http://vocab.linkeddata.es/resource/Rawstats
+v 28 http://vocab.linkeddata.es/resource/Rawoperations
+v 29 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 30 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 31 http://vocab.linkeddata.es/resource/average
+v 32 http://vocab.linkeddata.es/resource/RigidQuaternionTransform
+v 33 http://vocab.linkeddata.es/resource/transform
+d 1 10 informBy
+d 1 11 informBy
+d 1 3 informBy
+d 1 2 informBy
+d 1 5 informBy
+d 1 19 informBy
+d 8 7 informBy
+d 9 6 informBy
+d 10 9 informBy
+d 11 8 informBy
+d 14 16 informBy
+d 15 12 informBy
+d 15 13 informBy
+d 16 15 informBy
+d 4 31 informBy
+d 4 17 informBy
+d 17 14 informBy
+d 18 14 informBy
+d 18 4 informBy
+d 19 18 informBy
+d 20 14 informBy
+d 21 31 informBy
+d 22 20 informBy
+d 23 21 informBy
+d 2 23 informBy
+d 3 22 informBy
+d 3 22 informBy
+d 2 23 informBy
+d 1 24 informBy
+d 1 25 informBy
+d 26 1 informBy
+d 27 1 informBy
+d 28 26 informBy
+d 28 27 informBy
+d 31 33 informBy
+d 32 29 informBy
+d 32 30 informBy
+d 33 32 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/taosphericalmap
+v 2 http://vocab.linkeddata.es/resource/regularsphericalsampling
+d 2 1 informBy
+
+S
+v 1 SUB_32
+v 2 SUB_32
+v 3 SUB_32
+v 4 SUB_32
+v 5 SUB_32
+v 6 SUB_17
+v 7 SUB_17
+v 8 SUB_17
+v 9 SUB_17
+v 10 SUB_17
+v 11 SUB_12
+v 12 SUB_12
+v 13 SUB_11
+v 14 http://vocab.linkeddata.es/resource/sphericallandmarkwarp
+v 15 http://vocab.linkeddata.es/resource/closeboundaries
+v 16 http://vocab.linkeddata.es/resource/skullcurve2loops
+v 17 http://vocab.linkeddata.es/resource/skullcurve2loops
+v 18 http://vocab.linkeddata.es/resource/smoothcurve
+v 19 http://vocab.linkeddata.es/resource/smoothcurve
+v 20 http://vocab.linkeddata.es/resource/smoothcurve
+v 21 http://vocab.linkeddata.es/resource/smoothcurve
+v 22 http://vocab.linkeddata.es/resource/smoothcurve
+v 23 http://vocab.linkeddata.es/resource/smoothcurve
+v 24 http://vocab.linkeddata.es/resource/combinecurves
+v 25 http://vocab.linkeddata.es/resource/9p
+v 26 http://vocab.linkeddata.es/resource/9p
+v 27 http://vocab.linkeddata.es/resource/9p
+v 28 http://vocab.linkeddata.es/resource/9p
+v 29 http://vocab.linkeddata.es/resource/9p
+d 13 21 informBy
+d 13 22 informBy
+d 13 23 informBy
+d 14 13 informBy
+d 14 15 informBy
+d 14 16 informBy
+d 14 17 informBy
+d 14 18 informBy
+d 14 19 informBy
+d 14 20 informBy
+d 14 11 informBy
+d 14 21 informBy
+d 14 22 informBy
+d 14 23 informBy
+d 14 12 informBy
+d 13 16 informBy
+d 13 18 informBy
+d 13 19 informBy
+d 13 20 informBy
+d 13 11 informBy
+d 15 13 informBy
+d 13 14 informBy
+d 18 11 informBy
+d 19 11 informBy
+d 20 11 informBy
+d 21 12 informBy
+d 22 12 informBy
+d 23 12 informBy
+d 24 16 informBy
+d 6 18 informBy
+d 1 18 informBy
+d 1 18 informBy
+d 1 25 informBy
+d 25 18 informBy
+d 6 1 informBy
+d 7 19 informBy
+d 2 19 informBy
+d 2 19 informBy
+d 2 26 informBy
+d 26 19 informBy
+d 7 2 informBy
+d 8 20 informBy
+d 3 20 informBy
+d 3 20 informBy
+d 3 27 informBy
+d 27 20 informBy
+d 8 3 informBy
+d 9 11 informBy
+d 4 11 informBy
+d 4 11 informBy
+d 4 28 informBy
+d 28 11 informBy
+d 9 4 informBy
+d 10 24 informBy
+d 5 24 informBy
+d 5 24 informBy
+d 5 29 informBy
+d 29 24 informBy
+d 10 5 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Laplacianmeshsmoothing
+v 2 http://vocab.linkeddata.es/resource/curvebasedshapereslice
+v 3 http://vocab.linkeddata.es/resource/medialcurve3
+d 2 3 informBy
+d 3 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/closeboundaries
+v 2 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 3 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 4 http://vocab.linkeddata.es/resource/radialmask
+v 5 http://vocab.linkeddata.es/resource/sculptoutfiller
+v 6 http://vocab.linkeddata.es/resource/setfillerverts
+v 7 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 8 http://vocab.linkeddata.es/resource/segmentregularbycurve
+v 9 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 10 http://vocab.linkeddata.es/resource/setfillerverts
+v 11 http://vocab.linkeddata.es/resource/sphericallandmarkwarp
+v 12 http://vocab.linkeddata.es/resource/closeboundaries
+v 13 http://vocab.linkeddata.es/resource/closeboundaries
+v 14 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 15 http://vocab.linkeddata.es/resource/closeboundaries
+v 16 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 17 http://vocab.linkeddata.es/resource/starmapinterpolation
+d 2 3 informBy
+d 3 1 informBy
+d 4 6 informBy
+d 5 4 informBy
+d 5 9 informBy
+d 6 7 informBy
+d 6 16 informBy
+d 7 8 informBy
+d 8 16 informBy
+d 9 10 informBy
+d 10 8 informBy
+d 10 14 informBy
+d 11 12 informBy
+d 11 13 informBy
+d 12 2 informBy
+d 13 16 informBy
+d 14 11 informBy
+d 14 12 informBy
+d 16 17 informBy
+d 17 15 informBy
+
+S
+v 1 SUB_36
+v 2 http://vocab.linkeddata.es/resource/average
+v 3 http://vocab.linkeddata.es/resource/Laplacianmeshsmoothing
+v 4 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+d 1 3 informBy
+d 1 3 informBy
+d 2 1 informBy
+d 3 4 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 2 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+d 2 1 informBy
+
+S
+v 1 SUB_46
+v 2 SUB_43
+v 3 SUB_23
+d 2 1 informBy
+d 3 2 informBy
+
+S
+v 1 SUB_35
+v 2 SUB_31
+v 3 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 4 http://vocab.linkeddata.es/resource/fastsphericalsampling
+d 3 1 informBy
+d 3 2 informBy
+d 1 4 informBy
+d 4 2 informBy
+d 4 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/average
+v 2 http://vocab.linkeddata.es/resource/displacementfeature
+d 2 1 informBy
+
+S
+v 1 SUB_36
+v 2 SUB_31
+v 3 http://vocab.linkeddata.es/resource/spheremap
+d 2 3 informBy
+d 3 2 informBy
+d 1 2 informBy
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/BitConverter
+v 2 http://vocab.linkeddata.es/resource/signed2unsigned
+d 2 1 informBy
+
+S
+v 1 SUB_45
+v 2 SUB_45
+v 3 SUB_36
+v 4 http://vocab.linkeddata.es/resource/regulartoucf
+v 5 http://vocab.linkeddata.es/resource/BitConverter
+v 6 http://vocab.linkeddata.es/resource/FixHeader(8bit)
+v 7 http://vocab.linkeddata.es/resource/BitConverter
+v 8 http://vocab.linkeddata.es/resource/FixHeader(8bit)
+d 3 1 informBy
+d 3 2 informBy
+d 3 1 informBy
+d 1 8 informBy
+d 1 1 informBy
+d 4 3 informBy
+d 4 2 informBy
+d 2 6 informBy
+d 2 2 informBy
+d 6 5 informBy
+d 8 7 informBy
+
+S
+v 1 SUB_36
+v 2 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 3 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 4 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 5 http://vocab.linkeddata.es/resource/taosphericalreg
+v 6 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 7 http://vocab.linkeddata.es/resource/curvebasedaverageshapethickness
+v 8 http://vocab.linkeddata.es/resource/groupwisecurveregistration
+v 9 http://vocab.linkeddata.es/resource/remapGOF
+v 10 http://vocab.linkeddata.es/resource/average
+d 4 5 informBy
+d 5 2 informBy
+d 5 3 informBy
+d 5 9 informBy
+d 6 4 informBy
+d 8 7 informBy
+d 9 3 informBy
+d 9 8 informBy
+d 1 4 informBy
+d 10 1 informBy
+
+S
+v 1 SUB_43
+v 2 http://vocab.linkeddata.es/resource/averageucf
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Rawstats
+v 2 http://vocab.linkeddata.es/resource/Rawoperations
+v 3 http://vocab.linkeddata.es/resource/Rawoperations
+v 4 http://vocab.linkeddata.es/resource/Rawsum
+v 5 http://vocab.linkeddata.es/resource/Rawsum
+v 6 http://vocab.linkeddata.es/resource/concatinline
+v 7 http://vocab.linkeddata.es/resource/concatenate
+d 2 1 informBy
+d 3 1 informBy
+d 5 3 informBy
+d 6 4 informBy
+d 6 5 informBy
+d 7 6 informBy
+
+S
+v 1 SUB_36
+v 2 SUB_22
+v 3 http://vocab.linkeddata.es/resource/CreateList
+d 2 1 informBy
+d 2 3 informBy
+
+S
+v 1 SUB_2
+v 2 http://vocab.linkeddata.es/resource/Rawoperations
+v 3 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 4 http://vocab.linkeddata.es/resource/curvebasedaverageshapethickness
+v 5 http://vocab.linkeddata.es/resource/curvebasedaverageshapethickness
+v 6 http://vocab.linkeddata.es/resource/CreateList
+v 7 http://vocab.linkeddata.es/resource/curvebasedaverageshapethickness
+v 8 http://vocab.linkeddata.es/resource/Rawoperations
+v 9 http://vocab.linkeddata.es/resource/curvebasedaverageshapethickness
+v 10 http://vocab.linkeddata.es/resource/Rawoperations
+v 11 http://vocab.linkeddata.es/resource/closesphericalshape
+v 12 http://vocab.linkeddata.es/resource/closesphericalshape
+d 2 3 informBy
+d 3 1 informBy
+d 5 11 informBy
+d 6 8 informBy
+d 6 10 informBy
+d 8 4 informBy
+d 8 7 informBy
+d 9 12 informBy
+d 10 5 informBy
+d 10 9 informBy
+d 12 1 informBy
+
+S
+v 1 SUB_46
+v 2 SUB_4
+v 3 http://vocab.linkeddata.es/resource/eraseattributes
+v 4 http://vocab.linkeddata.es/resource/average
+v 5 http://vocab.linkeddata.es/resource/eraseattributes
+v 6 http://vocab.linkeddata.es/resource/fixnormals
+d 2 1 informBy
+d 2 3 informBy
+d 4 2 informBy
+d 5 6 informBy
+d 6 4 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/average
+v 2 http://vocab.linkeddata.es/resource/eraseattributes
+v 3 http://vocab.linkeddata.es/resource/transform
+d 1 3 informBy
+d 3 2 informBy
+
+S
+v 1 SUB_41
+v 2 SUB_40
+v 3 SUB_32
+v 4 http://vocab.linkeddata.es/resource/9p
+v 5 http://vocab.linkeddata.es/resource/BitConverter
+v 6 http://vocab.linkeddata.es/resource/MatchHistograms
+v 7 http://vocab.linkeddata.es/resource/BitConverter
+d 1 2 informBy
+d 4 6 informBy
+d 3 4 informBy
+d 3 6 informBy
+d 3 6 informBy
+d 2 6 informBy
+d 2 3 informBy
+d 6 5 informBy
+d 6 7 informBy
+
+S
+v 1 SUB_21
+v 2 http://vocab.linkeddata.es/resource/Laplacianmeshsmoothing
+d 2 1 informBy
+
+S
+v 1 SUB_46
+v 2 SUB_46
+v 3 SUB_46
+v 4 SUB_46
+v 5 SUB_46
+v 6 http://vocab.linkeddata.es/resource/average
+v 7 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 8 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 9 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 10 http://vocab.linkeddata.es/resource/RigidQuaternionTransform
+v 11 http://vocab.linkeddata.es/resource/transform
+v 12 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 13 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 14 http://vocab.linkeddata.es/resource/resizeradialmeshes
+v 15 http://vocab.linkeddata.es/resource/RigidQuaternionTransform
+v 16 http://vocab.linkeddata.es/resource/transform
+v 17 http://vocab.linkeddata.es/resource/resizeradialmeshes
+v 18 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 19 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 20 http://vocab.linkeddata.es/resource/RigidQuaternionTransform
+v 21 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 22 http://vocab.linkeddata.es/resource/resizeradialmeshes
+v 23 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 24 http://vocab.linkeddata.es/resource/transform
+v 25 http://vocab.linkeddata.es/resource/radialmapsmoothing
+d 6 11 informBy
+d 6 25 informBy
+d 9 8 informBy
+d 1 6 informBy
+d 2 24 informBy
+d 3 16 informBy
+d 4 14 informBy
+d 5 25 informBy
+d 10 12 informBy
+d 10 13 informBy
+d 11 10 informBy
+d 11 14 informBy
+d 12 14 informBy
+d 13 14 informBy
+d 14 9 informBy
+d 14 25 informBy
+d 15 18 informBy
+d 15 19 informBy
+d 16 15 informBy
+d 16 17 informBy
+d 17 6 informBy
+d 17 25 informBy
+d 18 17 informBy
+d 19 17 informBy
+d 20 21 informBy
+d 20 23 informBy
+d 21 22 informBy
+d 22 6 informBy
+d 22 9 informBy
+d 23 22 informBy
+d 24 20 informBy
+d 24 22 informBy
+d 25 7 informBy
+
+S
+v 1 SUB_40
+v 2 http://vocab.linkeddata.es/resource/AlignLinear
+d 1 2 informBy
+
+S
+v 1 SUB_29
+v 2 SUB_29
+v 3 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 4 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 5 http://vocab.linkeddata.es/resource/SphericalDemons
+v 6 http://vocab.linkeddata.es/resource/SphericalDemons
+v 7 http://vocab.linkeddata.es/resource/SphericalDemons
+d 3 2 informBy
+d 4 1 informBy
+d 5 4 informBy
+d 5 2 informBy
+d 6 1 informBy
+d 6 2 informBy
+d 6 5 informBy
+d 7 3 informBy
+d 7 1 informBy
+d 7 6 informBy
+
+S
+v 1 SUB_73
+v 2 http://vocab.linkeddata.es/resource/MRISConvert
+v 3 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 4 http://vocab.linkeddata.es/resource/MRIConvert
+v 5 http://vocab.linkeddata.es/resource/FSLSwapDim(nii.gz)
+v 6 http://vocab.linkeddata.es/resource/transform
+v 7 http://vocab.linkeddata.es/resource/smartlineFSLSwapDim(nii.gz)FLIRT(nii.gz)
+v 8 http://vocab.linkeddata.es/resource/transform
+d 1 2 informBy
+d 3 7 informBy
+d 5 4 informBy
+d 6 3 informBy
+d 6 8 informBy
+d 7 5 informBy
+d 8 1 informBy
+
+S
+v 1 SUB_25
+v 2 SUB_2
+v 3 http://vocab.linkeddata.es/resource/average
+v 4 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 5 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 6 http://vocab.linkeddata.es/resource/Rawoperations
+v 7 http://vocab.linkeddata.es/resource/general2ucf
+d 1 2 informBy
+d 1 2 informBy
+d 3 1 informBy
+d 4 1 informBy
+d 5 4 informBy
+d 6 5 informBy
+d 7 1 informBy
+d 7 6 informBy
+
+S
+v 1 SUB_32
+v 2 http://vocab.linkeddata.es/resource/9p
+v 3 http://vocab.linkeddata.es/resource/skullcurve
+d 1 3 informBy
+d 1 2 informBy
+d 1 3 informBy
+d 2 3 informBy
+
+S
+v 1 SUB_49
+v 2 SUB_31
+d 1 2 informBy
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/taosphericalreg
+v 2 http://vocab.linkeddata.es/resource/fastsphericalsampling
+d 2 1 informBy
+
+S
+v 1 SUB_42
+v 2 SUB_2
+v 3 SUB_2
+v 4 http://vocab.linkeddata.es/resource/eraseattributes
+v 5 http://vocab.linkeddata.es/resource/closeboundaries
+v 6 http://vocab.linkeddata.es/resource/GenerateRegularSphere
+v 7 http://vocab.linkeddata.es/resource/closeboundaries
+v 8 http://vocab.linkeddata.es/resource/colorattribute
+v 9 http://vocab.linkeddata.es/resource/colorattribute
+v 10 http://vocab.linkeddata.es/resource/colorattribute
+v 11 http://vocab.linkeddata.es/resource/colorattribute
+v 12 http://vocab.linkeddata.es/resource/colorattribute
+v 13 http://vocab.linkeddata.es/resource/reflectcoord
+d 3 4 informBy
+d 1 4 informBy
+d 4 13 informBy
+d 5 2 informBy
+d 1 2 informBy
+d 7 6 informBy
+d 8 1 informBy
+d 8 7 informBy
+d 9 1 informBy
+d 9 1 informBy
+d 10 1 informBy
+d 10 7 informBy
+d 11 1 informBy
+d 11 7 informBy
+d 12 1 informBy
+d 12 7 informBy
+
+S
+v 1 SUB_32
+v 2 SUB_17
+v 3 http://vocab.linkeddata.es/resource/sphericallandmarkwarp
+v 4 http://vocab.linkeddata.es/resource/closeboundaries
+v 5 http://vocab.linkeddata.es/resource/skullcurve2loops
+v 6 http://vocab.linkeddata.es/resource/skullcurve2loops
+v 7 http://vocab.linkeddata.es/resource/combinecurves
+v 8 http://vocab.linkeddata.es/resource/9p
+v 9 http://vocab.linkeddata.es/resource/skullcurve
+v 10 http://vocab.linkeddata.es/resource/skullcurve
+v 11 http://vocab.linkeddata.es/resource/skullcurve
+v 12 http://vocab.linkeddata.es/resource/SkullSplitLoops
+v 13 http://vocab.linkeddata.es/resource/SkullSplitLoops
+v 14 http://vocab.linkeddata.es/resource/skullcurve
+d 3 4 informBy
+d 3 5 informBy
+d 3 6 informBy
+d 3 9 informBy
+d 3 10 informBy
+d 3 11 informBy
+d 3 12 informBy
+d 3 13 informBy
+d 3 14 informBy
+d 7 5 informBy
+d 1 7 informBy
+d 1 7 informBy
+d 1 8 informBy
+d 8 7 informBy
+d 2 1 informBy
+d 12 5 informBy
+d 13 6 informBy
+
+S
+v 1 SUB_47
+v 2 SUB_47
+v 3 http://vocab.linkeddata.es/resource/skullcurve
+v 4 http://vocab.linkeddata.es/resource/skullcurve
+v 5 http://vocab.linkeddata.es/resource/combinecurves
+v 6 http://vocab.linkeddata.es/resource/splitsinglecurve
+v 7 http://vocab.linkeddata.es/resource/combinecurves
+v 8 http://vocab.linkeddata.es/resource/SkullSplitLoops
+v 9 http://vocab.linkeddata.es/resource/skullcurve
+v 10 http://vocab.linkeddata.es/resource/combinecurves
+v 11 http://vocab.linkeddata.es/resource/ucf2raw
+v 12 http://vocab.linkeddata.es/resource/ucf2raw
+d 1 5 informBy
+d 2 7 informBy
+d 1 11 informBy
+d 2 12 informBy
+d 5 6 informBy
+d 6 4 informBy
+d 7 8 informBy
+d 8 9 informBy
+d 10 3 informBy
+d 10 5 informBy
+d 10 7 informBy
+
+S
+v 1 SUB_17
+v 2 SUB_12
+v 3 http://vocab.linkeddata.es/resource/smoothcurve
+v 4 http://vocab.linkeddata.es/resource/CreateList
+v 5 http://vocab.linkeddata.es/resource/CurveMatchPairs3D
+v 6 http://vocab.linkeddata.es/resource/getregisteredcurves
+v 7 http://vocab.linkeddata.es/resource/CreateList
+v 8 http://vocab.linkeddata.es/resource/CurveMatchPairs3D
+d 3 2 informBy
+d 1 6 informBy
+d 5 3 informBy
+d 5 4 informBy
+d 6 3 informBy
+d 6 5 informBy
+d 8 2 informBy
+d 8 7 informBy
+
+S
+v 1 SUB_4
+v 2 http://vocab.linkeddata.es/resource/eraseattributes
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/radialmask
+v 2 http://vocab.linkeddata.es/resource/GaussianSmoothattribute
+d 2 1 informBy
+
+S
+v 1 SUB_42
+v 2 SUB_35
+v 3 SUB_31
+v 4 http://vocab.linkeddata.es/resource/ucf2mesh
+v 5 http://vocab.linkeddata.es/resource/laplaciansmoothing
+v 6 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 7 http://vocab.linkeddata.es/resource/resetfirstNverts
+v 8 http://vocab.linkeddata.es/resource/ucf2mesh
+v 9 http://vocab.linkeddata.es/resource/laplaciansmoothing
+v 10 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 11 http://vocab.linkeddata.es/resource/resetfirstNverts
+d 3 7 informBy
+d 1 3 informBy
+d 1 3 informBy
+d 1 11 informBy
+d 2 1 informBy
+d 5 6 informBy
+d 6 4 informBy
+d 7 5 informBy
+d 7 6 informBy
+d 9 10 informBy
+d 10 8 informBy
+d 11 9 informBy
+d 11 10 informBy
+
+S
+v 1 SUB_66
+v 2 SUB_40
+d 1 2 informBy
+
+S
+v 1 SUB_51
+v 2 SUB_51
+v 3 http://vocab.linkeddata.es/resource/closeboundaries
+v 4 http://vocab.linkeddata.es/resource/closeboundaries
+v 5 http://vocab.linkeddata.es/resource/closesphericalshape
+v 6 http://vocab.linkeddata.es/resource/closesphericalshape
+v 7 http://vocab.linkeddata.es/resource/curvature
+v 8 http://vocab.linkeddata.es/resource/curvature
+v 9 http://vocab.linkeddata.es/resource/WarpbyPatchMatching
+v 10 http://vocab.linkeddata.es/resource/regularsphericalsampling
+d 2 4 informBy
+d 1 3 informBy
+d 5 1 informBy
+d 6 2 informBy
+d 7 6 informBy
+d 8 5 informBy
+d 9 7 informBy
+d 9 8 informBy
+d 10 5 informBy
+d 10 9 informBy
+
+S
+v 1 SUB_31
+v 2 http://vocab.linkeddata.es/resource/curvebasedfeatures
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+v 2 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+v 3 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+v 4 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+v 5 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+v 6 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+v 7 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+v 8 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+d 1 2 informBy
+d 2 7 informBy
+d 3 8 informBy
+d 4 3 informBy
+d 5 4 informBy
+d 6 5 informBy
+d 7 6 informBy
+
+S
+v 1 SUB_37
+v 2 http://vocab.linkeddata.es/resource/curvature
+v 3 http://vocab.linkeddata.es/resource/GaussianSmoothattribute
+v 4 http://vocab.linkeddata.es/resource/GaussianSmoothattribute
+v 5 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 6 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 7 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 8 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 9 http://vocab.linkeddata.es/resource/average
+v 10 http://vocab.linkeddata.es/resource/eraseattributes
+v 11 http://vocab.linkeddata.es/resource/computeconnectedness
+v 12 http://vocab.linkeddata.es/resource/computeconnectedness
+v 13 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 14 http://vocab.linkeddata.es/resource/regularsphere
+v 15 http://vocab.linkeddata.es/resource/closeboundaries
+v 16 http://vocab.linkeddata.es/resource/rotate
+v 17 http://vocab.linkeddata.es/resource/applyregularwarp
+v 18 http://vocab.linkeddata.es/resource/closeboundaries
+v 19 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 20 http://vocab.linkeddata.es/resource/fixnormals
+d 1 4 informBy
+d 1 5 informBy
+d 1 6 informBy
+d 1 1 informBy
+d 1 3 informBy
+d 1 7 informBy
+d 1 8 informBy
+d 1 1 informBy
+d 3 2 informBy
+d 4 2 informBy
+d 5 12 informBy
+d 6 11 informBy
+d 7 11 informBy
+d 8 12 informBy
+d 9 1 informBy
+d 10 20 informBy
+d 13 15 informBy
+d 13 17 informBy
+d 13 18 informBy
+d 15 14 informBy
+d 16 1 informBy
+d 17 1 informBy
+d 17 16 informBy
+d 19 1 informBy
+d 20 9 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 2 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+d 2 1 informBy
+
+S
+v 1 SUB_52
+v 2 http://vocab.linkeddata.es/resource/colorpvals
+v 3 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+d 2 3 informBy
+d 3 1 informBy
+d 3 1 informBy
+
+S
+v 1 SUB_38
+v 2 SUB_24
+v 3 http://vocab.linkeddata.es/resource/KLMIinvert
+v 4 http://vocab.linkeddata.es/resource/HardMean
+d 3 4 informBy
+d 1 3 informBy
+d 1 3 informBy
+d 2 1 informBy
+d 2 1 informBy
+
+S
+v 1 SUB_65
+v 2 http://vocab.linkeddata.es/resource/MatchHistograms
+v 3 http://vocab.linkeddata.es/resource/FixHeader
+v 4 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+v 5 http://vocab.linkeddata.es/resource/BitConverter
+v 6 http://vocab.linkeddata.es/resource/9p
+d 2 5 informBy
+d 3 2 informBy
+d 5 4 informBy
+d 6 1 informBy
+d 6 1 informBy
+d 1 6 informBy
+d 1 3 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Rawoperations
+v 2 http://vocab.linkeddata.es/resource/Rawoperations
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Laplacianmeshsmoothing
+v 2 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+d 1 2 informBy
+
+S
+v 1 SUB_24
+v 2 SUB_1
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/concatenate
+v 2 http://vocab.linkeddata.es/resource/LDAROI
+v 3 http://vocab.linkeddata.es/resource/concatenate
+v 4 http://vocab.linkeddata.es/resource/LDAROI
+v 5 http://vocab.linkeddata.es/resource/concatenate
+d 1 2 informBy
+d 3 1 informBy
+d 3 5 informBy
+d 5 4 informBy
+
+S
+v 1 SUB_73
+v 2 http://vocab.linkeddata.es/resource/MRISConvert
+v 3 http://vocab.linkeddata.es/resource/transform
+v 4 http://vocab.linkeddata.es/resource/transform
+v 5 http://vocab.linkeddata.es/resource/fixnormals
+v 6 http://vocab.linkeddata.es/resource/enforcemanifoldtopology
+d 3 6 informBy
+d 1 2 informBy
+d 4 3 informBy
+d 5 4 informBy
+d 6 1 informBy
+
+S
+v 1 SUB_37
+v 2 http://vocab.linkeddata.es/resource/average
+v 3 http://vocab.linkeddata.es/resource/eraseattributes
+d 1 1 informBy
+d 2 1 informBy
+d 3 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 2 http://vocab.linkeddata.es/resource/ShapeTranslator
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/KLMIregister
+v 2 http://vocab.linkeddata.es/resource/KLMIregister
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 2 http://vocab.linkeddata.es/resource/radialmapsmoothing
+v 3 http://vocab.linkeddata.es/resource/closesphericalshape
+v 4 http://vocab.linkeddata.es/resource/GenerateRegularSphere
+v 5 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 6 http://vocab.linkeddata.es/resource/closesphericalshape
+v 7 http://vocab.linkeddata.es/resource/sphericalfieldinterp
+d 2 1 informBy
+d 3 4 informBy
+d 5 6 informBy
+d 5 7 informBy
+d 6 2 informBy
+d 7 3 informBy
+
+S
+v 1 SUB_32
+v 2 http://vocab.linkeddata.es/resource/9p
+v 3 http://vocab.linkeddata.es/resource/BitConverter
+d 2 3 informBy
+d 1 2 informBy
+d 1 3 informBy
+
+S
+v 1 SUB_31
+v 2 SUB_21
+v 3 http://vocab.linkeddata.es/resource/spheremap
+d 1 3 informBy
+d 3 1 informBy
+d 1 2 informBy
+
+S
+v 1 SUB_17
+v 2 http://vocab.linkeddata.es/resource/skullcurve2loops
+v 3 http://vocab.linkeddata.es/resource/combinecurves
+v 4 http://vocab.linkeddata.es/resource/combinecurves
+v 5 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 6 http://vocab.linkeddata.es/resource/lmw2air
+v 7 http://vocab.linkeddata.es/resource/DefineCommonAIR
+d 3 2 informBy
+d 4 2 informBy
+d 5 4 informBy
+d 6 5 informBy
+d 7 6 informBy
+d 1 7 informBy
+
+S
+v 1 SUB_46
+v 2 SUB_10
+v 3 http://vocab.linkeddata.es/resource/average
+v 4 http://vocab.linkeddata.es/resource/displacementfeature
+v 5 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 6 http://vocab.linkeddata.es/resource/eraseattributes
+v 7 http://vocab.linkeddata.es/resource/Rawstats
+v 8 http://vocab.linkeddata.es/resource/sculptoutfiller
+v 9 http://vocab.linkeddata.es/resource/sculptoutfiller
+v 10 http://vocab.linkeddata.es/resource/LMWaveragescale
+v 11 http://vocab.linkeddata.es/resource/transform
+d 2 6 informBy
+d 2 5 informBy
+d 3 2 informBy
+d 2 1 informBy
+d 2 1 informBy
+d 2 4 informBy
+d 4 2 informBy
+d 4 1 informBy
+d 2 9 informBy
+d 2 2 informBy
+d 5 2 informBy
+d 5 1 informBy
+d 6 8 informBy
+d 8 7 informBy
+d 9 7 informBy
+d 10 2 informBy
+d 11 3 informBy
+d 11 10 informBy
+d 1 11 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/lslist
+v 2 http://vocab.linkeddata.es/resource/resetpoleslist
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Analyze2mesh
+v 2 http://vocab.linkeddata.es/resource/shapemask
+d 1 2 informBy
+
+S
+v 1 SUB_93
+v 2 SUB_93
+v 3 SUB_36
+v 4 SUB_36
+v 5 SUB_21
+v 6 SUB_21
+v 7 SUB_21
+v 8 SUB_7
+v 9 http://vocab.linkeddata.es/resource/spheremap
+v 10 http://vocab.linkeddata.es/resource/spheremap
+v 11 http://vocab.linkeddata.es/resource/displacementfeature
+v 12 http://vocab.linkeddata.es/resource/colorattribute
+v 13 http://vocab.linkeddata.es/resource/AVWMaths
+v 14 http://vocab.linkeddata.es/resource/BinaryMask
+v 15 http://vocab.linkeddata.es/resource/Binarize
+v 16 http://vocab.linkeddata.es/resource/AVWMaths
+v 17 http://vocab.linkeddata.es/resource/BinaryMask
+v 18 http://vocab.linkeddata.es/resource/Binarize
+v 19 http://vocab.linkeddata.es/resource/AVWMaths
+v 20 http://vocab.linkeddata.es/resource/BinaryMask
+v 21 http://vocab.linkeddata.es/resource/Binarize
+v 22 http://vocab.linkeddata.es/resource/ShapeTransform
+v 23 http://vocab.linkeddata.es/resource/ShapeTransform
+v 24 http://vocab.linkeddata.es/resource/reversevertexorder
+d 8 1 informBy
+d 8 2 informBy
+d 1 5 informBy
+d 8 9 informBy
+d 9 8 informBy
+d 8 7 informBy
+d 1 8 informBy
+d 8 1 informBy
+d 3 8 informBy
+d 3 1 informBy
+d 3 8 informBy
+d 4 8 informBy
+d 4 2 informBy
+d 4 8 informBy
+d 2 5 informBy
+d 8 10 informBy
+d 10 8 informBy
+d 8 24 informBy
+d 2 8 informBy
+d 8 2 informBy
+d 8 4 informBy
+d 11 8 informBy
+d 11 3 informBy
+d 8 11 informBy
+d 8 3 informBy
+d 12 4 informBy
+d 12 8 informBy
+d 13 14 informBy
+d 14 15 informBy
+d 5 13 informBy
+d 16 17 informBy
+d 17 18 informBy
+d 6 16 informBy
+d 19 20 informBy
+d 20 21 informBy
+d 7 19 informBy
+d 22 6 informBy
+d 23 22 informBy
+d 24 23 informBy
+
+S
+v 1 SUB_25
+v 2 http://vocab.linkeddata.es/resource/average
+d 2 1 informBy
+
+S
+v 1 SUB_28
+v 2 http://vocab.linkeddata.es/resource/eraseattributes
+v 3 http://vocab.linkeddata.es/resource/obj2mesh
+d 1 2 informBy
+d 2 3 informBy
+
+S
+v 1 SUB_74
+v 2 http://vocab.linkeddata.es/resource/curvebasedfeatures
+d 2 1 informBy
+
+S
+v 1 SUB_36
+v 2 SUB_36
+v 3 SUB_36
+v 4 SUB_36
+v 5 SUB_31
+v 6 SUB_31
+v 7 SUB_21
+v 8 SUB_21
+v 9 SUB_21
+v 10 SUB_7
+v 11 http://vocab.linkeddata.es/resource/displacementfeature
+v 12 http://vocab.linkeddata.es/resource/colorattribute
+v 13 http://vocab.linkeddata.es/resource/meshsubdivision
+v 14 http://vocab.linkeddata.es/resource/meshsubdivision
+v 15 http://vocab.linkeddata.es/resource/meshsubdivision
+d 10 1 informBy
+d 10 4 informBy
+d 5 13 informBy
+d 10 14 informBy
+d 1 5 informBy
+d 1 10 informBy
+d 1 5 informBy
+d 10 5 informBy
+d 2 10 informBy
+d 2 1 informBy
+d 2 10 informBy
+d 3 10 informBy
+d 3 4 informBy
+d 3 10 informBy
+d 6 13 informBy
+d 10 15 informBy
+d 4 6 informBy
+d 4 10 informBy
+d 4 6 informBy
+d 10 6 informBy
+d 10 3 informBy
+d 11 10 informBy
+d 11 2 informBy
+d 10 11 informBy
+d 10 2 informBy
+d 12 3 informBy
+d 12 10 informBy
+d 13 7 informBy
+d 14 8 informBy
+d 15 9 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/skullcurve
+v 2 http://vocab.linkeddata.es/resource/splitsinglecurve
+d 2 1 informBy
+
+S
+v 1 SUB_92
+v 2 SUB_90
+v 3 SUB_90
+v 4 SUB_43
+v 5 SUB_23
+v 6 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 7 http://vocab.linkeddata.es/resource/colorattribute
+v 8 http://vocab.linkeddata.es/resource/displacementfeature
+v 9 http://vocab.linkeddata.es/resource/colorattribute
+d 2 3 informBy
+d 1 2 informBy
+d 4 6 informBy
+d 4 3 informBy
+d 3 6 informBy
+d 3 3 informBy
+d 6 1 informBy
+d 5 4 informBy
+d 4 3 informBy
+d 7 3 informBy
+d 7 8 informBy
+d 8 1 informBy
+d 8 3 informBy
+d 9 5 informBy
+d 9 1 informBy
+d 1 5 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Rawstats
+v 2 http://vocab.linkeddata.es/resource/Rawoperations
+v 3 http://vocab.linkeddata.es/resource/Rawstats
+v 4 http://vocab.linkeddata.es/resource/colorattribute
+v 5 http://vocab.linkeddata.es/resource/colorattribute
+v 6 http://vocab.linkeddata.es/resource/colorattribute
+d 2 1 informBy
+d 2 3 informBy
+d 4 2 informBy
+d 5 1 informBy
+d 6 3 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/SkullSplitLoops
+v 2 http://vocab.linkeddata.es/resource/skullcurve
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 2 http://vocab.linkeddata.es/resource/Convert2MincObj
+d 2 1 informBy
+
+S
+v 1 SUB_52
+v 2 http://vocab.linkeddata.es/resource/colorpvals
+d 2 1 informBy
+
+S
+v 1 SUB_26
+v 2 SUB_24
+v 3 SUB_1
+v 4 http://vocab.linkeddata.es/resource/Deformmesh
+d 2 1 informBy
+d 2 1 informBy
+d 3 2 informBy
+d 3 2 informBy
+d 4 3 informBy
+
+S
+v 1 SUB_4
+v 2 http://vocab.linkeddata.es/resource/ShapeTranslator
+d 1 2 informBy
+
+S
+v 1 SUB_44
+v 2 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 3 http://vocab.linkeddata.es/resource/smartlineCombinedbetas4FLIRT(nii.gz)
+v 4 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 5 http://vocab.linkeddata.es/resource/smartlineCombinedbetas3FLIRT(nii.gz)
+v 6 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 7 http://vocab.linkeddata.es/resource/smartlineCombinedbetas3FLIRT(nii.gz)
+v 8 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 9 http://vocab.linkeddata.es/resource/smartlineCombinedbetas4FLIRT(nii.gz)
+v 10 http://vocab.linkeddata.es/resource/smartlinesinglebetas3FLIRT(nii.gz)
+v 11 http://vocab.linkeddata.es/resource/smartlinesinglebetas4FLIRT(nii.gz)
+v 12 http://vocab.linkeddata.es/resource/smartlineexcludedbetas3FLIRT(nii.gz)
+v 13 http://vocab.linkeddata.es/resource/smartlineexcludedbetas4FLIRT(nii.gz)
+d 1 4 informBy
+d 1 2 informBy
+d 1 8 informBy
+d 1 6 informBy
+d 2 3 informBy
+d 2 11 informBy
+d 4 5 informBy
+d 4 10 informBy
+d 6 7 informBy
+d 6 12 informBy
+d 8 9 informBy
+d 8 13 informBy
+
+S
+v 1 SUB_18
+v 2 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 3 http://vocab.linkeddata.es/resource/average
+v 4 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+d 1 2 informBy
+d 3 1 informBy
+d 4 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/GenerateRegularSphere
+v 2 http://vocab.linkeddata.es/resource/closeboundaries
+v 3 http://vocab.linkeddata.es/resource/colorattribute
+v 4 http://vocab.linkeddata.es/resource/colorattribute
+d 2 1 informBy
+d 3 2 informBy
+d 4 2 informBy
+
+S
+v 1 SUB_26
+v 2 SUB_24
+v 3 http://vocab.linkeddata.es/resource/KLMIJacobian2
+v 4 http://vocab.linkeddata.es/resource/BitConverter
+v 5 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 6 http://vocab.linkeddata.es/resource/FSLChangeFiletype(nii.gz)
+v 7 http://vocab.linkeddata.es/resource/FSLChangeFiletype(nii.gz)
+v 8 http://vocab.linkeddata.es/resource/BitConverter
+d 1 8 informBy
+d 2 8 informBy
+d 2 1 informBy
+d 2 8 informBy
+d 1 4 informBy
+d 1 8 informBy
+d 2 1 informBy
+d 2 4 informBy
+d 2 4 informBy
+d 3 2 informBy
+d 4 7 informBy
+d 6 5 informBy
+d 8 6 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/eraseattributes
+v 2 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/MatchHistograms
+v 2 http://vocab.linkeddata.es/resource/BitConverter
+d 1 2 informBy
+
+S
+v 1 SUB_93
+v 2 http://vocab.linkeddata.es/resource/findvertexcorrespondence
+v 3 http://vocab.linkeddata.es/resource/average
+v 4 http://vocab.linkeddata.es/resource/Convert2MincObj
+v 5 http://vocab.linkeddata.es/resource/mesh2obj
+v 6 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 7 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 8 http://vocab.linkeddata.es/resource/Convert2MincObj
+v 9 http://vocab.linkeddata.es/resource/mesh2obj
+d 1 2 informBy
+d 2 1 informBy
+d 3 1 informBy
+d 4 5 informBy
+d 5 3 informBy
+d 6 4 informBy
+d 7 8 informBy
+d 8 9 informBy
+d 9 2 informBy
+
+S
+v 1 SUB_2
+v 2 http://vocab.linkeddata.es/resource/closesphericalshape
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/fastsphericalsampling
+v 2 http://vocab.linkeddata.es/resource/applyregularwarp
+v 3 http://vocab.linkeddata.es/resource/SphericalDiffDemons
+d 1 2 informBy
+d 2 3 informBy
+
+S
+v 1 SUB_135
+v 2 SUB_92
+v 3 SUB_14
+v 4 SUB_10
+v 5 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+v 6 http://vocab.linkeddata.es/resource/eraseattributes
+d 5 3 informBy
+d 3 5 informBy
+d 4 4 informBy
+d 4 3 informBy
+d 2 4 informBy
+d 4 1 informBy
+d 1 4 informBy
+d 1 2 informBy
+d 4 1 informBy
+d 4 2 informBy
+d 2 4 informBy
+d 4 2 informBy
+d 4 6 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/AnalyzeImagetoMNC
+v 2 http://vocab.linkeddata.es/resource/MNCToAnalyzeImage
+v 3 http://vocab.linkeddata.es/resource/N3correction
+d 2 3 informBy
+d 3 1 informBy
+
+S
+v 1 SUB_131
+v 2 SUB_26
+v 3 SUB_1
+v 4 SUB_1
+v 5 http://vocab.linkeddata.es/resource/KLMIdeform
+v 6 http://vocab.linkeddata.es/resource/KLMIdeform
+d 5 1 informBy
+d 1 2 informBy
+d 1 2 informBy
+d 3 1 informBy
+d 6 3 informBy
+d 3 1 informBy
+d 4 6 informBy
+d 4 3 informBy
+d 1 5 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/remapGOF
+v 2 http://vocab.linkeddata.es/resource/groupwisecurveregistrationlist
+d 1 2 informBy
+
+S
+v 1 SUB_90
+v 2 SUB_84
+v 3 http://vocab.linkeddata.es/resource/sphericallandmarkwarp
+v 4 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 5 http://vocab.linkeddata.es/resource/addtexture
+v 6 http://vocab.linkeddata.es/resource/average
+v 7 http://vocab.linkeddata.es/resource/DFC2singlecurve
+v 8 http://vocab.linkeddata.es/resource/roationinterp
+v 9 http://vocab.linkeddata.es/resource/averagecolor
+v 10 http://vocab.linkeddata.es/resource/resetfirstNverts
+d 3 2 informBy
+d 3 7 informBy
+d 4 8 informBy
+d 5 4 informBy
+d 6 10 informBy
+d 8 3 informBy
+d 8 2 informBy
+d 9 5 informBy
+d 9 6 informBy
+d 10 5 informBy
+d 10 1 informBy
+
+S
+v 1 SUB_73
+v 2 http://vocab.linkeddata.es/resource/MRISConvert
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Rawoperations
+v 2 http://vocab.linkeddata.es/resource/curvebasedfeatures
+d 1 2 informBy
+
+S
+v 1 SUB_45
+v 2 http://vocab.linkeddata.es/resource/curvebasedshapereslice
+d 2 1 informBy
+d 2 1 informBy
+d 1 1 informBy
+
+S
+v 1 SUB_45
+v 2 SUB_45
+v 3 SUB_36
+v 4 http://vocab.linkeddata.es/resource/regulartoucf
+d 4 3 informBy
+d 3 1 informBy
+d 3 2 informBy
+d 3 1 informBy
+d 1 1 informBy
+d 2 2 informBy
+
+S
+v 1 SUB_169
+v 2 SUB_45
+v 3 http://vocab.linkeddata.es/resource/curvefunctions
+v 4 http://vocab.linkeddata.es/resource/regular2ucf
+v 5 http://vocab.linkeddata.es/resource/curvebasedaverageshapethickness
+v 6 http://vocab.linkeddata.es/resource/CreateList
+d 2 2 informBy
+d 2 1 informBy
+d 3 2 informBy
+d 3 2 informBy
+d 4 2 informBy
+d 5 2 informBy
+d 5 2 informBy
+d 5 3 informBy
+d 6 5 informBy
+d 1 3 informBy
+d 1 6 informBy
+
+S
+v 1 SUB_97
+v 2 http://vocab.linkeddata.es/resource/skullcurve2loops
+v 3 http://vocab.linkeddata.es/resource/skullcurve2loops
+v 4 http://vocab.linkeddata.es/resource/combinecurves
+v 5 http://vocab.linkeddata.es/resource/combinecurves
+d 1 4 informBy
+d 1 5 informBy
+d 1 4 informBy
+d 4 2 informBy
+d 5 3 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/averageNMI
+v 2 http://vocab.linkeddata.es/resource/KLMIdeform
+v 3 http://vocab.linkeddata.es/resource/KLMIdeform
+d 1 2 informBy
+d 1 3 informBy
+
+S
+v 1 SUB_106
+v 2 SUB_66
+v 3 SUB_41
+v 4 SUB_38
+v 5 SUB_32
+v 6 SUB_26
+v 7 SUB_24
+v 8 http://vocab.linkeddata.es/resource/HardMean
+v 9 http://vocab.linkeddata.es/resource/AIRtoField
+v 10 http://vocab.linkeddata.es/resource/9p
+d 8 4 informBy
+d 3 7 informBy
+d 3 2 informBy
+d 6 8 informBy
+d 6 4 informBy
+d 6 4 informBy
+d 7 4 informBy
+d 7 6 informBy
+d 7 8 informBy
+d 7 6 informBy
+d 7 8 informBy
+d 7 4 informBy
+d 2 7 informBy
+d 2 7 informBy
+d 2 4 informBy
+d 4 9 informBy
+d 4 1 informBy
+d 4 9 informBy
+d 9 5 informBy
+d 10 1 informBy
+d 5 1 informBy
+d 5 10 informBy
+d 5 1 informBy
+
+S
+v 1 SUB_104
+v 2 http://vocab.linkeddata.es/resource/eraseattributes
+d 2 1 informBy
+
+S
+v 1 SUB_112
+v 2 http://vocab.linkeddata.es/resource/curvebasedfeatures
+d 2 1 informBy
+
+S
+v 1 SUB_89
+v 2 SUB_37
+v 3 SUB_29
+v 4 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 5 http://vocab.linkeddata.es/resource/averagepairs
+v 6 http://vocab.linkeddata.es/resource/eraseattributes
+d 4 3 informBy
+d 1 2 informBy
+d 2 3 informBy
+d 1 3 informBy
+d 1 2 informBy
+d 2 4 informBy
+d 2 1 informBy
+d 2 2 informBy
+d 2 3 informBy
+d 5 2 informBy
+d 6 5 informBy
+
+S
+v 1 SUB_47
+v 2 SUB_32
+v 3 SUB_20
+v 4 SUB_17
+v 5 http://vocab.linkeddata.es/resource/combinecurves
+v 6 http://vocab.linkeddata.es/resource/9p
+d 1 5 informBy
+d 1 5 informBy
+d 1 4 informBy
+d 1 4 informBy
+d 1 3 informBy
+d 3 1 informBy
+d 3 4 informBy
+d 4 5 informBy
+d 2 5 informBy
+d 2 5 informBy
+d 2 6 informBy
+d 6 5 informBy
+d 4 2 informBy
+
+S
+v 1 SUB_78
+v 2 http://vocab.linkeddata.es/resource/general2ucf
+d 2 1 informBy
+
+S
+v 1 SUB_61
+v 2 SUB_61
+v 3 SUB_26
+v 4 SUB_24
+v 5 SUB_24
+v 6 http://vocab.linkeddata.es/resource/MatchHistograms
+v 7 http://vocab.linkeddata.es/resource/MatchHistograms
+v 8 http://vocab.linkeddata.es/resource/VolumeTwoIndependentSamplesTTest
+v 9 http://vocab.linkeddata.es/resource/BitConverter
+v 10 http://vocab.linkeddata.es/resource/CreateDesignMatrix
+v 11 http://vocab.linkeddata.es/resource/AVWMaths
+d 1 6 informBy
+d 2 7 informBy
+d 1 4 informBy
+d 4 1 informBy
+d 4 1 informBy
+d 2 5 informBy
+d 8 9 informBy
+d 8 10 informBy
+d 9 11 informBy
+d 10 1 informBy
+d 10 2 informBy
+d 3 2 informBy
+d 3 2 informBy
+d 5 2 informBy
+d 5 3 informBy
+d 5 3 informBy
+d 5 2 informBy
+d 1 6 informBy
+d 2 7 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/generalucf2mesh
+v 2 http://vocab.linkeddata.es/resource/colorattribute
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 2 http://vocab.linkeddata.es/resource/ucf2mesh
+d 1 2 informBy
+
+S
+v 1 SUB_17
+v 2 http://vocab.linkeddata.es/resource/FindLandmarkTransform
+v 3 http://vocab.linkeddata.es/resource/lmw2air
+v 4 http://vocab.linkeddata.es/resource/DefineCommonAIR
+d 3 2 informBy
+d 4 3 informBy
+d 1 4 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/IntegrateROI
+v 2 http://vocab.linkeddata.es/resource/concatenate
+v 3 http://vocab.linkeddata.es/resource/smartlineJacobiansIntegrateROI
+d 1 3 informBy
+d 2 1 informBy
+
+S
+v 1 SUB_130
+v 2 SUB_51
+v 3 http://vocab.linkeddata.es/resource/skullcurvematch
+v 4 http://vocab.linkeddata.es/resource/skullcurve2ucf
+v 5 http://vocab.linkeddata.es/resource/projectcurve
+v 6 http://vocab.linkeddata.es/resource/addsphericalanchors
+v 7 http://vocab.linkeddata.es/resource/closeboundaries
+v 8 http://vocab.linkeddata.es/resource/closeboundaries
+d 3 4 informBy
+d 3 1 informBy
+d 2 7 informBy
+d 5 3 informBy
+d 5 2 informBy
+d 6 5 informBy
+d 8 6 informBy
+d 1 7 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 2 http://vocab.linkeddata.es/resource/smartlineFLIRT(nii.gz)
+d 2 1 informBy
+
+S
+v 1 SUB_92
+v 2 SUB_36
+v 3 http://vocab.linkeddata.es/resource/radialdistance
+v 4 http://vocab.linkeddata.es/resource/radialdistance
+v 5 http://vocab.linkeddata.es/resource/regulartoucf
+v 6 http://vocab.linkeddata.es/resource/regulartoucf
+v 7 http://vocab.linkeddata.es/resource/regulartoucf
+d 2 1 informBy
+d 2 1 informBy
+d 1 2 informBy
+d 5 2 informBy
+d 5 1 informBy
+d 6 4 informBy
+d 6 2 informBy
+d 7 3 informBy
+d 7 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/transform
+v 2 http://vocab.linkeddata.es/resource/ShapeTranslator
+d 2 1 informBy
+
+S
+v 1 SUB_32
+v 2 SUB_17
+v 3 http://vocab.linkeddata.es/resource/smoothcurve
+v 4 http://vocab.linkeddata.es/resource/smoothcurve
+v 5 http://vocab.linkeddata.es/resource/9p
+v 6 http://vocab.linkeddata.es/resource/CreateList
+v 7 http://vocab.linkeddata.es/resource/CurveMatchPairs3D
+v 8 http://vocab.linkeddata.es/resource/getregisteredcurves
+d 2 8 informBy
+d 1 8 informBy
+d 1 5 informBy
+d 1 8 informBy
+d 5 8 informBy
+d 2 1 informBy
+d 6 3 informBy
+d 7 4 informBy
+d 7 6 informBy
+d 8 3 informBy
+d 8 4 informBy
+d 8 7 informBy
+
+S
+v 1 SUB_118
+v 2 SUB_46
+v 3 http://vocab.linkeddata.es/resource/taosphericalreg
+v 4 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 5 http://vocab.linkeddata.es/resource/radialmask
+d 2 4 informBy
+d 3 1 informBy
+d 3 5 informBy
+d 4 3 informBy
+
+S
+v 1 SUB_41
+v 2 SUB_38
+d 2 1 informBy
+d 2 1 informBy
+
+S
+v 1 SUB_41
+v 2 SUB_40
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/transformucf
+v 2 http://vocab.linkeddata.es/resource/averageucf
+d 2 1 informBy
+
+S
+v 1 SUB_82
+v 2 http://vocab.linkeddata.es/resource/concatenate
+v 3 http://vocab.linkeddata.es/resource/KLMIICerror
+v 4 http://vocab.linkeddata.es/resource/KLMIinvert
+v 5 http://vocab.linkeddata.es/resource/KLMIinvert
+d 2 1 informBy
+d 1 3 informBy
+d 1 5 informBy
+d 1 5 informBy
+d 1 4 informBy
+d 3 5 informBy
+
+S
+v 1 SUB_79
+v 2 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+d 2 1 informBy
+
+S
+v 1 SUB_131
+v 2 SUB_38
+v 3 SUB_38
+v 4 http://vocab.linkeddata.es/resource/KLMIdeform
+v 5 http://vocab.linkeddata.es/resource/KLMIJacobian
+v 6 http://vocab.linkeddata.es/resource/KLMIdeform
+v 7 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 8 http://vocab.linkeddata.es/resource/XFMtoField
+v 9 http://vocab.linkeddata.es/resource/KLMIJacobian
+v 10 http://vocab.linkeddata.es/resource/AIRtoField
+v 11 http://vocab.linkeddata.es/resource/InvertAIR
+v 12 http://vocab.linkeddata.es/resource/CombineAIR
+d 4 8 informBy
+d 5 4 informBy
+d 5 1 informBy
+d 6 4 informBy
+d 6 1 informBy
+d 1 6 informBy
+d 1 4 informBy
+d 1 4 informBy
+d 2 1 informBy
+d 2 1 informBy
+d 2 10 informBy
+d 3 1 informBy
+d 3 1 informBy
+d 3 10 informBy
+d 8 7 informBy
+d 9 4 informBy
+d 9 1 informBy
+d 2 4 informBy
+d 3 4 informBy
+d 10 12 informBy
+d 12 11 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/SoftMean
+v 2 http://vocab.linkeddata.es/resource/smartlineSoftMean3stepMDTSOFT
+d 2 1 informBy
+
+S
+v 1 SUB_56
+v 2 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+v 3 http://vocab.linkeddata.es/resource/closeboundaries
+v 4 http://vocab.linkeddata.es/resource/closeboundaries
+v 5 http://vocab.linkeddata.es/resource/sphericalfieldinterp
+v 6 http://vocab.linkeddata.es/resource/closesphericalshape
+d 1 4 informBy
+d 1 3 informBy
+d 2 1 informBy
+d 1 5 informBy
+d 1 2 informBy
+d 1 3 informBy
+d 5 1 informBy
+d 5 6 informBy
+
+S
+v 1 SUB_46
+v 2 SUB_35
+v 3 SUB_31
+v 4 SUB_4
+v 5 http://vocab.linkeddata.es/resource/medialcurve3
+v 6 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 7 http://vocab.linkeddata.es/resource/ApplyLandmarkTransform
+v 8 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 9 http://vocab.linkeddata.es/resource/average
+d 2 1 informBy
+d 5 2 informBy
+d 3 1 informBy
+d 1 6 informBy
+d 4 1 informBy
+d 7 5 informBy
+d 7 4 informBy
+d 8 7 informBy
+d 8 4 informBy
+d 9 4 informBy
+
+S
+v 1 SUB_90
+v 2 SUB_51
+v 3 SUB_46
+v 4 http://vocab.linkeddata.es/resource/average
+d 1 1 informBy
+d 1 3 informBy
+d 4 1 informBy
+d 4 3 informBy
+d 3 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/AlignLinear
+v 2 http://vocab.linkeddata.es/resource/Resliceucf
+v 3 http://vocab.linkeddata.es/resource/Resliceucf
+v 4 http://vocab.linkeddata.es/resource/Resliceucf
+v 5 http://vocab.linkeddata.es/resource/Resliceucf
+d 2 1 informBy
+d 3 1 informBy
+d 4 1 informBy
+d 5 1 informBy
+
+S
+v 1 SUB_102
+v 2 SUB_78
+v 3 http://vocab.linkeddata.es/resource/affinescaleaverage
+d 1 3 informBy
+d 2 1 informBy
+d 2 1 informBy
+
+S
+v 1 SUB_22
+v 2 SUB_9
+v 3 http://vocab.linkeddata.es/resource/CreateList
+d 1 3 informBy
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/KLMIinvert
+v 2 http://vocab.linkeddata.es/resource/KLMIdeform
+d 2 1 informBy
+
+S
+v 1 SUB_84
+v 2 SUB_84
+v 3 SUB_49
+v 4 SUB_36
+v 5 http://vocab.linkeddata.es/resource/eraseattributes
+v 6 http://vocab.linkeddata.es/resource/eraseattributes
+v 7 http://vocab.linkeddata.es/resource/fastsphericalsampling
+d 4 7 informBy
+d 1 5 informBy
+d 1 5 informBy
+d 2 6 informBy
+d 2 6 informBy
+d 3 1 informBy
+d 3 2 informBy
+d 3 1 informBy
+d 7 2 informBy
+d 7 6 informBy
+d 7 3 informBy
+
+S
+v 1 SUB_89
+v 2 SUB_39
+v 3 SUB_31
+v 4 SUB_29
+v 5 SUB_8
+v 6 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 7 http://vocab.linkeddata.es/resource/findvertexcorrespondence
+v 8 http://vocab.linkeddata.es/resource/applyregularwarp
+d 6 4 informBy
+d 2 4 informBy
+d 2 6 informBy
+d 2 1 informBy
+d 7 3 informBy
+d 7 2 informBy
+d 2 7 informBy
+d 4 3 informBy
+d 2 7 informBy
+d 2 3 informBy
+d 2 3 informBy
+d 2 8 informBy
+d 2 6 informBy
+d 5 2 informBy
+d 1 5 informBy
+d 1 4 informBy
+d 1 4 informBy
+d 1 5 informBy
+d 8 2 informBy
+d 8 1 informBy
+
+S
+v 1 SUB_49
+v 2 http://vocab.linkeddata.es/resource/rotate
+v 3 http://vocab.linkeddata.es/resource/closeboundaries
+v 4 http://vocab.linkeddata.es/resource/reflectcoord
+d 2 1 informBy
+d 3 1 informBy
+d 4 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/curvebasedfeatures
+v 2 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+d 2 1 informBy
+
+S
+v 1 SUB_84
+v 2 SUB_84
+v 3 http://vocab.linkeddata.es/resource/DFC2singlecurve
+v 4 http://vocab.linkeddata.es/resource/DFC2singlecurve
+v 5 http://vocab.linkeddata.es/resource/sphericallandmarkwarp
+v 6 http://vocab.linkeddata.es/resource/applyregularwarp
+v 7 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 8 http://vocab.linkeddata.es/resource/addtexture
+v 9 http://vocab.linkeddata.es/resource/average
+d 5 3 informBy
+d 5 1 informBy
+d 5 2 informBy
+d 5 4 informBy
+d 6 5 informBy
+d 6 1 informBy
+d 7 6 informBy
+d 8 7 informBy
+d 9 8 informBy
+
+S
+v 1 SUB_56
+v 2 SUB_49
+v 3 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+v 4 http://vocab.linkeddata.es/resource/taosphericalmap
+d 3 1 informBy
+d 1 4 informBy
+d 1 3 informBy
+d 4 1 informBy
+d 4 2 informBy
+d 2 1 informBy
+d 2 1 informBy
+d 2 3 informBy
+d 1 1 informBy
+
+S
+v 1 SUB_98
+v 2 http://vocab.linkeddata.es/resource/vertexarea
+d 1 2 informBy
+d 1 1 informBy
+
+S
+v 1 SUB_50
+v 2 http://vocab.linkeddata.es/resource/regularsphericalsampling
+d 2 1 informBy
+d 2 1 informBy
+
+S
+v 1 SUB_38
+v 2 http://vocab.linkeddata.es/resource/HardMean
+v 3 http://vocab.linkeddata.es/resource/KLMIdeform
+d 2 3 informBy
+d 3 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/displacementfeature
+v 2 http://vocab.linkeddata.es/resource/colorattribute
+d 2 1 informBy
+
+S
+v 1 SUB_88
+v 2 http://vocab.linkeddata.es/resource/Laplacianmeshsmoothing
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Laplacianmeshsmoothing
+v 2 http://vocab.linkeddata.es/resource/curvebasedshapereslice
+v 3 http://vocab.linkeddata.es/resource/medialcurve2
+d 2 3 informBy
+d 3 1 informBy
+
+S
+v 1 SUB_94
+v 2 SUB_26
+v 3 SUB_24
+v 4 http://vocab.linkeddata.es/resource/KLMIJacobian
+v 5 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 6 http://vocab.linkeddata.es/resource/smartlineFLIRT(nii.gz)BitConverter
+d 4 1 informBy
+d 4 3 informBy
+d 6 5 informBy
+d 1 6 informBy
+d 2 1 informBy
+d 2 1 informBy
+d 3 1 informBy
+d 3 2 informBy
+d 3 2 informBy
+d 3 1 informBy
+
+S
+v 1 SUB_90
+v 2 http://vocab.linkeddata.es/resource/average
+v 3 http://vocab.linkeddata.es/resource/fixnormals
+d 2 3 informBy
+d 3 1 informBy
+
+S
+v 1 SUB_130
+v 2 SUB_31
+v 3 http://vocab.linkeddata.es/resource/closesphericalshape
+d 2 1 informBy
+d 1 3 informBy
+
+S
+v 1 SUB_143
+v 2 http://vocab.linkeddata.es/resource/convertto.M
+d 1 2 informBy
+
+S
+v 1 SUB_69
+v 2 SUB_27
+v 3 http://vocab.linkeddata.es/resource/meanandGaussiancurvature
+v 4 http://vocab.linkeddata.es/resource/GaussianSmoothattribute
+v 5 http://vocab.linkeddata.es/resource/MeshSubdivision
+d 3 5 informBy
+d 2 4 informBy
+d 4 3 informBy
+d 4 2 informBy
+d 5 1 informBy
+d 2 5 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/GenerateRegularSphere
+v 2 http://vocab.linkeddata.es/resource/closesphericalshape
+d 2 1 informBy
+
+S
+v 1 SUB_94
+v 2 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 3 http://vocab.linkeddata.es/resource/smartlineFSLMaths(nii.gz)BitConverter
+d 1 3 informBy
+d 3 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/UCF2MASK
+v 2 http://vocab.linkeddata.es/resource/MakeHeader
+v 3 http://vocab.linkeddata.es/resource/UCF2MASK
+d 1 2 informBy
+d 3 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/randomspherewarp
+v 2 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 3 http://vocab.linkeddata.es/resource/randomspherewarp
+d 2 3 informBy
+d 3 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/closeboundaries
+v 2 http://vocab.linkeddata.es/resource/closeboundaries
+v 3 http://vocab.linkeddata.es/resource/CC
+d 3 1 informBy
+d 3 2 informBy
+
+S
+v 1 SUB_112
+v 2 SUB_36
+v 3 http://vocab.linkeddata.es/resource/average
+d 3 2 informBy
+d 2 1 informBy
+
+S
+v 1 SUB_126
+v 2 SUB_86
+v 3 SUB_36
+v 4 http://vocab.linkeddata.es/resource/average
+d 3 2 informBy
+d 3 2 informBy
+d 4 3 informBy
+d 1 4 informBy
+
+S
+v 1 SUB_196
+v 2 SUB_32
+v 3 SUB_26
+v 4 SUB_24
+v 5 http://vocab.linkeddata.es/resource/9p
+v 6 http://vocab.linkeddata.es/resource/HardMean
+v 7 http://vocab.linkeddata.es/resource/HardMean
+v 8 http://vocab.linkeddata.es/resource/HardMean
+v 9 http://vocab.linkeddata.es/resource/smartlineN3kidsAIRreconcile
+d 2 5 informBy
+d 2 9 informBy
+d 6 1 informBy
+d 3 6 informBy
+d 3 1 informBy
+d 3 1 informBy
+d 4 1 informBy
+d 4 3 informBy
+d 4 3 informBy
+d 4 7 informBy
+d 4 8 informBy
+d 4 1 informBy
+d 7 3 informBy
+d 8 4 informBy
+d 1 2 informBy
+d 1 4 informBy
+d 1 4 informBy
+
+S
+v 1 SUB_36
+v 2 SUB_31
+v 3 SUB_21
+d 2 3 informBy
+d 1 2 informBy
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 2 http://vocab.linkeddata.es/resource/starmapinterpolation
+v 3 http://vocab.linkeddata.es/resource/radialmapsmoothing
+d 1 3 informBy
+d 3 2 informBy
+
+S
+v 1 SUB_46
+v 2 SUB_23
+v 3 http://vocab.linkeddata.es/resource/LandmarkTransform
+v 4 http://vocab.linkeddata.es/resource/LandmarkTransform
+v 5 http://vocab.linkeddata.es/resource/average
+d 4 3 informBy
+d 4 1 informBy
+d 2 4 informBy
+d 5 2 informBy
+
+S
+v 1 SUB_97
+v 2 http://vocab.linkeddata.es/resource/smoothcurve
+v 3 http://vocab.linkeddata.es/resource/smoothcurve
+d 1 2 informBy
+d 1 3 informBy
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/averageNMI
+v 2 http://vocab.linkeddata.es/resource/KLMIdeform
+v 3 http://vocab.linkeddata.es/resource/KLMIdeform
+d 1 2 informBy
+d 1 3 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Debabler(IMG2UCF)
+v 2 http://vocab.linkeddata.es/resource/segmentCC
+v 3 http://vocab.linkeddata.es/resource/CCclean
+d 1 2 informBy
+d 3 1 informBy
+d 3 2 informBy
+
+S
+v 1 SUB_65
+v 2 SUB_40
+v 3 http://vocab.linkeddata.es/resource/9p
+v 4 http://vocab.linkeddata.es/resource/smartlinebaselineBitConverter
+d 3 1 informBy
+d 3 1 informBy
+d 1 3 informBy
+d 2 1 informBy
+d 2 1 informBy
+d 1 4 informBy
+
+S
+v 1 SUB_162
+v 2 http://vocab.linkeddata.es/resource/BitConverter
+d 1 2 informBy
+
+S
+v 1 SUB_32
+v 2 http://vocab.linkeddata.es/resource/Reslice
+v 3 http://vocab.linkeddata.es/resource/ImageHistogramEqualize
+d 2 1 informBy
+d 1 3 informBy
+d 1 3 informBy
+
+S
+v 1 SUB_45
+v 2 http://vocab.linkeddata.es/resource/regulartoucf
+d 1 1 informBy
+d 2 1 informBy
+
+S
+v 1 SUB_94
+v 2 http://vocab.linkeddata.es/resource/KLMIdeform
+d 2 1 informBy
+
+S
+v 1 SUB_201
+v 2 SUB_33
+v 3 SUB_26
+v 4 http://vocab.linkeddata.es/resource/SoftMean
+v 5 http://vocab.linkeddata.es/resource/HardMean
+v 6 http://vocab.linkeddata.es/resource/SoftMean
+v 7 http://vocab.linkeddata.es/resource/smartlineHardMean3stepMDT
+d 3 2 informBy
+d 2 3 informBy
+d 3 2 informBy
+d 3 6 informBy
+d 2 3 informBy
+d 2 4 informBy
+d 4 3 informBy
+d 5 2 informBy
+d 6 2 informBy
+d 7 5 informBy
+d 1 2 informBy
+
+S
+v 1 SUB_32
+v 2 http://vocab.linkeddata.es/resource/9p
+v 3 http://vocab.linkeddata.es/resource/EqualizeHistogram
+d 2 3 informBy
+d 1 2 informBy
+d 1 3 informBy
+d 1 3 informBy
+
+S
+v 1 SUB_40
+v 2 SUB_32
+v 3 http://vocab.linkeddata.es/resource/HardMean
+v 4 http://vocab.linkeddata.es/resource/BitConverter
+v 5 http://vocab.linkeddata.es/resource/airshortlong
+d 3 1 informBy
+d 1 2 informBy
+d 2 4 informBy
+d 2 5 informBy
+d 2 4 informBy
+
+S
+v 1 SUB_97
+v 2 SUB_47
+v 3 SUB_20
+v 4 http://vocab.linkeddata.es/resource/skullcurve
+v 5 http://vocab.linkeddata.es/resource/skullcurve
+v 6 http://vocab.linkeddata.es/resource/transformucf
+v 7 http://vocab.linkeddata.es/resource/LMWaveragescale
+d 2 4 informBy
+d 2 4 informBy
+d 2 6 informBy
+d 2 6 informBy
+d 2 3 informBy
+d 3 2 informBy
+d 3 6 informBy
+d 1 4 informBy
+d 1 5 informBy
+d 1 4 informBy
+d 6 1 informBy
+d 6 7 informBy
+d 7 1 informBy
+
+S
+v 1 SUB_125
+v 2 SUB_29
+v 3 SUB_8
+d 3 2 informBy
+d 2 1 informBy
+
+S
+v 1 SUB_35
+v 2 SUB_35
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/medialcurve
+v 2 http://vocab.linkeddata.es/resource/closesphericalshape
+d 1 2 informBy
+
+S
+v 1 SUB_1
+v 2 http://vocab.linkeddata.es/resource/KLMIdeform
+d 1 2 informBy
+
+S
+v 1 SUB_143
+v 2 http://vocab.linkeddata.es/resource/alignaxes
+d 1 2 informBy
+
+S
+v 1 SUB_195
+v 2 http://vocab.linkeddata.es/resource/KLMIJacobian
+d 2 1 informBy
+
+S
+v 1 SUB_61
+v 2 http://vocab.linkeddata.es/resource/KLMIJacobian
+d 2 1 informBy
+
+S
+v 1 SUB_169
+v 2 http://vocab.linkeddata.es/resource/remapGOF
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 2 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/projectvolumeonmesh
+v 2 http://vocab.linkeddata.es/resource/colorhotmetal
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/KLMIJacobian
+v 2 http://vocab.linkeddata.es/resource/KLMIdeform
+d 2 1 informBy
+
+S
+v 1 SUB_172
+v 2 http://vocab.linkeddata.es/resource/fastsphericalsampling
+d 1 2 informBy
+
+S
+v 1 SUB_99
+v 2 SUB_45
+d 1 2 informBy
+d 2 2 informBy
+
+S
+v 1 SUB_28
+v 2 http://vocab.linkeddata.es/resource/average
+d 2 1 informBy
+
+S
+v 1 SUB_10
+v 2 http://vocab.linkeddata.es/resource/eraseattributes
+d 1 1 informBy
+d 1 2 informBy
+
+S
+v 1 SUB_192
+v 2 http://vocab.linkeddata.es/resource/RigidQuaternionTransform
+d 1 2 informBy
+

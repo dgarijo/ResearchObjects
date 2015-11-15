@@ -1,0 +1,1305 @@
+S
+v 1 http://vocab.linkeddata.es/resource/Reorient
+v 2 http://vocab.linkeddata.es/resource/BET
+v 3 http://vocab.linkeddata.es/resource/3DBsplineDeformation
+v 4 http://vocab.linkeddata.es/resource/BrainParser
+v 5 http://vocab.linkeddata.es/resource/Reorient(8bit)
+v 6 http://vocab.linkeddata.es/resource/avwcpgeom
+v 7 http://vocab.linkeddata.es/resource/FLIRT
+v 8 http://vocab.linkeddata.es/resource/Smoother
+v 9 http://vocab.linkeddata.es/resource/FSLConvertXFM
+v 10 http://vocab.linkeddata.es/resource/BitConverter
+v 11 http://vocab.linkeddata.es/resource/DeformationFieldWarpping
+v 12 http://vocab.linkeddata.es/resource/InverseDeformationField
+v 13 http://vocab.linkeddata.es/resource/FLIRT
+d 2 1 informBy
+d 3 13 informBy
+d 4 3 informBy
+d 5 10 informBy
+d 6 8 informBy
+d 6 13 informBy
+d 7 2 informBy
+d 7 6 informBy
+d 7 9 informBy
+d 8 11 informBy
+d 8 13 informBy
+d 9 13 informBy
+d 10 7 informBy
+d 11 4 informBy
+d 11 12 informBy
+d 12 3 informBy
+d 13 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/KLMIregister
+v 2 http://vocab.linkeddata.es/resource/KLMIdeform
+v 3 http://vocab.linkeddata.es/resource/InterpAveragepairsof3
+v 4 http://vocab.linkeddata.es/resource/KLMIdeform
+v 5 http://vocab.linkeddata.es/resource/KLMIdeformfield
+v 6 http://vocab.linkeddata.es/resource/KLMIregister
+v 7 http://vocab.linkeddata.es/resource/KLMIregister
+v 8 http://vocab.linkeddata.es/resource/KLMIdeformfield
+v 9 http://vocab.linkeddata.es/resource/KLMIdeform
+v 10 http://vocab.linkeddata.es/resource/InterpAveragepairsof3
+d 2 1 informBy
+d 3 5 informBy
+d 3 6 informBy
+d 4 3 informBy
+d 5 1 informBy
+d 5 6 informBy
+d 6 2 informBy
+d 7 4 informBy
+d 8 3 informBy
+d 8 7 informBy
+d 9 10 informBy
+d 10 7 informBy
+d 10 8 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 2 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 3 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 4 http://vocab.linkeddata.es/resource/MRIConvert
+v 5 http://vocab.linkeddata.es/resource/MRIConvert
+v 6 http://vocab.linkeddata.es/resource/MRIConvert
+v 7 http://vocab.linkeddata.es/resource/MRIMask
+v 8 http://vocab.linkeddata.es/resource/MRIConvert
+v 9 http://vocab.linkeddata.es/resource/MRIConvert
+v 10 http://vocab.linkeddata.es/resource/MRIConvert
+v 11 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 12 http://vocab.linkeddata.es/resource/MRIMask
+v 13 http://vocab.linkeddata.es/resource/smartlineFSLMaths(nii.gz)MRIMask
+v 14 http://vocab.linkeddata.es/resource/MINCMath
+v 15 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 16 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 17 http://vocab.linkeddata.es/resource/MRIMask
+v 18 http://vocab.linkeddata.es/resource/MRIMask
+v 19 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 20 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 21 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 22 http://vocab.linkeddata.es/resource/smartlineMRIMaskFSLMaths(nii.gz)
+v 23 http://vocab.linkeddata.es/resource/smartlineMRIMaskFSLMaths(nii.gz)
+v 24 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 25 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 26 http://vocab.linkeddata.es/resource/MRIMask
+v 27 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 28 http://vocab.linkeddata.es/resource/SplitVolume
+v 29 http://vocab.linkeddata.es/resource/SplitVolume
+v 30 http://vocab.linkeddata.es/resource/MRIMask
+v 31 http://vocab.linkeddata.es/resource/MRIMask
+v 32 http://vocab.linkeddata.es/resource/FalseDiscoveryRateCorrection
+v 33 http://vocab.linkeddata.es/resource/AnalyzeImagetoMNC
+v 34 http://vocab.linkeddata.es/resource/AnalyzeImagetoMNC
+v 35 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+d 1 21 informBy
+d 1 30 informBy
+d 2 11 informBy
+d 2 31 informBy
+d 3 7 informBy
+d 3 20 informBy
+d 4 1 informBy
+d 5 3 informBy
+d 6 2 informBy
+d 7 28 informBy
+d 7 32 informBy
+d 8 25 informBy
+d 9 24 informBy
+d 10 19 informBy
+d 11 35 informBy
+d 12 18 informBy
+d 13 15 informBy
+d 14 33 informBy
+d 14 34 informBy
+d 16 28 informBy
+d 17 28 informBy
+d 18 13 informBy
+d 18 14 informBy
+d 19 11 informBy
+d 19 12 informBy
+d 20 16 informBy
+d 21 27 informBy
+d 22 17 informBy
+d 23 26 informBy
+d 24 20 informBy
+d 24 22 informBy
+d 25 21 informBy
+d 25 23 informBy
+d 26 29 informBy
+d 27 29 informBy
+d 30 29 informBy
+d 30 32 informBy
+d 31 18 informBy
+d 31 32 informBy
+d 33 29 informBy
+d 34 28 informBy
+d 35 18 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/3DBsplineDeformation
+v 2 http://vocab.linkeddata.es/resource/SSMA
+v 3 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+v 4 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 5 http://vocab.linkeddata.es/resource/BrainParser
+v 6 http://vocab.linkeddata.es/resource/Smoother
+v 7 http://vocab.linkeddata.es/resource/ConvertXFM(nii.gz)
+v 8 http://vocab.linkeddata.es/resource/BitConverter
+v 9 http://vocab.linkeddata.es/resource/FSLCpGeom(nii.gz)
+v 10 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 11 http://vocab.linkeddata.es/resource/smartlineFLIRT(nii.gz)BitConverter
+v 12 http://vocab.linkeddata.es/resource/DeformationFieldWarpping
+v 13 http://vocab.linkeddata.es/resource/InverseDeformationField
+v 14 http://vocab.linkeddata.es/resource/Reorient(8bit)
+v 15 http://vocab.linkeddata.es/resource/Reorient
+v 16 http://vocab.linkeddata.es/resource/smartlineFLIRT(nii.gz)3DBsplineDeformation
+v 17 http://vocab.linkeddata.es/resource/smartlineFLIRT(nii.gz)Smoother
+d 1 16 informBy
+d 2 3 informBy
+d 3 15 informBy
+d 4 2 informBy
+d 5 1 informBy
+d 6 12 informBy
+d 6 17 informBy
+d 7 4 informBy
+d 8 11 informBy
+d 9 4 informBy
+d 9 6 informBy
+d 10 2 informBy
+d 10 6 informBy
+d 10 7 informBy
+d 10 9 informBy
+d 11 10 informBy
+d 12 5 informBy
+d 12 13 informBy
+d 13 1 informBy
+d 14 8 informBy
+d 16 4 informBy
+d 17 4 informBy
+
+S
+v 1 SUB_1
+v 2 http://vocab.linkeddata.es/resource/CompileResults
+v 3 http://vocab.linkeddata.es/resource/MakeScene
+v 4 http://vocab.linkeddata.es/resource/ChooseROIs
+v 5 http://vocab.linkeddata.es/resource/TransposeTableGroup1
+v 6 http://vocab.linkeddata.es/resource/TransposeTableGroup2
+v 7 http://vocab.linkeddata.es/resource/TTestGroup1Group3
+v 8 http://vocab.linkeddata.es/resource/TransposeTableGroup3
+v 9 http://vocab.linkeddata.es/resource/TTestGroup2Group1
+v 10 http://vocab.linkeddata.es/resource/Grep
+v 11 http://vocab.linkeddata.es/resource/Grep
+v 12 http://vocab.linkeddata.es/resource/Grep
+v 13 http://vocab.linkeddata.es/resource/CompilePValuesGroup1Group3
+v 14 http://vocab.linkeddata.es/resource/ApplyLabels
+v 15 http://vocab.linkeddata.es/resource/UnlabelledPValues
+v 16 http://vocab.linkeddata.es/resource/CompilePValuesGroup3Group2
+v 17 http://vocab.linkeddata.es/resource/ApplyLabels
+v 18 http://vocab.linkeddata.es/resource/UnlabelledPValues
+v 19 http://vocab.linkeddata.es/resource/CompilePValuesGroup2Group1
+v 20 http://vocab.linkeddata.es/resource/ApplyLabels
+v 21 http://vocab.linkeddata.es/resource/UnlabelledPValues
+v 22 http://vocab.linkeddata.es/resource/ChooseReferenceSubject
+v 23 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 24 http://vocab.linkeddata.es/resource/MeshSubdivision
+v 25 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 26 http://vocab.linkeddata.es/resource/Extract56ROIs
+v 27 http://vocab.linkeddata.es/resource/Analyze2mesh
+d 2 13 informBy
+d 2 16 informBy
+d 2 19 informBy
+d 3 4 informBy
+d 4 15 informBy
+d 4 18 informBy
+d 4 21 informBy
+d 4 22 informBy
+d 5 11 informBy
+d 6 12 informBy
+d 7 5 informBy
+d 7 8 informBy
+d 8 10 informBy
+d 9 5 informBy
+d 9 6 informBy
+d 13 14 informBy
+d 14 7 informBy
+d 15 7 informBy
+d 16 17 informBy
+d 19 20 informBy
+d 20 9 informBy
+d 21 9 informBy
+d 22 25 informBy
+d 23 27 informBy
+d 24 23 informBy
+d 25 24 informBy
+d 26 1 informBy
+d 27 26 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/equalizeshapevolume
+v 2 http://vocab.linkeddata.es/resource/transform
+v 3 http://vocab.linkeddata.es/resource/RigidQuaternionTransform
+v 4 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 5 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 6 http://vocab.linkeddata.es/resource/closesphericalshape
+v 7 http://vocab.linkeddata.es/resource/radialdistance
+v 8 http://vocab.linkeddata.es/resource/displacementfeature
+v 9 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+v 10 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 11 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+v 12 http://vocab.linkeddata.es/resource/taosphericalmap
+v 13 http://vocab.linkeddata.es/resource/eraseattributes
+v 14 http://vocab.linkeddata.es/resource/regularsphericalsampling
+v 15 http://vocab.linkeddata.es/resource/SphericalGaussiansmoothing
+v 16 http://vocab.linkeddata.es/resource/taosphericalmap
+v 17 http://vocab.linkeddata.es/resource/eraseattributes
+v 18 http://vocab.linkeddata.es/resource/equalizeshapevolume
+v 19 http://vocab.linkeddata.es/resource/transform
+v 20 http://vocab.linkeddata.es/resource/RigidQuaternionTransform
+v 21 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 22 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 23 http://vocab.linkeddata.es/resource/findvertexcorrespondence
+v 24 http://vocab.linkeddata.es/resource/GaussianSmoothreg.attribute
+d 1 19 informBy
+d 2 1 informBy
+d 2 3 informBy
+d 3 4 informBy
+d 3 5 informBy
+d 5 1 informBy
+d 6 23 informBy
+d 7 6 informBy
+d 8 2 informBy
+d 9 8 informBy
+d 10 12 informBy
+d 10 13 informBy
+d 11 10 informBy
+d 12 13 informBy
+d 14 16 informBy
+d 14 17 informBy
+d 15 14 informBy
+d 16 17 informBy
+d 18 11 informBy
+d 18 23 informBy
+d 19 18 informBy
+d 19 20 informBy
+d 20 21 informBy
+d 20 22 informBy
+d 21 18 informBy
+d 22 11 informBy
+d 23 11 informBy
+d 23 15 informBy
+d 24 7 informBy
+
+S
+v 1 SUB_6
+v 2 http://vocab.linkeddata.es/resource/average
+v 3 http://vocab.linkeddata.es/resource/VolumeRegressionAnalysis
+v 4 http://vocab.linkeddata.es/resource/FalseDiscoveryRateCorrection
+v 5 http://vocab.linkeddata.es/resource/VolumeRegressionAnalysis
+v 6 http://vocab.linkeddata.es/resource/FalseDiscoveryRateCorrection
+v 7 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 8 http://vocab.linkeddata.es/resource/ShapeAttribute
+v 9 http://vocab.linkeddata.es/resource/BinaryAsciiConversion
+v 10 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 11 http://vocab.linkeddata.es/resource/ShapeAttribute
+v 12 http://vocab.linkeddata.es/resource/BinaryAsciiConversion
+d 2 1 informBy
+d 1 2 informBy
+d 1 2 informBy
+d 1 2 informBy
+d 4 3 informBy
+d 6 5 informBy
+d 7 2 informBy
+d 8 7 informBy
+d 8 9 informBy
+d 9 4 informBy
+d 10 2 informBy
+d 11 10 informBy
+d 11 12 informBy
+d 12 6 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ResliceWarp
+v 2 http://vocab.linkeddata.es/resource/FLIRT
+v 3 http://vocab.linkeddata.es/resource/MakeHeader
+v 4 http://vocab.linkeddata.es/resource/Reorient
+d 1 3 informBy
+d 3 2 informBy
+d 4 1 informBy
+
+S
+v 1 SUB_1
+v 2 http://vocab.linkeddata.es/resource/MakeAListFile
+v 3 http://vocab.linkeddata.es/resource/Extract56ROIs
+v 4 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 5 http://vocab.linkeddata.es/resource/MeshSubdivision
+v 6 http://vocab.linkeddata.es/resource/Analyze2mesh
+v 7 http://vocab.linkeddata.es/resource/ShapeTranslator
+d 2 7 informBy
+d 3 1 informBy
+d 4 6 informBy
+d 5 4 informBy
+d 6 3 informBy
+d 7 5 informBy
+
+S
+v 1 SUB_4
+v 2 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 3 http://vocab.linkeddata.es/resource/MeshSubdivision
+v 4 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 5 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 6 http://vocab.linkeddata.es/resource/Mask2Mesh
+v 7 http://vocab.linkeddata.es/resource/ShapeReporter
+v 8 http://vocab.linkeddata.es/resource/FractalDimension
+v 9 http://vocab.linkeddata.es/resource/ListDirectoryContents
+d 2 5 informBy
+d 3 2 informBy
+d 4 3 informBy
+d 5 6 informBy
+d 6 1 informBy
+d 7 9 informBy
+d 8 7 informBy
+d 8 9 informBy
+d 9 4 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/AlignLinear
+v 2 http://vocab.linkeddata.es/resource/AlignWarp
+v 3 http://vocab.linkeddata.es/resource/CombineWarp
+v 4 http://vocab.linkeddata.es/resource/ResliceWarp
+v 5 http://vocab.linkeddata.es/resource/ResliceWarp
+d 3 1 informBy
+d 3 2 informBy
+d 4 2 informBy
+d 5 3 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ChooseROIs
+v 2 http://vocab.linkeddata.es/resource/UnlabelledPValues
+v 3 http://vocab.linkeddata.es/resource/TTest
+v 4 http://vocab.linkeddata.es/resource/TransposeTableGroup1
+v 5 http://vocab.linkeddata.es/resource/ResliceGroups
+v 6 http://vocab.linkeddata.es/resource/CreateList
+v 7 http://vocab.linkeddata.es/resource/CreateList
+v 8 http://vocab.linkeddata.es/resource/CreateList
+v 9 http://vocab.linkeddata.es/resource/TransposeTableGroup2
+v 10 http://vocab.linkeddata.es/resource/CopyShapeFiles
+v 11 http://vocab.linkeddata.es/resource/ChooseReferenceSubject
+v 12 http://vocab.linkeddata.es/resource/MakeScene
+v 13 http://vocab.linkeddata.es/resource/ApplyROIColorsandLabels
+v 14 http://vocab.linkeddata.es/resource/ApplyROIColorsandLabels
+v 15 http://vocab.linkeddata.es/resource/MakeScene
+v 16 http://vocab.linkeddata.es/resource/ApplyROIColorsandLabels
+v 17 http://vocab.linkeddata.es/resource/MakeScene
+v 18 http://vocab.linkeddata.es/resource/ApplyROIColorsandLabels
+v 19 http://vocab.linkeddata.es/resource/MakeScene
+v 20 http://vocab.linkeddata.es/resource/ApplyROIColorsandLabels
+v 21 http://vocab.linkeddata.es/resource/MakeScene
+v 22 http://vocab.linkeddata.es/resource/ApplyROIColorsandLabels
+v 23 http://vocab.linkeddata.es/resource/MakeScene
+d 1 2 informBy
+d 1 10 informBy
+d 2 3 informBy
+d 3 4 informBy
+d 3 9 informBy
+d 4 5 informBy
+d 5 6 informBy
+d 5 7 informBy
+d 5 8 informBy
+d 9 5 informBy
+d 10 11 informBy
+d 12 13 informBy
+d 13 1 informBy
+d 14 1 informBy
+d 15 14 informBy
+d 16 1 informBy
+d 17 16 informBy
+d 18 1 informBy
+d 19 18 informBy
+d 20 1 informBy
+d 21 20 informBy
+d 22 1 informBy
+d 23 22 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Gaussiansmoothing
+v 2 http://vocab.linkeddata.es/resource/MakeHeader
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ShapeAttribute
+v 2 http://vocab.linkeddata.es/resource/BinaryAsciiConversion
+d 1 2 informBy
+
+S
+v 1 SUB_4
+v 2 http://vocab.linkeddata.es/resource/Mask2Mesh
+v 3 http://vocab.linkeddata.es/resource/TranslateTo
+v 4 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 5 http://vocab.linkeddata.es/resource/MeshSubdivision
+d 2 1 informBy
+d 3 2 informBy
+d 4 3 informBy
+d 5 4 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Grep
+v 2 http://vocab.linkeddata.es/resource/BalanceRows
+v 3 http://vocab.linkeddata.es/resource/Cut
+v 4 http://vocab.linkeddata.es/resource/Paste
+v 5 http://vocab.linkeddata.es/resource/TransposeTable
+v 6 http://vocab.linkeddata.es/resource/Squeeze
+v 7 http://vocab.linkeddata.es/resource/MRIConvert
+v 8 http://vocab.linkeddata.es/resource/MRISegStats
+d 1 8 informBy
+d 2 6 informBy
+d 3 2 informBy
+d 4 3 informBy
+d 5 4 informBy
+d 6 1 informBy
+d 8 7 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/SamTools:Index
+v 2 http://vocab.linkeddata.es/resource/SamTools:Index
+v 3 http://vocab.linkeddata.es/resource/Indexing
+v 4 http://vocab.linkeddata.es/resource/Slidingwindowgenomiccoverage
+v 5 http://vocab.linkeddata.es/resource/GATKCallability
+v 6 http://vocab.linkeddata.es/resource/PicardSortSam
+v 7 http://vocab.linkeddata.es/resource/GATKRealigning
+v 8 http://vocab.linkeddata.es/resource/GATKCreatingIntervals
+v 9 http://vocab.linkeddata.es/resource/GATKCovariatesanalysis
+v 10 http://vocab.linkeddata.es/resource/GATKCovariatesanalysis
+v 11 http://vocab.linkeddata.es/resource/QualityScoreDistribution
+v 12 http://vocab.linkeddata.es/resource/CollectInsertSizeMetrics
+v 13 http://vocab.linkeddata.es/resource/MeanQualitybyCycle
+v 14 http://vocab.linkeddata.es/resource/CollectAlignmentSummaryMetrics
+v 15 http://vocab.linkeddata.es/resource/CollectGCBiasMetrics
+v 16 http://vocab.linkeddata.es/resource/GATKCovariatescalculation
+v 17 http://vocab.linkeddata.es/resource/GATKCovariatescalculation
+v 18 http://vocab.linkeddata.es/resource/GATKTableRecalibration
+d 1 18 informBy
+d 2 6 informBy
+d 3 5 informBy
+d 4 7 informBy
+d 5 2 informBy
+d 5 6 informBy
+d 6 7 informBy
+d 7 8 informBy
+d 7 18 informBy
+d 8 1 informBy
+d 8 18 informBy
+d 9 17 informBy
+d 10 16 informBy
+d 11 6 informBy
+d 12 6 informBy
+d 13 6 informBy
+d 14 6 informBy
+d 15 6 informBy
+d 17 18 informBy
+d 18 16 informBy
+
+S
+v 1 SUB_2
+v 2 http://vocab.linkeddata.es/resource/KLMIinvert
+v 3 http://vocab.linkeddata.es/resource/KLMIdeform
+v 4 http://vocab.linkeddata.es/resource/HardMean
+v 5 http://vocab.linkeddata.es/resource/InterpAveragepairsof3
+v 6 http://vocab.linkeddata.es/resource/KLMIdeformfield
+d 2 4 informBy
+d 3 5 informBy
+d 4 1 informBy
+d 5 2 informBy
+d 5 6 informBy
+d 6 2 informBy
+
+S
+v 1 SUB_1
+v 2 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+v 3 http://vocab.linkeddata.es/resource/Analyze2mesh
+v 4 http://vocab.linkeddata.es/resource/Binarize/BinaryMask
+d 2 3 informBy
+d 3 4 informBy
+d 4 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/MakeAListFile
+v 2 http://vocab.linkeddata.es/resource/MakeAListFile
+v 3 http://vocab.linkeddata.es/resource/MakeAListFile
+v 4 http://vocab.linkeddata.es/resource/ConcatenateShapeMeasures
+v 5 http://vocab.linkeddata.es/resource/Group3Measures
+v 6 http://vocab.linkeddata.es/resource/Group2Measures
+v 7 http://vocab.linkeddata.es/resource/Group1Measures
+v 8 http://vocab.linkeddata.es/resource/FractalDimensionGroup1
+v 9 http://vocab.linkeddata.es/resource/FractalDimensionGroup2
+v 10 http://vocab.linkeddata.es/resource/ShapeReporterGroup1
+v 11 http://vocab.linkeddata.es/resource/ShapeReporterGroup2
+v 12 http://vocab.linkeddata.es/resource/FractalDimensionGroup3
+v 13 http://vocab.linkeddata.es/resource/ShapeReporterGroup3
+d 4 5 informBy
+d 4 6 informBy
+d 4 7 informBy
+d 5 12 informBy
+d 6 9 informBy
+d 7 8 informBy
+d 8 1 informBy
+d 8 10 informBy
+d 9 2 informBy
+d 9 11 informBy
+d 10 1 informBy
+d 11 2 informBy
+d 12 3 informBy
+d 12 13 informBy
+d 13 3 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Reslice
+v 2 http://vocab.linkeddata.es/resource/AlignLinear
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/VolumeTablelist
+v 2 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 3 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 4 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 5 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+v 6 http://vocab.linkeddata.es/resource/Volumestats
+d 1 6 informBy
+d 6 2 informBy
+d 6 3 informBy
+d 6 4 informBy
+d 6 5 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/WaveletTransformND
+v 2 http://vocab.linkeddata.es/resource/WaveletShrinkage
+d 2 1 informBy
+
+S
+v 1 SUB_10
+v 2 http://vocab.linkeddata.es/resource/MakeAListFile
+v 3 http://vocab.linkeddata.es/resource/FractalDimension
+v 4 http://vocab.linkeddata.es/resource/ShapeReporter
+v 5 http://vocab.linkeddata.es/resource/Grep
+v 6 http://vocab.linkeddata.es/resource/Grep
+d 2 1 informBy
+d 3 2 informBy
+d 3 4 informBy
+d 4 2 informBy
+d 5 3 informBy
+d 6 5 informBy
+
+S
+v 1 SUB_11
+v 2 http://vocab.linkeddata.es/resource/AlignLinear
+v 3 http://vocab.linkeddata.es/resource/Reslice
+v 4 http://vocab.linkeddata.es/resource/BET(nii.gz)
+v 5 http://vocab.linkeddata.es/resource/FloatToShortS
+v 6 http://vocab.linkeddata.es/resource/smartlineBET(nii.gz)FloatToShortS
+v 7 http://vocab.linkeddata.es/resource/FloatToShortS
+v 8 http://vocab.linkeddata.es/resource/BET(nii.gz)
+v 9 http://vocab.linkeddata.es/resource/smartlineBET(nii.gz)FloatToShortS
+d 1 5 informBy
+d 1 7 informBy
+d 1 2 informBy
+d 3 1 informBy
+d 5 6 informBy
+d 6 4 informBy
+d 7 9 informBy
+d 9 8 informBy
+
+S
+v 1 SUB_2
+v 2 http://vocab.linkeddata.es/resource/KLMIJacobian
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/mergeresults
+v 2 http://vocab.linkeddata.es/resource/Reorient
+v 3 http://vocab.linkeddata.es/resource/metcomp
+v 4 http://vocab.linkeddata.es/resource/Reorient(8bit)
+v 5 http://vocab.linkeddata.es/resource/Reorient(8bit)
+d 1 3 informBy
+d 3 4 informBy
+d 3 5 informBy
+d 5 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/SSMA
+v 2 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+v 3 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 4 http://vocab.linkeddata.es/resource/Reorient
+v 5 http://vocab.linkeddata.es/resource/ConvertXFM(nii.gz)
+v 6 http://vocab.linkeddata.es/resource/FSLCpGeom(nii.gz)
+v 7 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+d 1 2 informBy
+d 2 4 informBy
+d 3 1 informBy
+d 5 3 informBy
+d 7 1 informBy
+d 7 5 informBy
+d 7 6 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Copy
+v 2 http://vocab.linkeddata.es/resource/GAMMAConfiguration
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/SurfaceGenerator
+v 2 http://vocab.linkeddata.es/resource/ScrubMask
+v 3 http://vocab.linkeddata.es/resource/TopologicalCorrection
+v 4 http://vocab.linkeddata.es/resource/PartialVolumeClassifier
+v 5 http://vocab.linkeddata.es/resource/HemisphereSplit
+v 6 http://vocab.linkeddata.es/resource/PharmonicMapping
+v 7 http://vocab.linkeddata.es/resource/DFSSmooth
+v 8 http://vocab.linkeddata.es/resource/Dewisp
+v 9 http://vocab.linkeddata.es/resource/DFSSmooth
+v 10 http://vocab.linkeddata.es/resource/PharmonicMapping
+v 11 http://vocab.linkeddata.es/resource/CopyUV
+v 12 http://vocab.linkeddata.es/resource/CopyUV
+v 13 http://vocab.linkeddata.es/resource/Cortex
+v 14 http://vocab.linkeddata.es/resource/Cerebro
+v 15 http://vocab.linkeddata.es/resource/PialSurfaceGenerator
+d 1 8 informBy
+d 2 13 informBy
+d 3 2 informBy
+d 5 7 informBy
+d 5 14 informBy
+d 5 15 informBy
+d 6 5 informBy
+d 7 1 informBy
+d 8 3 informBy
+d 9 7 informBy
+d 10 5 informBy
+d 11 5 informBy
+d 11 10 informBy
+d 12 5 informBy
+d 12 6 informBy
+d 13 4 informBy
+d 13 14 informBy
+d 15 4 informBy
+d 15 9 informBy
+d 15 14 informBy
+
+S
+v 1 SUB_15
+v 2 SUB_6
+v 3 http://vocab.linkeddata.es/resource/colorattribute
+v 4 http://vocab.linkeddata.es/resource/CreateList
+v 5 http://vocab.linkeddata.es/resource/CreateList
+v 6 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+v 7 http://vocab.linkeddata.es/resource/colorpvals
+v 8 http://vocab.linkeddata.es/resource/colorattribute
+d 3 2 informBy
+d 3 2 informBy
+d 5 2 informBy
+d 6 4 informBy
+d 6 5 informBy
+d 7 6 informBy
+d 8 2 informBy
+d 8 2 informBy
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Crop
+v 2 http://vocab.linkeddata.es/resource/FLIRT
+v 3 http://vocab.linkeddata.es/resource/MakeHeader
+v 4 http://vocab.linkeddata.es/resource/AlignWarp
+v 5 http://vocab.linkeddata.es/resource/ResliceWarp
+d 2 1 informBy
+d 3 2 informBy
+d 4 3 informBy
+d 5 4 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/BrainSurfaceExtractor
+v 2 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+d 2 1 informBy
+
+S
+v 1 SUB_22
+v 2 http://vocab.linkeddata.es/resource/PartialVolumeClassifier
+d 1 2 informBy
+d 1 2 informBy
+d 1 2 informBy
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/CompileResults
+v 2 http://vocab.linkeddata.es/resource/ChooseROIs
+v 3 http://vocab.linkeddata.es/resource/CompilePValuesGroup1Group3
+v 4 http://vocab.linkeddata.es/resource/ApplyLabels
+v 5 http://vocab.linkeddata.es/resource/UnlabelledPValues
+v 6 http://vocab.linkeddata.es/resource/CompilePValuesGroup3Group2
+v 7 http://vocab.linkeddata.es/resource/ApplyLabels
+v 8 http://vocab.linkeddata.es/resource/UnlabelledPValues
+v 9 http://vocab.linkeddata.es/resource/CompilePValuesGroup2Group1
+v 10 http://vocab.linkeddata.es/resource/ApplyLabels
+v 11 http://vocab.linkeddata.es/resource/UnlabelledPValues
+v 12 http://vocab.linkeddata.es/resource/TransposeTableGroup1
+v 13 http://vocab.linkeddata.es/resource/TransposeTableGroup2
+v 14 http://vocab.linkeddata.es/resource/TTestGroup1Group3
+v 15 http://vocab.linkeddata.es/resource/TransposeTableGroup3
+v 16 http://vocab.linkeddata.es/resource/TTestGroup3Group2
+v 17 http://vocab.linkeddata.es/resource/TTestGroup2Group1
+v 18 http://vocab.linkeddata.es/resource/Grep
+v 19 http://vocab.linkeddata.es/resource/Grep
+v 20 http://vocab.linkeddata.es/resource/Grep
+v 21 http://vocab.linkeddata.es/resource/MakeScene
+d 1 3 informBy
+d 1 6 informBy
+d 1 9 informBy
+d 2 5 informBy
+d 2 8 informBy
+d 2 11 informBy
+d 3 4 informBy
+d 4 14 informBy
+d 5 14 informBy
+d 6 7 informBy
+d 7 16 informBy
+d 8 16 informBy
+d 9 10 informBy
+d 10 17 informBy
+d 11 17 informBy
+d 12 19 informBy
+d 13 20 informBy
+d 14 12 informBy
+d 14 15 informBy
+d 15 18 informBy
+d 16 13 informBy
+d 16 15 informBy
+d 17 12 informBy
+d 17 13 informBy
+d 21 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Reorient(8bit)
+v 2 http://vocab.linkeddata.es/resource/BitConverter
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ImageToShapeAttribute
+v 2 http://vocab.linkeddata.es/resource/TranslateTo
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/OctahedralResample
+v 2 http://vocab.linkeddata.es/resource/OctahedralResample
+v 3 http://vocab.linkeddata.es/resource/MakeDir
+v 4 http://vocab.linkeddata.es/resource/ReconAll
+d 1 4 informBy
+d 2 4 informBy
+d 4 3 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/GraphExtraction
+v 2 http://vocab.linkeddata.es/resource/SkeletonPruning
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/SamTools:Faidx
+v 2 http://vocab.linkeddata.es/resource/SamTools:Sort
+v 3 http://vocab.linkeddata.es/resource/SamTools:maq2samlong
+v 4 http://vocab.linkeddata.es/resource/SamTools:View
+v 5 http://vocab.linkeddata.es/resource/SamTools:RemoveDuplicates
+v 6 http://vocab.linkeddata.es/resource/SamTools:Camld(MDtag)
+v 7 http://vocab.linkeddata.es/resource/SamTools:Index
+v 8 http://vocab.linkeddata.es/resource/MAQSol2SangerConverter
+v 9 http://vocab.linkeddata.es/resource/MAQFasta2BfaConverter
+v 10 http://vocab.linkeddata.es/resource/MAQFastq2BfdConverter
+v 11 http://vocab.linkeddata.es/resource/MAQMapper
+v 12 http://vocab.linkeddata.es/resource/SubSequenceExtractor
+d 2 5 informBy
+d 3 11 informBy
+d 4 1 informBy
+d 4 3 informBy
+d 5 4 informBy
+d 6 2 informBy
+d 7 6 informBy
+d 8 12 informBy
+d 10 8 informBy
+d 11 9 informBy
+d 11 10 informBy
+
+S
+v 1 SUB_40
+v 2 http://vocab.linkeddata.es/resource/Bowtie:Alignment
+v 3 http://vocab.linkeddata.es/resource/Bowtie:Indexing
+d 2 1 informBy
+d 2 3 informBy
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/MRIConvert
+v 2 http://vocab.linkeddata.es/resource/MRISegStats
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Gamixture
+v 2 http://vocab.linkeddata.es/resource/SVPASEG
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/GAMMARSI
+v 2 http://vocab.linkeddata.es/resource/GammaFilelist
+d 1 2 informBy
+
+S
+v 1 SUB_42
+v 2 SUB_34
+d 1 2 informBy
+
+S
+v 1 SUB_32
+v 2 SUB_8
+v 3 SUB_8
+v 4 SUB_8
+v 5 SUB_8
+v 6 http://vocab.linkeddata.es/resource/Crop
+d 2 1 informBy
+d 3 1 informBy
+d 4 1 informBy
+d 5 1 informBy
+d 1 6 informBy
+d 1 6 informBy
+
+S
+v 1 SUB_39
+v 2 http://vocab.linkeddata.es/resource/SulcalSkeletons
+d 1 2 informBy
+
+S
+v 1 SUB_39
+v 2 http://vocab.linkeddata.es/resource/GyralSkeletons
+d 1 2 informBy
+
+S
+v 1 SUB_26
+v 2 http://vocab.linkeddata.es/resource/selectmedian
+v 3 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+d 2 3 informBy
+d 1 3 informBy
+d 1 3 informBy
+d 1 3 informBy
+d 1 3 informBy
+
+S
+v 1 SUB_36
+v 2 http://vocab.linkeddata.es/resource/smartlineFLIRT(nii.gz)BitConverter
+d 1 2 informBy
+
+S
+v 1 SUB_29
+v 2 http://vocab.linkeddata.es/resource/GAMMAalgorithm
+d 2 1 informBy
+
+S
+v 1 SUB_19
+v 2 SUB_19
+v 3 SUB_7
+d 3 1 informBy
+d 3 2 informBy
+
+S
+v 1 SUB_29
+v 2 http://vocab.linkeddata.es/resource/GAMMAEL
+d 2 1 informBy
+
+S
+v 1 SUB_11
+v 2 http://vocab.linkeddata.es/resource/reslicediffdir
+v 3 http://vocab.linkeddata.es/resource/FSLMerge(nii.gz)
+d 1 1 informBy
+d 2 1 informBy
+d 3 1 informBy
+
+S
+v 1 SUB_26
+v 2 http://vocab.linkeddata.es/resource/HardMean
+d 2 1 informBy
+
+S
+v 1 SUB_21
+v 2 http://vocab.linkeddata.es/resource/CombineAIR
+d 2 1 informBy
+
+S
+v 1 SUB_5
+v 2 http://vocab.linkeddata.es/resource/MakeAListFile
+v 3 http://vocab.linkeddata.es/resource/ShapeReporterGroup3
+v 4 http://vocab.linkeddata.es/resource/TTestGroup3Group1
+d 2 1 informBy
+d 3 2 informBy
+d 4 1 informBy
+d 4 1 informBy
+d 1 4 informBy
+d 1 4 informBy
+
+S
+v 1 SUB_16
+v 2 SUB_4
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Mask2Mesh
+v 2 http://vocab.linkeddata.es/resource/MakeDir
+v 3 http://vocab.linkeddata.es/resource/CreateList
+v 4 http://vocab.linkeddata.es/resource/DHM(DirectHippoMapping)
+v 5 http://vocab.linkeddata.es/resource/ShapeTranslator
+v 6 http://vocab.linkeddata.es/resource/displacementfeature
+v 7 http://vocab.linkeddata.es/resource/CreateList
+d 3 6 informBy
+d 4 1 informBy
+d 4 2 informBy
+d 5 4 informBy
+d 6 5 informBy
+d 7 4 informBy
+
+S
+v 1 SUB_59
+v 2 http://vocab.linkeddata.es/resource/MapPValueToSurface
+v 3 http://vocab.linkeddata.es/resource/permutationtest(byYS)
+v 4 http://vocab.linkeddata.es/resource/SelectRows
+d 2 4 informBy
+d 3 1 informBy
+d 4 3 informBy
+
+S
+v 1 SUB_9
+v 2 http://vocab.linkeddata.es/resource/ShapeReporterGroup2
+d 2 1 informBy
+
+S
+v 1 SUB_9
+v 2 http://vocab.linkeddata.es/resource/ShapeReporterGroup1
+d 2 1 informBy
+
+S
+v 1 SUB_2
+v 2 http://vocab.linkeddata.es/resource/KLMIinvert
+v 3 http://vocab.linkeddata.es/resource/HardMean
+d 2 3 informBy
+d 3 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/SymmetricNormalization(SyN)
+v 2 http://vocab.linkeddata.es/resource/Backwarp(Applywarp)
+v 3 http://vocab.linkeddata.es/resource/CombineParams
+d 2 3 informBy
+d 3 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/spmnormalize
+v 2 http://vocab.linkeddata.es/resource/writenormalized
+v 3 http://vocab.linkeddata.es/resource/convert2nii
+d 1 3 informBy
+d 2 1 informBy
+d 2 3 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ImageHistogramEqualize
+v 2 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/3DBsplineDeformation
+v 2 http://vocab.linkeddata.es/resource/BrainParser
+v 3 http://vocab.linkeddata.es/resource/Smoother
+v 4 http://vocab.linkeddata.es/resource/DeformationFieldWarpping
+v 5 http://vocab.linkeddata.es/resource/InverseDeformationField
+d 2 1 informBy
+d 3 4 informBy
+d 4 2 informBy
+d 4 5 informBy
+d 5 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/BrainSurfaceExtractor
+v 2 http://vocab.linkeddata.es/resource/BET(nii.gz)
+v 3 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+d 3 1 informBy
+d 3 2 informBy
+
+S
+v 1 SUB_68
+v 2 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/AIRreconcile
+v 2 http://vocab.linkeddata.es/resource/SaveCommonAIRfiles
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/BinaryMaskFloat
+v 2 http://vocab.linkeddata.es/resource/FSLStats(nii.gz)
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 2 http://vocab.linkeddata.es/resource/ConvertXFM(nii.gz)
+v 3 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+d 2 1 informBy
+d 3 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/VolumeTwoIndependentSamplesTTest
+v 2 http://vocab.linkeddata.es/resource/CreateDesignMatrix
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/MINCResample
+v 2 http://vocab.linkeddata.es/resource/MincFixHeader
+v 3 http://vocab.linkeddata.es/resource/MINCResample
+v 4 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+v 5 http://vocab.linkeddata.es/resource/smartlineFLIRT(nii.gz)MincFixHeader
+d 1 2 informBy
+d 2 5 informBy
+d 3 1 informBy
+d 5 4 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/FloatToShortS
+v 2 http://vocab.linkeddata.es/resource/BrainParser
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/diracodfcalculator
+v 2 http://vocab.linkeddata.es/resource/diracdenoiser
+v 3 http://vocab.linkeddata.es/resource/diracfasttract
+v 4 http://vocab.linkeddata.es/resource/diractensormetrics
+v 5 http://vocab.linkeddata.es/resource/diractensorcalculator
+v 6 http://vocab.linkeddata.es/resource/diracodfmetrics
+d 1 2 informBy
+d 3 1 informBy
+d 3 5 informBy
+d 4 5 informBy
+d 5 2 informBy
+d 6 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/odftracker
+v 2 http://vocab.linkeddata.es/resource/splinefilter
+v 3 http://vocab.linkeddata.es/resource/odfrecon
+d 1 3 informBy
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/Pharm
+v 2 http://vocab.linkeddata.es/resource/CopyUV
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/MINCResample
+v 2 http://vocab.linkeddata.es/resource/MNCToAnalyzeImage
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ART
+v 2 http://vocab.linkeddata.es/resource/copy
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/FSFUpdate
+v 2 http://vocab.linkeddata.es/resource/FSLFEAT
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ConcatenateShapeMeasures
+v 2 http://vocab.linkeddata.es/resource/ConcatenateGroup3
+v 3 http://vocab.linkeddata.es/resource/Group3Labels
+v 4 http://vocab.linkeddata.es/resource/Group3SubjectIDs
+v 5 http://vocab.linkeddata.es/resource/TransposeTableGroup3
+v 6 http://vocab.linkeddata.es/resource/Group1SubjectIDs
+v 7 http://vocab.linkeddata.es/resource/Group1Labels
+v 8 http://vocab.linkeddata.es/resource/ConcatenateGroup1
+v 9 http://vocab.linkeddata.es/resource/TransposeTableGroup1
+v 10 http://vocab.linkeddata.es/resource/Group2Labels
+v 11 http://vocab.linkeddata.es/resource/ConcatenateGroup2
+v 12 http://vocab.linkeddata.es/resource/Group2SubjectIDs
+v 13 http://vocab.linkeddata.es/resource/TransposeTableGroup2
+d 1 2 informBy
+d 1 8 informBy
+d 1 11 informBy
+d 2 3 informBy
+d 2 4 informBy
+d 3 5 informBy
+d 7 9 informBy
+d 8 6 informBy
+d 8 7 informBy
+d 10 13 informBy
+d 11 10 informBy
+d 11 12 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/MINCMath
+v 2 http://vocab.linkeddata.es/resource/smartlineMINCMathFLIRT
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/MNCToAnalyzeImage
+v 2 http://vocab.linkeddata.es/resource/MINCMath
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/CreateDesignMatrix
+v 2 http://vocab.linkeddata.es/resource/VolumeRegressionAnalysis
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/writenormalized
+v 2 http://vocab.linkeddata.es/resource/coregistration
+d 1 2 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/GATKCovariatescalculation
+v 2 http://vocab.linkeddata.es/resource/GATKCovariatesanalysis
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/BitConverter
+v 2 http://vocab.linkeddata.es/resource/signed2unsigned
+d 2 1 informBy
+
+S
+v 1 http://vocab.linkeddata.es/resource/ChooseReferenceSubject
+
+S
+v 1 http://vocab.linkeddata.es/resource/QEMmeshsimplification
+
+S
+v 1 http://vocab.linkeddata.es/resource/ShapeTranslator
+
+S
+v 1 http://vocab.linkeddata.es/resource/UpdateDesignMatrix
+
+S
+v 1 http://vocab.linkeddata.es/resource/HardMean
+
+S
+v 1 http://vocab.linkeddata.es/resource/Binarize
+
+S
+v 1 http://vocab.linkeddata.es/resource/ucfroiselector
+
+S
+v 1 http://vocab.linkeddata.es/resource/UCF2ANZ
+
+S
+v 1 http://vocab.linkeddata.es/resource/smartlineBET(nii.gz)FloatToShortS
+
+S
+v 1 http://vocab.linkeddata.es/resource/FLIRT
+
+S
+v 1 http://vocab.linkeddata.es/resource/SSMA
+
+S
+v 1 http://vocab.linkeddata.es/resource/Reorient
+
+S
+v 1 http://vocab.linkeddata.es/resource/Echo
+
+S
+v 1 http://vocab.linkeddata.es/resource/Cat
+
+S
+v 1 http://vocab.linkeddata.es/resource/BiasFieldCorrector
+
+S
+v 1 http://vocab.linkeddata.es/resource/BrainSurfaceExtractor
+
+S
+v 1 http://vocab.linkeddata.es/resource/MakeDir
+
+S
+v 1 http://vocab.linkeddata.es/resource/smartlineFLIRT(nii.gz)Smoother
+
+S
+v 1 http://vocab.linkeddata.es/resource/smartlineFSLMaths(nii.gz)FLIRT(nii.gz)
+
+S
+v 1 http://vocab.linkeddata.es/resource/Cerebro
+
+S
+v 1 http://vocab.linkeddata.es/resource/PartialVolumeClassifier
+
+S
+v 1 http://vocab.linkeddata.es/resource/DFSSmooth
+
+S
+v 1 http://vocab.linkeddata.es/resource/AnalyzeImagetoMNC
+
+S
+v 1 http://vocab.linkeddata.es/resource/copy
+
+S
+v 1 http://vocab.linkeddata.es/resource/CorticalThickness
+
+S
+v 1 http://vocab.linkeddata.es/resource/MRIConvert
+
+S
+v 1 http://vocab.linkeddata.es/resource/Streamlinefibertracking
+
+S
+v 1 http://vocab.linkeddata.es/resource/TranslateTo
+
+S
+v 1 http://vocab.linkeddata.es/resource/FSLMerge(nii.gz)
+
+S
+v 1 http://vocab.linkeddata.es/resource/FLIRT(nii.gz)
+
+S
+v 1 http://vocab.linkeddata.es/resource/FSLMaths(nii.gz)
+
+S
+v 1 http://vocab.linkeddata.es/resource/Gaussiansmoothing
+
+S
+v 1 http://vocab.linkeddata.es/resource/Resize
+
+S
+v 1 http://vocab.linkeddata.es/resource/ResliceWarp
+
+S
+v 1 http://vocab.linkeddata.es/resource/StrictMeanNoRescale
+
+S
+v 1 http://vocab.linkeddata.es/resource/WaveletTransformND
+
+S
+v 1 http://vocab.linkeddata.es/resource/GammaFilelist
+
+S
+v 1 http://vocab.linkeddata.es/resource/AlignWarp
+
+S
+v 1 http://vocab.linkeddata.es/resource/Grep
+
+S
+v 1 http://vocab.linkeddata.es/resource/Reorient(8bit)
+
+S
+v 1 http://vocab.linkeddata.es/resource/metcomp
+
+S
+v 1 http://vocab.linkeddata.es/resource/CreateDesignMatrix
+
+S
+v 1 http://vocab.linkeddata.es/resource/KLMIdeform
+
+S
+v 1 http://vocab.linkeddata.es/resource/SplitVolume
+
+S
+v 1 http://vocab.linkeddata.es/resource/SPMNormalise
+
+S
+v 1 http://vocab.linkeddata.es/resource/softlinking
+
+S
+v 1 http://vocab.linkeddata.es/resource/SamTools:Index
+
+S
+v 1 http://vocab.linkeddata.es/resource/FalseDiscoveryRateCorrection
+
