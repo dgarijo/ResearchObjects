@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ore="http://www.openarchives.org/ore/terms/"
+  xmlns:prov="http://www.w3.org/ns/prov#"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
+  xmlns:ro="http://purl.org/wf4ever/ro#"
+  xmlns:schema="http://schema.org/"
+>
+  <ro:ResearchObject rdf:about="http://purl.org/net/ro-motifPaper">
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/ConsolidatedData-FinalSubmission-NEWHierarchy.xlsx"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/Workflows-Bundle/Vistrails/"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/WfCatalogue-AdditionalVistrailsWfsWithDomainsRevisited.xlsx"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/WfCatalogue-AdditionalGalaxyWfs.xlsx"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/Workflows-Bundle/Taverna/"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/WfCatalogue-AdditionalWingsDomains.xlsx"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/Workflows-Bundle/Wings/"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/Workflows-Bundle/Galaxy/"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/t2_workflow_set_eSci2012.v.0.9_FGCS.xls"/>
+    </ore:aggregates>
+    <dc:creator rdf:resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <schema:name>Common Motifs in Scientific Workflows: An Empirical Analysis</schema:name>
+    <prov:wasAttributedTo rdf:resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"/>
+    <schema:creator rdf:resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"/>
+    <ore:isDescribedBy>
+      <rdf:Description rdf:about="http://dgarijo.github.io/ResearchObjects/Motifs_bundle_page-FGCS/">
+        <dc:creator>http://delicias.dia.fi.upm.es/members/DGarijo/#me</dc:creator>
+        <prov:wasAttributedTo>http://delicias.dia.fi.upm.es/members/DGarijo/#me</prov:wasAttributedTo>
+        <schema:creator>http://delicias.dia.fi.upm.es/members/DGarijo/#me</schema:creator>
+      </rdf:Description>
+    </ore:isDescribedBy>
+    <xhv:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"/>
+    <dc:title>Common Motifs in Scientific Workflows: An Empirical Analysis</dc:title>
+    <dc:abstract>
+					Workflow technology continues to play an important role as a means for specifying and enacting computational experiments in modern Science.
+					Reusing and repurposing workflows allow scientists to do new experiments faster, since the workflows capture useful expertise from others. 
+					As workflow libraries grow, scientists face the challenge of finding workflows appropriate for their task, understanding what each workflow
+					does, and reusing relevant portions of a given workflow. We believe that workflows would be easier to understand and reuse if high-level 
+					views (abstractions) of their activities were available in workflow libraries. As a first step towards obtaining these abstractions, 
+					we report in this paper on the results of a manual analysis performed over a set of real-world scientific workflows from Taverna, 
+					Wings, 
+					Galaxy
+					and	Vistrails. 
+					Our analysis has resulted in a set of scientific workflow motifs that outline i) the kinds of data-intensive 
+					activities that are observed in  workflows (data-oriented motifs), and ii) the different manners in which activities are 
+					implemented within workflows (workflow-oriented motifs). These motifs are helpful to identify the functionality of the steps in a 
+					given workflow, to develop best practices for workflow design, and to develop approaches for automated generation of workflow abstractions.
+					
+				</dc:abstract>
+  </ro:ResearchObject>
+</rdf:RDF>
+

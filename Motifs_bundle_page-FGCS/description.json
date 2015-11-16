@@ -1,0 +1,81 @@
+{
+    "@context": {
+        "ro": "http://purl.org/wf4ever/ro#", 
+        "prov": "http://www.w3.org/ns/prov#", 
+        "dc": "http://purl.org/dc/terms/", 
+        "xhv": "http://www.w3.org/1999/xhtml/vocab#", 
+        "ore": "http://www.openarchives.org/ore/terms/", 
+        "schema": "http://schema.org/", 
+        "ore:aggregates": {
+            "@type": "@id"
+        }, 
+        "xhv:license": {
+            "@type": "@id"
+        }, 
+        "ore:isDescribedBy": {
+            "@type": "@id"
+        }
+    }, 
+    "@id": "http://purl.org/net/ro-motifPaper", 
+    "@type": [
+        "ro:ResearchObject", 
+        "ore:Aggregation"
+    ], 
+    "schema:creator": {
+        "@id": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
+    }, 
+    "dc:title": "Common Motifs in Scientific Workflows: An Empirical Analysis", 
+    "xhv:license": "http://creativecommons.org/licenses/by-nc-sa/2.0/", 
+    "ore:isDescribedBy": {
+        "@id": "http://dgarijo.github.io/ResearchObjects/Motifs_bundle_page-FGCS/", 
+        "schema:creator": "http://delicias.dia.fi.upm.es/members/DGarijo/#me", 
+        "prov:wasAttributedTo": "http://delicias.dia.fi.upm.es/members/DGarijo/#me", 
+        "dc:creator": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
+    }, 
+    "prov:wasAttributedTo": {
+        "@id": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
+    }, 
+    "ore:aggregates": [
+        {
+            "@id": "http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/Workflows-Bundle/Vistrails/", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/Workflows-Bundle/Wings/", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/t2_workflow_set_eSci2012.v.0.9_FGCS.xls", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/WfCatalogue-AdditionalVistrailsWfsWithDomainsRevisited.xlsx", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/Workflows-Bundle/Galaxy/", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/WfCatalogue-AdditionalWingsDomains.xlsx", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/WfCatalogue-AdditionalGalaxyWfs.xlsx", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/Workflows-Bundle/Taverna/", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://mayor2.dia.fi.upm.es/oeg-upm/files/dgarijo/motifAnalysis/ConsolidatedData-FinalSubmission-NEWHierarchy.xlsx", 
+            "@type": "ro:Resource"
+        }
+    ], 
+    "dc:abstract": "\n\t\t\t\t\tWorkflow technology continues to play an important role as a means for specifying and enacting computational experiments in modern Science.\n\t\t\t\t\tReusing and repurposing workflows allow scientists to do new experiments faster, since the workflows capture useful expertise from others. \n\t\t\t\t\tAs workflow libraries grow, scientists face the challenge of finding workflows appropriate for their task, understanding what each workflow\n\t\t\t\t\tdoes, and reusing relevant portions of a given workflow. We believe that workflows would be easier to understand and reuse if high-level \n\t\t\t\t\tviews (abstractions) of their activities were available in workflow libraries. As a first step towards obtaining these abstractions, \n\t\t\t\t\twe report in this paper on the results of a manual analysis performed over a set of real-world scientific workflows from Taverna, \n\t\t\t\t\tWings, \n\t\t\t\t\tGalaxy\n\t\t\t\t\tand\tVistrails. \n\t\t\t\t\tOur analysis has resulted in a set of scientific workflow motifs that outline i) the kinds of data-intensive \n\t\t\t\t\tactivities that are observed in  workflows (data-oriented motifs), and ii) the different manners in which activities are \n\t\t\t\t\timplemented within workflows (workflow-oriented motifs). These motifs are helpful to identify the functionality of the steps in a \n\t\t\t\t\tgiven workflow, to develop best practices for workflow design, and to develop approaches for automated generation of workflow abstractions.\n\t\t\t\t\t\n\t\t\t\t", 
+    "schema:name": "Common Motifs in Scientific Workflows: An Empirical Analysis", 
+    "dc:creator": {
+        "@id": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
+    }
+}

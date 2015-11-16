@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:opt="http://purl.org/net/RO-optimization#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ore="http://www.openarchives.org/ore/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:prov="http://www.w3.org/ns/prov#"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
+  xmlns:wfdesc="http://purl.org/wf4ever/wfdesc#"
+  xmlns:ro="http://purl.org/wf4ever/ro#"
+  xmlns:wfprov="http://purl.org/wf4ever/wfprov#"
+  xmlns:schema="http://schema.org/"
+>
+  <ore:Aggregation rdf:about="http://purl.org/net/svm-opt-research-object">
+    <ore:isDescribedBy>
+      <rdf:Description rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/">
+        <dc:creator>http://delicias.dia.fi.upm.es/members/DGarijo/#me</dc:creator>
+        <prov:wasAttributedTo>http://delicias.dia.fi.upm.es/members/DGarijo/#me</prov:wasAttributedTo>
+        <schema:creator>http://delicias.dia.fi.upm.es/members/DGarijo/#me</schema:creator>
+      </rdf:Description>
+    </ore:isDescribedBy>
+    <schema:name>Parameter Optimization of an Ecological Niche Modeling Workflow</schema:name>
+    <opt:hasTerminationCondition>
+      <opt:TerminationCondition rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#condition">
+        <opt:hadMaxTime>1440</opt:hadMaxTime>
+      </opt:TerminationCondition>
+    </opt:hasTerminationCondition>
+    <opt:hasSearchSpace>
+      <opt:SearchSpace rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#searchSpace">
+        <opt:hasInputParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+        <opt:hasInputParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+        <opt:hasInputParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+      </opt:SearchSpace>
+    </opt:hasSearchSpace>
+    <opt:hasOptimizationRun>
+      <opt:OptimizationRun rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run1">
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+            <opt:hasValue>363</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+            <opt:hasValue>8</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+            <opt:hasValue>2.36</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <rdfs:label>Run 1</rdfs:label>
+        <opt:hasFitnessValue>0.9207</opt:hasFitnessValue>
+      </opt:OptimizationRun>
+    </opt:hasOptimizationRun>
+    <opt:hasOptimizationRun>
+      <opt:OptimizationRun rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run6">
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+            <opt:hasValue>32</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+            <opt:hasValue>0.06</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+            <opt:hasValue>215</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <rdfs:label>Run 6</rdfs:label>
+        <opt:hasFitnessValue>0.9084</opt:hasFitnessValue>
+      </opt:OptimizationRun>
+    </opt:hasOptimizationRun>
+    <opt:hasOptimizationRun>
+      <opt:OptimizationRun rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run9">
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+            <opt:hasValue>64</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+            <opt:hasValue>6.09</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+            <opt:hasValue>514</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <rdfs:label>Run 9</rdfs:label>
+        <opt:hasFitnessValue>0.8929</opt:hasFitnessValue>
+      </opt:OptimizationRun>
+    </opt:hasOptimizationRun>
+    <opt:hasOptimizationRun>
+      <opt:OptimizationRun rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run3">
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+            <opt:hasValue>8</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+            <opt:hasValue>319</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+            <opt:hasValue>6.84</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <rdfs:label>Run 3</rdfs:label>
+        <opt:hasFitnessValue>0.8974</opt:hasFitnessValue>
+      </opt:OptimizationRun>
+    </opt:hasOptimizationRun>
+    <opt:hasOptimizationRun>
+      <opt:OptimizationRun rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run4">
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+            <opt:hasValue>486</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+            <opt:hasValue>32</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+            <opt:hasValue>3.79</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <rdfs:label>Run 4</rdfs:label>
+        <opt:hasFitnessValue>0.9019</opt:hasFitnessValue>
+      </opt:OptimizationRun>
+    </opt:hasOptimizationRun>
+    <opt:hasOptimizationRun>
+      <opt:OptimizationRun rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run8">
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+            <opt:hasValue>8</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+            <opt:hasValue>1.25</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+            <opt:hasValue>562</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <rdfs:label>Run 8</rdfs:label>
+        <opt:hasFitnessValue>0.9102</opt:hasFitnessValue>
+      </opt:OptimizationRun>
+    </opt:hasOptimizationRun>
+    <opt:hasOptimizationRun>
+      <opt:OptimizationRun rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run7">
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+            <opt:hasValue>491</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+            <opt:hasValue>4.78</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+            <opt:hasValue>8</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <rdfs:label>Run 7</rdfs:label>
+        <opt:hasFitnessValue>0.8867</opt:hasFitnessValue>
+      </opt:OptimizationRun>
+    </opt:hasOptimizationRun>
+    <opt:hasOptimizationRun>
+      <opt:OptimizationRun rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run2">
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+            <opt:hasValue>64</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+            <opt:hasValue>5.87</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+            <opt:hasValue>458</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <rdfs:label>Run 2</rdfs:label>
+        <opt:hasFitnessValue>0.9014</opt:hasFitnessValue>
+      </opt:OptimizationRun>
+    </opt:hasOptimizationRun>
+    <opt:hasOptimizationRun>
+      <opt:OptimizationRun rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run10">
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+            <opt:hasValue>4</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+            <opt:hasValue>453</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+            <opt:hasValue>2.24</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <rdfs:label>Run 10</rdfs:label>
+        <opt:hasFitnessValue>0.9101</opt:hasFitnessValue>
+      </opt:OptimizationRun>
+    </opt:hasOptimizationRun>
+    <opt:hasOptimizationRun>
+      <opt:OptimizationRun rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run5">
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+            <opt:hasValue>568</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+            <opt:hasValue>256</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <wfprov:usedInput>
+          <wfprov:Artifact>
+            <wfprov:describedByParameter rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+            <opt:hasValue>8.94</opt:hasValue>
+            <rdf:type rdf:resource="http://purl.org/net/RO-optimization#Artifact"/>
+          </wfprov:Artifact>
+        </wfprov:usedInput>
+        <rdfs:label>Run 5</rdfs:label>
+        <opt:hasFitnessValue>0.9032</opt:hasFitnessValue>
+      </opt:OptimizationRun>
+    </opt:hasOptimizationRun>
+    <opt:hasFitness>
+      <opt:SingleObjectiveFitness rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#fitness">
+        <opt:hasFitnessFunction>
+          <opt:FitnessFunction>
+            <opt:hasFunctionOutputParameter>
+              <wfdesc:Parameter>
+                <rdf:type rdf:resource="http://purl.org/net/RO-optimization#DoubleInputParameter"/>
+                <opt:hasName>"AUC"</opt:hasName>
+              </wfdesc:Parameter>
+            </opt:hasFunctionOutputParameter>
+          </opt:FitnessFunction>
+        </opt:hasFitnessFunction>
+      </opt:SingleObjectiveFitness>
+    </opt:hasFitness>
+    <dc:abstract>
+	  This page represents a Research Object representing the 
+	  optimizations made on the AUC output parameter of the ENM workflow using Support Vector Machines (SVM). 
+	  The optimizations are performed using genetic algorithms and have been represented with the 
+	  Research Object Optimization Ontology. 
+	  An RDF representation of the Research Object can be downloaded from 
+	  this link. An alternative representation in RDF-a can be found in this document.
+      </dc:abstract>
+    <schema:creator rdf:resource="http://www.fz-juelich.de/SharedDocs/Personen/IAS/JSC/EN/staff/holl_s.html?nn=361682"/>
+    <schema:creator rdf:resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"/>
+    <dc:title>Parameter Optimization of an Ecological Niche Modeling Workflow</dc:title>
+    <dc:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"/>
+    <dc:creator rdf:resource="http://www.fz-juelich.de/SharedDocs/Personen/IAS/JSC/EN/staff/holl_s.html?nn=361682"/>
+    <dc:creator rdf:resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"/>
+    <prov:wasAttributedTo rdf:resource="http://www.fz-juelich.de/SharedDocs/Personen/IAS/JSC/EN/staff/holl_s.html?nn=361682"/>
+    <prov:wasAttributedTo rdf:resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"/>
+    <prov:wasAttributedTo rdf:resource="http://semanticweb.org/wiki/Khalid_Belhajjame"/>
+    <xhv:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"/>
+    <opt:hasAlgorithm>
+      <opt:GeneticAlgorithm rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#algorithm"/>
+    </opt:hasAlgorithm>
+    <dc:contributor rdf:resource="http://semanticweb.org/wiki/Khalid_Belhajjame"/>
+    <dc:references>[Guinan et al 2009]: J. Guinan, C. Brown, M. F. Dolan, and A. J. Grehan.
+					Ecological niche modelling of the distribution of
+					cold-water coral habitat using underwater remote
+					sensing data. Ecological Informatics, 4(2):83-92, 2009.</dc:references>
+    <dc:references>[Wiley et al 2003]: E. O. Wiley, K. M. McNyset, A. T. Peterson, C. R.
+					Robins, and A. M. Stewart. Niche modeling and
+					geographic range predictions in the marine environment
+					using a machine-learning algorithm. Oceanography,
+					16(3):120-127, 2003.</dc:references>
+    <dc:references>[Kulhanek et al 2011]: S. A. Kulhanek, B. Leung, and A. Ricciardi. Using
+					ecological niche models to predict the abundance and
+					impact of invasive species: application to the common
+					carp. Ecological Applications, 21(1):203-213, 2011.</dc:references>
+    <rdf:type rdf:resource="http://purl.org/wf4ever/ro#ResearchObject"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdf:type rdf:resource="http://schema.org/WebPage"/>
+    <schema:contributor rdf:resource="http://semanticweb.org/wiki/Khalid_Belhajjame"/>
+    <opt:hasWorkflow>
+      <wfdesc:Workflow rdf:about="http://www.myexperiment.org/workflows/3680.html">
+        <wfdesc:hasInput rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#nu"/>
+        <wfdesc:hasInput rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#svm"/>
+        <wfdesc:hasInput rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"/>
+        <wfdesc:hasInput rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#kernel"/>
+        <wfdesc:hasInput rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#degree"/>
+        <wfdesc:hasInput rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"/>
+        <wfdesc:hasInput rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#probabilisticoutput"/>
+        <wfdesc:hasInput rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#coef0"/>
+        <wfdesc:hasInput rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"/>
+        <wfdesc:hasInput rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#mask"/>
+      </wfdesc:Workflow>
+    </opt:hasWorkflow>
+  </ore:Aggregation>
+  <rdf:Description rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#algortihm">
+    <opt:hasAlgortihmParameter>
+      <opt:AlgorithmParameter>
+        <opt:hasParameterValue>Mutation Rate=0.2</opt:hasParameterValue>
+        <opt:hasParameterValue>Cross Over=0.75</opt:hasParameterValue>
+      </opt:AlgorithmParameter>
+    </opt:hasAlgortihmParameter>
+  </rdf:Description>
+  <wfdesc:Parameter rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#nu">
+    <opt:hasValue>0.5</opt:hasValue>
+    <opt:hasName>Nu</opt:hasName>
+  </wfdesc:Parameter>
+  <wfdesc:Parameter rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#kernel">
+    <opt:hasValue>2</opt:hasValue>
+    <opt:hasName>Kernel_Type</opt:hasName>
+  </wfdesc:Parameter>
+  <wfdesc:Parameter rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences">
+    <opt:hasMaxValue>600</opt:hasMaxValue>
+    <opt:hasMinValue>200</opt:hasMinValue>
+    <rdf:type rdf:resource="http://purl.org/net/RO-optimization#IntegerInputParameter"/>
+    <opt:hasName>numberOfPseudoAbstences</opt:hasName>
+  </wfdesc:Parameter>
+  <wfdesc:Parameter rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#degree">
+    <opt:hasValue>3</opt:hasValue>
+    <opt:hasName>Degree</opt:hasName>
+  </wfdesc:Parameter>
+  <wfdesc:Parameter rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma">
+    <opt:hasRoundValue>true</opt:hasRoundValue>
+    <opt:hasMaxValue>10</opt:hasMaxValue>
+    <opt:hasMinValue>0</opt:hasMinValue>
+    <rdf:type rdf:resource="http://purl.org/net/RO-optimization#DoubleInputParameter"/>
+    <opt:hasName>Gamma</opt:hasName>
+  </wfdesc:Parameter>
+  <wfdesc:Parameter rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#coef0">
+    <opt:hasValue>0.5</opt:hasValue>
+    <opt:hasName>Coef0 </opt:hasName>
+  </wfdesc:Parameter>
+  <wfdesc:Parameter rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#svm">
+    <opt:hasValue>0</opt:hasValue>
+    <opt:hasName>SVM_Type</opt:hasName>
+  </wfdesc:Parameter>
+  <wfdesc:Parameter rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#probabilisticoutput">
+    <opt:hasValue>1</opt:hasValue>
+    <opt:hasName>ProbabilisticOutput</opt:hasName>
+  </wfdesc:Parameter>
+  <opt:ExponentialFunction rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#function">
+    <opt:hasFunctionValue>2</opt:hasFunctionValue>
+  </opt:ExponentialFunction>
+  <wfdesc:Parameter rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost">
+    <opt:hasNumericFunction rdf:resource="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#function"/>
+    <opt:hasMaxValue>8</opt:hasMaxValue>
+    <opt:hasMinValue>0</opt:hasMinValue>
+    <rdf:type rdf:resource="http://purl.org/net/RO-optimization#IntegerInputParameter"/>
+    <opt:hasName>Cost</opt:hasName>
+  </wfdesc:Parameter>
+  <wfdesc:Parameter rdf:about="http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#mask">
+    <opt:hasValue>wcs&gt;http://biovel.iais.fraunhofer.de/geoserver/ows?&gt;biovel_temp:SJB_Baltic_NorthEastAtlantic _20130522_112604_531</opt:hasValue>
+    <opt:hasName>Mask</opt:hasName>
+  </wfdesc:Parameter>
+</rdf:RDF>
+

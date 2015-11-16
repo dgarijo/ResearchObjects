@@ -1,0 +1,94 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ro: <http://purl.org/wf4ever/ro#> .
+@prefix schema: <http://schema.org/> .
+@prefix wfdesc: <http://purl.org/wf4ever/wfdesc#> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsFSMAlgorithms.xlsx> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/groupingUsage.xlsx> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-gspan.rar> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus1MDL> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus1SIZE> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus2MDL> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus2SIZE> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus3MDL> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus3SIZE> a ro:Resource .
+
+<http://purl.org/net/escience2014> a ro:ResearchObject,
+        ore:Aggregation;
+    dc:abstract """
+Scientific workflows provide the means to define, execute and reproduce computational experiments. However, reusing existing workflows still poses challenges for workflow designers. Workflows are often too large and too specific to reuse in their entirety, so reuse is more likely to happen for fragments of workflows. These fragments may be identified manually by users as sub-workflows, or detected automatically. In this paper we present the FragFlow approach, which detects workflow fragments automatically by analyzing existing workflow corpora with graph mining algorithms. FragFlow detects the most common workflow fragments, links them to the original workflows and visualizes them. We evaluate our approach by comparing FragFlow results against user-defined sub-workflows
+from three different corpora of the LONI Pipeline system. Based on this evaluation, we discuss how automated workflow fragment detection could facilitate workflow reuse.""";
+    dc:creator <http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1>,
+        <http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=249>,
+        <http://nursing.umich.edu/faculty-staff/ivo-d-dinov>,
+        <http://purl.org/net/dgarijo>,
+        <http://users.loni.usc.edu/~thompson/thompson.html>,
+        <http://www.isi.edu/~gil/>,
+        <https://github.com/ocorcho>;
+    dc:title "FragFlow: Automated Fragment Detection in Scientific Workflows";
+    schema:creator <http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1>,
+        <http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=249>,
+        <http://nursing.umich.edu/faculty-staff/ivo-d-dinov>,
+        <http://purl.org/net/dgarijo>,
+        <http://users.loni.usc.edu/~thompson/thompson.html>,
+        <http://www.isi.edu/~gil/>,
+        <https://github.com/ocorcho>;
+    schema:name "FragFlow: Automated Fragment Detection in Scientific Workflows";
+    ore:aggregates <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC1.lg>,
+        <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC2.lg>,
+        <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC3.lg>,
+        <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC1.g>,
+        <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC2.g>,
+        <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC3.g>,
+        <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user1/EvaluationForBorisCompleted.docx>,
+        <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user2/EvaluationCompleted.docx>,
+        <http://dx.doi.org/10.6084/m9.figshare.1603170>,
+        <http://dx.doi.org/10.6084/m9.figshare.1603171>,
+        <http://dx.doi.org/10.6084/m9.figshare.1603174>;
+    ore:isDescribedBy <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/>;
+    xhv:license <http://creativecommons.org/licenses/by-nc-sa/2.0/>;
+    prov:wasAttributedTo <http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1>,
+        <http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=249>,
+        <http://nursing.umich.edu/faculty-staff/ivo-d-dinov>,
+        <http://purl.org/net/dgarijo>,
+        <http://users.loni.usc.edu/~thompson/thompson.html>,
+        <http://www.isi.edu/~gil/>,
+        <https://github.com/ocorcho> .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC1.lg> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC2.lg> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC3.lg> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC1.g> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC2.g> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC3.g> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user1/EvaluationForBorisCompleted.docx> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user2/EvaluationCompleted.docx> a ro:Resource .
+
+<http://dx.doi.org/10.6084/m9.figshare.1603170> a ro:Resource,
+        wfdesc:Input .
+
+<http://dx.doi.org/10.6084/m9.figshare.1603171> a ro:Resource,
+        wfdesc:Input .
+
+<http://dx.doi.org/10.6084/m9.figshare.1603174> a ro:Resource,
+        wfdesc:Input .
+
+

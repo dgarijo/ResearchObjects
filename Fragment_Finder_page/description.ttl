@@ -1,0 +1,50 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ro: <http://purl.org/wf4ever/ro#> .
+@prefix schema: <http://schema.org/> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+
+<http://purl.org/net/kcap2013RO> a ro:ResearchObject,
+        ore:Aggregation;
+    dc:abstract """
+Provenance plays a major role when understanding and reusing the methods applied in a scientific experiment, as it provides a record of inputs, the processes carried out and the use and generation of intermediate and final results. In the specific case of in-silico scientific experiments, a large variety of scientific workflow systems (e.g., Wings, Taverna, Galaxy, Vistrails) have been created to support scientists. All of these systems produce some sort of provenance about the executions of the workflows that encode scientific experiments. However, provenance is normally recorded at a very low level of detail, which complicates the understanding of what happened during execution. In this paper we propose an approach to automatically obtain abstractions from
+low-level provenance data by finding common workflow fragments on workflow execution provenance and relating them to templates. We have tested our approach with a dataset of workflows published by the Wings workflow system. Our results show that by using these kinds of abstractions we can highlight the most common abstract methods used in the executions of a repository, relating different runs and workflow templates with each other.""";
+    dc:creator <http://purl.org/net/dgarijo>,
+        <http://www.isi.edu/~gil/>,
+        <https://github.com/ocorcho>;
+    dc:title """
+Detecting common scientific workflow fragments using templates and execution provenance""";
+    schema:creator <http://purl.org/net/dgarijo>,
+        <http://www.isi.edu/~gil/>,
+        <https://github.com/ocorcho>;
+    schema:name """
+Detecting common scientific workflow fragments using templates and execution provenance""";
+    ore:aggregates <http://dgarijo.github.io/ResearchObjects/Fragment_Finder_page/resources/Text_Analytics_Graph_Inference>,
+        <http://rohub.linkeddata.es/Fragment_Finder_page/resources/Evaluation-InternalMacro-summaryRevisited.xlsx>,
+        <http://rohub.linkeddata.es/Fragment_Finder_page/resources/Evaluation-externalMacro-summary-manual.xlsx>,
+        <http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_Inference_Templates>,
+        <http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_No_Inference>,
+        <http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_No_Inference_Templates>,
+        <http://rohub.linkeddata.es/Fragment_Finder_page/resources/resultsSun_Apr_21_19_36_05_CEST_2013>;
+    ore:isDescribedBy <http://dgarijo.github.io/ResearchObjects/Fragment_Finder_page/>;
+    xhv:license <http://creativecommons.org/licenses/by-nc-sa/2.0/>;
+    prov:wasAttributedTo <http://purl.org/net/dgarijo>,
+        <http://www.isi.edu/~gil/>,
+        <https://github.com/ocorcho> .
+
+<http://dgarijo.github.io/ResearchObjects/Fragment_Finder_page/resources/Text_Analytics_Graph_Inference> a ro:Resource .
+
+<http://rohub.linkeddata.es/Fragment_Finder_page/resources/Evaluation-InternalMacro-summaryRevisited.xlsx> a ro:Resource .
+
+<http://rohub.linkeddata.es/Fragment_Finder_page/resources/Evaluation-externalMacro-summary-manual.xlsx> a ro:Resource .
+
+<http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_Inference_Templates> a ro:Resource .
+
+<http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_No_Inference> a ro:Resource .
+
+<http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_No_Inference_Templates> a ro:Resource .
+
+<http://rohub.linkeddata.es/Fragment_Finder_page/resources/resultsSun_Apr_21_19_36_05_CEST_2013> a ro:Resource .
+
+

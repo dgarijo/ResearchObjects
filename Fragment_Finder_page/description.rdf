@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ore="http://www.openarchives.org/ore/terms/"
+  xmlns:prov="http://www.w3.org/ns/prov#"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
+  xmlns:ro="http://purl.org/wf4ever/ro#"
+  xmlns:schema="http://schema.org/"
+>
+  <ro:ResearchObject rdf:about="http://purl.org/net/kcap2013RO">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <schema:creator rdf:resource="http://www.isi.edu/~gil/"/>
+    <schema:creator rdf:resource="http://purl.org/net/dgarijo"/>
+    <schema:creator rdf:resource="https://github.com/ocorcho"/>
+    <dc:title>
+Detecting common scientific workflow fragments using templates and execution provenance</dc:title>
+    <prov:wasAttributedTo rdf:resource="http://www.isi.edu/~gil/"/>
+    <prov:wasAttributedTo rdf:resource="http://purl.org/net/dgarijo"/>
+    <prov:wasAttributedTo rdf:resource="https://github.com/ocorcho"/>
+    <dc:creator rdf:resource="http://www.isi.edu/~gil/"/>
+    <dc:creator rdf:resource="http://purl.org/net/dgarijo"/>
+    <dc:creator rdf:resource="https://github.com/ocorcho"/>
+    <dc:abstract>
+Provenance plays a major role when understanding and reusing the methods applied in a scientific experiment, as it provides a record of inputs, the processes carried out and the use and generation of intermediate and final results. In the specific case of in-silico scientific experiments, a large variety of scientific workflow systems (e.g., Wings, Taverna, Galaxy, Vistrails) have been created to support scientists. All of these systems produce some sort of provenance about the executions of the workflows that encode scientific experiments. However, provenance is normally recorded at a very low level of detail, which complicates the understanding of what happened during execution. In this paper we propose an approach to automatically obtain abstractions from
+low-level provenance data by finding common workflow fragments on workflow execution provenance and relating them to templates. We have tested our approach with a dataset of workflows published by the Wings workflow system. Our results show that by using these kinds of abstractions we can highlight the most common abstract methods used in the executions of a repository, relating different runs and workflow templates with each other.</dc:abstract>
+    <ore:isDescribedBy rdf:resource="http://dgarijo.github.io/ResearchObjects/Fragment_Finder_page/"/>
+    <schema:name>
+Detecting common scientific workflow fragments using templates and execution provenance</schema:name>
+    <xhv:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"/>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_Inference_Templates"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://rohub.linkeddata.es/Fragment_Finder_page/resources/Evaluation-InternalMacro-summaryRevisited.xlsx"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://rohub.linkeddata.es/Fragment_Finder_page/resources/Evaluation-externalMacro-summary-manual.xlsx"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/Fragment_Finder_page/resources/Text_Analytics_Graph_Inference"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_No_Inference_Templates"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_No_Inference"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://rohub.linkeddata.es/Fragment_Finder_page/resources/resultsSun_Apr_21_19_36_05_CEST_2013"/>
+    </ore:aggregates>
+  </ro:ResearchObject>
+</rdf:RDF>
+

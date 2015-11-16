@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "ro": "http://purl.org/wf4ever/ro#", 
+        "prov": "http://www.w3.org/ns/prov#", 
+        "dc": "http://purl.org/dc/terms/", 
+        "xhv": "http://www.w3.org/1999/xhtml/vocab#", 
+        "ore": "http://www.openarchives.org/ore/terms/", 
+        "schema": "http://schema.org/", 
+        "ore:aggregates": {
+            "@type": "@id"
+        }, 
+        "prov:wasAttributedTo": {
+            "@type": "@id"
+        }, 
+        "schema:creator": {
+            "@type": "@id"
+        }, 
+        "dc:creator": {
+            "@type": "@id"
+        }, 
+        "xhv:license": {
+            "@type": "@id"
+        }, 
+        "ore:isDescribedBy": {
+            "@type": "@id"
+        }
+    }, 
+    "@id": "http://purl.org/net/works2014materials", 
+    "@type": [
+        "ore:Aggregation", 
+        "ro:ResearchObject"
+    ], 
+    "xhv:license": "http://creativecommons.org/licenses/by-nc-sa/2.0/", 
+    "ore:isDescribedBy": "http://dgarijo.github.io/ResearchObjects/WORKS14-WfEcosystems", 
+    "dc:creator": [
+        "http://www.isi.edu/~gil/", 
+        "https://github.com/ocorcho", 
+        "http://purl.org/net/dgarijo"
+    ], 
+    "schema:creator": [
+        "http://www.isi.edu/~gil/", 
+        "https://github.com/ocorcho", 
+        "http://purl.org/net/dgarijo"
+    ], 
+    "prov:wasAttributedTo": [
+        "http://www.isi.edu/~gil/", 
+        "https://github.com/ocorcho", 
+        "http://purl.org/net/dgarijo"
+    ], 
+    "dc:title": "Towards Workflow Ecosystems Through Standard Representations", 
+    "ore:aggregates": {
+        "@id": "http://dgarijo.github.io/ResearchObjects/Sparql queries.txt", 
+        "@type": "ro:Resource"
+    }, 
+    "schema:name": "Towards Workflow Ecosystems Through Standard Representations", 
+    "dc:abstract": "\nWorkflows are increasingly used to manage and share scientific computations and methods. Workflow tools can be used to design, validate, execute and visualize scientific workflows and their execution results. Other tools manage workflow libraries or mine their contents. There has been a lot of recent work on workflow system integration as well as common workflow interlinguas, but the interoperability among workflow systems remains a challenge. Ideally, these tools would form a workflow ecosystem such that it should be possible to create a workflow with a tool, execute it with another, visualize it with another, and use yet another tool to mine a repository of such workflows or their executions. In this paper, we describe our approach to create a workflow ecosystem through the use of standard models for provenance (OPM and W3C PROV) and extensions (P-PLAN and OPMW) to represent workflows. We introduce WEST (Workflow Ecosystems through STandards), a workflow ecosystem that integrates different workflow tools with diverse functions (workflow generation, execution, browsing, mining, and visualization) created by a variety of research groups. This is, to our knowledge, the first time that such a variety of functions and systems are integrated."
+}

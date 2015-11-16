@@ -1,0 +1,81 @@
+{
+    "@context": {
+        "ro": "http://purl.org/wf4ever/ro#", 
+        "prov": "http://www.w3.org/ns/prov#", 
+        "dc": "http://purl.org/dc/terms/", 
+        "xhv": "http://www.w3.org/1999/xhtml/vocab#", 
+        "ore": "http://www.openarchives.org/ore/terms/", 
+        "schema": "http://schema.org/", 
+        "dc:creator": {
+            "@type": "@id"
+        }, 
+        "schema:creator": {
+            "@type": "@id"
+        }, 
+        "ore:aggreagates": {
+            "@type": "@id"
+        }, 
+        "prov:wasAttributedTo": {
+            "@type": "@id"
+        }, 
+        "ore:isDescribedBy": {
+            "@type": "@id"
+        }, 
+        "xhv:license": {
+            "@type": "@id"
+        }
+    }, 
+    "@id": "http://purl.org/net/wfSurvey-eScience2014", 
+    "@type": [
+        "ro:ResearchObject", 
+        "ore:Aggregation"
+    ], 
+    "dc:title": "\nWorkflow Reuse in Practice: A Study of Neuroimaging Pipeline Users", 
+    "dc:creator": [
+        "http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1", 
+        "http://www.isi.edu/~gil/", 
+        "http://users.loni.usc.edu/~thompson/thompson.html", 
+        "http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=110", 
+        "http://purl.org/net/dgarijo", 
+        "http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=302", 
+        "http://www.researchgate.net/profile/Meredith_Braskie/", 
+        "http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=396", 
+        "https://github.com/ocorcho"
+    ], 
+    "schema:creator": [
+        "http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1", 
+        "http://www.isi.edu/~gil/", 
+        "http://users.loni.usc.edu/~thompson/thompson.html", 
+        "http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=110", 
+        "http://purl.org/net/dgarijo", 
+        "http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=302", 
+        "http://www.researchgate.net/profile/Meredith_Braskie/", 
+        "http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=396", 
+        "https://github.com/ocorcho"
+    ], 
+    "ore:aggreagates": [
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014UserSurvey/25 responses Full Text.xls", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014UserSurvey/25 Responses numeric values.xls", 
+            "@type": "ro:Resource"
+        }
+    ], 
+    "prov:wasAttributedTo": [
+        "http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1", 
+        "http://www.isi.edu/~gil/", 
+        "http://users.loni.usc.edu/~thompson/thompson.html", 
+        "http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=110", 
+        "http://purl.org/net/dgarijo", 
+        "http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=302", 
+        "http://www.researchgate.net/profile/Meredith_Braskie/", 
+        "http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=396", 
+        "https://github.com/ocorcho"
+    ], 
+    "xhv:license": "http://creativecommons.org/licenses/by-nc-sa/2.0/", 
+    "dc:abstract": "\nWorkflow reuse is a major benefit of workflow systems and shared workflow repositories, but there are barely any studies that quantify the degree of reuse of workflows or the practical barriers that may stand in the way of successful reuse. In our own work, we hypothesize that defining workflow fragments improves reuse, since end-to-end workflows may be very specific and only partially reusable by others. This paper reports on a study of the current use of workflows and workflow fragments in labs that use the LONI Pipeline, a popular workflow system used mainly for neuroimaging research that enables users to define and reuse workflow fragments. We present an overview of the benefits of workflows and workflow fragments reported by users in informal discussions. We also\nreport on a survey of researchers in a lab that has the LONI Pipeline installed, asking them about their experiences with reuse of workflow fragments and the actual benefits they perceive. This leads to quantifiable indicators of the reuse of workflows and workflow fragments in practice. ", 
+    "schema:name": "\nWorkflow Reuse in Practice: A Study of Neuroimaging Pipeline Users", 
+    "ore:isDescribedBy": "http://dgarijo.github.io/ResearchObjects/eScience2014UserSurvey/"
+}

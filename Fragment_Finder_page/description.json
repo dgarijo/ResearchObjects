@@ -1,0 +1,83 @@
+{
+    "@context": {
+        "ro": "http://purl.org/wf4ever/ro#", 
+        "prov": "http://www.w3.org/ns/prov#", 
+        "dc": "http://purl.org/dc/terms/", 
+        "xhv": "http://www.w3.org/1999/xhtml/vocab#", 
+        "ore": "http://www.openarchives.org/ore/terms/", 
+        "schema": "http://schema.org/", 
+        "ore:aggregates": {
+            "@type": "@id"
+        }, 
+        "prov:wasAttributedTo": {
+            "@type": "@id"
+        }, 
+        "dc:creator": {
+            "@type": "@id"
+        }, 
+        "schema:creator": {
+            "@type": "@id"
+        }, 
+        "xhv:license": {
+            "@type": "@id"
+        }, 
+        "ore:isDescribedBy": {
+            "@type": "@id"
+        }
+    }, 
+    "@id": "http://purl.org/net/kcap2013RO", 
+    "@type": [
+        "ore:Aggregation", 
+        "ro:ResearchObject"
+    ], 
+    "schema:name": "\nDetecting common scientific workflow fragments using templates and execution provenance", 
+    "dc:title": "\nDetecting common scientific workflow fragments using templates and execution provenance", 
+    "ore:isDescribedBy": "http://dgarijo.github.io/ResearchObjects/Fragment_Finder_page/", 
+    "schema:creator": [
+        "https://github.com/ocorcho", 
+        "http://purl.org/net/dgarijo", 
+        "http://www.isi.edu/~gil/"
+    ], 
+    "prov:wasAttributedTo": [
+        "https://github.com/ocorcho", 
+        "http://purl.org/net/dgarijo", 
+        "http://www.isi.edu/~gil/"
+    ], 
+    "dc:abstract": "\nProvenance plays a major role when understanding and reusing the methods applied in a scientific experiment, as it provides a record of inputs, the processes carried out and the use and generation of intermediate and final results. In the specific case of in-silico scientific experiments, a large variety of scientific workflow systems (e.g., Wings, Taverna, Galaxy, Vistrails) have been created to support scientists. All of these systems produce some sort of provenance about the executions of the workflows that encode scientific experiments. However, provenance is normally recorded at a very low level of detail, which complicates the understanding of what happened during execution. In this paper we propose an approach to automatically obtain abstractions from\nlow-level provenance data by finding common workflow fragments on workflow execution provenance and relating them to templates. We have tested our approach with a dataset of workflows published by the Wings workflow system. Our results show that by using these kinds of abstractions we can highlight the most common abstract methods used in the executions of a repository, relating different runs and workflow templates with each other.", 
+    "xhv:license": "http://creativecommons.org/licenses/by-nc-sa/2.0/", 
+    "ore:aggregates": [
+        {
+            "@id": "http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_No_Inference", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_No_Inference_Templates", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://rohub.linkeddata.es/Fragment_Finder_page/resources/Text_Analytics_Graph_Inference_Templates", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/Fragment_Finder_page/resources/Text_Analytics_Graph_Inference", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://rohub.linkeddata.es/Fragment_Finder_page/resources/Evaluation-externalMacro-summary-manual.xlsx", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://rohub.linkeddata.es/Fragment_Finder_page/resources/Evaluation-InternalMacro-summaryRevisited.xlsx", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://rohub.linkeddata.es/Fragment_Finder_page/resources/resultsSun_Apr_21_19_36_05_CEST_2013", 
+            "@type": "ro:Resource"
+        }
+    ], 
+    "dc:creator": [
+        "https://github.com/ocorcho", 
+        "http://purl.org/net/dgarijo", 
+        "http://www.isi.edu/~gil/"
+    ]
+}
