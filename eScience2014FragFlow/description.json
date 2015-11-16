@@ -1,0 +1,161 @@
+{
+    "@context": {
+        "ro": "http://purl.org/wf4ever/ro#", 
+        "prov": "http://www.w3.org/ns/prov#", 
+        "dc": "http://purl.org/dc/terms/", 
+        "xhv": "http://www.w3.org/1999/xhtml/vocab#", 
+        "wfdesc": "http://purl.org/wf4ever/wfdesc#", 
+        "ore": "http://www.openarchives.org/ore/terms/", 
+        "schema": "http://schema.org/", 
+        "ore:aggregates": {
+            "@type": "@id"
+        }, 
+        "prov:wasAttributedTo": {
+            "@type": "@id"
+        }, 
+        "dc:creator": {
+            "@type": "@id"
+        }, 
+        "schema:creator": {
+            "@type": "@id"
+        }, 
+        "xhv:license": {
+            "@type": "@id"
+        }, 
+        "ore:isDescribedBy": {
+            "@type": "@id"
+        }
+    }, 
+    "@graph": [
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus2SIZE", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/groupingUsage.xlsx", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus3MDL", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsFSMAlgorithms.xlsx", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus3SIZE", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus1MDL", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-gspan.rar", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus2MDL", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus1SIZE", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "http://purl.org/net/escience2014", 
+            "@type": [
+                "ro:ResearchObject", 
+                "ore:Aggregation"
+            ], 
+            "xhv:license": "http://creativecommons.org/licenses/by-nc-sa/2.0/", 
+            "dc:abstract": "\nScientific workflows provide the means to define, execute and reproduce computational experiments. However, reusing existing workflows still poses challenges for workflow designers. Workflows are often too large and too specific to reuse in their entirety, so reuse is more likely to happen for fragments of workflows. These fragments may be identified manually by users as sub-workflows, or detected automatically. In this paper we present the FragFlow approach, which detects workflow fragments automatically by analyzing existing workflow corpora with graph mining algorithms. FragFlow detects the most common workflow fragments, links them to the original workflows and visualizes them. We evaluate our approach by comparing FragFlow results against user-defined sub-workflows\nfrom three different corpora of the LONI Pipeline system. Based on this evaluation, we discuss how automated workflow fragment detection could facilitate workflow reuse.", 
+            "schema:name": "\nFragFlow: Automated Fragment Detection in Scientific Workflows", 
+            "ore:isDescribedBy": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/", 
+            "prov:wasAttributedTo": [
+                "http://www.isi.edu/~gil/", 
+                "http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1", 
+                "http://purl.org/net/dgarijo", 
+                "http://users.loni.usc.edu/~thompson/thompson.html", 
+                "http://nursing.umich.edu/faculty-staff/ivo-d-dinov", 
+                "http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=249", 
+                "https://github.com/ocorcho"
+            ], 
+            "dc:title": "\nFragFlow: Automated Fragment Detection in Scientific Workflows", 
+            "ore:aggregates": [
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC2.lg", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC3.g", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dx.doi.org/10.6084/m9.figshare.1603171", 
+                    "@type": [
+                        "ro:Resource", 
+                        "wfdesc:Input"
+                    ]
+                }, 
+                {
+                    "@id": "http://dx.doi.org/10.6084/m9.figshare.1603174", 
+                    "@type": [
+                        "ro:Resource", 
+                        "wfdesc:Input"
+                    ]
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC2.g", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user1/EvaluationForBorisCompleted.docx", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC1.lg", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC1.g", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC3.lg", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user2/EvaluationCompleted.docx", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dx.doi.org/10.6084/m9.figshare.1603170", 
+                    "@type": [
+                        "ro:Resource", 
+                        "wfdesc:Input"
+                    ]
+                }
+            ], 
+            "dc:creator": [
+                "http://www.isi.edu/~gil/", 
+                "http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1", 
+                "http://purl.org/net/dgarijo", 
+                "http://users.loni.usc.edu/~thompson/thompson.html", 
+                "http://nursing.umich.edu/faculty-staff/ivo-d-dinov", 
+                "http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=249", 
+                "https://github.com/ocorcho"
+            ], 
+            "schema:creator": [
+                "http://www.isi.edu/~gil/", 
+                "http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1", 
+                "http://purl.org/net/dgarijo", 
+                "http://users.loni.usc.edu/~thompson/thompson.html", 
+                "http://nursing.umich.edu/faculty-staff/ivo-d-dinov", 
+                "http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=249", 
+                "https://github.com/ocorcho"
+            ]
+        }
+    ]
+}

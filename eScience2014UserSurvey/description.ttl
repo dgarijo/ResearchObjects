@@ -1,0 +1,53 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ro: <http://purl.org/wf4ever/ro#> .
+@prefix schema: <http://schema.org/> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+
+<http://purl.org/net/wfSurvey-eScience2014> a ro:ResearchObject,
+        ore:Aggregation;
+    dc:abstract """
+Workflow reuse is a major benefit of workflow systems and shared workflow repositories, but there are barely any studies that quantify the degree of reuse of workflows or the practical barriers that may stand in the way of successful reuse. In our own work, we hypothesize that defining workflow fragments improves reuse, since end-to-end workflows may be very specific and only partially reusable by others. This paper reports on a study of the current use of workflows and workflow fragments in labs that use the LONI Pipeline, a popular workflow system used mainly for neuroimaging research that enables users to define and reuse workflow fragments. We present an overview of the benefits of workflows and workflow fragments reported by users in informal discussions. We also
+report on a survey of researchers in a lab that has the LONI Pipeline installed, asking them about their experiences with reuse of workflow fragments and the actual benefits they perceive. This leads to quantifiable indicators of the reuse of workflows and workflow fragments in practice. """;
+    dc:creator <http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1>,
+        <http://purl.org/net/dgarijo>,
+        <http://users.loni.usc.edu/~thompson/thompson.html>,
+        <http://www.isi.edu/~gil/>,
+        <http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=110>,
+        <http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=302>,
+        <http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=396>,
+        <http://www.researchgate.net/profile/Meredith_Braskie/>,
+        <https://github.com/ocorcho>;
+    dc:title """
+Workflow Reuse in Practice: A Study of Neuroimaging Pipeline Users""";
+    schema:creator <http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1>,
+        <http://purl.org/net/dgarijo>,
+        <http://users.loni.usc.edu/~thompson/thompson.html>,
+        <http://www.isi.edu/~gil/>,
+        <http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=110>,
+        <http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=302>,
+        <http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=396>,
+        <http://www.researchgate.net/profile/Meredith_Braskie/>,
+        <https://github.com/ocorcho>;
+    schema:name """
+Workflow Reuse in Practice: A Study of Neuroimaging Pipeline Users""";
+    ore:aggreagates <http://dgarijo.github.io/ResearchObjects/eScience2014UserSurvey/25 Responses numeric values.xls>,
+        <http://dgarijo.github.io/ResearchObjects/eScience2014UserSurvey/25 responses Full Text.xls>;
+    ore:isDescribedBy <http://dgarijo.github.io/ResearchObjects/eScience2014UserSurvey/>;
+    xhv:license <http://creativecommons.org/licenses/by-nc-sa/2.0/>;
+    prov:wasAttributedTo <http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1>,
+        <http://purl.org/net/dgarijo>,
+        <http://users.loni.usc.edu/~thompson/thompson.html>,
+        <http://www.isi.edu/~gil/>,
+        <http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=110>,
+        <http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=302>,
+        <http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=396>,
+        <http://www.researchgate.net/profile/Meredith_Braskie/>,
+        <https://github.com/ocorcho> .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014UserSurvey/25 Responses numeric values.xls> a ro:Resource .
+
+<http://dgarijo.github.io/ResearchObjects/eScience2014UserSurvey/25 responses Full Text.xls> a ro:Resource .
+
+

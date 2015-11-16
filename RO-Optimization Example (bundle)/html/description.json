@@ -1,0 +1,589 @@
+{
+    "@context": {
+        "opt": "http://purl.org/net/RO-optimization#", 
+        "ro": "http://purl.org/wf4ever/ro#", 
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+        "prov": "http://www.w3.org/ns/prov#", 
+        "dc": "http://purl.org/dc/terms/", 
+        "foaf": "http://xmlns.com/foaf/0.1/", 
+        "xhv": "http://www.w3.org/1999/xhtml/vocab#", 
+        "wfdesc": "http://purl.org/wf4ever/wfdesc#", 
+        "ore": "http://www.openarchives.org/ore/terms/", 
+        "wfprov": "http://purl.org/wf4ever/wfprov#", 
+        "schema": "http://schema.org/", 
+        "dc:rights": {
+            "@type": "@id"
+        }, 
+        "opt:hasAlgortihmParameter": {
+            "@type": "@id"
+        }, 
+        "xhv:license": {
+            "@type": "@id"
+        }, 
+        "wfprov:describedByParameter": {
+            "@type": "@id"
+        }, 
+        "opt:hasSearchSpace": {
+            "@type": "@id"
+        }, 
+        "opt:hasInputParameter": {
+            "@type": "@id"
+        }, 
+        "opt:hasTerminationCondition": {
+            "@type": "@id"
+        }, 
+        "ore:isDescribedBy": {
+            "@type": "@id"
+        }, 
+        "opt:hasOptimizationRun": {
+            "@type": "@id"
+        }, 
+        "opt:hasFitness": {
+            "@type": "@id"
+        }, 
+        "dc:contributor": {
+            "@type": "@id"
+        }, 
+        "wfdesc:hasInput": {
+            "@type": "@id"
+        }, 
+        "wfprov:usedInput": {
+            "@type": "@id"
+        }, 
+        "opt:hasFunctionOutputParameter": {
+            "@type": "@id"
+        }, 
+        "opt:hasAlgorithm": {
+            "@type": "@id"
+        }, 
+        "opt:hasFitnessFunction": {
+            "@type": "@id"
+        }, 
+        "opt:hasWorkflow": {
+            "@type": "@id"
+        }, 
+        "schema:contributor": {
+            "@type": "@id"
+        }, 
+        "opt:hasNumericFunction": {
+            "@type": "@id"
+        }
+    }, 
+    "@graph": [
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run9", 
+            "@type": "opt:OptimizationRun", 
+            "rdfs:label": "Run 9", 
+            "wfprov:usedInput": [
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "514", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "6.09", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "64", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"
+                }
+            ], 
+            "opt:hasFitnessValue": "0.8929"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run8", 
+            "@type": "opt:OptimizationRun", 
+            "rdfs:label": "Run 8", 
+            "wfprov:usedInput": [
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "8", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "562", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "1.25", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"
+                }
+            ], 
+            "opt:hasFitnessValue": "0.9102"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run3", 
+            "@type": "opt:OptimizationRun", 
+            "rdfs:label": "Run 3", 
+            "wfprov:usedInput": [
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "6.84", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "319", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "8", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"
+                }
+            ], 
+            "opt:hasFitnessValue": "0.8974"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run2", 
+            "@type": "opt:OptimizationRun", 
+            "rdfs:label": "Run 2", 
+            "wfprov:usedInput": [
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "5.87", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "64", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "458", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"
+                }
+            ], 
+            "opt:hasFitnessValue": "0.9014"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run5", 
+            "@type": "opt:OptimizationRun", 
+            "rdfs:label": "Run 5", 
+            "wfprov:usedInput": [
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "568", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "256", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "8.94", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"
+                }
+            ], 
+            "opt:hasFitnessValue": "0.9032"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run7", 
+            "@type": "opt:OptimizationRun", 
+            "rdfs:label": "Run 7", 
+            "wfprov:usedInput": [
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "491", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "4.78", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "8", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"
+                }
+            ], 
+            "opt:hasFitnessValue": "0.8867"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run6", 
+            "@type": "opt:OptimizationRun", 
+            "rdfs:label": "Run 6", 
+            "wfprov:usedInput": [
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "215", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "0.06", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"
+                }, 
+                {
+                    "@type": [
+                        "wfprov:Artifact", 
+                        "opt:Artifact"
+                    ], 
+                    "opt:hasValue": "32", 
+                    "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"
+                }
+            ], 
+            "opt:hasFitnessValue": "0.9084"
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences", 
+            "@type": [
+                "opt:IntegerInputParameter", 
+                "wfdesc:Parameter"
+            ], 
+            "opt:hasMinValue": "200", 
+            "opt:hasMaxValue": "600", 
+            "opt:hasName": "numberOfPseudoAbstences"
+        }, 
+        {
+            "@id": "http://www.myexperiment.org/workflows/3680.html", 
+            "@type": "wfdesc:Workflow", 
+            "wfdesc:hasInput": [
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#nu", 
+                    "@type": "wfdesc:Parameter", 
+                    "opt:hasValue": "0.5", 
+                    "opt:hasName": "Nu"
+                }, 
+                "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost", 
+                "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma", 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#coef0", 
+                    "@type": "wfdesc:Parameter", 
+                    "opt:hasValue": "0.5", 
+                    "opt:hasName": "Coef0 "
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#degree", 
+                    "@type": "wfdesc:Parameter", 
+                    "opt:hasValue": "3", 
+                    "opt:hasName": "Degree"
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#probabilisticoutput", 
+                    "@type": "wfdesc:Parameter", 
+                    "opt:hasValue": "1", 
+                    "opt:hasName": "ProbabilisticOutput"
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#kernel", 
+                    "@type": "wfdesc:Parameter", 
+                    "opt:hasValue": "2", 
+                    "opt:hasName": "Kernel_Type"
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#mask", 
+                    "@type": "wfdesc:Parameter", 
+                    "opt:hasValue": "wcs>http://biovel.iais.fraunhofer.de/geoserver/ows?>biovel_temp:SJB_Baltic_NorthEastAtlantic _20130522_112604_531", 
+                    "opt:hasName": "Mask"
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#svm", 
+                    "@type": "wfdesc:Parameter", 
+                    "opt:hasValue": "0", 
+                    "opt:hasName": "SVM_Type"
+                }, 
+                "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"
+            ]
+        }, 
+        {
+            "@id": "http://purl.org/net/svm-opt-research-object", 
+            "@type": [
+                "ro:ResearchObject", 
+                "schema:WebPage", 
+                "ore:Aggregation", 
+                "foaf:Document"
+            ], 
+            "schema:contributor": "http://semanticweb.org/wiki/Khalid_Belhajjame", 
+            "ore:isDescribedBy": {
+                "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/", 
+                "dc:creator": "http://delicias.dia.fi.upm.es/members/DGarijo/#me", 
+                "schema:creator": "http://delicias.dia.fi.upm.es/members/DGarijo/#me", 
+                "prov:wasAttributedTo": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
+            }, 
+            "opt:hasAlgorithm": {
+                "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#algorithm", 
+                "@type": "opt:GeneticAlgorithm"
+            }, 
+            "dc:references": [
+                "[Wiley et al 2003]: E. O. Wiley, K. M. McNyset, A. T. Peterson, C. R.\n\t\t\t\t\tRobins, and A. M. Stewart. Niche modeling and\n\t\t\t\t\tgeographic range predictions in the marine environment\n\t\t\t\t\tusing a machine-learning algorithm. Oceanography,\n\t\t\t\t\t16(3):120-127, 2003.", 
+                "[Guinan et al 2009]: J. Guinan, C. Brown, M. F. Dolan, and A. J. Grehan.\n\t\t\t\t\tEcological niche modelling of the distribution of\n\t\t\t\t\tcold-water coral habitat using underwater remote\n\t\t\t\t\tsensing data. Ecological Informatics, 4(2):83-92, 2009.", 
+                "[Kulhanek et al 2011]: S. A. Kulhanek, B. Leung, and A. Ricciardi. Using\n\t\t\t\t\tecological niche models to predict the abundance and\n\t\t\t\t\timpact of invasive species: application to the common\n\t\t\t\t\tcarp. Ecological Applications, 21(1):203-213, 2011."
+            ], 
+            "dc:abstract": "\n\t  This page represents a Research Object representing the \n\t  optimizations made on the AUC output parameter of the ENM workflow using Support Vector Machines (SVM). \n\t  The optimizations are performed using genetic algorithms and have been represented with the \n\t  Research Object Optimization Ontology. \n\t  An RDF representation of the Research Object can be downloaded from \n\t  this link. An alternative representation in RDF-a can be found in this document.\n      ", 
+            "dc:rights": "http://creativecommons.org/licenses/by-nc-sa/2.0/", 
+            "opt:hasFitness": {
+                "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#fitness", 
+                "@type": "opt:SingleObjectiveFitness", 
+                "opt:hasFitnessFunction": "_:_9f35eb07-0ac1-4345-97d9-1c80a2698a35"
+            }, 
+            "dc:title": "Parameter Optimization of an Ecological Niche Modeling Workflow", 
+            "opt:hasSearchSpace": {
+                "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#searchSpace", 
+                "@type": "opt:SearchSpace", 
+                "opt:hasInputParameter": [
+                    "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost", 
+                    "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences", 
+                    "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"
+                ]
+            }, 
+            "opt:hasTerminationCondition": {
+                "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#condition", 
+                "@type": "opt:TerminationCondition", 
+                "opt:hadMaxTime": "1440"
+            }, 
+            "opt:hasOptimizationRun": [
+                "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run8", 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run4", 
+                    "@type": "opt:OptimizationRun", 
+                    "rdfs:label": "Run 4", 
+                    "wfprov:usedInput": [
+                        {
+                            "@type": [
+                                "wfprov:Artifact", 
+                                "opt:Artifact"
+                            ], 
+                            "opt:hasValue": "3.79", 
+                            "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"
+                        }, 
+                        {
+                            "@type": [
+                                "wfprov:Artifact", 
+                                "opt:Artifact"
+                            ], 
+                            "opt:hasValue": "486", 
+                            "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"
+                        }, 
+                        {
+                            "@type": [
+                                "wfprov:Artifact", 
+                                "opt:Artifact"
+                            ], 
+                            "opt:hasValue": "32", 
+                            "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"
+                        }
+                    ], 
+                    "opt:hasFitnessValue": "0.9019"
+                }, 
+                "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run6", 
+                "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run3", 
+                "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run5", 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run10", 
+                    "@type": "opt:OptimizationRun", 
+                    "rdfs:label": "Run 10", 
+                    "wfprov:usedInput": [
+                        {
+                            "@type": [
+                                "wfprov:Artifact", 
+                                "opt:Artifact"
+                            ], 
+                            "opt:hasValue": "4", 
+                            "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"
+                        }, 
+                        {
+                            "@type": [
+                                "wfprov:Artifact", 
+                                "opt:Artifact"
+                            ], 
+                            "opt:hasValue": "2.24", 
+                            "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"
+                        }, 
+                        {
+                            "@type": [
+                                "wfprov:Artifact", 
+                                "opt:Artifact"
+                            ], 
+                            "opt:hasValue": "453", 
+                            "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"
+                        }
+                    ], 
+                    "opt:hasFitnessValue": "0.9101"
+                }, 
+                {
+                    "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run1", 
+                    "@type": "opt:OptimizationRun", 
+                    "rdfs:label": "Run 1", 
+                    "wfprov:usedInput": [
+                        {
+                            "@type": [
+                                "wfprov:Artifact", 
+                                "opt:Artifact"
+                            ], 
+                            "opt:hasValue": "2.36", 
+                            "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma"
+                        }, 
+                        {
+                            "@type": [
+                                "wfprov:Artifact", 
+                                "opt:Artifact"
+                            ], 
+                            "opt:hasValue": "8", 
+                            "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost"
+                        }, 
+                        {
+                            "@type": [
+                                "wfprov:Artifact", 
+                                "opt:Artifact"
+                            ], 
+                            "opt:hasValue": "363", 
+                            "wfprov:describedByParameter": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#numberOfPseudoAbstences"
+                        }
+                    ], 
+                    "opt:hasFitnessValue": "0.9207"
+                }, 
+                "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run7", 
+                "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run9", 
+                "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#run2"
+            ], 
+            "schema:creator": [
+                {
+                    "@id": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
+                }, 
+                {
+                    "@id": "http://www.fz-juelich.de/SharedDocs/Personen/IAS/JSC/EN/staff/holl_s.html?nn=361682"
+                }
+            ], 
+            "opt:hasWorkflow": "http://www.myexperiment.org/workflows/3680.html", 
+            "dc:contributor": "http://semanticweb.org/wiki/Khalid_Belhajjame", 
+            "dc:creator": [
+                {
+                    "@id": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
+                }, 
+                {
+                    "@id": "http://www.fz-juelich.de/SharedDocs/Personen/IAS/JSC/EN/staff/holl_s.html?nn=361682"
+                }
+            ], 
+            "xhv:license": "http://creativecommons.org/licenses/by-nc-sa/2.0/", 
+            "prov:wasAttributedTo": [
+                {
+                    "@id": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
+                }, 
+                {
+                    "@id": "http://www.fz-juelich.de/SharedDocs/Personen/IAS/JSC/EN/staff/holl_s.html?nn=361682"
+                }, 
+                {
+                    "@id": "http://semanticweb.org/wiki/Khalid_Belhajjame"
+                }
+            ], 
+            "schema:name": "Parameter Optimization of an Ecological Niche Modeling Workflow"
+        }, 
+        {
+            "@id": "_:_9f35eb07-0ac1-4345-97d9-1c80a2698a35", 
+            "@type": "opt:FitnessFunction", 
+            "opt:hasFunctionOutputParameter": {
+                "@type": [
+                    "opt:DoubleInputParameter", 
+                    "wfdesc:Parameter"
+                ], 
+                "opt:hasName": "\"AUC\""
+            }
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#algortihm", 
+            "opt:hasAlgortihmParameter": {
+                "@type": "opt:AlgorithmParameter", 
+                "opt:hasParameterValue": [
+                    "Mutation Rate=0.2", 
+                    "Cross Over=0.75"
+                ]
+            }
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#cost", 
+            "@type": [
+                "opt:IntegerInputParameter", 
+                "wfdesc:Parameter"
+            ], 
+            "opt:hasMinValue": "0", 
+            "opt:hasName": "Cost", 
+            "opt:hasMaxValue": "8", 
+            "opt:hasNumericFunction": {
+                "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#function", 
+                "@type": "opt:ExponentialFunction", 
+                "opt:hasFunctionValue": "2"
+            }
+        }, 
+        {
+            "@id": "http://dgarijo.github.io/ResearchObjects/RO-Optimization Example (bundle)/html/#gamma", 
+            "@type": [
+                "opt:DoubleInputParameter", 
+                "wfdesc:Parameter"
+            ], 
+            "opt:hasMinValue": "0", 
+            "opt:hasRoundValue": "true", 
+            "opt:hasMaxValue": "10", 
+            "opt:hasName": "Gamma"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ore="http://www.openarchives.org/ore/terms/"
+  xmlns:prov="http://www.w3.org/ns/prov#"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
+  xmlns:ro="http://purl.org/wf4ever/ro#"
+  xmlns:schema="http://schema.org/"
+>
+  <ro:ResearchObject rdf:about="http://purl.org/net/wfSurvey-eScience2014">
+    <schema:creator rdf:resource="http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1"/>
+    <schema:creator rdf:resource="https://github.com/ocorcho"/>
+    <schema:creator rdf:resource="http://www.researchgate.net/profile/Meredith_Braskie/"/>
+    <schema:creator rdf:resource="http://purl.org/net/dgarijo"/>
+    <schema:creator rdf:resource="http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=302"/>
+    <schema:creator rdf:resource="http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=396"/>
+    <schema:creator rdf:resource="http://www.isi.edu/~gil/"/>
+    <schema:creator rdf:resource="http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=110"/>
+    <schema:creator rdf:resource="http://users.loni.usc.edu/~thompson/thompson.html"/>
+    <dc:creator rdf:resource="http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1"/>
+    <dc:creator rdf:resource="https://github.com/ocorcho"/>
+    <dc:creator rdf:resource="http://www.researchgate.net/profile/Meredith_Braskie/"/>
+    <dc:creator rdf:resource="http://purl.org/net/dgarijo"/>
+    <dc:creator rdf:resource="http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=302"/>
+    <dc:creator rdf:resource="http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=396"/>
+    <dc:creator rdf:resource="http://www.isi.edu/~gil/"/>
+    <dc:creator rdf:resource="http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=110"/>
+    <dc:creator rdf:resource="http://users.loni.usc.edu/~thompson/thompson.html"/>
+    <ore:isDescribedBy rdf:resource="http://dgarijo.github.io/ResearchObjects/eScience2014UserSurvey/"/>
+    <xhv:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"/>
+    <schema:name>
+Workflow Reuse in Practice: A Study of Neuroimaging Pipeline Users</schema:name>
+    <prov:wasAttributedTo rdf:resource="http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1"/>
+    <prov:wasAttributedTo rdf:resource="https://github.com/ocorcho"/>
+    <prov:wasAttributedTo rdf:resource="http://www.researchgate.net/profile/Meredith_Braskie/"/>
+    <prov:wasAttributedTo rdf:resource="http://purl.org/net/dgarijo"/>
+    <prov:wasAttributedTo rdf:resource="http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=302"/>
+    <prov:wasAttributedTo rdf:resource="http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=396"/>
+    <prov:wasAttributedTo rdf:resource="http://www.isi.edu/~gil/"/>
+    <prov:wasAttributedTo rdf:resource="http://www.loni.usc.edu/about_loni/people/indiv_detail.php?people_id=110"/>
+    <prov:wasAttributedTo rdf:resource="http://users.loni.usc.edu/~thompson/thompson.html"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <dc:title>
+Workflow Reuse in Practice: A Study of Neuroimaging Pipeline Users</dc:title>
+    <ore:aggreagates>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014UserSurvey/25 responses Full Text.xls"/>
+    </ore:aggreagates>
+    <ore:aggreagates>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014UserSurvey/25 Responses numeric values.xls"/>
+    </ore:aggreagates>
+    <dc:abstract>
+Workflow reuse is a major benefit of workflow systems and shared workflow repositories, but there are barely any studies that quantify the degree of reuse of workflows or the practical barriers that may stand in the way of successful reuse. In our own work, we hypothesize that defining workflow fragments improves reuse, since end-to-end workflows may be very specific and only partially reusable by others. This paper reports on a study of the current use of workflows and workflow fragments in labs that use the LONI Pipeline, a popular workflow system used mainly for neuroimaging research that enables users to define and reuse workflow fragments. We present an overview of the benefits of workflows and workflow fragments reported by users in informal discussions. We also
+report on a survey of researchers in a lab that has the LONI Pipeline installed, asking them about their experiences with reuse of workflow fragments and the actual benefits they perceive. This leads to quantifiable indicators of the reuse of workflows and workflow fragments in practice. </dc:abstract>
+  </ro:ResearchObject>
+</rdf:RDF>
+

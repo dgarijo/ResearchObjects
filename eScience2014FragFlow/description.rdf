@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ro="http://purl.org/wf4ever/ro#"
+  xmlns:prov="http://www.w3.org/ns/prov#"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
+  xmlns:wfdesc="http://purl.org/wf4ever/wfdesc#"
+  xmlns:ore="http://www.openarchives.org/ore/terms/"
+  xmlns:schema="http://schema.org/"
+>
+  <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus2SIZE"/>
+  <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus3SIZE"/>
+  <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-gspan.rar"/>
+  <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/groupingUsage.xlsx"/>
+  <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus3MDL"/>
+  <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus1SIZE"/>
+  <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsFSMAlgorithms.xlsx"/>
+  <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus2MDL"/>
+  <ro:ResearchObject rdf:about="http://purl.org/net/escience2014">
+    <dc:title>
+FragFlow: Automated Fragment Detection in Scientific Workflows</dc:title>
+    <dc:creator rdf:resource="https://github.com/ocorcho"/>
+    <dc:creator rdf:resource="http://purl.org/net/dgarijo"/>
+    <dc:creator rdf:resource="http://www.isi.edu/~gil/"/>
+    <dc:creator rdf:resource="http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1"/>
+    <dc:creator rdf:resource="http://users.loni.usc.edu/~thompson/thompson.html"/>
+    <dc:creator rdf:resource="http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=249"/>
+    <dc:creator rdf:resource="http://nursing.umich.edu/faculty-staff/ivo-d-dinov"/>
+    <xhv:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"/>
+    <schema:creator rdf:resource="https://github.com/ocorcho"/>
+    <schema:creator rdf:resource="http://purl.org/net/dgarijo"/>
+    <schema:creator rdf:resource="http://www.isi.edu/~gil/"/>
+    <schema:creator rdf:resource="http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1"/>
+    <schema:creator rdf:resource="http://users.loni.usc.edu/~thompson/thompson.html"/>
+    <schema:creator rdf:resource="http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=249"/>
+    <schema:creator rdf:resource="http://nursing.umich.edu/faculty-staff/ivo-d-dinov"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <prov:wasAttributedTo rdf:resource="https://github.com/ocorcho"/>
+    <prov:wasAttributedTo rdf:resource="http://purl.org/net/dgarijo"/>
+    <prov:wasAttributedTo rdf:resource="http://www.isi.edu/~gil/"/>
+    <prov:wasAttributedTo rdf:resource="http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=1"/>
+    <prov:wasAttributedTo rdf:resource="http://users.loni.usc.edu/~thompson/thompson.html"/>
+    <prov:wasAttributedTo rdf:resource="http://loni.usc.edu/about_loni/people/indiv_detail.php?people_id=249"/>
+    <prov:wasAttributedTo rdf:resource="http://nursing.umich.edu/faculty-staff/ivo-d-dinov"/>
+    <schema:name>
+FragFlow: Automated Fragment Detection in Scientific Workflows</schema:name>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC1.lg"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user2/EvaluationCompleted.docx"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dx.doi.org/10.6084/m9.figshare.1603174">
+        <rdf:type rdf:resource="http://purl.org/wf4ever/wfdesc#Input"/>
+      </ro:Resource>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dx.doi.org/10.6084/m9.figshare.1603170">
+        <rdf:type rdf:resource="http://purl.org/wf4ever/wfdesc#Input"/>
+      </ro:Resource>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC1.g"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dx.doi.org/10.6084/m9.figshare.1603171">
+        <rdf:type rdf:resource="http://purl.org/wf4ever/wfdesc#Input"/>
+      </ro:Resource>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC2.lg"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC2.g"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user1/EvaluationForBorisCompleted.docx"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC3.g"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/gspan inputs/WC3.lg"/>
+    </ore:aggregates>
+    <dc:abstract>
+Scientific workflows provide the means to define, execute and reproduce computational experiments. However, reusing existing workflows still poses challenges for workflow designers. Workflows are often too large and too specific to reuse in their entirety, so reuse is more likely to happen for fragments of workflows. These fragments may be identified manually by users as sub-workflows, or detected automatically. In this paper we present the FragFlow approach, which detects workflow fragments automatically by analyzing existing workflow corpora with graph mining algorithms. FragFlow detects the most common workflow fragments, links them to the original workflows and visualizes them. We evaluate our approach by comparing FragFlow results against user-defined sub-workflows
+from three different corpora of the LONI Pipeline system. Based on this evaluation, we discuss how automated workflow fragment detection could facilitate workflow reuse.</dc:abstract>
+    <ore:isDescribedBy rdf:resource="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/"/>
+  </ro:ResearchObject>
+  <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/results/fragments-subdue/corpus1MDL"/>
+</rdf:RDF>
+
