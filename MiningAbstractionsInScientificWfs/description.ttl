@@ -1,0 +1,94 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ro: <http://purl.org/wf4ever/ro#> .
+@prefix schema: <http://schema.org/> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+
+<http://dx.doi.org/10.6084/m9.figshare.1603474> a ro:Resource .
+
+<http://purl.org/net/mining-abstractions-in-scientific-wfs> a ro:ResearchObject,
+        ore:Aggregation;
+    dc:abstract """
+(Abstract extracted from the thesis document) "Scientific workflows have been adopted in the last decade to represent the computational methods used in in silico scientific experiments and their associated research products. Scientific workflows have demonstrated to be useful for sharing and reproducing scientific experiments, allowing scientists to visualize, debug and save time when re-executing previous work. However, scientific workflows may be difficult to understand and reuse. The large amount of available workflows in repositories, together with their heterogeneity and lack of documentation and usage examples may become an obstacle for a scientist aiming to reuse the work from other scientists. Furthermore, given that it is often possible to implement a method using different algorithms or techniques, seemingly disparate workflows may be related at a higher level of abstraction, based on their common functionality. In this thesis we address the issue of reusability and abstraction by exploring
+how workflows relate to one another in a workflow repository, mining abstractions that may be helpful for workflow reuse. In order to do so, we propose a simple model for representing and relating workflows and their executions, we analyze the typical common abstractions that can be found in workflow repositories, we explore the current practices of users regarding workflow reuse and we describe a method for discovering useful abstractions for workflows based on existing graph mining techniques. Our results expose the common abstractions and practices of users in terms of workflow reuse, and show how our proposed abstractions have potential to become useful for users designing new workflows".
+""";
+    dc:contributor _:_14e6899e-b00f-4763-bfaa-ccd93bcf8336,
+        _:_f9f5c924-9695-4627-8fac-e5b31a043da1;
+    dc:creator _:_6efc3548-534b-44b5-8709-7a170bb8d416;
+    dc:title "Research Object for the thesis \"Mining Abstractions in Scientific Workflows\"";
+    schema:contributor _:_14e6899e-b00f-4763-bfaa-ccd93bcf8336,
+        _:_6efc3548-534b-44b5-8709-7a170bb8d416,
+        _:_f9f5c924-9695-4627-8fac-e5b31a043da1;
+    schema:name "Research Object for the thesis \"Mining Abstractions in Scientific Workflows\"";
+    ore:aggregates <http://dx.doi.org/10.6084/m9.figshare.1598104>,
+        <http://dx.doi.org/10.6084/m9.figshare.1603175>,
+        <http://dx.doi.org/10.6084/m9.figshare.1603460>,
+        <http://dx.doi.org/10.6084/m9.figshare.1603473>,
+        <http://dx.doi.org/10.6084/m9.figshare.1603480>,
+        <http://figshare.com/articles/Results_of_the_FragFlow_evaluation_performed_on_the_LONI_Pipeline/1603473>,
+        <http://opmw.org/ontology/>,
+        <http://opmw.org/sparql>,
+        <http://purl.org/net/escience2014>,
+        <http://purl.org/net/kcap2013RO>,
+        <http://purl.org/net/ro-motifPaper>,
+        <http://purl.org/net/wf-motifs>,
+        <http://purl.org/net/wfSurvey-eScience2014>,
+        <https://github.com/dgarijo/FragFlow>,
+        <https://github.com/wf4ever/provenance-corpus/tree/master/WINGS_repository/Wings_corpus>;
+    ore:isDescribedBy <>;
+    xhv:license <http://creativecommons.org/licenses/by-nc-sa/2.0/>;
+    owl:sameAs <http://w3id.org/dgarijo/ro/mining-abstractions-in-scientific-wfs>;
+    prov:wasAttributedTo _:_14e6899e-b00f-4763-bfaa-ccd93bcf8336,
+        _:_6efc3548-534b-44b5-8709-7a170bb8d416,
+        _:_f9f5c924-9695-4627-8fac-e5b31a043da1;
+    prov:wasRevisionOf <http://purl.org/net/escience2014>,
+        <http://purl.org/net/kcap2013RO>,
+        <http://purl.org/net/ro-motifPaper>,
+        <http://purl.org/net/wfSurvey-eScience2014> .
+
+<http://dx.doi.org/10.6084/m9.figshare.1598104> a ro:Resource .
+
+<http://dx.doi.org/10.6084/m9.figshare.1603175> a ro:Resource .
+
+<http://dx.doi.org/10.6084/m9.figshare.1603460> a ro:Resource .
+
+<http://dx.doi.org/10.6084/m9.figshare.1603473> a ro:Resource .
+
+<http://dx.doi.org/10.6084/m9.figshare.1603480> a ro:Resource .
+
+<http://figshare.com/articles/Results_of_the_FragFlow_evaluation_performed_on_the_LONI_Pipeline/1603473> a ro:Resource .
+
+<http://opmw.org/ontology/> a ro:Resource .
+
+<http://opmw.org/sparql> a ro:Resource .
+
+<http://purl.org/net/wf-motifs> a ro:Resource .
+
+<https://github.com/dgarijo/FragFlow> a ro:Resource .
+
+<https://github.com/wf4ever/provenance-corpus/tree/master/WINGS_repository/Wings_corpus> a ro:Resource .
+
+<http://purl.org/net/escience2014> a ro:ResearchObject .
+
+<http://purl.org/net/kcap2013RO> a ro:ResearchObject .
+
+<http://purl.org/net/ro-motifPaper> a ro:ResearchObject .
+
+<http://purl.org/net/wfSurvey-eScience2014> a ro:ResearchObject .
+
+_:_14e6899e-b00f-4763-bfaa-ccd93bcf8336 a foaf:Person;
+    schema:name "Yolanda Gil (Supervisor)";
+    foaf:name "Yolanda Gil (Supervisor)" .
+
+_:_6efc3548-534b-44b5-8709-7a170bb8d416 a foaf:Person;
+    schema:name "Daniel Garijo Verdejo (Author)";
+    foaf:name "Daniel Garijo Verdejo (Author)" .
+
+_:_f9f5c924-9695-4627-8fac-e5b31a043da1 a foaf:Person;
+    schema:name "Oscar Corcho (Supervisor)";
+    foaf:name "Oscar Corcho (Supervisor)" .
+
+
