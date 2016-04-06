@@ -1,0 +1,45 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ro: <http://purl.org/wf4ever/ro#> .
+@prefix schema: <http://schema.org/> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+
+<https://w3id.org/dgarijo/ro/acs2016> a ro:ResearchObject,
+        ore:Aggregation;
+    dc:abstract "TO DO
+""";
+    dc:contributor _:_14e6899e-b00f-4763-bfaa-ccd93bcf8336,
+        _:_f9f5c924-9695-4627-8fac-e5b31a043da1;
+    dc:creator _:_6efc3548-534b-44b5-8709-7a170bb8d416;
+    dc:title "Research Object for the thesis \"Mining Abstractions in Scientific Workflows\"";
+    schema:contributor _:_14e6899e-b00f-4763-bfaa-ccd93bcf8336,
+        _:_6efc3548-534b-44b5-8709-7a170bb8d416,
+        _:_f9f5c924-9695-4627-8fac-e5b31a043da1;
+    schema:name "Research Object for the thesis \"Mining Abstractions in Scientific Workflows\"";
+    ore:aggregates <http://dx.doi.org/10.6084/m9.figshare.1598104>,
+        <https://github.com/wf4ever/provenance-corpus/tree/master/WINGS_repository/Wings_corpus>;
+    ore:isDescribedBy <>;
+    xhv:license <http://creativecommons.org/licenses/by-nc-sa/2.0/>;
+    owl:sameAs <http://w3id.org/dgarijo/ro/mining-abstractions-in-scientific-wfs>;
+    prov:wasAttributedTo _:_14e6899e-b00f-4763-bfaa-ccd93bcf8336,
+        _:_6efc3548-534b-44b5-8709-7a170bb8d416,
+        _:_f9f5c924-9695-4627-8fac-e5b31a043da1;
+    prov:wasRevisionOf <http://purl.org/net/escience2014>,
+        <http://purl.org/net/kcap2013RO>,
+        <http://purl.org/net/ro-motifPaper>,
+        <http://purl.org/net/wfSurvey-eScience2014> .
+
+
+_:_14e6899e-b00f-4763-bfaa-ccd93bcf8336 a foaf:Person;
+    schema:name "Yolanda Gil (Supervisor)";
+    foaf:name "Yolanda Gil (Supervisor)" .
+
+_:_6efc3548-534b-44b5-8709-7a170bb8d416 a foaf:Person;
+    schema:name "Daniel Garijo Verdejo (Author)";
+    foaf:name "Daniel Garijo Verdejo (Author)" .
+
+
+

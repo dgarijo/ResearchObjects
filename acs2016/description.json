@@ -1,0 +1,163 @@
+{
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#", 
+        "ro": "http://purl.org/wf4ever/ro#", 
+        "prov": "http://www.w3.org/ns/prov#", 
+        "dc": "http://purl.org/dc/terms/", 
+        "foaf": "http://xmlns.com/foaf/0.1/", 
+        "xhv": "http://www.w3.org/1999/xhtml/vocab#", 
+        "ore": "http://www.openarchives.org/ore/terms/", 
+        "schema": "http://schema.org/", 
+        "prov:wasAttributedTo": {
+            "@type": "@id"
+        }, 
+        "ore:aggregates": {
+            "@type": "@id"
+        }, 
+        "dc:contributor": {
+            "@type": "@id"
+        }, 
+        "owl:sameAs": {
+            "@type": "@id"
+        }, 
+        "dc:creator": {
+            "@type": "@id"
+        }, 
+        "xhv:license": {
+            "@type": "@id"
+        }, 
+        "prov:wasRevisionOf": {
+            "@type": "@id"
+        }, 
+        "schema:contributor": {
+            "@type": "@id"
+        }, 
+        "ore:isDescribedBy": {
+            "@type": "@id"
+        }
+    }, 
+    "@graph": [
+        {
+            "@id": "http://purl.org/net/ro-motifPaper", 
+            "@type": "ro:ResearchObject"
+        }, 
+        {
+            "@id": "http://dx.doi.org/10.6084/m9.figshare.1603474", 
+            "@type": "ro:Resource"
+        }, 
+        {
+            "@id": "_:_52da1b20-f5f2-423b-a763-440cd0b17269", 
+            "@type": "foaf:Person", 
+            "schema:name": "Oscar Corcho (Supervisor)", 
+            "foaf:name": "Oscar Corcho (Supervisor)"
+        }, 
+        {
+            "@id": "http://purl.org/net/kcap2013RO", 
+            "@type": "ro:ResearchObject"
+        }, 
+        {
+            "@id": "http://purl.org/net/escience2014", 
+            "@type": "ro:ResearchObject"
+        }, 
+        {
+            "@id": "http://purl.org/net/mining-abstractions-in-scientific-wfs", 
+            "@type": [
+                "ro:ResearchObject", 
+                "ore:Aggregation"
+            ], 
+            "schema:name": "Research Object for the thesis \"Mining Abstractions in Scientific Workflows\"", 
+            "dc:creator": "_:_c9cbb385-e3fc-449f-97ea-7cd9ddca7af8", 
+            "dc:abstract": "\n(Abstract extracted from the thesis document) \"Scientific workflows have been adopted in the last decade to represent the computational methods used in in silico scientific experiments and their associated research products. Scientific workflows have demonstrated to be useful for sharing and reproducing scientific experiments, allowing scientists to visualize, debug and save time when re-executing previous work. However, scientific workflows may be difficult to understand and reuse. The large amount of available workflows in repositories, together with their heterogeneity and lack of documentation and usage examples may become an obstacle for a scientist aiming to reuse the work from other scientists. Furthermore, given that it is often possible to implement a method using different algorithms or techniques, seemingly disparate workflows may be related at a higher level of abstraction, based on their common functionality. In this thesis we address the issue of reusability and abstraction by exploring\nhow workflows relate to one another in a workflow repository, mining abstractions that may be helpful for workflow reuse. In order to do so, we propose a simple model for representing and relating workflows and their executions, we analyze the typical common abstractions that can be found in workflow repositories, we explore the current practices of users regarding workflow reuse and we describe a method for discovering useful abstractions for workflows based on existing graph mining techniques. Our results expose the common abstractions and practices of users in terms of workflow reuse, and show how our proposed abstractions have potential to become useful for users designing new workflows\".\n", 
+            "dc:contributor": [
+                "_:_49dca74a-0616-45cc-98ff-33fa2987be05", 
+                "_:_52da1b20-f5f2-423b-a763-440cd0b17269"
+            ], 
+            "dc:title": "Research Object for the thesis \"Mining Abstractions in Scientific Workflows\"", 
+            "owl:sameAs": "http://w3id.org/dgarijo/ro/mining-abstractions-in-scientific-wfs", 
+            "ore:aggregates": [
+                {
+                    "@id": "http://figshare.com/articles/Results_of_the_FragFlow_evaluation_performed_on_the_LONI_Pipeline/1603473", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://purl.org/net/wf-motifs", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dx.doi.org/10.6084/m9.figshare.1603473", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dx.doi.org/10.6084/m9.figshare.1603460", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "https://github.com/dgarijo/FragFlow", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dx.doi.org/10.6084/m9.figshare.1603480", 
+                    "@type": "ro:Resource"
+                }, 
+                "http://purl.org/net/escience2014", 
+                {
+                    "@id": "https://github.com/wf4ever/provenance-corpus/tree/master/WINGS_repository/Wings_corpus", 
+                    "@type": "ro:Resource"
+                }, 
+                "http://purl.org/net/kcap2013RO", 
+                "http://purl.org/net/wfSurvey-eScience2014", 
+                "http://purl.org/net/ro-motifPaper", 
+                {
+                    "@id": "http://opmw.org/sparql", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dx.doi.org/10.6084/m9.figshare.1603175", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://dx.doi.org/10.6084/m9.figshare.1598104", 
+                    "@type": "ro:Resource"
+                }, 
+                {
+                    "@id": "http://opmw.org/ontology/", 
+                    "@type": "ro:Resource"
+                }
+            ], 
+            "prov:wasRevisionOf": [
+                "http://purl.org/net/ro-motifPaper", 
+                "http://purl.org/net/escience2014", 
+                "http://purl.org/net/kcap2013RO", 
+                "http://purl.org/net/wfSurvey-eScience2014"
+            ], 
+            "ore:isDescribedBy": "", 
+            "prov:wasAttributedTo": [
+                "_:_c9cbb385-e3fc-449f-97ea-7cd9ddca7af8", 
+                "_:_49dca74a-0616-45cc-98ff-33fa2987be05", 
+                "_:_52da1b20-f5f2-423b-a763-440cd0b17269"
+            ], 
+            "schema:contributor": [
+                "_:_c9cbb385-e3fc-449f-97ea-7cd9ddca7af8", 
+                "_:_49dca74a-0616-45cc-98ff-33fa2987be05", 
+                "_:_52da1b20-f5f2-423b-a763-440cd0b17269"
+            ], 
+            "xhv:license": "http://creativecommons.org/licenses/by-nc-sa/2.0/"
+        }, 
+        {
+            "@id": "_:_49dca74a-0616-45cc-98ff-33fa2987be05", 
+            "@type": "foaf:Person", 
+            "schema:name": "Yolanda Gil (Supervisor)", 
+            "foaf:name": "Yolanda Gil (Supervisor)"
+        }, 
+        {
+            "@id": "_:_c9cbb385-e3fc-449f-97ea-7cd9ddca7af8", 
+            "@type": "foaf:Person", 
+            "schema:name": "Daniel Garijo Verdejo (Author)", 
+            "foaf:name": "Daniel Garijo Verdejo (Author)"
+        }, 
+        {
+            "@id": "http://purl.org/net/wfSurvey-eScience2014", 
+            "@type": "ro:ResearchObject"
+        }
+    ]
+}
