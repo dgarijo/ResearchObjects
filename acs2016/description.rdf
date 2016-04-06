@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ro="http://purl.org/wf4ever/ro#"
+  xmlns:prov="http://www.w3.org/ns/prov#"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xhv="http://www.w3.org/1999/xhtml/vocab#"
+  xmlns:ore="http://www.openarchives.org/ore/terms/"
+  xmlns:schema="http://schema.org/"
+>
+  <ore:Aggregation rdf:about="http://purl.org/net/mining-abstractions-in-scientific-wfs">
+    <prov:wasAttributedTo>
+      <foaf:Person>
+        <schema:name>Daniel Garijo Verdejo (Author)</schema:name>
+        <foaf:name>Daniel Garijo Verdejo (Author)</foaf:name>
+      </foaf:Person>
+    </prov:wasAttributedTo>
+    <prov:wasAttributedTo>
+      <foaf:Person>
+        <schema:name>Oscar Corcho (Supervisor)</schema:name>
+        <foaf:name>Oscar Corcho (Supervisor)</foaf:name>
+      </foaf:Person>
+    </prov:wasAttributedTo>
+    <prov:wasAttributedTo>
+      <foaf:Person>
+        <schema:name>Yolanda Gil (Supervisor)</schema:name>
+        <foaf:name>Yolanda Gil (Supervisor)</foaf:name>
+      </foaf:Person>
+    </prov:wasAttributedTo>
+    <prov:wasRevisionOf>
+      <ro:ResearchObject rdf:about="http://purl.org/net/escience2014"/>
+    </prov:wasRevisionOf>
+    <prov:wasRevisionOf>
+      <ro:ResearchObject rdf:about="http://purl.org/net/kcap2013RO"/>
+    </prov:wasRevisionOf>
+    <prov:wasRevisionOf>
+      <ro:ResearchObject rdf:about="http://purl.org/net/ro-motifPaper"/>
+    </prov:wasRevisionOf>
+    <prov:wasRevisionOf>
+      <ro:ResearchObject rdf:about="http://purl.org/net/wfSurvey-eScience2014"/>
+    </prov:wasRevisionOf>
+    <schema:name>Research Object for the thesis "Mining Abstractions in Scientific Workflows"</schema:name>
+    <dc:contributor rdf:nodeID="_1c3694b3-66f6-4b98-912d-a40e6303b627"/>
+    <dc:contributor rdf:nodeID="_f5409beb-5044-4a7d-b9b4-41e413c65c84"/>
+    <ore:aggregates rdf:resource="http://purl.org/net/kcap2013RO"/>
+    <ore:aggregates>
+      <ro:Resource rdf:about="https://github.com/wf4ever/provenance-corpus/tree/master/WINGS_repository/Wings_corpus"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://opmw.org/ontology/"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://opmw.org/sparql"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://purl.org/net/wf-motifs"/>
+    </ore:aggregates>
+    <ore:aggregates rdf:resource="http://purl.org/net/escience2014"/>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dx.doi.org/10.6084/m9.figshare.1603460"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="https://github.com/dgarijo/FragFlow"/>
+    </ore:aggregates>
+    <ore:aggregates rdf:resource="http://purl.org/net/wfSurvey-eScience2014"/>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://figshare.com/articles/Results_of_the_FragFlow_evaluation_performed_on_the_LONI_Pipeline/1603473"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dx.doi.org/10.6084/m9.figshare.1603473"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dx.doi.org/10.6084/m9.figshare.1603480"/>
+    </ore:aggregates>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dx.doi.org/10.6084/m9.figshare.1598104"/>
+    </ore:aggregates>
+    <ore:aggregates rdf:resource="http://purl.org/net/ro-motifPaper"/>
+    <ore:aggregates>
+      <ro:Resource rdf:about="http://dx.doi.org/10.6084/m9.figshare.1603175"/>
+    </ore:aggregates>
+    <rdf:type rdf:resource="http://purl.org/wf4ever/ro#ResearchObject"/>
+    <dc:title>Research Object for the thesis "Mining Abstractions in Scientific Workflows"</dc:title>
+    <schema:contributor rdf:nodeID="_88a814cb-e1f6-4a66-bdae-82c168a093f8"/>
+    <schema:contributor rdf:nodeID="_1c3694b3-66f6-4b98-912d-a40e6303b627"/>
+    <schema:contributor rdf:nodeID="_f5409beb-5044-4a7d-b9b4-41e413c65c84"/>
+    <xhv:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"/>
+    <dc:abstract>
+(Abstract extracted from the thesis document) "Scientific workflows have been adopted in the last decade to represent the computational methods used in in silico scientific experiments and their associated research products. Scientific workflows have demonstrated to be useful for sharing and reproducing scientific experiments, allowing scientists to visualize, debug and save time when re-executing previous work. However, scientific workflows may be difficult to understand and reuse. The large amount of available workflows in repositories, together with their heterogeneity and lack of documentation and usage examples may become an obstacle for a scientist aiming to reuse the work from other scientists. Furthermore, given that it is often possible to implement a method using different algorithms or techniques, seemingly disparate workflows may be related at a higher level of abstraction, based on their common functionality. In this thesis we address the issue of reusability and abstraction by exploring
+how workflows relate to one another in a workflow repository, mining abstractions that may be helpful for workflow reuse. In order to do so, we propose a simple model for representing and relating workflows and their executions, we analyze the typical common abstractions that can be found in workflow repositories, we explore the current practices of users regarding workflow reuse and we describe a method for discovering useful abstractions for workflows based on existing graph mining techniques. Our results expose the common abstractions and practices of users in terms of workflow reuse, and show how our proposed abstractions have potential to become useful for users designing new workflows".
+</dc:abstract>
+    <owl:sameAs rdf:resource="http://w3id.org/dgarijo/ro/mining-abstractions-in-scientific-wfs"/>
+    <dc:creator rdf:nodeID="_88a814cb-e1f6-4a66-bdae-82c168a093f8"/>
+    <ore:isDescribedBy rdf:resource=""/>
+  </ore:Aggregation>
+  <ro:Resource rdf:about="http://dx.doi.org/10.6084/m9.figshare.1603474"/>
+</rdf:RDF>
+
