@@ -22,7 +22,6 @@
 </head>
 <body prefix="owl: http://www.w3.org/2002/07/owl# dc: http://purl.org/dc/terms/ schema: http://schema.org/ prov: http://www.w3.org/ns/prov# ore: http://www.openarchives.org/ore/terms/ ro: http://purl.org/wf4ever/ro# rdfs: http://www.w3.org/2000/01/rdf-schema#" resource="https://w3id.org/dgarijo/ro/acs2016" typeOf="ore:Aggregation ro:ResearchObject">
   <span property="ore:isDescribedBy" resource=""></span>
-  <span property="owl:sameAs" resource="https://w3id.org/dgarijo/ro/acs2016"></span>
   <div id="wrap">
    <div id="sidebar"> 
      <ul id="navigation">
@@ -51,14 +50,14 @@
 <div class="space"> </div>
 <div class="clear"> </div>
 <p>
-  This page describes 
+  This page describes the additional materials used for the publication "Automated Hypothesis Testing with Large Scientific Data Repositories", which is currently under review in the ACS2016 conference. 
 </p>
 <p>
-  If you want to get an RDF description of the contents presented in this document, just parse it with your favourite RDF parser. Alternatively, you can use content negotiation on its id (<a href="http://w3id.org/dgarijo/ro/mining-abstractions-in-scientific-wfs">http://w3id.org/dgarijo/ro/mining-abstractions-in-scientific-wfs</a>) to retrieve it on TTL (<a href="description.ttl">link</a>), RDF/XML (<a href="description.rdf">link</a>) or JSON-LD (<a href="description.json">link</a>) formats.
+  If you want to get an RDF description of the contents presented in this document, just parse it with your favourite RDF-a parser. Alternatively, you can use content negotiation on its id (<a href="https://w3id.org/dgarijo/ro/acs2016">https://w3id.org/dgarijo/ro/acs2016</a>) to retrieve it on <a href="description.ttl">TTL </a>, <a href="description.rdf">RDF/XML</a> or <a href="description.json">JSON-LD</a> formats.
 </p>
-<!--<p>
-	A link to the pdf paper will be provided here
-</p>-->
+<p>
+	A link to the pdf paper will be provided here once the review process is done.
+</p>
 </div> 
 </div>
 <div class="page" id="abstract">	
@@ -67,7 +66,7 @@
 <div class="space"> </div>
 <div class="clear"> </div>
 <p property="dc:abstract">
-<i>(Abstract extracted from the thesis document)</i> 
+<i>Summary <strong>extracted from the submitted paper</strong>: </i> "The automation of important aspects of scientific data analysis would significantly accelerate the pace of science and innovation. Although important aspects of data analysis can be automated, the hypothesize-test-evaluate discovery cycle is largely carried out by hand by researchers.  This introduces a significant human bottleneck, which is inefficient and can lead to erroneous and incomplete explorations. We introduce a novel approach to automate the hypothesize-test-evaluate discovery cycle with an intelligent system that a scientist can task to test hypotheses of interest in a data repository. Our approach captures three types of data analytics knowledge: 1) common data analytic methods represented as semantic workflows; 2) meta-analysis methods that aggregate those results, represented as meta-workflows; and 3) data analysis strategies that specify for a type of hypothesis what data and methods to use, represented as lines of inquiry.  Given a hypothesis specified by a scientist, appropriate lines of inquiry are triggered, which lead to retrieving relevant datasets, running relevant workflows on that data, and finally running meta-workflows on workflow results.  The scientist is then presented with a level of confidence on the initial hypothesis (or a revised hypothesis) based on the data and methods applied. We have implemented this approach in the DISK system, and applied it to multi-omics data analysis."
 </p>
 <div class="clear"> </div>
 </div>
@@ -75,9 +74,14 @@
 <div class="page" id="inputs"> 
 <div class="page_content">
 <h4  class="blue"> Aggregated resources</h4>
-<p>The work described in this thesis is an aggregation and refinement of previous work, which has also been published as Research Objects. In this section we explain briefly some of the contributions of the thesis, pointing to the aggregated resources and Research Objects related to them.</p>
+<p>The paper associated to this page describes the <a href="http://disk-project.org/portal/">DISK framework</a>, which aims to automatize the hypothesis test-refine life cycle. Below you can see a list of the materials that we have used to test and demonstrate our approach.</p>
 <ol>
 	<li><strong><a property="ore:aggregates" href="http://opmw.org/ontology/" typeOf="ro:Resource">list of the workflows will go here</a> <a href="#1">[1]</a>:</strong> One of the objectives in the thesis is to address workflow representation. To this end, we define a model to represent scientific workflows and their executions in a simple way. The model is available online, with content negotiation enabled. This means that just you can access it through its URL and import in RDF or TTL.</li>
+	<li>Proteomics workflows (2): pictures and links to inputs and outputs.</li>
+	<li>Link to the Zang et al paper. Which is used as reference for the evaluations.</li>
+	<li>Any other workflows that were reproduced from the paper</li>
+	<li>Metaworkflows</li>
+	<li>Portal</li>
 		
 </ol>
 
@@ -94,19 +98,20 @@
 <div class="page_content">
 <h4 class="blue"> Authors and Contributors</h4>
 <table>	
-<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Yolanda Gil <img width="100" height="110" alt="Yolanda Gil" src="http://rohub.linkeddata.es/eScience2014FragFlow/images/gil.jpg"></td><td style="padding-left:10px"> Yolanda Gil is Director of Knowledge Technologies and at the Information Sciences Institute of the University of Southern California, and Research Professor in the Computer Science Department. Her research interests include intelligent user interfaces, social knowledge collection, provenance and assessment of trust, and knowledge management in science. Her most recent work focuses on intelligent workflow systems to support collaborative data analytics at scale.</td></tr>
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Yolanda Gil <img width="100" height="110" alt="Yolanda Gil" src="images/gil.jpg"></td><td style="padding-left:10px"> <a href="http://www.isi.edu/~gil/">Yolanda Gil</a> is Director of Knowledge Technologies and at the Information Sciences Institute of the University of Southern California, and Research Professor in the Computer Science Department. Her research interests include intelligent user interfaces, social knowledge collection, provenance and assessment of trust, and knowledge management in science. Her most recent work focuses on intelligent workflow systems to support collaborative data analytics at scale.</td></tr>
 
-<tr property="schema:contributor dc:creator prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Daniel Garijo Verdejo<img width="100" height="130" alt="Daniel Garijo" src="http://rohub.linkeddata.es/eScience2014FragFlow/images/dani.png"></td><td style="padding-left:10px"><a href="http://w3id.org/people/dgarijo#me">Daniel Garijo</a> is a PhD student in the Ontology Engineering Group at the Artificial Intelligence Department of the Computer Science Faculty of Universidad Politécnica de Madrid. His research activities focus on e-Science and the Semantic web, specifically on how to increase the understandability of scientific workflows using provenance, metadata, intermediate results and Linked Data. </td></tr>
+<tr property="schema:contributor dc:creator prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Daniel Garijo Verdejo<img width="100" height="130" alt="Daniel Garijo" src="images/dani.png"></td><td style="padding-left:10px"><a href="http://w3id.org/people/dgarijo#me">Daniel Garijo</a> is a postdoc researcher in the Information Sciences Institute of the University of Southern California. His research activities focus on e-Science and the Semantic web, specifically on how to increase the understandability of scientific workflows using provenance, metadata, intermediate results and Linked Data. </td></tr>
 
-<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Varun Ratnakar<img width="100" height="110" alt="Ratnakar" src=""></td><td style="padding-left:10px"> TO DO</td></tr>
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Varun Ratnakar<img width="100" height="110" alt="Ratnakar" src="images/varun.jpg"></td><td style="padding-left:10px"> <a href="http://www.isi.edu/~varunr/index.html">Varun Ratnakar</a> is a research programmer at the Information Sciences Institute of the University of Southern California. He is the main developer of the <a href="http://wings-workflows.org/">Wings workflow system</a>.</td></tr>
 
-<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Rajiv<img width="100" height="110" alt="Rajiv" src=""></td><td style="padding-left:10px"> TO DO</td></tr>
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Rajiv Mayani<img width="100" height="110" alt="Rajiv" src="images/rajiv.jpg"></td><td style="padding-left:10px"><a href="http://www.isi.edu/people/mayani/about">Rajiv Mayani</a> is a programmer analyst at the Information Sciences Institute of the University of Southern California.</td></tr>
 
-<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Parag<img width="100" height="110" alt="Parag" src=""></td><td style="padding-left:10px"> TO DO</td></tr>
+</td></tr>
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Parag Mallik<img width="100" height="110" alt="Parag" src="images/parag.jpg"></td><td style="padding-left:10px"><a href="https://med.stanford.edu/profiles/parag-mallick">Parag Mallik</a> is an assistant professor (Research) in Radiology. Parag is also member of the Stanford Cancer Institute and a faculty fellow of Stanford ChEM-H. After completing his PhD, he trained with Ruedi Aebersold in clinical proteomics and systems biology at the Institute for Systems Biology.  
 
-<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Ravali<img width="100" height="110" alt="Ravali" src=""></td><td style="padding-left:10px"> TO DO</td></tr>
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name"> Ravali Adusumilli<img width="100" height="110" alt="Ravali" src="images/ravali.jpg"></td><td style="padding-left:10px"><a href="http://mallicklab.stanford.edu/peeps">Ravali Adusumilli</a>is a bioinformaticist at the Mallik Lab of Stanford Univesity. She is interested in developing tools and pipelines for multi-omic analysis.</td></tr>
 
-<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Hunter<img width="100" height="110" alt="Hunter" src=""></td><td style="padding-left:10px"> TO DO</td></tr>
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Hunter Boyce<img width="100" height="110" alt="Hunter" src="images/hunter.jpg"></td><td style="padding-left:10px">Hunter Boyce is a postdoctoral researcher at the Mallik lab of Stanford university.</td></tr>
 
 
 </table>
@@ -117,9 +122,9 @@
 <!-- page industries -->	
 <div class="page_content">
 <h4 class="blue" id="bib">Bibliography</h4>
-To do if needed
+In this page we make use of the following references: 
 <ol>
-<li id="1">Bibliography goes here if needed</li>
+<li id="1">[Zhang et al 2014]: Bing Zhang, Jing Wang, Xiaojing Wang, Jing Zhu, Qi Liu, et al. “Proteogenomic characterization of human colon and rectal cancer.” Nature 513,382–387, 18 September 2014. </li>
 </ol>
 <div class="clear"> </div>
 </div> 
