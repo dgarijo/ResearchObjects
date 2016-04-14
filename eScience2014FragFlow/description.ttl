@@ -51,7 +51,7 @@ from three different corpora of the LONI Pipeline system. Based on this evaluati
         <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC1.g>,
         <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC2.g>,
         <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC3.g>,
-        <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user1/EvaluationForBorisCompleted.docx>,
+        <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user1/EvaluationForuser1Completed.docx>,
         <http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user2/EvaluationCompleted.docx>,
         <http://dx.doi.org/10.6084/m9.figshare.1603170>,
         <http://dx.doi.org/10.6084/m9.figshare.1603171>,
