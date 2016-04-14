@@ -76,7 +76,7 @@ FragFlow: Automated Fragment Detection in Scientific Workflows</schema:name>
       <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC2.g"/>
     </ore:aggregates>
     <ore:aggregates>
-      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user1/EvaluationForBorisCompleted.docx"/>
+      <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/evaluationsUsers/user1/EvaluationForuser1Completed.docx"/>
     </ore:aggregates>
     <ore:aggregates>
       <ro:Resource rdf:about="http://dgarijo.github.io/ResearchObjects/eScience2014FragFlow/paperResources/datasets/subdue inputs/WC3.g"/>
