@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Additional materials for the paper "Automated Hypothesis Testing with Large Scientific Data Repositories"</title>
+<link rel="stylesheet" href="styles/style.css" media="screen" />
+<link rel="stylesheet" href="styles/media-queries.css" />
+<link rel="stylesheet" href="./flex-slider/flexslider.css" type="text/css" media="screen" />
+<link href="styles/prettyPhoto.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="styles/tipsy.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="./scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="./flex-slider/jquery.flexslider-min.js"></script>
+<script src="scripts/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="scripts/jquery.tipsy.js" type="text/javascript"></script>
+<script src="scripts/jquery.knob.js" type="text/javascript"></script>
+<script type="text/javascript" src="./scripts/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="./scripts/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="./scripts/waypoints.min.js"></script>
+<script type="text/javascript" src="./scripts/setup.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</head>
+<body prefix="owl: http://www.w3.org/2002/07/owl# dc: http://purl.org/dc/terms/ schema: http://schema.org/ prov: http://www.w3.org/ns/prov# ore: http://www.openarchives.org/ore/terms/ ro: http://purl.org/wf4ever/ro# rdfs: http://www.w3.org/2000/01/rdf-schema#" resource="https://w3id.org/dgarijo/ro/acs2016" typeOf="ore:Aggregation ro:ResearchObject">
+  <span property="ore:isDescribedBy" resource=""></span>
+  <div id="wrap">
+   <div id="sidebar"> 
+     <ul id="navigation">
+       <li><a href="#home" class="active">Summary</a></li>
+       <li class="peque"><a href="#abstract">Abstract</a></li>
+           <li class="peque"><a href="#inputs">Resources</a></li>
+           <!--<li class="peque"><a href="#outputs">Results</a></li>-->
+       <li><a href="#auth">About the authors</a></li>
+	   <li><a href="#bib">Bibliography</a></li>
+     </ul>
+         <div style="bottom:0; position : absolute">
+                 <div style="float: left; padding-left: 25px; width:80px;">
+                 <a href="http://www.researchobject.org/"><img src="images/rologo.png" alt="This page is RO enabled" title="This page is described according to the RO Model" width="60"/></a>
+                 </div>
+                 <div style="float: left; padding-left: 25px; width:80px;">
+                 <img src="images/rdf.gif" alt="This page is described in rdf-a" title="This page is described in rdf-a" width="60"/>
+                 </div>
+         </div>	
+   </div>
+   <div id="container"> 
+     <!-- page container -->
+     <div class="page" id="home"> 
+       <!-- page home -->
+       <div class="page_content">
+        <h3  class="page_title" property="dc:title schema:name">Additional materials for the paper "Towards Continuous Scientific Data Analysis and Hypothesis Evolu-tion"</h3>
+<div class="space"> </div>
+<div class="clear"> </div>
+<p>
+  This page describes the additional materials used for the publication "Automated Hypothesis Testing with Large Scientific Data Repositories", which has been accepted in the AAAI2017 conference. 
+</p>
+<p>
+  If you want to get an RDF description of the contents presented in this document, just parse it with your favourite RDF-a parser. Alternatively, you can use content negotiation on its id (<a href="https://w3id.org/dgarijo/ro/aaai2017">https://w3id.org/dgarijo/ro/aaa2017</a>) to retrieve it on <a href="description.ttl">TTL </a> format.
+</p>
+<p>
+	A link to the pdf paper will be provided here once the paper is available on the proceedings.
+</p>
+</div> 
+</div>
+<div class="page" id="abstract">	
+<div class="page_content">
+<h4 class="blue"> Abstract</h4>
+<div class="space"> </div>
+<div class="clear"> </div>
+<p property="dc:abstract">
+<i>Summary <strong>extracted from the submitted paper</strong>: </i> "Scientific data is continuously generated throughout the world.    However, analyses of these data are typically performed exactly once and on a small fragment of re-cently generated data. Ideally, data analysis would be a continuous process that uses all the data available at the time, and would be automatically re-run and updated when new data appears. We present a framework for au-tomated discovery from data repositories that tests user-provided hypotheses using expert-grade workflows, and reassesses hypotheses when more data becomes available. Novel contributions of this approach include a framework to trigger new analyses appropriate for the available data through lines of inquiry that support progressive hypothe-sis evolution, and a representation of hypothesis revisions with provenance records that can be used to inspect the results. We implemented our approach in the DISK framework, and evaluated it using two scenarios from cancer multi-omics: 1) data for new patients becomes available over time, 2) new types of data for the same pa-tients are released. We show that in all scenarios the con-fidence on the original hypotheses evolves".
+</p>
+<div class="clear"> </div>
+</div>
+</div>
+<div class="page" id="inputs"> 
+<div class="page_content">
+<h4  class="blue"> Materials used in the paper</h4>
+<p>The paper associated to this page describes the <a href="http://disk-project.org/portal/">DISK framework</a>, which aims to automatize the hypothesis test-refine life cycle. See the <a href="http://disk-project.org/">project web page</a> for more details.</p>
+
+<p>The DISK software can be accessed <a href="http://doi.org/10.5281/zenodo.168079">on Zenodo</a>.</p>
+
+<h2>Workflows</h2> 
+<p>We used three different workflows in the evaluation of this paper, based on [Zhang et al 2014]. Each workflow was executed once on the 84 sample data, retrieved from <a href="https://gdc-portal.nci.nih.gov/legacy-archive/search/f">TCGA</a> and <a href="https://cptac-data-portal.georgetown.edu/cptac/s/S022">CPTAC</a>. Below you can find the three workflow templates with a sample execution and the pointers to the software used on each workflow step. Note that the 252 executions (84*3) of these workflows have not been made public due to their size an access restrictions.</p>
+
+<h3>Proteomics Workflow:</h3> 
+<p> 
+	Workflow designed to estimate the confidence of the results in proteomic data. A snapshot of a workflow execution can be seen below:
+	
+</p>
+
+	<div class="center">				
+		<img src="images/proteomics.png" alt="Proteomics workflow" width="700" >
+		<div><b>Fig 1</b>: Proteomics workflow.</div>
+	</div>
+	
+	<p>The workflow template has been exported in the <a href="http://www.opmw.org/model/OPMW">OPMW serialization</a>, and it is available <a href="http://www.opmw.org/export/omics/resource/WorkflowTemplate/PROTEOMICS_ANALYSIS-D751713988987E9331980363E24189CE">online</a>, along with a <a href="http://www.opmw.org/export/omics/resource/WorkflowExecutionAccount/ACCOUNT-PROTEOMICS_ANALY-615E6BE3-CCAB-4675-937B-A17B66367114">sample execution</a></p>
+	<p>
+	The workflow uses two main steps. Calc NSAFNode uses a <a href="http://disk.isi.edu/uploads/proteomics_analy-615e6be3-ccab-4675-937b-a17b66367114/code/CalcNSAF/run">script</a> to perform its main functionality. The second step is labkeyProtSearchNode, which uses <a href="http://disk.isi.edu/uploads/proteomics_analy-615e6be3-ccab-4675-937b-a17b66367114/code/wingsLabkey/run">a script</a> to invoke the <a href="https://www.labkey.org/home/Documentation/project-begin.view">LabKey software</a>.
+	</p>
+
+<h3>Genomics Workflow:</h3>
+<p> Workflow designed to estimate the confidence of results in genomic data.
+</p>
+
+	<div class="center">				
+		<img src="images/genomics.png" alt="Genomics workflow" width="600" >
+		<div><b>Fig 2</b>: Genomics workflow.</div>
+	</div>
+	<p>The workflow template has been exported in the <a href="http://www.opmw.org/model/OPMW">OPMW serialization</a>, and it is available <a href="http://www.opmw.org/export/omics/resource/WorkflowTemplate/GENOMICS_ANALYSIS-D751713988987E9331980363E24189CE">online</a>.</p>
+	<p>The workflow has 7 steps: The <a href="http://omics.ontosoft.org/#browse/Software-0gLRo5dWNZmG">wTopHat2</a>, <a href="http://omics.ontosoft.org/#browse/Software-ZFWjE5OUlaxA">MpileUpCaller</a>, <a href="http://omics.ontosoft.org/#browse/Software-Jhf068Zu17kK">bfctoolsCallVariants</a>, <a href="http://omics.ontosoft.org/#browse/Software-519v0ywIdNDa">varFilterSAMTools</a>, <a href="http://omics.ontosoft.org/#browse/Software-UjVEtguG54Az">SAMToolsBAMINdex</a>, <a href="http://omics.ontosoft.org/#browse/Software-9STpNohoNzJd">CustomPRODB</a> and <a href="http://omics.ontosoft.org/#browse/Software-9STpNohoNzJd">CalCRPKMValues (from CustomPRODB)</a> .
+	</p>
+	
+
+<h3>Proteogenomics Workflow</h3> 
+<p>
+Workflow designed to estimate the condifence of results in genomic and proteomic data combined.
+</p>
+
+	<div class="center">				
+		<img src="images/genomics.png" alt="Genomics workflow" width="600" >
+		<div><b>Fig 3</b>: Proteogenomics workflow.</div>
+	</div>
+	<p>The workflow template has been exported in the <a href="http://www.opmw.org/model/OPMW">OPMW serialization</a>, and it is available <a href="">online</a> (TO DO).</p>
+
+</ol>
+
+<h2>Datasets</h2>
+The following file contains the name of the TCGA and CPTAC datasets used in the experiment, for each scenario.
+
+</div>
+</div>
+<!--
+<div class="page" id="outputs">
+<div class="page_content">
+<h4 class="blue"> Results of the analysis</h4>
+<p>Here we summarize the contributions of the thesis, pointing to the resources that have been produced in the process.</p></div>
+</div>-->
+<div class="page" id="auth">
+<!-- page industries -->
+<div class="page_content">
+<h4 class="blue"> Authors and Contributors</h4>
+<table>	
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Yolanda Gil <img width="100" height="110" alt="Yolanda Gil" src="images/gil.jpg"></td><td style="padding-left:10px"> <a href="http://www.isi.edu/~gil/">Yolanda Gil</a> is Director of Knowledge Technologies and at the Information Sciences Institute of the University of Southern California, and Research Professor in the Computer Science Department. Her research interests include intelligent user interfaces, social knowledge collection, provenance and assessment of trust, and knowledge management in science. Her most recent work focuses on intelligent workflow systems to support collaborative data analytics at scale.</td></tr>
+
+<tr property="schema:contributor dc:creator prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Daniel Garijo Verdejo<img width="100" height="130" alt="Daniel Garijo" src="images/dani.png"></td><td style="padding-left:10px"><a href="http://w3id.org/people/dgarijo#me">Daniel Garijo</a> is a postdoc researcher in the Information Sciences Institute of the University of Southern California. His research activities focus on e-Science and the Semantic web, specifically on how to increase the understandability of scientific workflows using provenance, metadata, intermediate results and Linked Data. </td></tr>
+
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Varun Ratnakar<img width="100" height="110" alt="Ratnakar" src="images/varun.jpg"></td><td style="padding-left:10px"> <a href="http://www.isi.edu/~varunr/index.html">Varun Ratnakar</a> is a research programmer at the Information Sciences Institute of the University of Southern California. He is the main developer of the <a href="http://wings-workflows.org/">Wings workflow system</a>.</td></tr>
+
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name"> Ravali Adusumilli<img width="100" height="110" alt="Ravali" src="images/ravali.jpg"></td><td style="padding-left:10px"><a href="http://mallicklab.stanford.edu/peeps">Ravali Adusumilli</a>is a bioinformaticist at the Mallik Lab of Stanford Univesity. She is interested in developing tools and pipelines for multi-omic analysis.</td></tr>
+
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Hunter Boyce<img width="100" height="110" alt="Hunter" src="images/hunter.jpg"></td><td style="padding-left:10px">Hunter Boyce is a postdoctoral researcher at the Mallik lab of Stanford university.</td></tr>
+
+<!-- <img width="100" height="110" alt="Arunima" src="">-->
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Arunima Srivastava</td><td style="padding-left:10px"><a href="http://web.cse.ohio-state.edu/~srivatav/">Arunima Srivastava</a> is a graduate student at the Ohio State University.</td></tr>
+
+
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Parag Mallik<img width="100" height="110" alt="Parag" src="images/parag.jpg"></td><td style="padding-left:10px"><a href="https://med.stanford.edu/profiles/parag-mallick">Parag Mallik</a> is an assistant professor (Research) in Radiology. Parag is also member of the Stanford Cancer Institute and a faculty fellow of Stanford ChEM-H. After completing his PhD, he trained with Ruedi Aebersold in clinical proteomics and systems biology at the Institute for Systems Biology.</td></tr>  
+
+
+</table>
+<div class="clear"> </div>
+</div>
+</div>
+<div class="page"> 
+<!-- page industries -->	
+<div class="page_content">
+<h4 class="blue" id="bib">Bibliography</h4>
+In this page we make use of the following references: 
+<ol>
+<li id="1">[Zhang et al 2014]: Bing Zhang, Jing Wang, Xiaojing Wang, Jing Zhu, Qi Liu, et al. “Proteogenomic characterization of human colon and rectal cancer.” Nature 513,382–387, 18 September 2014. </li>
+</ol>
+<div class="clear"> </div>
+</div> 
+
+<div class="page_bottom"><div class="center"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/2.0/88x31.png" /></a><br/>This page is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License</a>.
+</div>
+</div>
+</div>
+<a class="gotop hidden" href="#top">Top</a>
+</div>
+</div>
+</body>
+</html>
