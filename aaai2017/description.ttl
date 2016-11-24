@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ro: <http://purl.org/wf4ever/ro#> .
+@prefix schema: <http://schema.org/> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+
+<https://w3id.org/dgarijo/ro/acs2016> a ro:ResearchObject,
+        ore:Aggregation;
+    dc:abstract "The automation of important aspects of scientific data analysis would significantly accelerate the pace of science and innovation. Although important aspects of data analysis can be automated, the hypothesize-test-evaluate discovery cycle is largely carried out by hand by researchers.  This introduces a significant human bottleneck, which is inefficient and can lead to erroneous and incomplete explorations. We introduce a novel approach to automate the hypothesize-test-evaluate discovery cycle with an intelligent system that a scientist can task to test hypotheses of interest in a data repository. Our approach captures three types of data analytics knowledge: 1) common data analytic methods represented as semantic workflows; 2) meta-analysis methods that aggregate those results, represented as meta-workflows; and 3) data analysis strategies that specify for a type of hypothesis what data and methods to use, represented as lines of inquiry.  Given a hypothesis specified by a scientist, appropriate lines of inquiry are triggered, which lead to retrieving relevant datasets, running relevant workflows on that data, and finally running meta-workflows on workflow results.  The scientist is then presented with a level of confidence on the initial hypothesis (or a revised hypothesis) based on the data and methods applied. We have implemented this approach in the DISK system, and applied it to multi-omics data analysis.";
+    dc:creator "Yolanda Gil","Daniel Garijo","Varun Ratnakar","Rajiv Mayali", "Parag Mallik", "Ravali Adusumilli", "Hunter Boyce";
+    dc:title "Additional materials for the paper \"Automated Hypothesis Testing with Large Scientific Data Repositories\"";
+    schema:name "Additional materials for the paper \"Automated Hypothesis Testing with Large Scientific Data Repositories\"";
+    ore:aggregates <http://dx.doi.org/10.6084/m9.figshare.1598104>,
+        <https://github.com/wf4ever/provenance-corpus/tree/master/WINGS_repository/Wings_corpus>;
+    ore:isDescribedBy <>;
+    xhv:license <http://creativecommons.org/licenses/by-nc-sa/2.0/>.
+
+
