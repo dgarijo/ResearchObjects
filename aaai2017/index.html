@@ -46,14 +46,14 @@
      <div class="page" id="home"> 
        <!-- page home -->
        <div class="page_content">
-        <h3  class="page_title" property="dc:title schema:name">Additional materials for the paper "Towards Continuous Scientific Data Analysis and Hypothesis Evolu-tion"</h3>
+        <h3  class="page_title" property="dc:title schema:name">Additional materials for the paper "Towards Continuous Scientific Data Analysis and Hypothesis Evolution"</h3>
 <div class="space"> </div>
 <div class="clear"> </div>
 <p>
   This page describes the additional materials used for the publication "Automated Hypothesis Testing with Large Scientific Data Repositories", which has been accepted in the AAAI2017 conference. 
 </p>
 <p>
-  If you want to get an RDF description of the contents presented in this document, just parse it with your favourite RDF-a parser. Alternatively, you can use content negotiation on its id (<a href="https://w3id.org/dgarijo/ro/aaai2017">https://w3id.org/dgarijo/ro/aaa2017</a>) to retrieve it on <a href="description.ttl">TTL </a> format.
+  If you want to get an RDF description of the contents presented in this document, you can use content negotiation on its id (<a href="https://w3id.org/dgarijo/ro/aaai2017">https://w3id.org/dgarijo/ro/aaa2017</a>) to retrieve it on <a href="description.ttl">TTL </a> format.
 </p>
 <p>
 	A link to the pdf paper will be provided here once the paper is available on the proceedings.
@@ -79,7 +79,7 @@
 <p>The DISK software can be accessed <a href="http://doi.org/10.5281/zenodo.168079">on Zenodo</a>.</p>
 
 <h2>Workflows</h2> 
-<p>We used three different workflows in the evaluation of this paper, based on [Zhang et al 2014]. Each workflow was executed once on the 84 sample data, retrieved from <a href="https://gdc-portal.nci.nih.gov/legacy-archive/search/f">TCGA</a> and <a href="https://cptac-data-portal.georgetown.edu/cptac/s/S022">CPTAC</a>. Below you can find the three workflow templates with a sample execution and the pointers to the software used on each workflow step. Note that the 252 executions (84*3) of these workflows have not been made public due to their size an access restrictions.</p>
+<p>We used three different workflows in the evaluation of this paper, based on [Zhang et al 2014]. Each workflow was executed once on the 42 samples, retrieved from <a href="https://gdc-portal.nci.nih.gov/legacy-archive/search/f">TCGA</a> and <a href="https://cptac-data-portal.georgetown.edu/cptac/s/S022">CPTAC</a>. Below you can find the three workflow templates with a sample execution and the pointers to the software used on each workflow step. Note that the 126 executions (42*3) of these workflows have not been made public due to their size an access restrictions.</p>
 
 <h3>Proteomics Workflow:</h3> 
 <p> 
@@ -98,7 +98,7 @@
 	</p>
 
 <h3>Genomics Workflow:</h3>
-<p> Workflow designed to estimate the confidence of results in genomic data.
+<p> Workflow designed to estimate the confidence of results in genomic data. A snapshot of a workflow execution can be seen below:
 </p>
 
 	<div class="center">				
@@ -106,25 +106,27 @@
 		<div><b>Fig 2</b>: Genomics workflow.</div>
 	</div>
 	<p>The workflow template has been exported in the <a href="http://www.opmw.org/model/OPMW">OPMW serialization</a>, and it is available <a href="http://www.opmw.org/export/omics/resource/WorkflowTemplate/GENOMICS_ANALYSIS-D751713988987E9331980363E24189CE">online</a>.</p>
-	<p>The workflow has 7 steps: The <a href="http://omics.ontosoft.org/#browse/Software-0gLRo5dWNZmG">wTopHat2</a>, <a href="http://omics.ontosoft.org/#browse/Software-ZFWjE5OUlaxA">MpileUpCaller</a>, <a href="http://omics.ontosoft.org/#browse/Software-Jhf068Zu17kK">bfctoolsCallVariants</a>, <a href="http://omics.ontosoft.org/#browse/Software-519v0ywIdNDa">varFilterSAMTools</a>, <a href="http://omics.ontosoft.org/#browse/Software-UjVEtguG54Az">SAMToolsBAMINdex</a>, <a href="http://omics.ontosoft.org/#browse/Software-9STpNohoNzJd">CustomPRODB</a> and <a href="http://omics.ontosoft.org/#browse/Software-9STpNohoNzJd">CalCRPKMValues (from CustomPRODB)</a> .
+	<p>The workflow has 7 steps: The <a href="http://omics.ontosoft.org/#browse/Software-0gLRo5dWNZmG">wTopHat2</a>, <a href="http://omics.ontosoft.org/#browse/Software-ZFWjE5OUlaxA">MpileUpCaller</a>, <a href="http://omics.ontosoft.org/#browse/Software-Jhf068Zu17kK">bcftoolsCallVariants</a>, <a href="http://omics.ontosoft.org/#browse/Software-519v0ywIdNDa">varFilterSAMTools</a>, <a href="http://omics.ontosoft.org/#browse/Software-UjVEtguG54Az">SAMToolsBAMIndex</a>, <a href="http://omics.ontosoft.org/#browse/Software-9STpNohoNzJd">CustomPRODB</a> and <a href="http://omics.ontosoft.org/#browse/Software-9STpNohoNzJd">CalCRPKMValues (from CustomPRODB)</a> .
 	</p>
 	
 
 <h3>Proteogenomics Workflow</h3> 
 <p>
-Workflow designed to estimate the condifence of results in genomic and proteomic data combined.
+Workflow designed to estimate the condifence of results in genomic and proteomic data combined. A snapshot of the workflow can be seen below:
 </p>
 
 	<div class="center">				
-		<img src="images/genomics.png" alt="Genomics workflow" width="600" >
+		<img src="images/proteogenomics.png" alt="Proteogenomics workflow" width="600" >
 		<div><b>Fig 3</b>: Proteogenomics workflow.</div>
 	</div>
-	<p>The workflow template has been exported in the <a href="http://www.opmw.org/model/OPMW">OPMW serialization</a>, and it is available <a href="">online</a> (TO DO).</p>
+	<p>The workflow template has been exported in the <a href="http://www.opmw.org/model/OPMW">OPMW serialization</a>, and it is available online [link to be provided].</p>
+	<p>The workflow has 9 steps: The <a href="http://omics.ontosoft.org/#browse/Software-0gLRo5dWNZmG">wTopHat2</a>, <a href="http://omics.ontosoft.org/#browse/Software-ZFWjE5OUlaxA">MpileUpCaller</a>, <a href="http://omics.ontosoft.org/#browse/Software-Jhf068Zu17kK">bcftoolsCallVariants</a>, <a href="http://omics.ontosoft.org/#browse/Software-519v0ywIdNDa">varFilterSAMTools</a>, <a href="http://omics.ontosoft.org/#browse/Software-UjVEtguG54Az">SAMToolsBAMIndex</a>, <a href="http://omics.ontosoft.org/#browse/Software-9STpNohoNzJd">CustomPRODB</a>, joinFASTAFiles [link to be provided], <a href="http://omics.ontosoft.org/#browse/Software-yAARgbJtIdGb">Labkey</a> and CalCNSAF [link to be provided].
+	</p>
 
 </ol>
 
 <h2>Datasets</h2>
-The following file contains the name of the TCGA and CPTAC datasets used in the experiment, for each scenario.
+The following <a href="2017AAAIPaperSampleList.txt">file</a> contains the name of the TCGA and CPTAC datasets used in the evaluation of our approach. All the 42 samples participate in the three different scenarios of the evaluation. The samples listed in the file have been obtained from the <a href="https://gdc-portal.nci.nih.gov/legacy-archive/search/f">TCGA</a> and <a href="https://cptac-data-portal.georgetown.edu/cptac/s/S022">CPTAC</a>, and are a subset of those used in [Zhang et al 2014].
 
 </div>
 </div>
@@ -145,9 +147,9 @@ The following file contains the name of the TCGA and CPTAC datasets used in the 
 
 <tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Varun Ratnakar<img width="100" height="110" alt="Ratnakar" src="images/varun.jpg"></td><td style="padding-left:10px"> <a href="http://www.isi.edu/~varunr/index.html">Varun Ratnakar</a> is a research programmer at the Information Sciences Institute of the University of Southern California. He is the main developer of the <a href="http://wings-workflows.org/">Wings workflow system</a>.</td></tr>
 
-<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name"> Ravali Adusumilli<img width="100" height="110" alt="Ravali" src="images/ravali.jpg"></td><td style="padding-left:10px"><a href="http://mallicklab.stanford.edu/peeps">Ravali Adusumilli</a>is a bioinformaticist at the Mallik Lab of Stanford Univesity. She is interested in developing tools and pipelines for multi-omic analysis.</td></tr>
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name"> Ravali Adusumilli<img width="100" height="110" alt="Ravali" src="images/ravali.jpg"></td><td style="padding-left:10px"><a href="http://mallicklab.stanford.edu/peeps">Ravali Adusumilli</a> is a bioinformaticist at the Mallik Lab of Stanford Univesity. She is interested in developing tools and pipelines for multi-omic analysis.</td></tr>
 
-<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Hunter Boyce<img width="100" height="110" alt="Hunter" src="images/hunter.jpg"></td><td style="padding-left:10px">Hunter Boyce is a postdoctoral researcher at the Mallik lab of Stanford university.</td></tr>
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Hunter Boyce<img width="100" height="110" alt="Hunter" src="images/hunter.jpg"></td><td style="padding-left:10px">Hunter Boyce is a graduate student at Stanford Biomedical Informatics (BMI) program.</td></tr>
 
 <!-- <img width="100" height="110" alt="Arunima" src="">-->
 <tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Arunima Srivastava</td><td style="padding-left:10px"><a href="http://web.cse.ohio-state.edu/~srivatav/">Arunima Srivastava</a> is a graduate student at the Ohio State University.</td></tr>
