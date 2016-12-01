@@ -1,0 +1,56 @@
+#!/bin/bash
+
+checkExitCode() {
+if [ $? -ne 0 ]; then
+	echo "Error"
+	exit 1;
+fi
+}
+
+BASEDIR=`dirname $0`
+
+if [ $# -lt 1 ]; then echo "Error No inputs provided" && exit 1; fi
+
+. $BASEDIR/io.sh 2 2 5 "$@"
+
+echo $OUTPUTS1
+# Append the location of bowtie2 software to the path - required for TOPHAT2
+export PATH=$PATH:$BOWTIE2_HOME/
+checkExitCode
+
+# Take a zipped input file containing a collection of FASTQ files and get a space-sep list -> very hacky.
+# Accomodating only paired end FASTQ reads
+SSV_INPUTS1=`/usr/bin/unzip -Z1 $INPUTS1 | tr "\n" " "`
+echo $SSV_INPUTS1
+
+# Extracting the file-collection from zipped input file
+/usr/bin/unzip $INPUTS1 -d $PWD
+checkExitCode
+
+# Get the bowtie2 reference indices for the input fasta files (currently hg19 and hs37d5 only) -sort of hacky
+# Formatting path/prefix to the location of the input fasta file (for example: <path>/hg19.fa => refix: <path>/hg19)
+# Note: FASTA file extension needs to be <input>.fa (not <input>.fasta) 
+# All bowtie indices should be in the same directory as <input>.fa and have the prefix - <input>.*.bt2
+BOWTIE2_REFIX=`echo $INPUTS2 | cut -f 1 -d '.'`
+
+INPUT1_BASE=`basename $INPUTS1`
+INPUT_NOEXT=`echo $INPUT1_BASE | cut -f 1 -d '.'`
+echo $INPUT_NOEXT
+
+#TOPHATOUTDIR=$PWD/tophat_out
+TOPHATOUTDIR=$PWD/$INPUT_NOEXT
+echo $TOPHATOUTDIR
+checkExitCode
+
+echo $TOPHAT2_HOME/tophat2 -o $INPUT_NOEXT --no-coverage-search --keep-tmp --segment-length $PARAMS1 --max-multihits $PARAMS2 $BOWTIE2_REFIX $SSV_INPUTS1 
+$TOPHAT2_HOME/tophat2 -o $INPUT_NOEXT --no-coverage-search --keep-tmp --segment-length $PARAMS1 --max-multihits $PARAMS2 $BOWTIE2_REFIX $SSV_INPUTS1 
+checkExitCode
+
+# Rename outputs
+echo mv $TOPHATOUTDIR/accepted_hits.bam $OUTPUTS1
+mv $TOPHATOUTDIR/accepted_hits.bam $OUTPUTS1
+mv $TOPHATOUTDIR/unmapped.bam $OUTPUTS2
+mv $TOPHATOUTDIR/junctions.bed $OUTPUTS3
+mv $TOPHATOUTDIR/insertions.bed $OUTPUTS4
+mv $TOPHATOUTDIR/deletions.bed $OUTPUTS5
+checkExitCode
