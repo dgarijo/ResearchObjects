@@ -50,14 +50,12 @@
 <div class="space"> </div>
 <div class="clear"> </div>
 <p>
-  This page describes the additional materials used for the publication "Towards Continuous Scientific Data Analysis and Hypothesis Evolution", which has been accepted in the AAAI2017 conference. 
+  This page describes the additional materials used for the publication "Towards Continuous Scientific Data Analysis and Hypothesis Evolution", Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence (AAAI-17), 2017. 
 </p>
 <p>
   If you want to get an RDF description of the contents presented in this document, you can use content negotiation on its id (<a href="https://w3id.org/dgarijo/ro/aaai2017">https://w3id.org/dgarijo/ro/aaa2017</a>) to retrieve it on <a href="description.ttl">TTL </a> format.
 </p>
-<p>
-	A link to the pdf paper will be provided here once the paper is available on the proceedings.
-</p>
+
 <br/>
 <p><strong>How to cite the materials used on this page:</strong><br/>Adusumilli, Ravali; Garijo, Daniel; Gil, Yolanda; Mallick, Parag (2016). Additional materials used in the paper "Towards Continuous Scientific Data Analysis and Hypothesis Evolution" [Data set]. Zenodo. <a href="http:doi.org//10.5281/zenodo.190374">http:doi.org//10.5281/zenodo.190374</a></p>
 </div> 
@@ -68,7 +66,7 @@
 <div class="space"> </div>
 <div class="clear"> </div>
 <p property="dc:abstract">
-<i>Summary <strong>extracted from the submitted paper</strong>: </i> "Scientific data is continuously generated throughout the world.    However, analyses of these data are typically performed exactly once and on a small fragment of re-cently generated data. Ideally, data analysis would be a continuous process that uses all the data available at the time, and would be automatically re-run and updated when new data appears. We present a framework for au-tomated discovery from data repositories that tests user-provided hypotheses using expert-grade workflows, and reassesses hypotheses when more data becomes available. Novel contributions of this approach include a framework to trigger new analyses appropriate for the available data through lines of inquiry that support progressive hypothe-sis evolution, and a representation of hypothesis revisions with provenance records that can be used to inspect the results. We implemented our approach in the DISK framework, and evaluated it using two scenarios from cancer multi-omics: 1) data for new patients becomes available over time, 2) new types of data for the same pa-tients are released. We show that in all scenarios the con-fidence on the original hypotheses evolves".
+<i><strong>Extracted from the paper</strong>: </i> "Scientific data is continuously generated throughout the world.  However, analyses of these data are typically per-formed exactly once and on a small fragment of recently generated data. Ideally, data analysis would be a continu-ous process that uses all the data available at the time, and would be automatically re-run and updated when new da-ta appears. We present a framework for automated dis-covery from data repositories that tests user-provided hy-potheses using expert-grade data analysis strategies, and reassesses hypotheses when more data becomes available. Novel contributions of this approach include a framework to trigger new analyses appropriate for the available data through lines of inquiry that support progressive hypothe-sis evolution, and a representation of hypothesis revisions with provenance records that can be used to inspect the results. We implemented our approach in the DISK framework, and evaluated it using two scenarios from cancer multi-omics: 1) data for new patients becomes available over time, 2) new types of data for the same pa-tients are released. We show that in all scenarios DISK updates the confidence on the original hypotheses as it automatically analyzes new data."
 </p>
 <div class="clear"> </div>
 </div>
@@ -76,12 +74,12 @@
 <div class="page" id="inputs"> 
 <div class="page_content">
 <h4  class="blue"> Materials used in the paper</h4>
-<p>The paper associated to this page describes the <a href="http://disk-project.org/portal/">DISK framework</a>, which aims to automatize the hypothesis test-refine life cycle. See the <a href="http://disk-project.org/">project web page</a> for more details.</p>
+<p>The paper associated to this page describes the <a href="http://disk-project.org/">DISK framework</a>, which aims to automatize the hypothesis test-refine life cycle. See the <a href="http://disk-project.org/">project web page</a> for more details.</p>
 
 <p>The DISK software can be accessed <a href="http://doi.org/10.5281/zenodo.168079">on Zenodo</a>.</p>
 
 <h2>Workflows</h2> 
-<p>We used three different workflows in the evaluation of this paper, based on [Zhang et al 2014]. Each workflow was executed once on the 42 samples, retrieved from <a href="https://gdc-portal.nci.nih.gov/legacy-archive/search/f">TCGA</a> and <a href="https://cptac-data-portal.georgetown.edu/cptac/s/S022">CPTAC</a>. Below you can find the three workflow templates with a sample execution and the pointers to the software used on each workflow step. Note that the 126 executions (42*3) of these workflows have not been made public due to their size an access restrictions.</p>
+<p>We used three different workflows in the evaluation of this paper. Each workflow was executed once on 84 datasets from 42 samples used in [Zhang et al 2014]. The datasets were taken from <a href="https://gdc-portal.nci.nih.gov/legacy-archive/search/f">TCGA</a> and <a href="https://cptac-data-portal.georgetown.edu/cptac/s/S022">CPTAC</a>, and are available from those repositories. Below you can find the three workflow templates with a sample execution and the pointers to the software used on each workflow step. Note that the 126 executions (42*3) of these workflows have not been made public due to their size and TCGA/CPTAC data access restrictions.</p>
 
 <h3>Proteomics Workflow:</h3> 
 <p> 
@@ -151,6 +149,8 @@ The following <a href="2017AAAIPaperSampleList.txt">file</a> (now also on <a hre
 <tr property="schema:contributor dc:creator prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Daniel Garijo Verdejo<img width="100" height="130" alt="Daniel Garijo" src="images/dani.png"></td><td style="padding-left:10px"><a href="http://w3id.org/people/dgarijo#me">Daniel Garijo</a> is a postdoc researcher in the Information Sciences Institute of the University of Southern California. His research activities focus on e-Science and the Semantic web, specifically on how to increase the understandability of scientific workflows using provenance, metadata, intermediate results and Linked Data. </td></tr>
 
 <tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Varun Ratnakar<img width="100" height="110" alt="Ratnakar" src="images/varun.jpg"></td><td style="padding-left:10px"> <a href="http://www.isi.edu/~varunr/index.html">Varun Ratnakar</a> is a research programmer at the Information Sciences Institute of the University of Southern California. He is the main developer of the <a href="http://wings-workflows.org/">Wings workflow system</a>.</td></tr>
+
+<tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeof="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name">Rajiv Mayani<img alt="Rajiv" src="http://dgarijo.github.io/ResearchObjects/acs2016/images/rajiv.jpg" width="100" height="110"></td><td style="padding-left:10px"><a href="http://www.isi.edu/people/mayani/about">Rajiv Mayani</a> is a programmer analyst at the Information Sciences Institute of the University of Southern California.</td></tr>
 
 <tr property="schema:contributor dc:contributor prov:wasAttributedTo" typeOf="foaf:Person"><td style="padding-left:10px" property="foaf:name schema:name"> Ravali Adusumilli<img width="100" height="110" alt="Ravali" src="images/ravali.jpg"></td><td style="padding-left:10px"><a href="http://mallicklab.stanford.edu/peeps">Ravali Adusumilli</a> is a bioinformaticist at the Mallik Lab of Stanford Univesity. She is interested in developing tools and pipelines for multi-omic analysis.</td></tr>
 
