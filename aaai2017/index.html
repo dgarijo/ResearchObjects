@@ -50,7 +50,7 @@
 <div class="space"> </div>
 <div class="clear"> </div>
 <p>
-  This page describes the additional materials used for the publication "Automated Hypothesis Testing with Large Scientific Data Repositories", which has been accepted in the AAAI2017 conference. 
+  This page describes the additional materials used for the publication "Towards Continuous Scientific Data Analysis and Hypothesis Evolution", which has been accepted in the AAAI2017 conference. 
 </p>
 <p>
   If you want to get an RDF description of the contents presented in this document, you can use content negotiation on its id (<a href="https://w3id.org/dgarijo/ro/aaai2017">https://w3id.org/dgarijo/ro/aaa2017</a>) to retrieve it on <a href="description.ttl">TTL </a> format.
@@ -58,6 +58,8 @@
 <p>
 	A link to the pdf paper will be provided here once the paper is available on the proceedings.
 </p>
+<br/>
+<p><strong>How to cite the materials used on this page:</strong><br/>Adusumilli, Ravali; Garijo, Daniel; Gil, Yolanda; Mallick, Parag (2016). Additional materials used in the paper "Towards Continuous Scientific Data Analysis and Hypothesis Evolution" [Data set]. Zenodo. <a href="http:doi.org//10.5281/zenodo.190374">http:doi.org//10.5281/zenodo.190374</a></p>
 </div> 
 </div>
 <div class="page" id="abstract">	
@@ -94,7 +96,7 @@
 	
 	<p>The workflow template has been exported in the <a href="http://www.opmw.org/model/OPMW">OPMW serialization</a>, and it is available <a href="http://www.opmw.org/export/omics/resource/WorkflowTemplate/PROTEOMICS_ANALYSIS-D751713988987E9331980363E24189CE">online</a>, along with a <a href="http://www.opmw.org/export/omics/resource/WorkflowExecutionAccount/ACCOUNT-PROTEOMICS_ANALY-615E6BE3-CCAB-4675-937B-A17B66367114">sample execution</a>.</p>
 	<p>
-	The workflow uses two main steps. Calc NSAFNode uses a <a href="http://disk.isi.edu/uploads/proteomics_analy-615e6be3-ccab-4675-937b-a17b66367114/code/CalcNSAF/run">script</a> to perform its main functionality. The second step is labkeyProtSearchNode, which uses <a href="http://disk.isi.edu/uploads/proteomics_analy-615e6be3-ccab-4675-937b-a17b66367114/code/wingsLabkey/run">a script</a> to invoke the <a href="https://www.labkey.org/home/Documentation/project-begin.view">LabKey software</a>.
+	The workflow uses two main steps. <a href="AAAI2017paperScripts/calcNSAFByProtein.R">CalcNSAFNode</a> uses a <a href="wingsScripts/run-CalcNSAF">script</a> to perform its main functionality. The second step is labkeyProtSearchNode, which uses <a href="wingsScripts/run-wingsLabkey">a script</a> to invoke the <a href="ontosoft/labkey.html">LabKey software</a>. The scripts used for the integration with WINGS are also available <a href="AAAI2017paperScripts/labkeyWingsIntegration">online</a>.
 	</p>
 
 <h3>Genomics Workflow:</h3>
@@ -106,7 +108,8 @@
 		<div><b>Fig 2</b>: Genomics workflow.</div>
 	</div>
 	<p>The workflow template has been exported in the <a href="http://www.opmw.org/model/OPMW">OPMW serialization</a>, and it is available <a href="http://www.opmw.org/export/omics/resource/WorkflowTemplate/GENOMICS_ANALYSIS-D751713988987E9331980363E24189CE">online</a>, along with a <a href="http://www.opmw.org/export/omics/resource/WorkflowExecutionAccount/ACCOUNT-GENOMICS_ANALYSI-199CAE77-072D-4338-B9BD-AD98C4E05E79">sample execution</a>.</p>
-	<p>The workflow has 7 steps: The <a href="http://omics.ontosoft.org/#browse/Software-0gLRo5dWNZmG">wTopHat2</a>, <a href="http://omics.ontosoft.org/#browse/Software-ZFWjE5OUlaxA">MpileUpCaller</a>, <a href="http://omics.ontosoft.org/#browse/Software-Jhf068Zu17kK">bcftoolsCallVariants</a>, <a href="http://omics.ontosoft.org/#browse/Software-519v0ywIdNDa">varFilterSAMTools</a>, <a href="http://omics.ontosoft.org/#browse/Software-UjVEtguG54Az">SAMToolsBAMIndex</a>, <a href="http://omics.ontosoft.org/#browse/Software-9STpNohoNzJd">CustomPRODB</a> and <a href="http://omics.ontosoft.org/#browse/Software-9STpNohoNzJd">CalCRPKMValues (from CustomPRODB)</a> .
+	
+	<p>The workflow has 7 steps: The <a href="ontosoft/tophat.html">wTopHat2</a> (see <a href="wingsScripts/run-topHat">invocation script</a>), <a href="ontosoft/mpileup.html">MpileUpCaller</a> (see <a href="wingsScripts/run-mpileUp">invocation script</a>), <a href="ontosoft/bcftools.html">bcftoolsCallVariants</a> (see <a href="wingsScripts/run-bcftools">invocation script</a>), <a href="ontosoft/varFilter.html">varFilterSAMTools</a> (see <a href="wingsScripts/run-varFilter">invocation script</a>), <a href="ontosoft/bamIndex.html">SAMToolsBAMIndex</a> (see <a href="wingsScripts/run-bamIndex">invocation script</a>), <a href="ontosoft/customProDB.html">CustomPRODB</a> (see <a href="wingsScripts/run-customProDB">invocation script</a>) and <a href="ontosoft/customProDB.html">CalCRPKMValues (from CustomPRODB)</a> (see <a href="wingsScripts/run-calcValues">invocation script</a>).
 	</p>
 	
 
@@ -119,8 +122,10 @@ Workflow designed to estimate the condifence of results in genomic and proteomic
 		<img src="images/proteogenomics.png" alt="Proteogenomics workflow" width="600" >
 		<div><b>Fig 3</b>: Proteogenomics workflow.</div>
 	</div>
-	<p>The workflow template has been exported in the <a href="http://www.opmw.org/model/OPMW">OPMW serialization</a>, and it is available <a href="http://www.opmw.org/export/omics/resource/WorkflowTemplate/PROTEOGENOMIC_ANALYSISBASIC-D751713988987E9331980363E24189CE">online</a>, along with a <a href="http://www.opmw.org/export/omics/resource/WorkflowExecutionAccount/ACCOUNT-PROTEOGENOMIC_AN-115797F7-010B-457C-BA91-D8278836C568">sample execution</a>.</p>
-	<p>The workflow has 9 steps: The <a href="http://omics.ontosoft.org/#browse/Software-0gLRo5dWNZmG">wTopHat2</a>, <a href="http://omics.ontosoft.org/#browse/Software-ZFWjE5OUlaxA">MpileUpCaller</a>, <a href="http://omics.ontosoft.org/#browse/Software-Jhf068Zu17kK">bcftoolsCallVariants</a>, <a href="http://omics.ontosoft.org/#browse/Software-519v0ywIdNDa">varFilterSAMTools</a>, <a href="http://omics.ontosoft.org/#browse/Software-UjVEtguG54Az">SAMToolsBAMIndex</a>, <a href="http://omics.ontosoft.org/#browse/Software-9STpNohoNzJd">CustomPRODB</a>, joinFASTAFiles [link to be provided], <a href="http://omics.ontosoft.org/#browse/Software-yAARgbJtIdGb">Labkey</a> and CalCNSAF [link to be provided].
+	<p>The workflow template has been exported in the <a href="http://www.opmw.org/model/OPMW">OPMW serialization</a>, and it is available <a href="http://www.opmw.org/export/omics/resource/WorkflowTemplate/PROTEOGENOMIC_ANALYSISBASIC-D751713988987E9331980363E24189CE">online</a>, along with a <a href="http://www.opmw.org/export/omics/resource/WorkflowExecutionAccount/ACCOUNT-PROTEOGENOMIC_AN-115797F7-010B-457C-BA91-D8278836C568">sample execution</a>.
+	</p>
+	
+	<p>The workflow has 9 steps: The <a href="ontosoft/tophat.html">wTopHat2</a> (see <a href="wingsScripts/run-topHat">invocation script</a>), <a href="ontosoft/mpileup.html">MpileUpCaller</a> (see <a href="wingsScripts/run-mpileUp">invocation script</a>), <a href="ontosoft/bcftools.html">bcftoolsCallVariants</a> (see <a href="wingsScripts/run-bcftools">invocation script</a>), <a href="ontosoft/varFilter.html">varFilterSAMTools</a> (see <a href="wingsScripts/run-varFilter">invocation script</a>), <a href="ontosoft/bamIndex.html">SAMToolsBAMIndex</a> (see <a href="wingsScripts/run-bamIndex">invocation script</a>), <a href="ontosoft/customProDB.html">CustomPRODB</a> (see <a href="wingsScripts/run-customProDB">invocation script</a>), <a href="AAAI2017PaperScripts/calcNSAFByProtein.R">joinFASTAFiles</a> (see <a href="wingsScripts/run-joinFASTA">invocation script</a>), <a href="ontosoft/labkey.html">LabKey</a> (see <a href="wingsScripts/run-wingsLabkey">invocation script</a>) and <a href="AAAI2017paperScripts/calcNSAFByProtein.R">CalcNSAFNode</a> (see <a href="wingsScripts/run-CalcNSAF">invocation script</a>).
 	</p>
 
 </ol>

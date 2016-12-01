@@ -1,0 +1,24 @@
+#!/bin/bash
+
+checkExitCode() {
+if [ $? -ne 0 ]; then
+	echo "Error"
+	exit 1;
+fi
+}
+
+BASEDIR=`dirname $0`
+
+if [ $# -lt 1 ]; then echo "Error No inputs provided" && exit 1; fi
+
+. $BASEDIR/io.sh 1 0 1 "$@"
+
+echo $SAMTOOLS13_HOME/samtools index -b $INPUTS1
+$SAMTOOLS13_HOME/samtools index -b $INPUTS1
+checkExitCode
+
+# Rename outputs - not renaming for now since we do not need to see the output file
+echo $INPUTS1 ${INPUTS1}.bai
+
+cp ${INPUTS1}.bai $OUTPUTS1
+checkExitCode

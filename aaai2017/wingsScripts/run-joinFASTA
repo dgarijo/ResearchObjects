@@ -1,0 +1,34 @@
+#!/bin/sh
+
+checkExitCode() {
+if [ $? -ne 0 ]; then
+	echo "Error"
+	exit 1;
+fi
+}
+
+BASEDIR=`dirname $0`
+
+if [ $# -lt 1 ]; then echo "Error No inputs provided" && exit 1; fi
+
+. $BASEDIR/io.sh 3 0 1 "$@"
+
+# Edit any special characters- for now second-">" (rash) in the input FASTA files before concatenating them
+
+sed -i -e "s/>/_/2" ${INPUTS1}
+sed -i -e "s/>/_/2" ${INPUTS2}
+sed -i -e "s/>/_/2" ${INPUTS3}
+
+# Do not include proteins which overlap between *rpkm.fasta and snv fasta file or *rpkm and indel fasta files
+# Call the python script to filter and concatenate files.
+# Join snv and indel files before calling the python script
+INPUTS1_2=`basename $INPUTS1`_`basename $INPUTS2`
+echo $INPUTS1_2
+# Issues with indel fasta file. can ignore for now. Zhang doesn't use indels
+cat $INPUTS1 > $INPUTS1_2
+#cat $INPUTS1 $INPUTS2 > $INPUTS1_2
+
+# Hardcoding python location for now
+/usr/bin/python $BASEDIR/filterJoinProtFasta.py -1 ${INPUTS1_2} -2 ${INPUTS3} -o ${OUTPUTS1}
+#cat $INPUTS1 $INPUTS2 $INPUTS3 > $OUTPUTS1
+checkExitCode

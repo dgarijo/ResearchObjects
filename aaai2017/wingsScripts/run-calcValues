@@ -1,0 +1,23 @@
+#!/bin/sh
+
+checkExitCode() {
+if [ $? -ne 0 ]; then
+	echo "Error"
+	exit 1;
+fi
+}
+
+BASEDIR=`dirname $0`
+
+if [ $# -lt 1 ]; then echo "Error No inputs provided" && exit 1; fi
+
+. $BASEDIR/io.sh 4 3 1 "$@"
+
+# For each FASTA file version, The customProDB annotations should be stored on the server under <path_to_fastafile>/cpdbAnnot/
+# Get annotations for the input bam file using the input fasta file as reference to maintain consistent genomics fasta files
+ANNDIR=`dirname $INPUTS4`/cpdbAnnot/
+
+echo $R_HOME/bin/Rscript --no-save --no-restore $BASEDIR/calcRPKMByExon.R $INPUTS1 $INPUTS2 $INPUTS3 $ANNDIR $OUTPUTS1 $PARAMS1 $PARAMS2 $PARAMS3
+$R_HOME/bin/Rscript --no-save --no-restore $BASEDIR/calcRPKMByExon.R $INPUTS1 $INPUTS2 $INPUTS3 $ANNDIR $OUTPUTS1 $PARAMS1 $PARAMS2 $PARAMS3
+
+checkExitCode

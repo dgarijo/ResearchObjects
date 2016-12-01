@@ -1,0 +1,18 @@
+#!/bin/bash
+
+checkExitCode() {
+if [ $? -ne 0 ]; then
+	echo "Error"
+	exit 1;
+fi
+}
+
+BASEDIR=`dirname $0`
+
+if [ $# -lt 1 ]; then echo "Error No inputs provided" && exit 1; fi
+
+. $BASEDIR/io.sh 1 2 1 "$@"
+
+echo perl $BCFTOOLS13_HOME/vcfutils.pl varFilter -d $PARAMS1 -Q $PARAMS2 $INPUTS1 > $OUTPUTS1
+perl $BCFTOOLS13_HOME/vcfutils.pl varFilter -d $PARAMS1 -Q $PARAMS2 $INPUTS1 > $OUTPUTS1
+checkExitCode
