@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Research Objects</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-green w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Research Object</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Summary</a>
+    <a href="#resources" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Resources</a>
+  <!--  <a href="#bib" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Bibliography</a>-->
+    <a href="#authors" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About the authors</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-green w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-green w3-margin-right" onclick="w3_open()">☰</a>
+  <!--<span>Company Name</span>-->
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 ><b>Research Object for paper: A Framework for Creating Knowledge Graphs of Scientific Software Metadata</b></h1>
+    <!--<h2 class="w3-text-green"><b></b></h2>
+    <hr style="width:50px;border:5px solid green" class="w3-round">-->
+  </div>
+
+  <!-- Photo grid (modal)
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+    </div>
+
+    <div class="w3-half">
+      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+    </div>
+  </div>
+  -->
+
+  <!-- Modal for full size images on click
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+-->
+  <!-- Services -->
+  <div class="w3-container" id="summary" style="margin-top:15px">
+    <!--<h1 class="w3-xxxlarge w3-text-green"><b>Services.</b></h1>-->
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <p>This paper provides pointers to the materials used in a paper <strong>under review in the Journal of Quantitative Science Studies</strong></p>
+    <p><strong>Abstract (extracted from the submitted paper): </strong>An increasing number of researchers rely on computational methods to generate or manipulate the results described in their scientific publications. Software created to this end--scientific software--is key to understanding, reproducing, and reusing existing work in many disciplines, ranging from Geosciences to Astronomy or Artificial Intelligence. However, scientific software is usually challenging to find, set up, and compare to similar software due to its disconnected documentation (dispersed in manuals, readme files, web sites, and code comments) and the lack of structured metadata to describe it. As a result, researchers have to manually inspect existing tools in order to understand their differences and incorporate them into their work. This approach scales poorly with the number of publications and tools made available every year. In this paper we address these issues by introducing a framework for automatically extracting scientific software metadata from its documentation (in particular, their readme files); a methodology for structuring the extracted metadata in a Knowledge Graph (KG) of scientific software; and an exploitation framework for browsing, comparing and exploring the contents of the generated KG. We demonstrate our approach by creating a prototype with metadata from over ten thousand scientific software entries from public code repositories.</p>
+  </div>
+
+  <!-- Designers -->
+  <div class="w3-container" id="resources" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Resources.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <p>The paper associated to this research object describes our approach for creating a framework to 1) extract metadata from scientific software repositories; 2) create knowledge graphs of connected scientific software; 3) exploiting the created knowledge graph. Our approach produced the following resources:</p>
+    <ul>
+      <li><a href="https://github.com/KnowledgeCaptureAndDiscovery/somef/">The SOftware Metadata Extraction Framework (SOMEF)</a>: Given a GitHub repository URL, SOMEF extracts up to 25 different metadata categories, and exports the metadata in JSON, or Turtle formats following the <a href="https://codemeta.github.io/">Codemeta vocabulary</a> and the <a href="https://w3id.org/okn/o/sd">Software Description Ontology</a>. SOMEF releases are available in Zenodo in the following DOI: <a href="https://zenodo.org/badge/latestdoi/190487675">https://zenodo.org/badge/latestdoi/190487675</a> </li>
+      <li><a href="https://github.com/KnowledgeCaptureAndDiscovery/somef/tree/master/experiments/training_corpus">SOMEF: Training corpus</a>. A corpus of 89 repositories, manually annotated by hand, to determine which sections are talking about installation instructions, description, citation and invocation.</li>
+      <li><a href="https://github.com/KnowledgeCaptureAndDiscovery/somef/tree/master/experiments/trained_models">SOMEF: Trained classifiers</a>: The classifiers that yielded best results for detecting scientific software metadata.</li>
+      <li><a href="https://github.com/KnowledgeCaptureAndDiscovery/somef/tree/master/experiments/header_analysis/header_evaluation">Header analysis evaluation results</a></li>
+      <li><a href="https://github.com/KnowledgeCaptureAndDiscovery/somef/tree/master/notebook">SOMEF example notebook</a></li>
+      <li><a href="https://github.com/KnowledgeCaptureAndDiscovery/somef/blob/master/Dockerfile">SOMEF Dockerfile</a>, also available in DockerHub under the id: kcapd/somef</li>
+      <li><a href="https://github.com/KnowledgeCaptureAndDiscovery/sosen">SOSEN-KG repository</a>. SOSEN is available in Zenodo, under the following DOI: <a href="https://zenodo.org/record/4574224">https://zenodo.org/record/4574224</a></li>
+      <li><a href="https://github.com/KnowledgeCaptureAndDiscovery/sosen/blob/master/example.ipynb">SOSEN-KG Notebook</a></li>
+      <li><a href="https://github.com/KnowledgeCaptureAndDiscovery/sosen/blob/master/graph.ttl.gz">SOSEN-KG dump</a> Turtle file with the results of the extraction of over 10,000 scientific software repositories</li>
+    </ul>
+
+    Examples with SPARQL queries and additional documentation on how to access the SOSEN KG is accessible in the links outlined above.
+
+  </div>
+
+<!--
+  <div class="w3-container" id="bib" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-green"><b>Bibliography.</b></h1>
+    <hr style="width:50px;border:5px solid green" class="w3-round">
+    <p>The best team in the world.</p>
+
+  </div>
+-->
+
+  <!-- The Team -->
+  <div class="w3-container" id="authors" style="margin-top:75px">
+  <h1 class="w3-xxxlarge w3-text-green"><b>About the authors.</b></h1>
+  <hr style="width:50px;border:5px solid green" class="w3-round">
+  <div class="w3-row-padding">
+    <div class="w3-col m6 w3-margin-bottom">
+      <div class="w3-light-grey">
+          <img src="aidan.jpg" alt="Aidan Kelley" style="width:100px;padding-top: 10px;">
+        <div class="w3-container">
+          <h3>Aidan Kelley</h3>
+          <p class="w3-opacity">Student visitor</p>
+          <p>Student at the Washington University in St. Louis. Aidan participated in the NSF Research Exchange Undergraduate program in the summer of 2020. </p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m6 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="daniel.png" alt="Daniel Garijo" style="width:100px;padding-top: 10px;">
+        <div class="w3-container">
+          <h3><a href="https://dgarijo.com">Daniel Garijo</a></h3>
+          <p class="w3-opacity">Researcher</p>
+          <p>Researcher at the Information Sciences Institute of the
+University of Southern California. Daniel's research activities focus on
+e-Science and the Semantic web, specifically on how to increase the
+understandability of software and scientific workflows using provenance, metadata,
+intermediate results and Linked Data. </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Designed deived from <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
