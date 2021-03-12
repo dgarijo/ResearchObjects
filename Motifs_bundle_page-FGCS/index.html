@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html prefix="dc: http://purl.org/dc/terms/ schema: http://schema.org/ prov: http://www.w3.org/ns/prov# ore: http://www.openarchives.org/ore/terms/ 
+<html prefix="dc: http://purl.org/dc/terms/ schema: http://schema.org/ prov: http://www.w3.org/ns/prov# ore: http://www.openarchives.org/ore/terms/
 ro: http://purl.org/wf4ever/ro# opt: http://purl.org/net/RO-optimization# wfprov: http://purl.org/wf4ever/wfprov# wfdesc: http://purl.org/wf4ever/wfdesc#
 rdfs: http://www.w3.org/2000/01/rdf-schema#">
 <head>
@@ -33,12 +33,12 @@ rdfs: http://www.w3.org/2000/01/rdf-schema#">
 <body resource="http://purl.org/net/ro-motifPaper" typeOf="ore:Aggregation ro:ResearchObject">
 	<span property="ore:isDescribedBy" resource=""></span>
 	<span property="dc:creator prov:wasAttributedTo schema:creator" resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"></span>
-	
-<div id="wrap"> 
+
+<div id="wrap">
   <!-- wrapper -->
-  <div id="sidebar"> 
-    <!-- the  sidebar --> 
-    <!-- logo -->     
+  <div id="sidebar">
+    <!-- the  sidebar -->
+    <!-- logo -->
     <!-- navigation menu -->
     <ul id="navigation">
       <li><a href="#home" class="active">Workflow Motif Analysis and Catalogue</a></li>
@@ -55,72 +55,72 @@ rdfs: http://www.w3.org/2000/01/rdf-schema#">
                  <div style="float: left; padding-left: 25px; width:80px;">
                  <img src="images/rdf.gif" alt="This page is described in rdf-a" title="This page is described in rdf-a" width="60"/>
                  </div>
-         </div>	
-	</div>	
-  
-  <div id="container"> 
+         </div>
+	</div>
+
+  <div id="container">
     <!-- page container -->
-	
-    <div class="page" id="home"> 
+
+    <div class="page" id="home">
       <!-- page home -->
       <div class="page_content">
        <h3  class="page_title" property="dc:title schema:name">Common Motifs in Scientific Workflows: <br />An Empirical Analysis</h3>
 		<div class="space"> </div>
 		<div class="clear"> </div>
-	
+
       <p>
-	  This page represents a bundle for the contents of the <a href="http://dx.doi.org/10.1016/j.future.2013.09.018">analysis published</a> at the 
-	  <a href="http://www.journals.elsevier.com/future-generation-computer-systems/">Future Generation Computer Systems Journal</a> (DOI: http://dx.doi.org/10.1016/j.future.2013.09.018). The analysis is an 
-	  expansion of a paper published in eScience 2012 (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6404427">link to the paper</a>), and it is 
-	  currently under review. The purpose of this web page is to make accessible, link and describe the inputs and outputs of the analysis, which are stored 
-	   as a <b><a href="http://www.myexperiment.org/packs/364.html">Research Object (pack) in myExperiment</a></b>. You can also download all the materials 
+	  This page represents a bundle for the contents of the <a href="http://dx.doi.org/10.1016/j.future.2013.09.018">analysis published</a> at the
+	  <a href="http://www.journals.elsevier.com/future-generation-computer-systems/">Future Generation Computer Systems Journal</a> (DOI: <a href="http://dx.doi.org/10.1016/j.future.2013.09.018">http://dx.doi.org/10.1016/j.future.2013.09.018</a>). The analysis is an 
+	  expansion of a paper published in eScience 2012 (<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6404427">link to the paper</a>), and it is
+	  currently under review. The purpose of this web page is to make accessible, link and describe the inputs and outputs of the analysis, which are stored
+	   as a <b><a href="http://www.myexperiment.org/packs/364.html">Research Object (pack) in myExperiment</a></b>. You can also download all the materials
 	   <a href="motifAnalysis_robundle.zip">here</a>.
-      </p> 					
-      </div>        
-      
+      </p>
+      </div>
+
     </div>
-	<div class="page" id="abstract">	
+	<div class="page" id="abstract">
 		<div class="page_content">
 		<h4 class="blue"> Abstract</h4>
 			<div class="space"> </div>
 			<div class="clear"> </div>
 				<p property="dc:abstract">
 					Workflow technology continues to play an important role as a means for specifying and enacting computational experiments in modern Science.
-					Reusing and repurposing workflows allow scientists to do new experiments faster, since the workflows capture useful expertise from others. 
+					Reusing and repurposing workflows allow scientists to do new experiments faster, since the workflows capture useful expertise from others.
 					As workflow libraries grow, scientists face the challenge of finding workflows appropriate for their task, understanding what each workflow
-					does, and reusing relevant portions of a given workflow. We believe that workflows would be easier to understand and reuse if high-level 
-					views (abstractions) of their activities were available in workflow libraries. As a first step towards obtaining these abstractions, 
-					we report in this paper on the results of a manual analysis performed over a set of real-world scientific workflows from <a href="http://www.taverna.org.uk/">Taverna</a>, 
-					<a href="http://wings-workflows.org/">Wings</a>, 
+					does, and reusing relevant portions of a given workflow. We believe that workflows would be easier to understand and reuse if high-level
+					views (abstractions) of their activities were available in workflow libraries. As a first step towards obtaining these abstractions,
+					we report in this paper on the results of a manual analysis performed over a set of real-world scientific workflows from <a href="http://www.taverna.org.uk/">Taverna</a>,
+					<a href="http://wings-workflows.org/">Wings</a>,
 					<a href="https://main.g2.bx.psu.edu/root">Galaxy</a>
-					and	<a href="http://www.vistrails.org/index.php/Main_Page">Vistrails</a>. 
-					Our analysis has resulted in a set of <i>scientific workflow motifs</i> that outline i) the kinds of data-intensive 
-					activities that are observed in  workflows (<i>data-oriented motifs</i>), and ii) the different manners in which activities are 
-					implemented within workflows (<i>workflow-oriented motifs</i>). These motifs are helpful to identify the functionality of the steps in a 
+					and	<a href="http://www.vistrails.org/index.php/Main_Page">Vistrails</a>.
+					Our analysis has resulted in a set of <i>scientific workflow motifs</i> that outline i) the kinds of data-intensive
+					activities that are observed in  workflows (<i>data-oriented motifs</i>), and ii) the different manners in which activities are
+					implemented within workflows (<i>workflow-oriented motifs</i>). These motifs are helpful to identify the functionality of the steps in a
 					given workflow, to develop best practices for workflow design, and to develop approaches for automated generation of workflow abstractions.
-					
+
 				</p>
         <div class="clear"> </div>
       </div>
     </div>
-    <div class="page" id="inputs"> 
+    <div class="page" id="inputs">
       <div class="page_content">
-      <h4  class="blue"> Inputs and examples of the analysis</h4>      
+      <h4  class="blue"> Inputs and examples of the analysis</h4>
 			<p>
-			The input of the analysis consists in 264 heterogeneous workflows belonging to a variety of domains. The next list summarizes the distribution of the workflows 
+			The input of the analysis consists in 264 heterogeneous workflows belonging to a variety of domains. The next list summarizes the distribution of the workflows
 			depending on the tool they belong, plus a link to where they can be downloaded and explored:
 			</p>
-			<ul class="sublist2">				
+			<ul class="sublist2">
 				<li><b>Taverna</b>: 129 workflows analyzed (<b>accessible <a property="ore:aggregates" href="materials/Taverna.zip" typeOf="ro:Resource">here</a></b>)</li>
-				<li><b>Wings</b>: 89 workflows analyzed (<b>accessible <a property="ore:aggregates" href="materials/Wings.zip" typeOf="ro:Resource">here</a></b>)</li>				
+				<li><b>Wings</b>: 89 workflows analyzed (<b>accessible <a property="ore:aggregates" href="materials/Wings.zip" typeOf="ro:Resource">here</a></b>)</li>
 				<li><b>Galaxy</b>: 26 workflows analyzed (<b>accessible <a property="ore:aggregates" href="materials/Galaxy.zip" typeOf="ro:Resource">here</a></b>) </li>
 				<li><b>Vistrails</b>: 20 workflows analyzed (<b>accessible <a property="ore:aggregates" href="materials/Vistrails.zip" typeOf="ro:Resource">here</a></b>)</li>
-			</ul>						
+			</ul>
 		   <p>
 			All workflows analyzed are modeled as directed acyclic graphs, with no conditionals or loops. Two examples can be seen in the next figures, extracted from two workflows of
 			Taverna and Wings:
 			</p>
-			<div class="center">				
+			<div class="center">
 				<img src="images/taverna-wf.png" height="500" alt="Sample workflow for functional genomics from the Taverna workflow system" />
 				<div>Fig 1: Sample workflow for functional genomics from the Taverna workflow system. The workflow
 					transfers data files containing proteomics data to a remote
@@ -129,25 +129,25 @@ rdfs: http://www.w3.org/2000/01/rdf-schema#">
 					submitted warping job. Once the inquiry call is returned, the results are
 					downloaded from the remote server.</div>
 			</div>
-			
-			<div class="center">				
+
+			<div class="center">
 				<img src="images/wings-wf.png" height="500" width="500" alt="Sample workflow fragment for drug discovery from the Wings workflow system" />
-				<div>Fig 2: Sample workflow fragment for drug discovery from the Wings workflow system. A 
-				comparison analysis is performed on two different input datasets 
-				(SMAPV2). The results are then sorted (SMAPResultSorter) and finally 
+				<div>Fig 2: Sample workflow fragment for drug discovery from the Wings workflow system. A
+				comparison analysis is performed on two different input datasets
+				(SMAPV2). The results are then sorted (SMAPResultSorter) and finally
 				merged (Merger, SMAPAlignementResultMerger).</div>
-			</div>	
+			</div>
       </div>
     </div>
-	
-	<div class="page" id="outputs">	
+
+	<div class="page" id="outputs">
 		<div class="page_content">
 		<h4 class="blue"> Results of the analysis</h4>
 			<div class="space"> </div>
 			<div class="clear"> </div>
 				The results of the work are three:
 				<ul class="sublist2">
-				<li><b>Workflow motif catalogue:</b> set of motifs typically found among scientific workflows. The catalog was defined while the analysis was being performed and discussed by the authors. 
+				<li><b>Workflow motif catalogue:</b> set of motifs typically found among scientific workflows. The catalog was defined while the analysis was being performed and discussed by the authors.
 				A description of the catalogue is described in the paper, but also in this <a href="http://purl.org/net/wf-motifs#ontOverview">link</a></li>
 				<li><b>Workflow analytics:</b> Derived after manually counting the motifs in the workflows. They are accessible in form of excel files:
 					<ul class="sublist2">
@@ -156,8 +156,8 @@ rdfs: http://www.w3.org/2000/01/rdf-schema#">
 						<li><a property="ore:aggregates" href="materials/WfCatalogue-AdditionalGalaxyWfs.xlsx" typeOf="ro:Resource">Analytics for Galaxy workflows</a></li>
 						<li><a property="ore:aggregates" href="materials/WfCatalogue-AdditionalVistrailsWfsWithDomainsRevisited.xlsx" typeOf="ro:Resource">Analytics for Vistrails workflows</a></li>
 						<li><a property="ore:aggregates" href="materials/ConsolidatedData-FinalSubmission-NEWHierarchy.xlsx" typeOf="ro:Resource">All data consolidated</a></li>
-					</ul>				
-				</li>				
+					</ul>
+				</li>
 				<li><b>An ontology</b> describing the motifs and providing the means to annotate workflows in a generic way. It is accessible <b><a href="http://purl.org/net/wf-motifs">here</a></b></li>
 				</ul>
 				<p>
@@ -166,13 +166,13 @@ rdfs: http://www.w3.org/2000/01/rdf-schema#">
         <div class="clear"> </div>
       </div>
     </div>
-	
 
-    <div class="page" id="auth"> 
+
+    <div class="page" id="auth">
       <!-- page industries -->
       <h3 class="page_title"> About the authors</h3>
-      <div class="page_content">		
-		<table>			
+      <div class="page_content">
+		<table>
 			<tr>
 				<td><img src="images/dani.png" alt="Daniel Garijo" width="100" /></td>
 				<td style="padding-left:10px"><b><a href="http://delicias.dia.fi.upm.es/members/dgarijo/">Daniel Garijo</a></b> is a PhD student in the Ontology Engineering Group at the Artificial Intelligence Department of the Computer Science Faculty of Universidad Polit&eacute;cnica de Madrid. His research activities focus on e-Science and the Semantic web, specifically on how to increase the understandability of scientific workflows using provenance, metadata, intermediate results and Linked Data. </td>
@@ -203,16 +203,16 @@ His research activities are focused on Semantic e-Science and Real World Interne
         <div class="clear"> </div>
       </div>
     </div>
-    
-      <div class="page"> 
-      <!-- page industries -->	
+
+      <div class="page">
+      <!-- page industries -->
 	  <div class="page_content">
       <h4 class="blue">Acknowledgements</h4>
 		This research was supported by the Wf4Ever European project (FP7-270192), a grant from the US Air Force Office of Scientific Research (AFOSR) through award number FA9550-11-1-0104, the FPU grant (Formación de Profesorado Universitario) from the Spanish Ministry of Science and Innovation (MCINN) and the myGrid platform grant. The authors would like to thank the many scientists and workflow developers that created the workflows used in this study and generously made them available to the community. We also would like to thank Pinar Senkul for her comments on possible ways of inferring motifs over existing workflow scripts and Bamdad Dashtban for providing useful references for our work.
       <div class="clear"> </div>
-      
+
     </div>
-   
+
     <div class="page">
 		<div class="page_content">
 		<div class="center">
@@ -221,7 +221,7 @@ His research activities are focused on Semantic e-Science and Real World Interne
 		</div>
     </div>
   </div>
-  
+
 
 <a class="gotop hidden" href="#top">Top</a>
 </div>
