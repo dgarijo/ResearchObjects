@@ -14,55 +14,46 @@
     <schema:creator rdf:resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"/>
     <dc:creator rdf:resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"/>
     <dc:abstract>
-					How easy is it to reproduce the results found in a typical computational biology paper? Either through experience or intuition the reader will 
-					already know that the answer is with difficulty or not at all. Here we attempt to quantify this difficulty using a previously published paper 
-					[Kinnings et al. 2010] for different classes of user and suggest ways in which the situation might be improved. 
-					Quantification is achieved by 
-					estimating what is required to take the procedures described in the paper and include them in a formalized workflow that can reproduce the 
-					original results. We conclude with a brief discussion of the complexities of requiring reproducibility in terms of cost versus benefit. This 
-					has implications not only in reproducing the work of others from published papers, but reproducing work from your own laboratory.					
+					How easy is it to reproduce the results found in a typical computational biology paper? Either through experience or intuition the reader will
+					already know that the answer is with difficulty or not at all. Here we attempt to quantify this difficulty using a previously published paper
+					[Kinnings et al. 2010] for different classes of user and suggest ways in which the situation might be improved.
+					Quantification is achieved by
+					estimating what is required to take the procedures described in the paper and include them in a formalized workflow that can reproduce the
+					original results. We conclude with a brief discussion of the complexities of requiring reproducibility in terms of cost versus benefit. This
+					has implications not only in reproducing the work of others from published papers, but reproducing work from your own laboratory.
 				</dc:abstract>
     <ore:aggregates>
-      <ro:Resource rdf:about="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/ontology/WINGS/AbstractGlobalWorkflow2.owl.png"/>
+      <ro:Resource rdf:about="https://doi.org/10.6084/m9.figshare.776890.v1"/>
     </ore:aggregates>
     <ore:aggregates>
-      <ro:Resource rdf:about="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/MtbStructures_tar_gz"/>
+      <ro:Resource rdf:about="https://doi.org/10.6084/m9.figshare.776878.v1"/>
     </ore:aggregates>
     <ore:aggregates>
-      <ro:Resource rdf:about="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_binding_sites_list_txt"/>
+      <ro:Resource rdf:about="https://doi.org/10.6084/m9.figshare.776879.v1"/>
     </ore:aggregates>
     <ore:aggregates>
-      <ro:Resource rdf:about="http://www.wings-workflows.org/drugome/index.php/Detailed_Timeline"/>
+      <ro:Resource rdf:about="http://doi.org/10.6084/m9.figshare.776882.v1"/>
     </ore:aggregates>
     <ore:aggregates>
-      <ro:Resource rdf:about="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_key"/>
+      <ro:Resource rdf:about="https://doi.org/10.6084/m9.figshare.776886.v1"/>
     </ore:aggregates>
     <ore:aggregates>
-      <ro:Resource rdf:about="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/smap_properties"/>
+      <ro:Resource rdf:about="https://doi.org/10.6084/m9.figshare.776883.v1"/>
     </ore:aggregates>
     <ore:aggregates>
-      <ro:Resource rdf:about="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/template_pdbs"/>
+      <ro:Resource rdf:about="https://web.archive.org/web/20181028033752/http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/runs/run_126.html"/>
     </ore:aggregates>
     <ore:aggregates>
-      <ro:Resource rdf:about="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/model_info_updated"/>
+      <ro:Resource rdf:about="https://doi.org/10.6084/m9.figshare.776885.v1"/>
     </ore:aggregates>
     <ore:aggregates>
-      <ro:Resource rdf:about="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/runs/run_126.html"/>
-    </ore:aggregates>
-    <ore:aggregates>
-      <ro:Resource rdf:about="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/tb_protein_info"/>
-    </ore:aggregates>
-    <ore:aggregates>
-      <ro:Resource rdf:about="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/homology_models_list_txt"/>
-    </ore:aggregates>
-    <ore:aggregates>
-      <ro:Resource rdf:about="http://www.wings-workflows.org/drugome/index.php/Visualization_of_the_experiment_results"/>
+      <ro:Resource rdf:about="https://doi.org/10.6084/m9.figshare.776880.v1"/>
     </ore:aggregates>
     <ore:aggregates>
       <ro:Resource rdf:about="http://www.wings-workflows.org/drugome/"/>
     </ore:aggregates>
     <ore:aggregates>
-      <ro:Resource rdf:about="http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/solved_tb_structures_list_txt"/>
+      <ro:Resource rdf:about="https://doi.org/10.6084/m9.figshare.776884.v1"/>
     </ore:aggregates>
     <rdf:type rdf:resource="http://purl.org/wf4ever/ro#ResearchObject"/>
     <xhv:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/"/>
@@ -76,4 +67,3 @@
     <schema:name>Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome</schema:name>
   </ore:Aggregation>
 </rdf:RDF>
-

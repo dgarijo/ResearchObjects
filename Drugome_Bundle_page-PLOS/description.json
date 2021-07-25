@@ -1,101 +1,89 @@
 {
     "@context": {
-        "ro": "http://purl.org/wf4ever/ro#", 
-        "prov": "http://www.w3.org/ns/prov#", 
-        "dc": "http://purl.org/dc/terms/", 
-        "xhv": "http://www.w3.org/1999/xhtml/vocab#", 
-        "ore": "http://www.openarchives.org/ore/terms/", 
-        "schema": "http://schema.org/", 
+        "ro": "http://purl.org/wf4ever/ro#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "dc": "http://purl.org/dc/terms/",
+        "xhv": "http://www.w3.org/1999/xhtml/vocab#",
+        "ore": "http://www.openarchives.org/ore/terms/",
+        "schema": "http://schema.org/",
         "ore:isDescribedBy": {
             "@type": "@id"
-        }, 
+        },
         "ore:aggregates": {
             "@type": "@id"
-        }, 
+        },
         "xhv:license": {
             "@type": "@id"
         }
-    }, 
-    "@id": "http://purl.org/net/ro-TBDrugomeReproducibilityPaper", 
+    },
+    "@id": "http://purl.org/net/ro-TBDrugomeReproducibilityPaper",
     "@type": [
-        "ore:Aggregation", 
+        "ore:Aggregation",
         "ro:ResearchObject"
-    ], 
+    ],
     "prov:wasAttributedTo": {
         "@id": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
-    }, 
-    "schema:name": "Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome", 
+    },
+    "schema:name": "Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome",
     "schema:creator": {
         "@id": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
-    }, 
+    },
     "dc:creator": {
         "@id": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
-    }, 
-    "dc:abstract": "\n\t\t\t\t\tHow easy is it to reproduce the results found in a typical computational biology paper? Either through experience or intuition the reader will \n\t\t\t\t\talready know that the answer is with difficulty or not at all. Here we attempt to quantify this difficulty using a previously published paper \n\t\t\t\t\t[Kinnings et al. 2010] for different classes of user and suggest ways in which the situation might be improved. \n\t\t\t\t\tQuantification is achieved by \n\t\t\t\t\testimating what is required to take the procedures described in the paper and include them in a formalized workflow that can reproduce the \n\t\t\t\t\toriginal results. We conclude with a brief discussion of the complexities of requiring reproducibility in terms of cost versus benefit. This \n\t\t\t\t\thas implications not only in reproducing the work of others from published papers, but reproducing work from your own laboratory.\t\t\t\t\t\n\t\t\t\t", 
-    "xhv:license": "http://creativecommons.org/licenses/by-nc-sa/2.0/", 
+    },
+    "dc:abstract": "\n\t\t\t\t\tHow easy is it to reproduce the results found in a typical computational biology paper? Either through experience or intuition the reader will \n\t\t\t\t\talready know that the answer is with difficulty or not at all. Here we attempt to quantify this difficulty using a previously published paper \n\t\t\t\t\t[Kinnings et al. 2010] for different classes of user and suggest ways in which the situation might be improved. \n\t\t\t\t\tQuantification is achieved by \n\t\t\t\t\testimating what is required to take the procedures described in the paper and include them in a formalized workflow that can reproduce the \n\t\t\t\t\toriginal results. We conclude with a brief discussion of the complexities of requiring reproducibility in terms of cost versus benefit. This \n\t\t\t\t\thas implications not only in reproducing the work of others from published papers, but reproducing work from your own laboratory.\t\t\t\t\t\n\t\t\t\t",
+    "xhv:license": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
     "ore:isDescribedBy": {
-        "@id": "http://dgarijo.github.io/ResearchObjects/Drugome_Bundle_page-PLOS/", 
-        "prov:wasAttributedTo": "http://delicias.dia.fi.upm.es/members/DGarijo/#me", 
-        "schema:creator": "http://delicias.dia.fi.upm.es/members/DGarijo/#me", 
+        "@id": "http://dgarijo.github.io/ResearchObjects/Drugome_Bundle_page-PLOS/",
+        "prov:wasAttributedTo": "http://delicias.dia.fi.upm.es/members/DGarijo/#me",
+        "schema:creator": "http://delicias.dia.fi.upm.es/members/DGarijo/#me",
         "dc:creator": "http://delicias.dia.fi.upm.es/members/DGarijo/#me"
-    }, 
+    },
     "ore:aggregates": [
         {
-            "@id": "http://www.wings-workflows.org/drugome/index.php/Visualization_of_the_experiment_results", 
+            "@id": "http://www.wings-workflows.org/drugome/",
             "@type": "ro:Resource"
-        }, 
+        },
         {
-            "@id": "http://www.wings-workflows.org/drugome/", 
+            "@id": "https://doi.org/10.6084/m9.figshare.776890.v1",
             "@type": "ro:Resource"
-        }, 
+        },
         {
-            "@id": "http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/MtbStructures_tar_gz", 
+            "@id": "https://doi.org/10.6084/m9.figshare.776880.v1",
             "@type": "ro:Resource"
-        }, 
+        },
         {
-            "@id": "http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/homology_models_list_txt", 
+            "@id": "https://doi.org/10.6084/m9.figshare.776884.v1",
             "@type": "ro:Resource"
-        }, 
+        },
         {
-            "@id": "http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/solved_tb_structures_list_txt", 
+            "@id": "http://doi.org/10.6084/m9.figshare.776882.v1",
             "@type": "ro:Resource"
-        }, 
+        },
         {
-            "@id": "http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/smap_properties", 
+            "@id": "https://web.archive.org/web/20181028033752/http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/runs/run_126.html",
             "@type": "ro:Resource"
-        }, 
+        },
         {
-            "@id": "http://www.wings-workflows.org/drugome/index.php/Detailed_Timeline", 
+            "@id": "https://doi.org/10.6084/m9.figshare.776885.v1",
             "@type": "ro:Resource"
-        }, 
+        },
         {
-            "@id": "http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/runs/run_126.html", 
+            "@id": "https://doi.org/10.6084/m9.figshare.776886.v1",
             "@type": "ro:Resource"
-        }, 
+        },
         {
-            "@id": "http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/ontology/WINGS/AbstractGlobalWorkflow2.owl.png", 
+            "@id": "https://doi.org/10.6084/m9.figshare.776883.v1",
             "@type": "ro:Resource"
-        }, 
+        },
         {
-            "@id": "http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/tb_protein_info", 
+            "@id": "https://doi.org/10.6084/m9.figshare.776879.v1",
             "@type": "ro:Resource"
-        }, 
+        },
         {
-            "@id": "http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/template_pdbs", 
-            "@type": "ro:Resource"
-        }, 
-        {
-            "@id": "http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/model_info_updated", 
-            "@type": "ro:Resource"
-        }, 
-        {
-            "@id": "http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_key", 
-            "@type": "ro:Resource"
-        }, 
-        {
-            "@id": "http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_binding_sites_list_txt", 
+            "@id": "https://doi.org/10.6084/m9.figshare.776878.v1",
             "@type": "ro:Resource"
         }
-    ], 
+    ],
     "dc:title": "Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome"
 }

@@ -8,32 +8,29 @@
 <http://purl.org/net/ro-TBDrugomeReproducibilityPaper> a ro:ResearchObject,
         ore:Aggregation;
     dc:abstract """
-					How easy is it to reproduce the results found in a typical computational biology paper? Either through experience or intuition the reader will 
-					already know that the answer is with difficulty or not at all. Here we attempt to quantify this difficulty using a previously published paper 
-					[Kinnings et al. 2010] for different classes of user and suggest ways in which the situation might be improved. 
-					Quantification is achieved by 
-					estimating what is required to take the procedures described in the paper and include them in a formalized workflow that can reproduce the 
-					original results. We conclude with a brief discussion of the complexities of requiring reproducibility in terms of cost versus benefit. This 
-					has implications not only in reproducing the work of others from published papers, but reproducing work from your own laboratory.					
+					How easy is it to reproduce the results found in a typical computational biology paper? Either through experience or intuition the reader will
+					already know that the answer is with difficulty or not at all. Here we attempt to quantify this difficulty using a previously published paper
+					[Kinnings et al. 2010] for different classes of user and suggest ways in which the situation might be improved.
+					Quantification is achieved by
+					estimating what is required to take the procedures described in the paper and include them in a formalized workflow that can reproduce the
+					original results. We conclude with a brief discussion of the complexities of requiring reproducibility in terms of cost versus benefit. This
+					has implications not only in reproducing the work of others from published papers, but reproducing work from your own laboratory.
 				""";
     dc:creator <http://delicias.dia.fi.upm.es/members/DGarijo/#me>;
     dc:title "Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome";
     schema:creator <http://delicias.dia.fi.upm.es/members/DGarijo/#me>;
     schema:name "Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome";
-    ore:aggregates <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/MtbStructures_tar_gz>,
-        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_binding_sites_list_txt>,
-        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_key>,
-        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/homology_models_list_txt>,
-        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/model_info_updated>,
-        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/smap_properties>,
-        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/solved_tb_structures_list_txt>,
-        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/tb_protein_info>,
-        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/template_pdbs>,
-        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/ontology/WINGS/AbstractGlobalWorkflow2.owl.png>,
-        <http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/runs/run_126.html>,
-        <http://www.wings-workflows.org/drugome/>,
-        <http://www.wings-workflows.org/drugome/index.php/Detailed_Timeline>,
-        <http://www.wings-workflows.org/drugome/index.php/Visualization_of_the_experiment_results>;
+    ore:aggregates <https://doi.org/10.6084/m9.figshare.776890.v1>,
+        <https://doi.org/10.6084/m9.figshare.776878.v1>,
+        <https://doi.org/10.6084/m9.figshare.776879.v1>,
+        <https://doi.org/10.6084/m9.figshare.776880.v1>,
+        <https://doi.org/10.6084/m9.figshare.776883.v1>,
+        <http://doi.org/10.6084/m9.figshare.776882.v1>,
+        <https://doi.org/10.6084/m9.figshare.776884.v1>,
+        <https://doi.org/10.6084/m9.figshare.776885.v1>,
+        <https://doi.org/10.6084/m9.figshare.776886.v1>,
+        <https://web.archive.org/web/20181028033752/http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/runs/run_126.html>,
+        <https://web.archive.org/web/20130807001559/http://www.wings-workflows.org:80/drugome/index.php/Main_Page>;
     ore:isDescribedBy <http://dgarijo.github.io/ResearchObjects/Drugome_Bundle_page-PLOS/>;
     xhv:license <http://creativecommons.org/licenses/by-nc-sa/2.0/>;
     prov:wasAttributedTo <http://delicias.dia.fi.upm.es/members/DGarijo/#me> .
@@ -42,32 +39,24 @@
     schema:creator "http://delicias.dia.fi.upm.es/members/DGarijo/#me";
     prov:wasAttributedTo "http://delicias.dia.fi.upm.es/members/DGarijo/#me" .
 
-<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/MtbStructures_tar_gz> a ro:Resource .
+<https://doi.org/10.6084/m9.figshare.776890.v1> a ro:Resource .
 
-<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_binding_sites_list_txt> a ro:Resource .
+<https://doi.org/10.6084/m9.figshare.776878.v1> a ro:Resource .
 
-<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/drug_key> a ro:Resource .
+<https://doi.org/10.6084/m9.figshare.776879.v1> a ro:Resource .
 
-<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/homology_models_list_txt> a ro:Resource .
+<https://doi.org/10.6084/m9.figshare.776880.v1> a ro:Resource .
 
-<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/model_info_updated> a ro:Resource .
+<https://doi.org/10.6084/m9.figshare.776883.v1> a ro:Resource .
 
-<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/smap_properties> a ro:Resource .
+<http://doi.org/10.6084/m9.figshare.776882.v1> a ro:Resource .
 
-<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/solved_tb_structures_list_txt> a ro:Resource .
+<https://doi.org/10.6084/m9.figshare.776884.v1> a ro:Resource .
 
-<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/tb_protein_info> a ro:Resource .
+<https://doi.org/10.6084/m9.figshare.776885.v1> a ro:Resource .
 
-<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/data/template_pdbs> a ro:Resource .
+<https://doi.org/10.6084/m9.figshare.776886.v1> a ro:Resource .
 
-<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/ontology/WINGS/AbstractGlobalWorkflow2.owl.png> a ro:Resource .
+<https://web.archive.org/web/20181028033752/http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/runs/run_126.html> a ro:Resource .
 
-<http://wind.isi.edu/marbles/assets/components/workflow_portal/users/2/WINGS/runs/run_126.html> a ro:Resource .
-
-<http://www.wings-workflows.org/drugome/> a ro:Resource .
-
-<http://www.wings-workflows.org/drugome/index.php/Detailed_Timeline> a ro:Resource .
-
-<http://www.wings-workflows.org/drugome/index.php/Visualization_of_the_experiment_results> a ro:Resource .
-
-
+<https://web.archive.org/web/20130807001559/http://www.wings-workflows.org:80/drugome/index.php/Main_Page> a ro:Resource .
