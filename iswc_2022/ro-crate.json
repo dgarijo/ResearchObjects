@@ -1,0 +1,129 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "description": "RO-Crate Metadata File Descriptor (this file)"
+        },
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "DataType": "Paper",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-3029-6469"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0001-5375-8024"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3236-2789"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-0454-7145"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-9260-0753"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-2138-7972"
+                }
+            ],
+            "description": "Materials used for an ISWC 2022 resource paper submission (currently under review). The paper proposes Morph-KGC-star, an extension to Morph-KGC designed to support RML-star mappings. The paper validates the approach by running Morph-KGC-star with RDF-star test cases and two use cases for handling annotations in the biomedical domain and for tracking the confidence in automated metadata extraction from software repositories. ",
+            "hasPart": [
+                {
+                    "@id": "#morph-kgc"
+                },
+                {
+                    "@id": "#kg-construct/rml-star-test-cases:_v1.1"
+                },
+                {
+                    "@id": "index-en.html"
+                }
+            ],
+            "name": "Materials for Morph-KGC-star: Declarative Generation of RDF-star Datasets from Heterogeneous Data"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3029-6469",
+            "@type": "Person",
+            "description": null,
+            "name": "Juli\u00e1n Arenas-Guerrero",
+            "position": [
+                "GMV Innovating Solutions (Spain)",
+                "Universidad Polit\u00e9cnica de Madrid"
+            ]
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-5375-8024",
+            "@type": "Person",
+            "description": null,
+            "name": "Ana Iglesias-Molina",
+            "position": [
+                "Universidad Polit\u00e9cnica de Madrid"
+            ]
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3236-2789",
+            "@type": "Person",
+            "description": null,
+            "name": "David Chaves-Fraga",
+            "position": [
+                "Universidad Polit\u00e9cnica de Madrid",
+                "KU Leuven"
+            ]
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0454-7145",
+            "@type": "Person",
+            "description": "I am a researcher at Universidad Polit\u00e9cnica de Madrid. My research activities focus on e-Science and the Semantic Web, specifically on how to increase the ease of use of software and scientific workflows using provenance, metadata, intermediate results and Linked Data.",
+            "name": "Daniel Garijo",
+            "position": [
+                "University of Southern California",
+                "Universidad Polit\u00e9cnica de Madrid"
+            ]
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9260-0753",
+            "@type": "Person",
+            "description": null,
+            "name": "Oscar Corcho",
+            "position": null
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2138-7972",
+            "@type": "Person",
+            "description": null,
+            "name": "Anastasia Dimou",
+            "position": [
+                "KU Leuven"
+            ]
+        },
+        {
+            "@id": "#morph-kgc",
+            "@type": "SoftwareApplication",
+            "description": "<span><p>Powerful RDF Knowledge Graph Generation with [R2]RML Mappings</p>\n</span>",
+            "installUrl": "https://github.com/oeg-upm/morph-kgc"
+        },
+        {
+            "@id": "#kg-construct/rml-star-test-cases:_v1.1",
+            "@type": "Dataset",
+            "description": "Transformation of RDF-star test cases into RML-star test-cases",
+            "distribution": {
+                "@id": "https://doi.org/10.5281/zenodo.6518802"
+            },
+            "name": "kg-construct/rml-star-test-cases: v1.1"
+        },
+        {
+            "@id": "index-en.html",
+            "@type": "WebPage",
+            "name": "HTML representation of this data."
+        }
+    ]
+}
