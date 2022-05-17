@@ -80,14 +80,14 @@
             "distribution": {
                 "@id": "https://doi.org/10.5281/zenodo.6554604"
             },
-            "name": "CPV Classifier"
+            "name": "CPV Classifier training and test datasets"
         },
         {
             "@id": "#result",
             "@type": "Dataset",
             "description": "Model results in Huggingface.",
             "distribution": {
-                "@id": "https://huggingface.co/mnavas/roberta-finetuned-CPV_Spanish"
+                "@id": "https://huggingface.co/oeg/roberta-finetuned-CPV_Spanish"
             },
             "name": "RoBERTA model classification results"
         },
