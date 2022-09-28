@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<title>Materials for paper: Extending Ontology Engineering Practices to Facilitate Application Development</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
+<style id="style">
+
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px; text-align: justify;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+img {display: block;margin-left: auto;margin-right: auto;}
+.column {float: left;width: 50%;padding: 5px;}
+.row::after {content: ""; clear: both; display: table;}
+.centered-element {margin: 0;position: absolute;top: 50%;transform: translateY(-50%);}
+
+
+</style>
+<body>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-green w3-collapse w3-top w3-large w3-padding" id="mySidebar" style="z-index:3;width:300px;font-weight:bold;"><br/>
+<a class="w3-button w3-hide-large w3-display-topleft" href="javascript:void(0)" onclick="w3_close()" style="width:100%;font-size:22px">Close Menu</a>
+<!-- LOGO if recognized -->
+<div class="row" style="margin-bottom:2em;margin-top:2em;">
+<div class="column">
+<!-- Requiremnts okay logo -->
+<span id="recogn_logo"><a href="#">
+<img alt="Complete-Paper" src="images/complete_paper.png" style="width: 8em;" title="This paper has the necessary characteristics to be recognized as an complete paper."/>
+</a></span>
+</div>
+</div>
+<div class="w3-bar-block centered-element">
+<span id="sidebar"><a class="w3-bar-item w3-button w3-hover-white" href="#summary" onclick="w3_close()">Summary</a><a class="w3-bar-item w3-button w3-hover-white" href="#datasets" onclick="w3_close()">Datasets</a><a class="w3-bar-item w3-button w3-hover-white" href="#software" onclick="w3_close()">Software</a><a class="w3-bar-item w3-button w3-hover-white" href="#bibliography" onclick="w3_close()">Bibliography</a><a class="w3-bar-item w3-button w3-hover-white" href="#authors" onclick="w3_close()">About the authors</a><a class="w3-bar-item w3-button w3-hover-white" href="#bibtext" onclick="w3_close()">Bibtext</a></span>
+</div>
+<div class="row" style="position: absolute; bottom: 25px; height: 50px;">
+<div class="column">
+<a href="ro-crate-metadata.json" id="jsonld_svg">
+<img alt="JSON-LD" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JSON-LD.svg/512px-JSON-LD.svg.png" style="filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(57deg) brightness(101%) contrast(102%); width: 30px; margin: 0; " title="Retrieve the JSON-LD ro-crate representation of this web."/>
+</a>
+</div>
+<div class="column">
+<!-- Help button -->
+<a href="help.html" id="help-button">
+<img alt="help-button" src="https://img.icons8.com/material-outlined/48/000000/help.png" style="filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(57deg) brightness(101%) contrast(102%); width: 30px; margin: 0;" title="Description of each element and how was this web created."/>
+</a>
+</div>
+</div>
+
+</nav>
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-green w3-xlarge w3-padding">
+<a class="w3-button w3-green w3-margin-right" href="javascript:void(0)" onclick="w3_open()">☰</a>
+</header>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" id="myOverlay" onclick="w3_close()" style="cursor:pointer" title="close side menu"></div>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin:auto; padding-left: 340px; max-width: 1500px;">
+<!-- Header -->
+<div class="w3-container" id="showcase" style="margin-top:80px">
+<h1>Materials for paper: Extending Ontology Engineering Practices to Facilitate Application Development</h1>
+</div>
+<!-- Summary -->
+<span id="summary"><div class="w3-container" style="margin-top:15px">
+<h1 class="w3-xxxlarge w3-text-green"><b>Summary</b></h1>
+<hr class="w3-round" style="width:50px;border:5px solid green"/>
+<p>Ontologies define data organization and meaning in Knowledge Graphs (KGs). However, ontologies have generally not been taken into account when designing and generating Application Programming Interfaces (APIs) to allow developers to consume KG data in a developer-friendly way. To fill this gap, this work proposes a method for API generation based on the artefacts generated during the ontology development process. This method is described as part of a new phase, called ontology exploitation, that may be included in the last stages of the traditional ontology development methodologies. Moreover, to support some of the tasks of the proposed method, we developed OATAPI, a tool that generates APIs from two ontology artefacts: the competency questions and the ontology serialization. The conclusions of this work reflect that the limitations found in the state-of-the-art have been addressed both at the methodological and tooling levels for the generation of APIs based on ontology artefacts. Finally, the lines of future work present several challenges that need to be addressed so that the potential of KGs and ontologies can be more easily exploited by application developers.</p>
+
+<p>To access the contents of this Research object as a JSON-LD <a href="https://www.researchobject.org/ro-crate/">RO-Crate</a>, type the following curl command:</p>
+<pre>
+  curl -sH "accept:application/ld+json" -L https://w3id.org/dgarijo/ro/ekaw_2022
+</pre>
+
+<p>The paper can be accessed under the following <a href="https://doi.org/10.1007/978-3-031-17105-5_2">DOI</a></p>
+</div>
+</span>
+
+
+<!-- Goal -->
+<span id="goal"></span>
+<!-- Social Motivation -->
+<span id="social_motivation"></span>
+<!-- Areas -->
+<span id="areas"></span>
+<!-- Activities -->
+<span id="activities"></span>
+<!-- Sketch -->
+<span id="sketch"></span>
+<!-- Demo -->
+<span id="demo"></span>
+<!-- datasets -->
+<span id="datasets"><div class="w3-container" id="datasets" style="margin-top:75px">
+<h1 class="w3-xxxlarge w3-text-green"><b>Datasets</b></h1>
+<hr class="w3-round" style="width:50px;border:5px solid green"/>
+<ul><li><p><a href="https://doi.org/10.5281/zenodo.6637675">oeg-upm/oatapi: OATAPI v1.0.0</a></p>
+<ul><li><b>Description:</b> Ontology Artefacts to API</li><li><b>License:</b> info:eu-repo/semantics/openAccess</li><li><b>Author:</b> Paola Espinoza</li></ul></li></ul>
+</div></span>
+<!-- Software -->
+<span id="software"><div class="w3-container" id="software" style="margin-top:75px">
+<h1 class="w3-xxxlarge w3-text-green"><b>Software</b></h1>
+<hr class="w3-round" style="width:50px;border:5px solid green"/>
+        The pointers for the main software used can be found below:
+
+            <ul><li><p><a href="https://github.com/oeg-upm/oatapi">https://github.com/oeg-upm/oatapi</a></p>
+<ul></ul></li></ul>
+<div style="max-width: 1600px;display: flex; align-content: flex-start; flex-wrap: wrap;
+            flex-direction: row;justify-content: center; margin-top: 3rem;font-size: 15px;"></div>
+</div></span>
+<!-- Bibliography -->
+<span id="bibliography"><div class="w3-container" id="bib" style="margin-top:75px">
+<h1 class="w3-xxxlarge w3-text-green"><b>Bibliography</b></h1>
+<hr class="w3-round" style="width:50px;border:5px solid green"/>
+<ul><li>Espinoza-Arias, P., Garijo, D., &amp; Corcho, O. (2022). Extending Ontology Engineering Practices toÂ Facilitate Application Development. Knowledge Engineering and Knowledge Management, 19â35. <a href="https://doi.org/10.1007/978-3-031-17105-5_2
+" target="_blank">https://doi.org/10.1007/978-3-031-17105-5_2
+</a></li></ul>
+</div></span>
+<!-- Contact -->
+<span id="contact"></span>
+<!-- Authors -->
+<span id="authors"><div class="w3-container" id="authors" style="margin-top:75px">
+<h1 class="w3-xxxlarge w3-text-green"><b>About the authors</b></h1>
+<hr class="w3-round" style="width:50px;border:5px solid green"/>
+<div class="w3-row-padding">
+<div class="w3-col m4 w3-margin-bottom">
+<div class="w3-light-grey" style="padding-bottom: 10px;">
+<div style="width:90%; height:0; overflow:hidden; height:0; padding-top: 12px; padding-bottom: 90%;
+                            margin: auto;">
+<img alt="Paola Espinoza-Arias" src="images/paola.jpeg" style="width:100%;"/>
+</div>
+<div class="w3-container">
+<h3><a href="">Paola Espinoza-Arias</a></h3>
+<p class="w3-opacity">Author</p>
+<p class="w3-opacity">Postdoctoral Researcher</p>
+<p>Universidad Politécnica de Madrid.</p>
+</div>
+</div>
+</div>
+<div class="w3-col m4 w3-margin-bottom">
+<div class="w3-light-grey" style="padding-bottom: 10px;">
+<div style="width:90%; height:0; overflow:hidden; height:0; padding-top: 12px; padding-bottom: 90%;
+                            margin: auto;">
+<img alt="Daniel Garijo" src="images/daniel.png" style="width:100%;"/>
+</div>
+<div class="w3-container">
+<h3><a href="https://orcid.org/0000-0003-0454-7145">Daniel Garijo</a></h3>
+<p class="w3-opacity">Distinguished Researcher</p>
+<p class="w3-opacity">Universidad Politécnica de Madrid</p>
+<a href="http://w3id.org/people/dgarijo">http://w3id.org/people/dgarijo</a>
+</div>
+</div>
+</div>
+<div class="w3-col m4 w3-margin-bottom">
+<div class="w3-light-grey" style="padding-bottom: 10px;">
+<div style="width:90%; height:0; overflow:hidden; height:0; padding-top: 12px; padding-bottom: 90%;
+                            margin: auto;">
+<img alt="Oscar Corcho" src="images/oscar.jpg" style="width:100%;"/>
+</div>
+<div class="w3-container">
+<h3><a href="https://orcid.org/0000-0002-9260-0753">Oscar Corcho</a></h3>
+<p class="w3-opacity">Full professor</p>
+<p class="w3-opacity">Universidad Politécnica de Madrid</p>
+</div>
+</div>
+</div>
+</div></div></span>
+<!-- Bibtext -->
+<span id="bibtext"><div class="w3-container" style="margin-top:15px">
+<h1 class="w3-xxxlarge w3-text-green"><b>Citation</b></h1>
+<hr class="w3-round" style="width:50px;border:5px solid green"/>
+<p>Please cite our paper as follows: </p>
+<div style="overflow-x: auto; background-color: whitesmoke; color: black;">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<!--
+generated by Pygments <https://pygments.org/>
+Copyright 2006-2021 by the Pygments team.
+Licensed under the BSD license, see LICENSE for details.
+-->
+<html>
+<head>
+<title></title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<style type="text/css">
+/*
+generated by Pygments <https://pygments.org/>
+Copyright 2006-2021 by the Pygments team.
+Licensed under the BSD license, see LICENSE for details.
+*/
+pre { line-height: 125%; }
+td.linenos .normal { color: #666666; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #666666; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+body .hll { background-color: #ffffcc }
+body { background: #f0f0f0; }
+body .c { color: #60a0b0; font-style: italic } /* Comment */
+body .err { border: 1px solid #FF0000 } /* Error */
+body .k { color: #007020; font-weight: bold } /* Keyword */
+body .o { color: #666666 } /* Operator */
+body .ch { color: #60a0b0; font-style: italic } /* Comment.Hashbang */
+body .cm { color: #60a0b0; font-style: italic } /* Comment.Multiline */
+body .cp { color: #007020 } /* Comment.Preproc */
+body .cpf { color: #60a0b0; font-style: italic } /* Comment.PreprocFile */
+body .c1 { color: #60a0b0; font-style: italic } /* Comment.Single */
+body .cs { color: #60a0b0; background-color: #fff0f0 } /* Comment.Special */
+body .gd { color: #A00000 } /* Generic.Deleted */
+body .ge { font-style: italic } /* Generic.Emph */
+body .gr { color: #FF0000 } /* Generic.Error */
+body .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+body .gi { color: #00A000 } /* Generic.Inserted */
+body .go { color: #888888 } /* Generic.Output */
+body .gp { color: #c65d09; font-weight: bold } /* Generic.Prompt */
+body .gs { font-weight: bold } /* Generic.Strong */
+body .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+body .gt { color: #0044DD } /* Generic.Traceback */
+body .kc { color: #007020; font-weight: bold } /* Keyword.Constant */
+body .kd { color: #007020; font-weight: bold } /* Keyword.Declaration */
+body .kn { color: #007020; font-weight: bold } /* Keyword.Namespace */
+body .kp { color: #007020 } /* Keyword.Pseudo */
+body .kr { color: #007020; font-weight: bold } /* Keyword.Reserved */
+body .kt { color: #902000 } /* Keyword.Type */
+body .m { color: #40a070 } /* Literal.Number */
+body .s { color: #4070a0 } /* Literal.String */
+body .na { color: #4070a0 } /* Name.Attribute */
+body .nb { color: #007020 } /* Name.Builtin */
+body .nc { color: #0e84b5; font-weight: bold } /* Name.Class */
+body .no { color: #60add5 } /* Name.Constant */
+body .nd { color: #555555; font-weight: bold } /* Name.Decorator */
+body .ni { color: #d55537; font-weight: bold } /* Name.Entity */
+body .ne { color: #007020 } /* Name.Exception */
+body .nf { color: #06287e } /* Name.Function */
+body .nl { color: #002070; font-weight: bold } /* Name.Label */
+body .nn { color: #0e84b5; font-weight: bold } /* Name.Namespace */
+body .nt { color: #062873; font-weight: bold } /* Name.Tag */
+body .nv { color: #bb60d5 } /* Name.Variable */
+body .ow { color: #007020; font-weight: bold } /* Operator.Word */
+body .w { color: #bbbbbb } /* Text.Whitespace */
+body .mb { color: #40a070 } /* Literal.Number.Bin */
+body .mf { color: #40a070 } /* Literal.Number.Float */
+body .mh { color: #40a070 } /* Literal.Number.Hex */
+body .mi { color: #40a070 } /* Literal.Number.Integer */
+body .mo { color: #40a070 } /* Literal.Number.Oct */
+body .sa { color: #4070a0 } /* Literal.String.Affix */
+body .sb { color: #4070a0 } /* Literal.String.Backtick */
+body .sc { color: #4070a0 } /* Literal.String.Char */
+body .dl { color: #4070a0 } /* Literal.String.Delimiter */
+body .sd { color: #4070a0; font-style: italic } /* Literal.String.Doc */
+body .s2 { color: #4070a0 } /* Literal.String.Double */
+body .se { color: #4070a0; font-weight: bold } /* Literal.String.Escape */
+body .sh { color: #4070a0 } /* Literal.String.Heredoc */
+body .si { color: #70a0d0; font-style: italic } /* Literal.String.Interpol */
+body .sx { color: #c65d09 } /* Literal.String.Other */
+body .sr { color: #235388 } /* Literal.String.Regex */
+body .s1 { color: #4070a0 } /* Literal.String.Single */
+body .ss { color: #517918 } /* Literal.String.Symbol */
+body .bp { color: #007020 } /* Name.Builtin.Pseudo */
+body .fm { color: #06287e } /* Name.Function.Magic */
+body .vc { color: #bb60d5 } /* Name.Variable.Class */
+body .vg { color: #bb60d5 } /* Name.Variable.Global */
+body .vi { color: #bb60d5 } /* Name.Variable.Instance */
+body .vm { color: #bb60d5 } /* Name.Variable.Magic */
+body .il { color: #40a070 } /* Literal.Number.Integer.Long */
+
+  </style>
+</head>
+<body>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span>@incollection{Espinoza_Arias_2022,
+	doi = {10.1007/978-3-031-17105-5_2},
+	url = {https://doi.org/10.1007%2F978-3-031-17105-5_2},
+	year = 2022,
+	publisher = {Springer International Publishing},
+	pages = {19--35},
+	author = {Paola Espinoza-Arias and Daniel Garijo and Oscar Corcho},
+	title = {Extending Ontology Engineering Practices to~Facilitate Application Development},
+	booktitle = {Lecture Notes in Computer Science}
+}
+</pre></div>
+</td></tr></table></body>
+</html>
+</div>
+</div></span>
+</div>
+
+
+
+
+<!-- End page content -->
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+	document.getElementById("mySidebar").style.display = "block";
+	document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+	document.getElementById("mySidebar").style.display = "none";
+	document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+	document.getElementById("img01").src = element.src;
+	document.getElementById("modal01").style.display = "block";
+	var captionText = document.getElementById("caption");
+	captionText.innerHTML = element.alt;
+}
+</script>
+</body>
+</html>

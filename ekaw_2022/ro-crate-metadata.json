@@ -1,0 +1,88 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "description": "RO-Crate Metadata File Descriptor (this file)"
+        },
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "DataType": "Paper",
+            "author": [
+                {
+                    "@id": "#paola_espinoza-arias"
+                },
+                {
+                    "@id": "#daniel_garijo"
+                },
+                {
+                    "@id": "#oscar_corcho"
+                }
+            ],
+            "description": "Ontologies define data organization and meaning in Knowledge Graphs (KGs). However, ontologies have generally not been taken into account when designing and generating Application Programming Interfaces (APIs) to allow developers to consume KG data in a developer-friendly way. To fill this gap, this work proposes a method for API generation based on the artefacts generated during the ontology development process. This method is described as part of a new phase, called ontology exploitation, that may be included in the last stages of the traditional ontology development methodologies. Moreover, to support some of the tasks of the proposed method, we developed OATAPI, a tool that generates APIs from two ontology artefacts: the competency questions and the ontology serialization. The conclusions of this work reflect that the limitations found in the state-of-the-art have been addressed both at the methodological and tooling levels for the generation of APIs based on ontology artefacts. Finally, the lines of future work present several challenges that need to be addressed so that the potential of KGs and ontologies can be more easily exploited by application developers.",
+            "hasPart": [
+                {
+                    "@id": "#https://github.com/oeg-upm/oatapi"
+                },
+                {
+                    "@id": "#oeg-upm/oatapi:_oatapi_v1.0.0"
+                },
+                {
+                    "@id": "index-en.html"
+                }
+            ],
+            "name": "Extending Ontology Engineering Practices to Facilitate Application Development"
+        },
+        {
+            "@id": "#paola_espinoza-arias",
+            "@type": "Person",
+            "description": "Universidad Polit\u00e9cnica de Madrid.",
+            "name": "Paola Espinoza-Arias",
+            "position": [
+                "Postdoctoral Researcher"
+            ]
+        },
+        {
+            "@id": "#daniel_garijo",
+            "@type": "Person",
+            "description": "Universidad Polit\u00e9cnica de Madrid.",
+            "name": "Daniel Garijo"
+        },
+        {
+            "@id": "#oscar_corcho",
+            "@type": "Person",
+            "description": "Universidad Polit\u00e9cnica de Madrid.",
+            "name": "Oscar Corcho",
+            "position": [
+                "Full professor"
+            ]
+        },
+        {
+            "@id": "#https://github.com/oeg-upm/oatapi",
+            "@type": "SoftwareApplication",
+            "installUrl": "https://github.com/oeg-upm/oatapi"
+        },
+        {
+            "@id": "#oeg-upm/oatapi:_oatapi_v1.0.0",
+            "@type": "Dataset",
+            "description": "Ontology Artefacts to API",
+            "distribution": {
+                "@id": "https://doi.org/10.5281/zenodo.6637675"
+            },
+            "name": "oeg-upm/oatapi: OATAPI v1.0.0"
+        },
+        {
+            "@id": "index-en.html",
+            "@type": "WebPage",
+            "name": "HTML representation of this data."
+        }
+    ]
+}
