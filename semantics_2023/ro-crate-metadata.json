@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "description": "RO-Crate Metadata File Descriptor (this file)"
+        },
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "DataType": "Paper",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-5375-8024"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-0454-7145"
+                }
+            ],
+            "description": "This repository contain the resources to build a knowledge graph containing the catalog of software from the oeg-upm organization in GitHub. The source data is generated with the SOftware Metadata Extraction Framework (SOMEF), which extracts the relevant information of a repository from README files and saves it as JSON files. Then, a knowledge graph that relies on the Software Description Ontology (SDO) is created using RML-star mappings. The resulting knowledge graph is then queried to assess the adoption of a set of representative best practices for research software publishing.",
+            "hasPart": [
+                {
+                    "@id": "#oeg-software-graph"
+                },
+                {
+                    "@id": "ro-crate-preview.html"
+                }
+            ],
+            "name": "Materials for Towards Assessing FAIR Research Software Best Practices in an Organization Using RDF-star"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-5375-8024",
+            "@type": "Person",
+            "name": "Ana Iglesias-Molina",
+            "position": [
+                "Universidad Polit\u00e9cnica de Madrid"
+            ]
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0454-7145",
+            "@type": "Person",
+            "description": "I am a researcher at Universidad Polit\u00e9cnica de Madrid. My research activities focus on e-Science and the Semantic Web, specifically on how to increase the ease of use of software and scientific workflows using provenance, metadata, intermediate results and Linked Data.",
+            "name": "Daniel Garijo",
+            "position": [
+                "Universidad Polit\u00e9cnica de Madrid",
+                "University of Southern California"
+            ]
+        },
+        {
+            "@id": "#oeg-software-graph",
+            "@type": "SoftwareApplication",
+            "description": "Knowledge graph containing the catalog of software from the oeg-upm organization in GitHub",
+            "installUrl": "https://github.com/oeg-upm/oeg-software-graph"
+        },
+        {
+            "@id": "ro-crate-preview.html",
+            "@type": "WebPage",
+            "name": "HTML representation of this data."
+        }
+    ]
+}
