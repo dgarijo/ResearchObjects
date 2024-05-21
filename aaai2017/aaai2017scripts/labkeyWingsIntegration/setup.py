@@ -23,7 +23,7 @@ from setuptools import setup, find_packages
 
 install_requires = [
     'labkey==0.4.1',
-    'requests==2.31.0'
+    'requests==2.32.0'
 ]
 
 
